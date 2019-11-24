@@ -3,7 +3,10 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import StarStore from './StarStore.js';
 import items from './storeItems';
-import got from 'got';
+import axios from 'axios';
+
+const scrapeUrl = "https://us-central1-aoc-store.cloudfunctions.net/scrapeMetadata";
+const amazonUrl = "https://www.amazon.com/Asmodee-SKR01-Skull/dp/B00GYDLY8E/ref=pd_bxgy_21_img_3/145-1576982-6284002";
 
 class App extends React.Component {
   constructor() {

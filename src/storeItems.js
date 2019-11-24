@@ -1,6 +1,9 @@
 export default [
     {
-        url : 'https://www.amazon.com/Walkers-Razor-Slim-Electronic-Muff/dp/B01AAH8CRU?ref_=Oct_DLandingS_D_090ee0b2_61&smid=ATVPDKIKX0DER',
-        name : 'Electronic Ear Mufflers'
+        url : 'https://www.amazon.com/CanaKit-Raspberry-4GB-Starter-Kit/dp/B07V5JTMV9/ref=sr_1_3?keywords=raspberry+pi&qid=1574622190&sr=8-3',
+        name : 'Raspberry Pi 4 Starter Kit',
+        img : 'https://images-na.ssl-images-amazon.com/images/I/81uUzI33kdL._SX679_.jpg',
+        options : [],
+        cost : 40
     }
 ];

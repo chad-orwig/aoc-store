@@ -1,16 +1,22 @@
 import React from 'react';
-import {arrayOf, shape, string} from 'prop-types';
+import {arrayOf, shape, string, number} from 'prop-types';
+import StoreItem from './StoreItem';
+import Row from 'react-bootstrap/Row';
 
-function StarStore(){
+function StarStore({ items }){
+    const storeItems = items.map(item => <StoreItem item={item} />);
     return (
-        <p>empty</p>
+        <Row>{storeItems}</Row>
     );
 }
 
 StarStore.propTypes = {
     items : arrayOf(shape({
         name : string,
-        url  : string
+        url  : string,
+        img : string,
+        cost : number,
+        options: arrayOf(arrayOf(string))
     })).isRequired
 };
 
