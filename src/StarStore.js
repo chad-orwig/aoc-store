@@ -1,13 +1,13 @@
 import React from 'react';
 import {arrayOf} from 'prop-types';
 import StoreItem from './StoreItem';
-import Row from 'react-bootstrap/Row';
+import CardGroup from 'react-bootstrap/CardGroup';
 import { itemType } from './types';
 
 function StarStore({ items }){
     const storeItems = items.map((item, i) => <StoreItem item={item} key={i}/>);
     return (
-        <Row>{storeItems}</Row>
+        <CardGroup>{storeItems}</CardGroup>
     );
 }
 
