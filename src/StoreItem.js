@@ -9,18 +9,21 @@ function StoreItem( {item} ) {
     const clearQty = () => item.setQty(0);
     return (
         <Col xs={6} md={4} lg={3}>
-            <Card bg={item.qty ? 'success' : 'light'} text={item.qty ? 'white' : undefined} >
+            <Card bg={item.qty ? 'success' : 'light'} text={item.qty ? 'white' : undefined} className="my-3">
                 <a href={item.url} target="_blank"><Card.Img varient="top" src={item.img} /></a>
                 <Card.Body>
                     <Card.Title>{item.name}</Card.Title>
-                        <Row>
-                            <Col xs={5}>Qty: {item.qty}</Col>
-                            <Col xs={7}>
-                            <Button onClick={incQty} size='sm' variant='success' ><span className="oi oi-plus"></span></Button>
-                            <Button onClick={clearQty} size='sm' disabled={item.qty === 0} variant='danger' ><span className="oi oi-x"></span></Button>
-                            </Col>
-                        </Row>
+                    <Card.Text>{`${item.cost} Stars`}</Card.Text>
                 </Card.Body>
+                <Card.Footer>
+                    <Row>
+                        <Col xs={5}>Qty: {item.qty}</Col>
+                        <Col xs={7}>
+                        <Button onClick={incQty} size='sm' variant='success' ><span className="oi oi-plus"></span></Button>
+                        <Button onClick={clearQty} size='sm' disabled={item.qty === 0} variant='danger' ><span className="oi oi-x"></span></Button>
+                        </Col>
+                    </Row>
+                </Card.Footer>
             </Card>
         </Col>
     );
