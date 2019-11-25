@@ -2,19 +2,43 @@ import React from 'react';
 
 import Container from 'react-bootstrap/Container';
 import StarStore from './StarStore.js';
-import items from './storeItems';
-import axios from 'axios';
+import storeItems from './storeItems.js';
 
-const scrapeUrl = "https://us-central1-aoc-store.cloudfunctions.net/scrapeMetadata";
-const amazonUrl = "https://www.amazon.com/Asmodee-SKR01-Skull/dp/B00GYDLY8E/ref=pd_bxgy_21_img_3/145-1576982-6284002";
+import curry from 'lodash/fp/curry';
 
 class App extends React.Component {
   constructor() {
     super();
+    const items = storeItems
+      .map(this.assignZeroQty)
+      .map(this.addSetQuantityFunction);
+
     this.state = {
       items
     };
   }
+
+  assignZeroQty = (item) => Object.assign({ qty : 0 }, item);
+
+  mergeUpdateAtIndex = (array, update, index) => array.map((item, i) => i === index ? Object.assign({}, item, update) : item);
+
+  updatePropertyAtIndex = (stateName, propertyName, propertyValue, index) => {
+    const updateObject = {
+      [propertyName] : propertyValue
+    };
+    const updated = this.mergeUpdateAtIndex(this.state[stateName], updateObject, index);
+    this.setState({
+      [stateName] : updated
+    });
+  };
+
+  updatePropertyAtIndexCurried = curry(this.updatePropertyAtIndex);
+
+  setQuantityAtIndex = this.updatePropertyAtIndexCurried('items', 'qty');
+
+  addSetQuantityFunction = (item, index) => Object.assign({
+      setQty : this.setQuantityAtIndex(curry.placeholder,index)
+    }, item);
 
   render() {
     return (

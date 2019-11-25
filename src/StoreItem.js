@@ -1,26 +1,33 @@
 import React from 'react';
-import {arrayOf, shape, string, number} from 'prop-types';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
+import { itemType } from './types';
+import Row from 'react-bootstrap/Row';
 function StoreItem( {item} ) {
+    const incQty = () => item.setQty(item.qty + 1);
+    const clearQty = () => item.setQty(0);
     return (
         <Col xs={6} md={4} lg={3}>
-            <Card.Img varient="top" src={item.img} />
-            <Card.Body>
-                <Card.Title>{item.name}</Card.Title>
-            </Card.Body>
+            <Card bg={item.qty ? 'success' : 'light'} text={item.qty ? 'white' : undefined} >
+                <a href={item.url} target="_blank"><Card.Img varient="top" src={item.img} /></a>
+                <Card.Body>
+                    <Card.Title>{item.name}</Card.Title>
+                        <Row>
+                            <Col xs={5}>Qty: {item.qty}</Col>
+                            <Col xs={7}>
+                            <Button onClick={incQty} size='sm' variant='success' ><span className="oi oi-plus"></span></Button>
+                            <Button onClick={clearQty} size='sm' disabled={item.qty === 0} variant='danger' ><span className="oi oi-x"></span></Button>
+                            </Col>
+                        </Row>
+                </Card.Body>
+            </Card>
         </Col>
     );
 }
 
 StoreItem.prototype = {
-    item : shape({
-        name : string,
-        url  : string,
-        img : string,
-        cost : number,
-        options: arrayOf(arrayOf(string))
-    }).isRequired
-}
+    item : itemType.isRequired
+};
 
 export default StoreItem;
