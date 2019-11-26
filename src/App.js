@@ -11,6 +11,8 @@ class App extends React.Component {
     super();
     const items = storeItems
       .map(this.assignZeroQty)
+      .map(this.calculateCost)
+      .sort((i1, i2) => i2.cost - i1.cost || i1.name.localeCompare(i2.name))
       .map(this.addSetQuantityFunction);
 
     this.state = {
@@ -19,6 +21,10 @@ class App extends React.Component {
   }
 
   assignZeroQty = (item) => Object.assign({ qty : 0 }, item);
+
+  calculateCost = (item) => Object.assign({
+    cost : Math.round((5/9) * Math.pow(72*item.dollar + 121, .5) - (55/9))
+  }, item)
 
   mergeUpdateAtIndex = (array, update, index) => array.map((item, i) => i === index ? Object.assign({}, item, update) : item);
 

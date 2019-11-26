@@ -6,5 +6,8 @@ export const itemType = shape({
     img  : string,
     cost : number,
     qty  : number,
-    options: arrayOf(arrayOf(string))
+    options: arrayOf(shape({
+        name : string,
+        options : arrayOf(string)
+    }))
 });
