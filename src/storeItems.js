@@ -123,7 +123,7 @@ const storeItems =  [
     },
     {
         url : 'https://www.amazon.com/POWR-Wireless-Charging-Station-Samsung/dp/B07QX2PJMH/ref=sr_1_44',
-        name : 'Phone Charging Pad',
+        name : 'Fancy Phone Charging Pad',
         img : 'https://images-na.ssl-images-amazon.com/images/I/81%2Bz2NCxxfL._SL1500_.jpg',
         dollar : 59.99,
         options : [
@@ -135,7 +135,337 @@ const storeItems =  [
         img : 'https://mtypks.org/wp-content/uploads/2018/10/mtyp-name-your-own-price-donation-image.png',
         dollar : 20,
         options : [
-            { name : 'Cause', options : [ 'Alzheimer\'s Research', 'Parkinson\'s Research', 'American Cancer Society']}
+            { name : 'Cause', options : [ 'Alzheimer\'s Research', 'Parkinson\'s Research', 'American Cancer Society', 'Local McDonald House Charities']}
+        ]
+    },
+    {
+        name : 'Custom AoC Belt Logo 30 oz Yeti Tumbler',
+        img : 'https://www.yeti.com/dw/image/v2/BBRN_PRD/on/demandware.static/-/Sites-masterCatalog_Yeti/default/dwf7d350a5/images/pdp-Rambler/Rambler%20Tumbler%2030oz/White/180027-White-Drinkware-Studio-Website-Assets-30oz-OH-1680x1024.jpg?sw=1152&sfrm=jpg&q=100',
+        dollar : 50
+    },
+    {
+        name : 'NordVPN 18 Month Subscription',
+        img : 'https://images-na.ssl-images-amazon.com/images/I/81QXIyWCPcL._AC_SL1500_.jpg',
+        url : 'https://www.amazon.com/gp/product/B0741DHY3Z/ref=as_li_qf_sp_asin_il_tl',
+        dollar : 80
+    },
+    {
+        name : 'Basic Phone Charging Pad',
+        url : 'https://www.amazon.com/dp/B07Q1DBDCV/ref=sspa_dk_detail_0',
+        img : 'https://images-na.ssl-images-amazon.com/images/I/71W8pJ8%2BMmL._SL1500_.jpg',
+        options : [
+            { name : 'Color', options : [ 'Black', 'White' ]}
+        ],
+        dollar : 16
+    },
+    {
+        name : 'Pandimic Board Game',
+        img : 'https://images-na.ssl-images-amazon.com/images/I/81tx8384RQL._AC_SL1383_.jpg',
+        url : 'https://www.amazon.com/dp/B00A2HD40E',
+        dollar : 25
+    },
+    {
+        name : 'Camping Esspresso Maker',
+        url : 'https://www.amazon.com/WACACO-Nanopresso-Portable-Minipresso-Operated/dp/B0797T2FYL',
+        img : 'https://images-na.ssl-images-amazon.com/images/I/71SdsVnlwpL._AC_SL1001_.jpg',
+        dollar : '60',
+        options : [
+            { name : 'Color', options : [ 'Black', 'Red', 'Yellow', 'Orange' ]}
+        ]
+    },
+    {
+        name : 'Google Nest Hub',
+        url : 'https://store.google.com/config/google_nest_hub',
+        img : 'https://lh3.googleusercontent.com/RjaBc8Q2dAPSsunfK5KwEMGzZzugCwZL0khwZAFfhbz9xIjfVAV3Y9wWIc5adf_9qSdo=w2288',
+        dollar : 130,
+        options : [
+            { name : 'Color', options : [ 'Chalk', 'Charcoal', 'Aqua', 'Sand']}
+        ]
+    },
+    {
+        name : 'Google Stadia Premier Edition',
+        img : 'https://lh3.googleusercontent.com/4yZeYVAnZmUGkr9GtVAO2aDLyTHe-wJcbv_eMtusJMMEjDTJ3FElv0_zSF6dYKAUZSM=w2288',
+        url : 'https://store.google.com/config/stadia_premiere_edition',
+        dollar : 130
+    },
+    {
+        name : 'Chromecast Ultra',
+        img : 'https://lh3.googleusercontent.com/OeigOAp_JM-wzIvVuYE_MTH4xvg39OEwGe9pqVRpZwvzOAtzWnNwyrr8tk_K02SCzLo',
+        url : 'https://store.google.com/product/chromecast_ultra',
+        dollar : 69
+    },
+    {
+        name : 'Google Nest Mini',
+        url : 'https://store.google.com/product/google_nest_mini',
+        img : 'https://o.aolcdn.com/images/dims?quality=85&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D1600%252C1067%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1067%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-uploaded-images%252F2019-10%252Fefd931e0-ef58-11e9-bdef-b2beac92b25c%26client%3Da1acac3e1b3290917d92%26signature%3Da1b1d7d1d92dc7d0ce104c52ab4fcf4c3a2f6ba9&client=amp-blogside-v2&signature=ee12299a4f025cd000209797223cf3aac0d23310',
+        dollar : 59,
+        options : [
+            { name : 'Color', options: ['Chalk', 'Charcoal', 'Coral', 'Sky']}
+        ]
+    },
+    {
+        name : 'Google Home',
+        url : 'https://store.google.com/product/google_home',
+        img : 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5578/5578849_sd.jpg;maxHeight=640;maxWidth=550',
+        dollar : 99
+    },
+    {
+        name : 'Gaming Mouse',
+        url : 'https://www.amazon.com/Logitech-Master-Advanced-Wireless-Mouse/dp/B07S395RWD',
+        img : 'https://images-na.ssl-images-amazon.com/images/I/613a-3jtieL._AC_SL1500_.jpg',
+        dollar : 100,
+        options : [
+            { name : 'Color', options : [ 'Graphite', 'Mid Grey' ]}
+        ]
+    },
+    {
+        name : 'Nesspresso Coffee Maker',
+        url : 'https://www.amazon.com/Nespresso-VertuoPlus-Coffee-Espresso-DeLonghi/dp/B01N7GO468/',
+        img : 'https://images-na.ssl-images-amazon.com/images/I/71KImg251cL._AC_SL1500_.jpg',
+        dollar : 130,
+        options : [
+            { name : 'Color', options : ['Graphite Metal', 'Matte Black', 'Red' ]}
+        ]
+    },
+    {
+        name : 'Keychron K2 Mechanical Keyboard',
+        img : 'https://cdn.shopify.com/s/files/1/0059/0630/1017/products/K2-LED-Red_f28b594f-9bde-41d3-99ff-c089037b5627_1800x1800.jpg?v=1572842100',
+        url : 'https://www.keychron.com/products/keychron-k2-mechanical-keyboard',
+        dollar : 76,
+        options : [
+            { name : 'Backlight', options : [ 'White', 'RGB']},
+            { name : 'Switch', options : [ 'Red', 'Brown', 'Blue']}
+        ]
+    },
+    {
+        name : 'Bathtub Tray Caddy',
+        url : 'https://www.amazon.com/Bamboo-Bath-Tub-Tray-Caddy/dp/B071HD21VZ/ref=sr_1_1_sspa',
+        img : 'https://images-na.ssl-images-amazon.com/images/I/71aFCnGOolL._AC_SL1500_.jpg',
+        dollar : 39
+    },
+    {
+        name : 'Spiderman - PS4',
+        url : 'https://www.amazon.com/Marvels-Spider-Man-PlayStation-4/dp/B01GW8YDLK/ref=sr_1_2',
+        img : 'https://images-na.ssl-images-amazon.com/images/I/81d6JU6g1pL._AC_SL1500_.jpg',
+        dollar : 40
+    },
+    {
+        name : '6 Month Subcription to Audible',
+        img : 'https://m.media-amazon.com/images/G/01/Audible/en_US/images/creative/A4-746_Tabrefreshbookwall_LP_Benefits_Bookwall_v3.png',
+        url : 'https://www.audible.com/?pf_rd_p=d02dffb0-503a-4153-a411-93603e104efa&pf_rd_r=WBTKEYA7SR2AXVNFAGEV&ref=a_ep_giftce_t1_nav_header_logo',
+        dollar : 90
+    },
+    {
+        name : 'Aeropress',
+        url : 'https://www.amazon.com/AeroPress-Coffee-Espresso-Maker-Bitterness/dp/B0047BIWSK/ref=sr_1_4',
+        img : 'https://images-na.ssl-images-amazon.com/images/I/71iwythG2qL._AC_SL1500_.jpg',
+        dollar : 28
+    },
+    {
+        name : '$100 Donation to Charity',
+        img : 'https://mtypks.org/wp-content/uploads/2018/10/mtyp-name-your-own-price-donation-image.png',
+        dollar : 100,
+        options : [
+            { name : 'Cause', options : [ 'Alzheimer\'s Research', 'Parkinson\'s Research', 'American Cancer Society', 'Local McDonald House Charities']}
+        ]
+    },
+    {
+        name : 'Gooseneck Electric Kettle',
+        url : 'https://www.amazon.com/COSORI-Electric-Gooseneck-Variable-Stainless/dp/B07T1CH2HH/ref=sr_1_4',
+        img : 'https://images-na.ssl-images-amazon.com/images/I/61L4DrXIPKL._AC_SL1440_.jpg',
+        options : [
+            { name : 'Color', options : ['Matte Black', 'Silver']}
+        ],
+        dollar : 70
+    },
+    {
+        name : 'Slalom Spice Container',
+        url : 'https://gear.slalom.com/SLA41/Employee+Store/Accessories/Lifestyle/Bamboo+Container.axd?cid=2819',
+        img : 'https://gear.slalom.com/images/products/dirs/41%2055018/41-55018A.jpg',
+        dollar : 4
+    },
+    {
+        name : 'Slalom Lunch Box',
+        url : 'https://gear.slalom.com/SLA41/Employee+Store/Accessories/Bags/Recycled+4+Can+Lunch+Cooler.axd?cid=2819',
+        img : 'https://gear.slalom.com/images/products/dirs/41%2046065/41-46065A.jpg',
+        dollar : 5.9
+    },
+    {
+        name : 'Slalom Travel Bowls',
+        url : 'https://gear.slalom.com/SLA41/Team+Store/In+Stock/Mocha+Collapsible+Bowls+with+Case.axd?cid=2819',
+        img : 'https://gear.slalom.com/images/products/dirs/41%2075022/41-75022A.jpg',
+        dollar : 11.15
+    },
+    {
+        name : 'Slalom Travel Cooler',
+        url : 'https://gear.slalom.com/SLA41/Team+Store/In+Stock/Collapsible+Party+Cooler.axd?cid=2819',
+        img : 'https://gear.slalom.com/images/products/dirs/41%2052015/41-52015A.jpg',
+        dollar : 26.4
+    },
+    {
+        name : 'Slalom Tumbler',
+        img : 'https://gear.slalom.com/images/products/dirs/41%2051021/41-51021A.jpg',
+        url : 'https://gear.slalom.com/SLA41/Team+Store/In+Stock/Mysa+Double+Wall+Ceramic+Tumbler+14oz.axd?cid=2819',
+        dollar : 10
+    },
+    {
+        name : 'Anker Power Bank',
+        img : 'https://d2211byn0pk9fi.cloudfront.net/spree/products/70014/product/A1232011_TD02_V1.jpg?1531463456',
+        url : 'https://www.anker.com/products/variant/anker-powercore-lite-10000mah/A1232011',
+        dollar : 30,
+        options : [
+            { name : 'Color', options : [ 'Black', 'White']}
+        ]
+    },
+    {
+        name : 'Tungsten Cube',
+        url : 'https://www.amazon.com/Tungsten-Cube-1-5-One-Kilo/dp/B00XZBIJLS',
+        img : 'https://images-na.ssl-images-amazon.com/images/I/610fIDZY10L._SL1280_.jpg',
+        dollar : 140
+    },
+    {
+        name : '24 Pack of Blenheim Ginger Ale (Chad\'s Favorite)',
+        url : 'http://www.blenheimgingerale.com/products/',
+        img : 'http://www.shopblenheimgingerale.com/v/vspfiles/photos/001-2.jpg',
+        dollar : 26,
+        options : [
+            { name : 'Variety', options : [ 'Hot', 'Not as Hot', 'Diet', 'Half Hot/Half Not as Hot']}
+        ]
+    },
+    {
+        name : 'Tea Infuser',
+        url : 'https://www.amazon.com/Threaded-Connection-Stainless-Extended-Seasonings/dp/B075K57B73/ref=sr_1_4',
+        img : 'https://images-na.ssl-images-amazon.com/images/I/61FDiSD3OhL._AC_SL1000_.jpg',
+        dollar : 6
+    },
+    {
+        name : 'Coldbrew Coffee Maker',
+        url : 'https://www.amazon.com/dp/B071ZWR7M8',
+        img : 'https://images-na.ssl-images-amazon.com/images/I/71jlAVRFLkL._AC_SL1500_.jpg',
+        dollar : 30
+    },
+    {
+        name : 'Slalom Carharrt Hat',
+        url : 'https://gear.slalom.com/SLA41/Employee+Store/Apparel/All+Apparel/Carhartt+Rugged+Series+Cap.axd?cid=2797',
+        img : 'https://gear.slalom.com/images/products/dirs/41%2031098/41-31098A.jpg',
+        dollar : 17
+    },
+    {
+        name : 'Adult Coloring Book',
+        url : 'https://www.amazon.com/Adult-Coloring-Book-Relieving-Designs/dp/1945710799/ref=sr_1_3',
+        img : 'https://images-na.ssl-images-amazon.com/images/I/917uSJDllZL.jpg',
+        dollar : 5
+    },
+    {
+        name : 'Letterboard',
+        url : 'https://www.amazon.com/dp/B073Q25M4J/ref=cm_sw_r_sms_apa_i_OdQ3Db4B4PNRF',
+        img : 'https://images-na.ssl-images-amazon.com/images/I/81imPDikS0L._AC_SL1500_.jpg',
+        dollar : 21,
+        options : [
+            {
+                name : 'Color',
+                options : [
+                    'Black',
+                    'Black and White',
+                    'Gray',
+                    'Coral',
+                    'Evergreen',
+                    'Flamingo',
+                    'Grayscale',
+                    'Greener Grass',
+                    'Hot Pink',
+                    'Lavender',
+                    'Light Blue',
+                    'Light Pink',
+                    'Lime Green',
+                    'Navy',
+                    'Perfectly Purple',
+                    'Rainbow',
+                    'Red',
+                    'Royal Purple',
+                    'Rusty Red',
+                    'Sangria',
+                    'Saphire Blue',
+                    'Seafoam Green',
+                    'Sunburst',
+                    'Tantalizing Teal',
+                    'Vivid Orange',
+                    'White',
+                    'Yellow'
+                ]
+            }
+        ]
+    },
+    {
+        name : 'Cold Roll Massager',
+        url : 'https://www.amazon.com/dp/B01EKMN9LA/ref=cm_sw_r_sms_apa_i_IiQ3Db2BY3FN4',
+        img : 'https://images-na.ssl-images-amazon.com/images/I/71nx3VOOAJL._AC_SL1500_.jpg',
+        dollar : 40
+    },
+    {
+        name : 'AoC T-Shirt',
+        url : 'https://teespring.com/adventofcode-2019?pid=2',
+        img : 'https://vangogh.teespring.com/v3/image/FrlKMefV2MqpSxWRlTmb3G_faH0/480/560.jpg',
+        dollar : 22,
+        options : [
+            { name : 'Size', options : ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL', 'LT', 'XLT', '2XLT', '3XLT', '4XLT']}
+        ]
+    },
+    {
+        name : 'AoC Mug',
+        url : 'https://teespring.com/adventofcode-2019?pid=658',
+        img : 'https://vangogh.teespring.com/v3/image/AvADWBK9MBbtjPIw0xzMwNX-WYE/480/560.jpg',
+        dollar : 15
+    },
+    {
+        name : 'AoC Sticker',
+        url : 'https://teespring.com/adventofcode-2019?pid=663',
+        img : 'https://vangogh.teespring.com/v3/image/BoDg1pUavPRC4bESGh2SqOWSXZ4/480/560.jpg',
+        dollar : 6
+    },
+    {
+        name : 'AoC Hoodie',
+        url : 'https://teespring.com/adventofcode-2019?pid=212',
+        img : 'https://vangogh.teespring.com/v3/image/j_d0B3g2ljqXUu3fLdR3e1P00rQ/480/560.jpg',
+        dollar : 39, 
+        options : [
+            { name : 'Size', options : ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL']}
+        ]
+    },
+    {
+        name : 'Echo Dot (3rd Gen)',
+        url : 'https://www.amazon.com/Echo-Dot-3rd-Gen-speaker/dp/B07FZ8S74R/ref=sr_1_1',
+        img : 'https://images-na.ssl-images-amazon.com/images/I/619HkSq0-mL._AC_SL1000_.jpg',
+        dollar : 40,
+        options : [
+            { name : 'Color', options : [ 'Charcoal', 'Heather Grey', 'Plum', 'Sandstone']}
+        ]
+    },
+    {
+        name : 'Echo Show 8',
+        url : 'https://www.amazon.com/Echo-Show-8/dp/B07PF1Y28C/ref=sr_1_2',
+        img : 'https://images-na.ssl-images-amazon.com/images/I/611MAU5uPQL._AC_SL1000_.jpg',
+        dollar : 130,
+        options : [
+            { name : 'Color', options : [ 'Charcoal', 'Sandstone']}
+        ]
+    },
+    {
+        name : 'Amazon Echo 3rd Gen',
+        url : 'https://www.amazon.com/all-new-Echo/dp/B07NFTVP7P/ref=sr_1_3',
+        img : 'https://images-na.ssl-images-amazon.com/images/I/61BINWLB3kL._AC_SL1000_.jpg',
+        dollar : 100,
+        options : [
+            { name : 'Color', options : ['Charcoal', 'Heather Grey', 'Sandstone', 'Twilight Blue']}
+        ]
+    },
+    {
+        name : 'Anker Bluetooth Speaker',
+        url : 'https://www.anker.com/products/variant/soundcore-2/A3105013',
+        img : 'https://d2211byn0pk9fi.cloudfront.net/spree/products/31192/product/A3105011_TD01_V1tif.jpg?1495417789',
+        dollar : 45,
+        options : [
+            { name : 'Color', options : ['Black', 'Blue', 'Red']}
         ]
     }
 ];
