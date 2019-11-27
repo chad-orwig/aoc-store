@@ -77,7 +77,7 @@ const storeItems =  [
         img : 'https://gear.slalom.com/images/products/dirs/41%2015000/41-15000BlackA.jpg',
         dollar : 29.8,
         options : [
-            { name : 'size', options : [ 'XS', 'S', 'M', 'L', 'XL', '2XL', '3XL' ]}
+            { name : 'Size', options : [ 'XS', 'S', 'M', 'L', 'XL', '2XL', '3XL' ]}
         ]
 
     },

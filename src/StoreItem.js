@@ -6,7 +6,7 @@ import Options from './Options';
 
 function buildImgWithLink({url, img}) {
     return (
-        <a href={url} target="_blank"><Card.Img varient="top" src={img} /></a>
+        <a href={url} target="_blank" rel="noopener noreferrer"><Card.Img varient="top" src={img} /></a>
     );
 }
 
@@ -18,7 +18,7 @@ function buildImgWithoutLink({img}) {
 
 function StoreItem( {item} ) {
     return (
-        <Card style={{minWidth : '200px', maxWidth: '528px'}} bg={item.qty ? 'success' : 'light'} text={item.qty ? 'white' : undefined} className="my-2">
+        <Card style={{minWidth : '300px', maxWidth: '528px'}} bg={item.qty ? 'success' : 'light'} text={item.qty ? 'white' : undefined} className="my-2">
             {item.url ? buildImgWithLink(item) : buildImgWithoutLink(item)}
             <Card.Body>
                 <Card.Title>{item.name}</Card.Title>
