@@ -325,8 +325,8 @@ const storeItems =  [
     },
     {
         name : '24 Pack of Blenheim Ginger Ale (Chad\'s Favorite)',
-        url : 'http://www.blenheimgingerale.com/products/',
-        img : 'http://www.shopblenheimgingerale.com/v/vspfiles/photos/001-2.jpg',
+        url : 'https://www.blenheimgingerale.com/products/',
+        img : 'https://www.shopblenheimgingerale.com/v/vspfiles/photos/001-2.jpg',
         dollar : 26,
         options : [
             { name : 'Variety', options : [ 'Hot', 'Not as Hot', 'Diet', 'Half Hot/Half Not as Hot']}
@@ -467,6 +467,45 @@ const storeItems =  [
         options : [
             { name : 'Color', options : ['Black', 'Blue', 'Red']}
         ]
+    },
+    {
+        name : 'Roku Ultra',
+        url : 'https://www.roku.com/products/roku-ultra',
+        img : 'https://cigars.roku.com/v1/http%3A%2F%2Fimage.roku.com%2Fw%2Frapid%2Fimages%2Fpdp-carousel-items%2F9b846f05-cc75-498c-840d-2c6d9254f769.png?quality=95',
+        dollar : 100
+    },
+    {
+        name : 'Fire TV Cube',
+        url : 'https://www.amazon.com/all-new-fire-tv-cube-with-alexa-voice-remote/dp/B07KGVB6D6/ref=sr_1_2',
+        img : 'https://images-na.ssl-images-amazon.com/images/I/41fziVetM7L._AC_SL1000_.jpg',
+        dollar : 120
+    },
+    {
+        name : 'Azul Board Game',
+        url : 'https://www.amazon.com/Plan-Games-Azul-Board-Game/dp/B077MZ2MPW/ref=sr_1_14',
+        img : 'https://images-na.ssl-images-amazon.com/images/I/91AUH08qxfL._AC_SL1500_.jpg',
+        dollar : 27
+    },
+    {
+        name : 'Bunny Kingdom Board Game',
+        url : 'https://www.amazon.com/IELLO-Bunny-Kingdom-Strategy-Board/dp/B01J1UKSGA/ref=sr_1_4',
+        img : 'https://images-na.ssl-images-amazon.com/images/I/91UWQM9tikL._AC_SL1500_.jpg',
+        dollar : 39
+    },
+    {
+        name : 'Pokémon - Gen 8',
+        img : 'https://images-na.ssl-images-amazon.com/images/I/71x3dzztZ%2BL.jpg',
+        url : 'https://www.amazon.com/Pokemon-Sword-Nintendo-Switch/dp/B07PC7X38X/ref=sr_1_1',
+        dollar : 60,
+        options : [
+            { name : 'Edition', options : ['Sword', 'Shield']}
+        ]
+    },
+    {
+        name : 'Luigi\'s Mansion 3',
+        url : 'https://www.amazon.com/Luigis-Mansion-3-Nintendo-Switch/dp/B07SK4W1VJ/ref=sr_1_1',
+        img : 'https://images-na.ssl-images-amazon.com/images/I/719SCN8iaWL._AC_SL1500_.jpg',
+        dollar : 60
     }
 ];
 
