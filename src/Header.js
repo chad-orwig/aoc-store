@@ -17,11 +17,11 @@ class Header extends React.Component {
     logout = () => firebase.auth().signOut();
     componentDidMount = () => {
         firebase.auth().onAuthStateChanged(user => {
-            this.setState({ user })}
-        );
+            this.setState({ user })
+        });
     }
     render() {
-        const loginPanel = this.state.user === null ? (<LoginPanel />) : <Button onClick={this.logout} className="ml-4" >Logout</Button>;
+        const loginPanel = this.state.user === null ? (<LoginPanel />) : <Button onClick={this.logout} className="float-right" >Logout</Button>;
         return (
             <div className="fixed-top bg-info text-white p-2">
                 <h2 className="d-inline-block">AOC Star Store</h2>

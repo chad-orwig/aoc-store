@@ -24,10 +24,13 @@ function loginWithGithub() {
 function LoginPanel({ setUser }) {
 
     return (
-        <ButtonGroup className="ml-4">
-            <Button onClick={loginWithGoogle}>Google</Button>
-            <Button onClick={loginWithGithub}>GitHub</Button>
-        </ButtonGroup>
+        <div className="float-right">
+            <span className="d-inline-block lead align-middle mr-2">Login With</span>
+            <ButtonGroup>
+                <Button onClick={loginWithGoogle}>Google</Button>
+                <Button onClick={loginWithGithub}>GitHub</Button>
+            </ButtonGroup>
+        </div>
     );
 }
 
