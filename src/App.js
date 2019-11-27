@@ -1,8 +1,10 @@
 import React from 'react';
 
-import Container from 'react-bootstrap/Container';
-import StarStore from './StarStore.js';
-import storeItems from './storeItems.js';
+import StarStore from './StarStore';
+import Header from './Header';
+
+import storeItems from './storeItems';
+
 import access from 'safe-access';
 
 import curry from 'lodash/fp/curry';
@@ -72,10 +74,10 @@ class App extends React.Component {
 
   render() {
     return (
-      <Container>
-        <h2>AoC Star Store</h2>
+      <div>
+        <Header />
         <StarStore items={this.state.items}/>
-      </Container>
+      </div>
     );
   }
 }

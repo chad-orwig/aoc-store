@@ -8,7 +8,7 @@ import './starStore.scss';
 function StarStore({ items }){
     const storeItems = items.map((item, i) => <StoreItem item={item} key={i}/>);
     return (
-        <CardDeck>{storeItems}</CardDeck>
+        <CardDeck className="pt-5">{storeItems}</CardDeck>
     );
 }
 
