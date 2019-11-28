@@ -538,6 +538,107 @@ const storeItems =  [
         url : 'https://www.amazon.com/Controller-Controlled-Electronic-Waterproof-Off-Road/dp/B07LD3QV8Q/ref=sr_1_1_sspa',
         img : 'https://images-na.ssl-images-amazon.com/images/I/61-xp2mbpUL._AC_SL1000_.jpg',
         dollar : 70
+    },
+    {
+        name : 'Terraforming Mars Board Game',
+        url : 'https://www.amazon.com/Indie-Boards-Cards-Terraforming-Board/dp/B01GSYA4K2/ref=sr_1_4',
+        img : 'https://images-na.ssl-images-amazon.com/images/I/91RdR7olLsL._SL1500_.jpg',
+        dollar : 50
+    },
+    {
+        name : 'Western Legends Board Game',
+        url : 'https://www.amazon.com/Kolossal-Games-Western-Legends/dp/B07L9DYKRX/ref=sr_1_1',
+        dollar : 65,
+        img : 'https://images-na.ssl-images-amazon.com/images/I/518DscG6h-L.jpg'
+    },
+    {
+        name : 'For Sale Card Game',
+        url : 'https://www.amazon.com/Gryphon-Games-101124N-Sale-Card/dp/B001PQLNY0/ref=sr_1_4',
+        dollar : 21,
+        img : 'https://images-na.ssl-images-amazon.com/images/I/71TPmgcPJZL._SL1073_.jpg'
+    },
+    {
+        name : 'The Mind Card Game',
+        url : 'https://www.amazon.com/Pandasaurus-Games-201809PAN-Mind-Card/dp/B07C4F3KLF/ref=sr_1_1',
+        dollar : 9,
+        img : 'https://images-na.ssl-images-amazon.com/images/I/812LHXcmJWL._SL1500_.jpg'
+    },
+    {
+        name : 'Slalom Cowl Tee',
+        url : 'https://gear.slalom.com/SLA41/Employee+Store/Apparel/All+Apparel/New+Era+Blend+Cowl+Tee.axd',
+        img : 'https://gear.slalom.com/images/products/dirs/41%2025048/41-25048A.jpg',
+        dollar : 31,
+        options : [
+            { name : 'Size', options : ['XS', 'S', 'M', 'L', 'XL', '2XL']}
+        ]
+    },
+    {
+        name : 'Slalom Pen',
+        url : 'https://gear.slalom.com/SLA41/Employee+Store/Office+Tech/Paper+Mate+Ink+Joy+Pen.axd?order_by=Price&sort_order=Asc',
+        img : 'https://gear.slalom.com/images/products/dirs/41%2051001/41-51001BlackA.jpg',
+        dollar : .5
+    },
+    {
+        name : 'Slalom Journal',
+        url : 'https://gear.slalom.com/SLA41/Employee+Store/Office+Tech/Tucson+Medium+Journal.axd?order_by=Price&sort_order=Asc',
+        img : 'https://gear.slalom.com/images/products/dirs/41%2053000/41-53000A.jpg',
+        dollar : 8.2
+    },
+    {
+        name : 'Northampton Saints Replica Jersey',
+        url : 'https://www.saintsstore.co.uk/collections/replica-kit/products/19-20-replica-home-jersey-adult',
+        img : 'https://cdn.shopify.com/s/files/1/1577/1155/products/AN5A3469_copy.jpg?v=1569573133',
+        dollar : 100,
+        options : [
+            { name : 'Size', options : [ 'S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL', '6XL']}
+        ]
+    },
+    {
+        name : 'Rugby ATL Men\'s Replica Jersey',
+        url : 'https://www.rugbyatl.rugby/product/mens-rugby-atl-replica-jerseys-by-paladin/',
+        img : 'https://www.rugbyatl.rugby/wp-content/uploads/sites/10/2019/11/Rugby-ATL-Mens-Jersey-front.png',
+        dollar : 69,
+        options : [
+            { name : 'Size', options : ['M', 'L', 'XL', '2XL' ]}
+        ]
+    },
+    {
+        name : 'Rugby ATL Hoodie',
+        url : 'https://www.rugbyatl.rugby/product/ratl-unisex-fleece-hoodie/',
+        img : 'https://www.rugbyatl.rugby/wp-content/uploads/sites/10/2019/11/mockup-782692ea.jpg',
+        dollar : 59,
+        options : [
+            { name : 'Color', options : ['Black', 'Navy']},
+            { name : 'Size', options : ['XS', 'S', 'M', 'L', 'XL', '2XL']}
+        ]
+    },
+    {
+        name : 'Rugby ATL Men\'s Polo',
+        url : 'https://www.rugbyatl.rugby/product/ccc-waimak-pique-polo-black/',
+        img : 'https://www.rugbyatl.rugby/wp-content/uploads/sites/10/2019/08/Black-polo.png',
+        dollar : 59,
+        options : [
+            { name : 'Color', options : [ 'Black', 'Red', 'Grey']},
+            { name : 'Size', options : ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL']}
+        ]
+    },
+    {
+        name : 'Rugby ATL Ladies Polo',
+        url : 'https://www.rugbyatl.rugby/product/ladies-red-holloway-polo/',
+        img : 'https://www.rugbyatl.rugby/wp-content/uploads/sites/10/2019/10/IMG01127.png',
+        dollar : 59,
+        options : [
+            { name : 'Size', options : ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL']}
+        ]
+    },
+    {
+        name : 'Rugby ATL Women\'s Replica Jersey',
+        url : 'https://www.rugbyatl.rugby/product/womens-rugby-atl-replica-jerseys-by-paladin/',
+        img : 'https://www.rugbyatl.rugby/wp-content/uploads/sites/10/2019/11/Rugby-ATL-Womens-Jersey-front.png',
+        dollar : 69,
+        options : [
+            { name : 'Size', options : [ 'M', 'L', 'XL', '2XL']}
+        ]
     }
 ];
 
