@@ -5,10 +5,10 @@ import CardDeck from 'react-bootstrap/CardDeck';
 import { itemType } from './types';
 import './starStore.scss';
 
-function StarStore({ items }){
+function StarStore({ items, enabled }){
     const storeItems = items.map((item, i) => <StoreItem item={item} key={i}/>);
     return (
-        <CardDeck className="m-5 pt-3">{storeItems}</CardDeck>
+        <CardDeck className="m-5 pt-3" disabled={!enabled}>{storeItems}</CardDeck>
     );
 }
 

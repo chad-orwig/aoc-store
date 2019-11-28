@@ -494,7 +494,7 @@ const storeItems =  [
     },
     {
         name : 'Pokémon - Gen 8',
-        img : 'https://images-na.ssl-images-amazon.com/images/I/71x3dzztZ%2BL.jpg',
+        img : 'https://media.gamestop.com/i/gamestop/Pokemon_SS_HeroM/pok%C3%A9mon-sword-%26-pok%C3%A9mon-shield.jpg',
         url : 'https://www.amazon.com/Pokemon-Sword-Nintendo-Switch/dp/B07PC7X38X/ref=sr_1_1',
         dollar : 60,
         options : [
