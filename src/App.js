@@ -2,13 +2,18 @@ import React from 'react';
 
 import StarStore from './StarStore';
 import Header from './Header';
+import AlertContainer from './AlertContainer';
 
 import storeItems from './storeItems';
 
 import access from 'safe-access';
 
 import curry from 'lodash/fp/curry';
-import findIndex from 'lodash/fp/findIndex'
+import findIndex from 'lodash/fp/findIndex';
+import filter from 'lodash/fp/filter';
+import uuid from 'uuid/v1';
+
+const alertTimeout = 3000;
 
 class App extends React.Component {
   constructor() {
@@ -21,8 +26,22 @@ class App extends React.Component {
       .map(this.addMakeSelectionFunction);
 
     this.state = {
-      items
+      items,
+      alerts : []
     };
+  }
+
+  removeAlert = (idToRemove) => {
+    const alerts = filter(({id}) => id !== idToRemove)(this.state.alerts);
+    this.setState({alerts});
+  }
+
+  addAlert = ({ heading, message, variant}) => {
+    const id = uuid();
+    this.setState({
+      alerts : [...this.state.alerts, { heading, message, variant, id }]
+    });
+    setTimeout(() => this.removeAlert(id), alertTimeout);
   }
 
   assignZeroQty = (item) => Object.assign({ qty : 0 }, item);
@@ -75,7 +94,8 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Header items={this.state.items} />
+      <Header items={this.state.items} addAlert={this.addAlert}/>
+        <AlertContainer alerts={this.state.alerts} />
         <StarStore items={this.state.items}/>
       </div>
     );

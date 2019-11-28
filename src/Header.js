@@ -6,7 +6,7 @@ import LoginPanel from './LoginPanel'
 import ControlPanel from './ControlPanel'
 
 import { itemType } from './types';
-import { arrayOf } from 'prop-types';
+import { arrayOf, func } from 'prop-types';
 
 class Header extends React.Component {
 
@@ -23,7 +23,7 @@ class Header extends React.Component {
         firebase.auth().onAuthStateChanged(this.setUser);
     }
     render() {
-    const loginPanel = !this.state.user ? (<LoginPanel />) : (<ControlPanel user={this.state.user} items={this.props.items}/>);
+    const loginPanel = !this.state.user ? (<LoginPanel />) : (<ControlPanel user={this.state.user} items={this.props.items} addAlert={this.props.addAlert}/>);
         return (
             <div className="fixed-top bg-info text-white p-2">
                 <h2 className="d-inline-block d-sm-none">AOC</h2>
@@ -35,7 +35,8 @@ class Header extends React.Component {
 }
 
 Header.propTypes = {
-    items : arrayOf(itemType).isRequired
+    items : arrayOf(itemType).isRequired,
+    addAlert : func.isRequired
 }
 
 export default Header;
