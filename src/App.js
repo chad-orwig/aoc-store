@@ -26,12 +26,7 @@ const db = firebase.firestore();
 class App extends React.Component {
   constructor() {
     super();
-    const items = storeItems
-      .map(this.assignZeroQty)
-      .map(this.calculateCost)
-      .sort((i1, i2) => i2.cost - i1.cost || i1.name.localeCompare(i2.name))
-      .map(this.addSetQuantityFunction)
-      .map(this.addMakeSelectionFunction);
+    const items = this.freshItems()
 
     this.state = {
       items,
@@ -39,6 +34,15 @@ class App extends React.Component {
       user : undefined,
       enabled : true
     };
+  }
+
+  freshItems = () => {
+    return storeItems
+      .map(this.assignZeroQty)
+      .map(this.calculateCost)
+      .sort((i1, i2) => i2.cost - i1.cost || i1.name.localeCompare(i2.name))
+      .map(this.addSetQuantityFunction)
+      .map(this.addMakeSelectionFunction);
   }
 
   mergeItemsFromDb = (itemsFromDb) => {
@@ -67,8 +71,11 @@ class App extends React.Component {
 
   setUser = (user) => {
     this.setState({user});
-    if(user && user.uid) {
+    if(user) {
       this.checkForSelections(user.uid);
+    }
+    else {
+      this.setState({ items : this.freshItems() });
     }
   };
   setEnabled = (enabled) => this.setState({enabled});
