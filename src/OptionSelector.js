@@ -9,7 +9,7 @@ function OptionSelector({ options, makeSelection }) {
     const title = `${options.name} ${options.selection ? ` - ${options.selection}` : ''}`
     const items = options.options.map((o, i) => <Dropdown.Item key={i} onClick={() => makeSelection(options.name, o)}>{o}</Dropdown.Item>);
     return (
-        <DropdownButton title={title} className="mx-1">
+        <DropdownButton title={title} className="my-1 mx-1">
             {items}
         </DropdownButton>
     );
