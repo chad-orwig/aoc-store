@@ -526,6 +526,18 @@ const storeItems =  [
         url : 'https://www.amazon.com/ELEGOO-Project-Tutorial-Controller-Projects/dp/B01D8KOZF4/ref=sr_1_3',
         dollar : 35,
         img : 'https://images-na.ssl-images-amazon.com/images/I/91O05A7aWXL._SL1500_.jpg'
+    },
+    {
+        name : 'Anova Sous Vide',
+        url : 'https://www.amazon.com/Anova-Culinary-Precision-Bluetooth-Included/dp/B07C7PW3PC/ref=sr_1_4',
+        dollar : 100,
+        img : 'https://images-na.ssl-images-amazon.com/images/I/61Kk5E3VQ6L._AC_SL1500_.jpg'
+    },
+    {
+        name : 'Adult RC Car',
+        url : 'https://www.amazon.com/Controller-Controlled-Electronic-Waterproof-Off-Road/dp/B07LD3QV8Q/ref=sr_1_1_sspa',
+        img : 'https://images-na.ssl-images-amazon.com/images/I/61-xp2mbpUL._AC_SL1000_.jpg',
+        dollar : 70
     }
 ];
 
