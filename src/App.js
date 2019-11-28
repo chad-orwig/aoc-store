@@ -38,9 +38,9 @@ class App extends React.Component {
 
   addAlert = ({ heading, message, variant}) => {
     const id = uuid();
-    this.setState({
-      alerts : [...this.state.alerts, { heading, message, variant, id }]
-    });
+    this.setState((prevState) => ({
+      alerts : [...prevState.alerts, { heading, message, variant, id }]
+    }));
     setTimeout(() => this.removeAlert(id), alertTimeout);
   }
 
