@@ -75,7 +75,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Header />
+        <Header items={this.state.items} />
         <StarStore items={this.state.items}/>
       </div>
     );

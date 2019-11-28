@@ -2,8 +2,11 @@ import React from 'react';
 import firebase from './firebaseConfig';
 import 'firebase/auth';
 
-import Button from 'react-bootstrap/Button';
 import LoginPanel from './LoginPanel'
+import ControlPanel from './ControlPanel'
+
+import { itemType } from './types';
+import { arrayOf } from 'prop-types';
 
 class Header extends React.Component {
 
@@ -14,14 +17,13 @@ class Header extends React.Component {
             user : undefined
         };
     }
-    logout = () => firebase.auth().signOut();
+    setUser = (user) => this.setState({user});
+    
     componentDidMount = () => {
-        firebase.auth().onAuthStateChanged(user => {
-            this.setState({ user })
-        });
+        firebase.auth().onAuthStateChanged(this.setUser);
     }
     render() {
-        const loginPanel = this.state.user === null ? (<LoginPanel />) : <Button onClick={this.logout} className="float-right" >Logout</Button>;
+    const loginPanel = !this.state.user ? (<LoginPanel />) : (<ControlPanel user={this.state.user} items={this.props.items}/>);
         return (
             <div className="fixed-top bg-info text-white p-2">
                 <h2 className="d-inline-block">AOC Star Store</h2>
@@ -29,6 +31,10 @@ class Header extends React.Component {
             </div>
         )
     }
+}
+
+Header.propTypes = {
+    items : arrayOf(itemType).isRequired
 }
 
 export default Header;
