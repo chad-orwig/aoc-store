@@ -506,6 +506,26 @@ const storeItems =  [
         url : 'https://www.amazon.com/Luigis-Mansion-3-Nintendo-Switch/dp/B07SK4W1VJ/ref=sr_1_1',
         img : 'https://images-na.ssl-images-amazon.com/images/I/719SCN8iaWL._AC_SL1500_.jpg',
         dollar : 60
+    },
+    {
+        name : 'Kindle',
+        dollar : 110,
+        img : 'https://images-na.ssl-images-amazon.com/images/I/61Ww4abGclL._AC_SL1000_.jpg',
+        options : [
+            { name : 'Color', options : [ 'White', 'Black' ]}
+        ]
+    },
+    {
+        name : 'Arduino Smart Car Starter Set',
+        url : 'https://www.amazon.com/ELEGOO-Tracking-Ultrasonic-Intelligent-Educational/dp/B07KPZ8RSZ/ref=sr_1_8',
+        dollar : 65,
+        img : 'https://images-na.ssl-images-amazon.com/images/I/71QZpdy609L._AC_SL1200_.jpg'
+    },
+    {
+        name : 'Arduino Starter Set',
+        url : 'https://www.amazon.com/ELEGOO-Project-Tutorial-Controller-Projects/dp/B01D8KOZF4/ref=sr_1_3',
+        dollar : 35,
+        img : 'https://images-na.ssl-images-amazon.com/images/I/91O05A7aWXL._SL1500_.jpg'
     }
 ];
 
