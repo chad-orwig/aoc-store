@@ -8,6 +8,7 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup';
 
 const googleProvider = new firebase.auth.GoogleAuthProvider();
 const gitHubProvider = new firebase.auth.GithubAuthProvider();
+const twitterProvider = new firebase.auth.TwitterAuthProvider();
 gitHubProvider.addScope('read:user');
 
 function login(provider) {
@@ -28,6 +29,15 @@ function loginWithGithub() {
         }
     })
 }
+function loginWithTwitter() {
+    login(twitterProvider)
+        .then(result => {
+            console.log(result);
+        })
+        .catch(err=> {
+            console.error(err);
+        });
+}
 
 function LoginPanel({ setUser }) {
 
@@ -37,6 +47,7 @@ function LoginPanel({ setUser }) {
             <ButtonGroup>
                 <Button onClick={loginWithGoogle}>Google</Button>
                 <Button onClick={loginWithGithub}>GitHub</Button>
+                <Button onClick={loginWithTwitter}>Twitter</Button>
             </ButtonGroup>
         </div>
     );

@@ -109,7 +109,8 @@ ControlPanel.propTypes = {
     items : arrayOf(itemType).isRequired,
     user : shape({
         uid : string.isRequired,
-        email : string.isRequired
+        email : string,
+        displayName : string
     }).isRequired,
     addAlert : func.isRequired
 }
