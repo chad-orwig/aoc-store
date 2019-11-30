@@ -50,7 +50,7 @@ class App extends React.Component {
       const item = find({name : itemFromDb.name})(this.state.items);
       if(item) {
         item.setQty(itemFromDb.qty);
-        (itemsFromDb.options || []).forEach(optionFromDb => {
+        (itemFromDb.options || []).forEach(optionFromDb => {
           item.makeSelection(optionFromDb.name, optionFromDb.selection);
         })
       }

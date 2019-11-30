@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import firebase from './firebaseConfig';
 import 'firebase/firestore';
 import 'firebase/auth';
@@ -83,26 +83,18 @@ function submitSelections(items, {uid, email, displayName}, addAlert, setSaving)
     .finally(() => setSaving(false));
 }
 
-class ControlPanel extends React.Component {
-    constructor() {
-        super();
-        this.state = {
-            saving : false
-        };
-    }
-    setSaving = (saving) => this.setState({saving});
-    render(){
-        const {items, user, addAlert} = this.props;
-        return (
-            <div className="float-right">
-                <span className="d-inline-block lead align-middle mr-2">{user.displayName}</span>
-                <ButtonGroup>
-                    <Button onClick={() => submitSelections(items, user, addAlert, this.setSaving)} disabled={this.state.saving}>Submit</Button>
-                    <Button onClick={logout} variant="warning">Logout</Button>
-                </ButtonGroup>
-            </div>
-        );
-    } 
+function ControlPanel({items, user, addAlert}) {
+    const [saving, setSaving] = useState(false);
+    return (
+        <div className="float-right">
+            <span className="d-inline-block lead align-middle mr-2">{user.displayName}</span>
+            <ButtonGroup>
+                <Button onClick={() => submitSelections(items, user, addAlert, setSaving)} disabled={saving}>Submit</Button>
+                <Button onClick={logout} variant="warning">Logout</Button>
+            </ButtonGroup>
+        </div>
+    );
+     
 }
 
 ControlPanel.propTypes = {
