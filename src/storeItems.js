@@ -511,6 +511,7 @@ const storeItems =  [
         name : 'Kindle',
         dollar : 110,
         img : 'https://images-na.ssl-images-amazon.com/images/I/61Ww4abGclL._AC_SL1000_.jpg',
+        url : 'https://www.amazon.com/All-new-Kindle-now-with-a-built-in-front-light/dp/B07DLPWYB7/ref=sr_1_2',
         options : [
             { name : 'Color', options : [ 'White', 'Black' ]}
         ]
