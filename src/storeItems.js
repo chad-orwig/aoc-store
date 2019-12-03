@@ -658,6 +658,15 @@ const storeItems =  [
         url : 'https://www.amazon.com/dp/B07DLGD9K6/',
         img : 'https://images-na.ssl-images-amazon.com/images/I/914RTHzIuJL._SL1500_.jpg',
         dollar : 35
+    },
+    {
+        name : 'Slalom Hoodie',
+        url : 'https://gear.slalom.com/SLA41/Employee+Store/Apparel/All+Apparel/Unisex+Bella+Canvas+Full-Zip.axd',
+        img : 'https://gear.slalom.com/images/products/dirs/41%2014002/41-14002A.jpg',
+        dollar : 30,
+        options : [
+            { name : 'Size', options :['XS', 'S', 'M', 'L', 'XL', '2XL']}
+        ]
     }
 ];
 
