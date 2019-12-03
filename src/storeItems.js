@@ -640,6 +640,24 @@ const storeItems =  [
         options : [
             { name : 'Size', options : [ 'M', 'L', 'XL', '2XL']}
         ]
+    },
+    {
+        name : 'Tapestry Board Game',
+        url : 'https://www.amazon.com/dp/B07XDD71LQ/',
+        img : 'https://images-na.ssl-images-amazon.com/images/I/513FzR4E-FL.jpg',
+        dollar : 76
+    },
+    {
+        name : 'Terra Mystica Board Game',
+        url : 'https://www.amazon.com/dp/B00APPE4HK',
+        img : 'https://images-na.ssl-images-amazon.com/images/I/61j7B8eY7sL._SL1000_.jpg',
+        dollar : 62
+    },
+    {
+        name : 'Disney Villainous Board Game',
+        url : 'https://www.amazon.com/dp/B07DLGD9K6/',
+        img : 'https://images-na.ssl-images-amazon.com/images/I/914RTHzIuJL._SL1500_.jpg',
+        dollar : 35
     }
 ];
 
