@@ -19,6 +19,8 @@ import firebase from './firebaseConfig';
 import 'firebase/auth';
 import 'firebase/firestore';
 
+import Fuse from '../node_modules/fuse.js';
+
 const alertTimeout = 3000;
 
 const db = firebase.firestore();
@@ -28,11 +30,19 @@ class App extends React.Component {
     super();
     const items = this.freshItems()
 
+    const options = {
+      keys: ['name', 'cost'],
+      threshold: 0.4
+    };
+    this.fuse = new Fuse(items, options);
+
     this.state = {
       items,
       alerts : [],
       user : undefined,
-      enabled : true
+      enabled : true,
+      search : '',
+      filteredItems: items
     };
   }
 
@@ -68,6 +78,14 @@ class App extends React.Component {
     .finally(() => this.setEnabled(true));
 
   }
+
+  setSearch = (search) => {
+    const filteredItems = search ? this.fuse.search(search) : this.state.items
+    this.setState({
+      search,
+      filteredItems
+    });
+  };
 
   setUser = (user) => {
     this.setState({user});
@@ -144,14 +162,21 @@ class App extends React.Component {
   componentDidMount = () => {
     firebase.auth().onAuthStateChanged(this.setUser);
   }
+  searchItems(items) {
+    return this.fuse.search();
+  }
   render() {
     const disabledOverlay = this.state.enabled ? '' : <DisabledOverlay />
+
+    //filter items by passing ControlPanel's input text into the fuzzy search.
+
+
     return (
       <div>
         {disabledOverlay}
-        <Header items={this.state.items} addAlert={this.addAlert} user={this.state.user} />
+        <Header search={this.state.search} setSearch={this.setSearch} items={this.state.items} addAlert={this.addAlert} user={this.state.user} />        
         <AlertContainer alerts={this.state.alerts} />
-        <StarStore items={this.state.items} enabled={this.state.enabled}/>
+        <StarStore items={this.state.filteredItems} enabled={this.state.enabled}/>
       </div>
     );
   }

@@ -6,18 +6,23 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import { itemType } from './types';
-import { arrayOf, func, object } from 'prop-types';
+import { arrayOf, func, object, string } from 'prop-types';
+import Search from './Search.js';
 
-function Header({ user, items, addAlert }) {
-    const loginPanel = !user ? (<LoginPanel />) : (<ControlPanel user={user} items={items} addAlert={addAlert}/>);
+function Header({ user, items, addAlert, search, setSearch }) {
+    const loginPanel = !user ? (<LoginPanel />) : (<ControlPanel user={user} items={items} addAlert={addAlert} search={search} setSearch={setSearch} />);
+    //remember to do the column size for search
     return (
         <div className="fixed-top bg-info text-white p-2">
             <Row noGutters={true}>
-                <Col xs={0} sm={4}>
-                    <h2 className="d-none d-sm-inline-block d-md-none">AOC</h2>
-                    <h2 className="d-none d-md-inline-block">AOC Star Store</h2>
+                <Col xs={0} md={2} lg={3}>
+                    <h2 className="d-none d-md-inline-block d-lg-none">AOC</h2>
+                    <h2 className="d-none d-lg-inline-block">AOC Star Store</h2>
                 </Col>
-                <Col xs={12} sm={8}>{ loginPanel }</Col>
+                <Col>
+                    <Search search={search} setSearch={setSearch}></Search>
+                </Col>
+                <Col xs={9} sm={8} md={6} lg={5} xl={4}>{ loginPanel }</Col>
             </Row>
         </div>
     )
@@ -26,7 +31,9 @@ function Header({ user, items, addAlert }) {
 Header.propTypes = {
     items : arrayOf(itemType).isRequired,
     addAlert : func.isRequired,
-    user : object
+    user : object,
+    search : string,
+    setSearch : func.isRequired
 }
 
 export default Header;

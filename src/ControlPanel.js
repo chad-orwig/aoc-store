@@ -87,6 +87,7 @@ function ControlPanel({items, user, addAlert}) {
     const [saving, setSaving] = useState(false);
     return (
         <div className="float-right">
+            
             <span className="d-inline-block lead align-middle mr-2">{user.displayName}</span>
             <ButtonGroup>
                 <Button onClick={() => submitSelections(items, user, addAlert, setSaving)} disabled={saving}>Submit</Button>
@@ -104,7 +105,9 @@ ControlPanel.propTypes = {
         email : string,
         displayName : string
     }).isRequired,
-    addAlert : func.isRequired
+    addAlert : func.isRequired,
+    search : string,
+    setSearch : func.isRequired
 }
 
 export default ControlPanel;
