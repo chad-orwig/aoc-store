@@ -19,7 +19,7 @@ import firebase from './firebaseConfig';
 import 'firebase/auth';
 import 'firebase/firestore';
 
-import Fuse from '../node_modules/fuse.js';
+import Fuse from 'fuse.js';
 
 const alertTimeout = 3000;
 
