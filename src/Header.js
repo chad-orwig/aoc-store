@@ -11,7 +11,6 @@ import Search from './Search.js';
 
 function Header({ user, items, addAlert, search, setSearch }) {
     const loginPanel = !user ? (<LoginPanel />) : (<ControlPanel user={user} items={items} addAlert={addAlert} search={search} setSearch={setSearch} />);
-    //remember to do the column size for search
     return (
         <div className="fixed-top bg-info text-white p-2">
             <Row noGutters={true}>

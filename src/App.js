@@ -162,14 +162,9 @@ class App extends React.Component {
   componentDidMount = () => {
     firebase.auth().onAuthStateChanged(this.setUser);
   }
-  searchItems(items) {
-    return this.fuse.search();
-  }
+  
   render() {
     const disabledOverlay = this.state.enabled ? '' : <DisabledOverlay />
-
-    //filter items by passing ControlPanel's input text into the fuzzy search.
-
 
     return (
       <div>
