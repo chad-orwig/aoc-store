@@ -13,7 +13,6 @@ import curry from 'lodash/fp/curry';
 import findIndex from 'lodash/fp/findIndex';
 import find from 'lodash/fp/find';
 import filter from 'lodash/fp/filter';
-import keyBy from 'lodash/fp/keyBy';
 import uuid from 'uuid/v1';
 
 import firebase from './firebaseConfig';
@@ -25,12 +24,11 @@ import Fuse from 'fuse.js';
 const alertTimeout = 3000;
 
 const db = firebase.firestore();
-const keyByName = keyBy('name');
 
 class App extends React.Component {
   constructor() {
     super();
-    const {items, itemsByName} = this.freshItems()
+    const items = this.freshItems()
 
     const options = {
       keys: ['name', 'cost'],
@@ -40,30 +38,21 @@ class App extends React.Component {
 
     this.state = {
       items,
-      itemsByName,
       alerts : [],
       user : undefined,
       enabled : true,
       search : '',
-      filteredItems: items.map(i => i.name)
+      filteredItems: new Set(items.map(i => i.name))
     };
   }
 
   freshItems = () => {
-    const items =  storeItems
+    return storeItems
       .map(this.assignZeroQty)
       .map(this.calculateCost)
       .sort((i1, i2) => i2.cost - i1.cost || i1.name.localeCompare(i2.name))
       .map(this.addSetQuantityFunction)
       .map(this.addMakeSelectionFunction);
-
-    const itemsByName = keyByName(items);
-
-    return {
-      items,
-      itemsByName
-    }
-
   }
 
   mergeItemsFromDb = (itemsFromDb) => {
@@ -93,7 +82,7 @@ class App extends React.Component {
   setSearch = (search) => {
     const searchResult = search ? this.fuse.search(search) : this.state.items;
 
-    const filteredItems = searchResult.map(i => i.name);
+    const filteredItems = new Set(searchResult.map(i => i.name));
     
     this.setState({
       search,
@@ -107,7 +96,7 @@ class App extends React.Component {
       this.checkForSelections(user.uid);
     }
     else {
-      this.setState(this.freshItems());
+      this.setState({ items : this.freshItems() });
     }
   };
   setEnabled = (enabled) => this.setState({enabled});
@@ -179,7 +168,7 @@ class App extends React.Component {
   
   render() {
     const disabledOverlay = this.state.enabled ? '' : <DisabledOverlay />
-    const items = this.state.filteredItems.map(itemName => this.state.itemsByName[itemName]);
+    const items = this.state.items.filter(i => this.state.filteredItems.has(i.name));
 
     return (
       <div>
