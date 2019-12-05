@@ -13,6 +13,7 @@ import curry from 'lodash/fp/curry';
 import findIndex from 'lodash/fp/findIndex';
 import find from 'lodash/fp/find';
 import filter from 'lodash/fp/filter';
+import keyBy from 'lodash/fp/keyBy';
 import uuid from 'uuid/v1';
 
 import firebase from './firebaseConfig';
@@ -22,8 +23,8 @@ import 'firebase/firestore';
 import Fuse from 'fuse.js';
 
 const alertTimeout = 3000;
-
 const db = firebase.firestore();
+const keyByName = keyBy('name');
 
 class App extends React.Component {
   constructor() {
@@ -42,7 +43,7 @@ class App extends React.Component {
       user : undefined,
       enabled : true,
       search : '',
-      filteredItems: new Set(items.map(i => i.name))
+      filteredItems: items.map(i => i.name)
     };
   }
 
@@ -82,7 +83,7 @@ class App extends React.Component {
   setSearch = (search) => {
     const searchResult = search ? this.fuse.search(search) : this.state.items;
 
-    const filteredItems = new Set(searchResult.map(i => i.name));
+    const filteredItems = searchResult.map(i => i.name);
     
     this.setState({
       search,
@@ -168,7 +169,9 @@ class App extends React.Component {
   
   render() {
     const disabledOverlay = this.state.enabled ? '' : <DisabledOverlay />
-    const items = this.state.items.filter(i => this.state.filteredItems.has(i.name));
+    const itemsByName = keyByName(this.state.items);
+
+    const items = this.state.filteredItems.map(name => itemsByName[name]);
 
     return (
       <div>
