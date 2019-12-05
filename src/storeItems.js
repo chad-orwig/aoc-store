@@ -30,12 +30,6 @@ const storeItems =  [
         dollar : 29
     },
     {
-        url : 'https://www.sephora.com/product/caviar-anti-aging-reg-multiplying-volume-duo-P449779?icid2=products%20grid:p449779',
-        name : 'Alterna Haircare -- Anti Aging Multiplying Volumne Duo',
-        img : 'https://www.sephora.com/productimages/product/p449779-av-01-zoom.jpg',
-        dollar : 57
-    },
-    {
         url  : 'https://gear.slalom.com/SLA41/Employee+Store/Apparel/All+Apparel/New+Era+Heritage+Blend+3+4-Sleeve+Baseball+Raglan.axd',
         name : '3/4 Sleeve Baseball Raglan',
         img  : 'https://gear.slalom.com/images/products/dirs/41%2013007/41-13007A.jpg',
@@ -73,7 +67,7 @@ const storeItems =  [
     },
     {
         url : 'https://gear.slalom.com/SLA41/Employee+Store/Apparel/Men+s+Apparel/Alternative+Eco-Jersey+Zip+Lightweight+Hoodie.axd?cid=2760',
-        name : 'Slalom Hoodie',
+        name : 'Slalom Hoodie - A',
         img : 'https://gear.slalom.com/images/products/dirs/41%2015000/41-15000BlackA.jpg',
         dollar : 29.8,
         options : [
@@ -660,13 +654,19 @@ const storeItems =  [
         dollar : 35
     },
     {
-        name : 'Slalom Hoodie',
+        name : 'Slalom Hoodie - B',
         url : 'https://gear.slalom.com/SLA41/Employee+Store/Apparel/All+Apparel/Unisex+Bella+Canvas+Full-Zip.axd',
         img : 'https://gear.slalom.com/images/products/dirs/41%2014002/41-14002A.jpg',
         dollar : 30,
         options : [
             { name : 'Size', options :['XS', 'S', 'M', 'L', 'XL', '2XL']}
         ]
+    },
+    {
+        name : 'Tile Pro',
+        url : 'https://www.amazon.com/dp/B07W87124X',
+        img : 'https://images-na.ssl-images-amazon.com/images/I/61lm%2BsJLp9L._SL1500_.jpg',
+        dollar : 35
     }
 ];
 
