@@ -475,7 +475,7 @@ const storeItems =  [
         dollar : 100
     },
     {
-        name : 'Fire TV Cube',
+        name : 'Fire TV Six-Faced, Regular Polyhedron',
         url : 'https://www.amazon.com/all-new-fire-tv-cube-with-alexa-voice-remote/dp/B07KGVB6D6/ref=sr_1_2',
         img : 'https://images-na.ssl-images-amazon.com/images/I/41fziVetM7L._AC_SL1000_.jpg',
         dollar : 120
