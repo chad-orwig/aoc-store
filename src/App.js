@@ -42,7 +42,7 @@ class App extends React.Component {
       user : undefined,
       enabled : true,
       search : '',
-      filteredItems: items
+      filteredItems: new Set(items.map(i => i.name))
     };
   }
 
@@ -80,7 +80,10 @@ class App extends React.Component {
   }
 
   setSearch = (search) => {
-    const filteredItems = search ? this.fuse.search(search) : this.state.items
+    const searchResult = search ? this.fuse.search(search) : this.state.items;
+
+    const filteredItems = new Set(searchResult.map(i => i.name));
+    
     this.setState({
       search,
       filteredItems
@@ -165,13 +168,14 @@ class App extends React.Component {
   
   render() {
     const disabledOverlay = this.state.enabled ? '' : <DisabledOverlay />
+    const items = this.state.items.filter(i => this.state.filteredItems.has(i.name));
 
     return (
       <div>
         {disabledOverlay}
         <Header search={this.state.search} setSearch={this.setSearch} items={this.state.items} addAlert={this.addAlert} user={this.state.user} />        
         <AlertContainer alerts={this.state.alerts} />
-        <StarStore items={this.state.filteredItems} enabled={this.state.enabled}/>
+        <StarStore items={items} enabled={this.state.enabled}/>
       </div>
     );
   }

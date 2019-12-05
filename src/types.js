@@ -1,4 +1,4 @@
-import {arrayOf, shape, string, number} from 'prop-types';
+import {arrayOf, shape, string, number, func} from 'prop-types';
 
 export const optionType = shape({
     name : string,
@@ -6,10 +6,12 @@ export const optionType = shape({
 });
 
 export const itemType = shape({
-    name : string,
+    name : string.isRequired,
     url  : string,
-    img  : string,
-    cost : number,
-    qty  : number,
+    img  : string.isRequired,
+    cost : number.isRequired,
+    qty  : number.isRequired,
+    setQty : func.isRequired,
+    makeSelection : func.isRequired,
     options: arrayOf(optionType)
 });
