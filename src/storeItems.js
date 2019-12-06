@@ -667,6 +667,12 @@ const storeItems =  [
         url : 'https://www.amazon.com/dp/B07W87124X',
         img : 'https://images-na.ssl-images-amazon.com/images/I/61lm%2BsJLp9L._SL1500_.jpg',
         dollar : 35
+    },
+    {
+        name : 'Smart Plug 2Pk',
+        url : 'https://www.amazon.com/dp/B06WD6Q8K9/',
+        img : 'https://images-na.ssl-images-amazon.com/images/I/41SFIJ51PmL.jpg',
+        dollar : 31
     }
 ];
 
