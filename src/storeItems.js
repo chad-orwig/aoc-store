@@ -153,7 +153,7 @@ const storeItems =  [
         dollar : 16
     },
     {
-        name : 'Pandimic Board Game',
+        name : 'Pandemic Board Game',
         img : 'https://images-na.ssl-images-amazon.com/images/I/81tx8384RQL._AC_SL1383_.jpg',
         url : 'https://www.amazon.com/dp/B00A2HD40E',
         dollar : 25
