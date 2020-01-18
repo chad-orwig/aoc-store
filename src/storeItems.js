@@ -673,6 +673,12 @@ const storeItems =  [
         url : 'https://www.amazon.com/dp/B06WD6Q8K9/',
         img : 'https://images-na.ssl-images-amazon.com/images/I/41SFIJ51PmL.jpg',
         dollar : 31
+    },
+    {
+        name : 'Grip Strengthener Set',
+        url : 'https://www.amazon.com/Heavy-Grips-Hand-Grippers-Strengtheners/dp/B0017OSE1A',
+        img : 'https://images-na.ssl-images-amazon.com/images/I/71uASeRd3BL._SL1000_.jpg',
+        dollar : 30
     }
 ];
 
