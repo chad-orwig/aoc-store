@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import firebase from './firebaseConfig';
-import 'firebase/firestore';
 import 'firebase/auth';
+import {setSelectionsForUser} from './database';
 
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
@@ -11,8 +11,6 @@ import { arrayOf, shape, string, func } from 'prop-types';
 import filter from 'lodash/fp/filter';
 import sumBy from 'lodash/fp/sumBy';
 import find from 'lodash/fp/find';
-
-const db = firebase.firestore();
 
 const logout = () => firebase.auth().signOut();
 
@@ -75,7 +73,7 @@ function submitSelections(items, {uid, email, displayName}, addAlert, setSaving)
         return;   
     }
     setSaving(true);
-    db.collection('selections').doc(uid).set({
+    setSelectionsForUser(uid, {
         selections,
         email,
         displayName

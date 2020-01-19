@@ -1,6 +1,13 @@
 import React from 'react';
 
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+
 import StarStore from './StarStore';
+import AdminPage from './AdminPage';
 import Header from './Header';
 import AlertContainer from './AlertContainer';
 import DisabledOverlay from './DisabledOverlay';
@@ -17,13 +24,12 @@ import keyBy from 'lodash/fp/keyBy';
 import uuid from 'uuid/v1';
 
 import firebase from './firebaseConfig';
+import {getSelectionsForUser} from './database';
 import 'firebase/auth';
-import 'firebase/firestore';
 
 import Fuse from 'fuse.js';
 
 const alertTimeout = 3000;
-const db = firebase.firestore();
 const keyByName = keyBy('name');
 
 class App extends React.Component {
@@ -70,7 +76,7 @@ class App extends React.Component {
 
   checkForSelections = (uid) => {
     this.setEnabled(false);
-    db.collection('selections').doc(uid).get().then(doc => {
+    getSelectionsForUser(uid).then(doc => {
       const selections = doc.get('selections');
       if(selections) {
         this.mergeItemsFromDb(selections);
@@ -174,12 +180,17 @@ class App extends React.Component {
     const items = this.state.filteredItems.map(name => itemsByName[name]);
 
     return (
-      <div>
-        {disabledOverlay}
-        <Header search={this.state.search} setSearch={this.setSearch} items={this.state.items} addAlert={this.addAlert} user={this.state.user} />        
-        <AlertContainer alerts={this.state.alerts} />
-        <StarStore items={items} enabled={this.state.enabled}/>
-      </div>
+      <Router>
+        <div>
+          {disabledOverlay}
+          <Header search={this.state.search} setSearch={this.setSearch} items={this.state.items} addAlert={this.addAlert} user={this.state.user} />        
+          <AlertContainer alerts={this.state.alerts} />
+          <Switch>
+            <Route path="/admin"><AdminPage /></Route>
+            <Route path="/"><StarStore items={items} enabled={this.state.enabled}/></Route>
+          </Switch>
+        </div>
+      </Router>
     );
   }
 }

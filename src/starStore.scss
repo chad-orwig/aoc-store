@@ -4,6 +4,17 @@
     justify-content: center;
 }
 
+.aocUser {
+    cursor: pointer;
+    border : 2px solid transparent;
+    list-style-type: none;
+    width : 400px;
+    padding: 5px;
+    &.selected {
+        border : 2px solid green;
+    }
+}
+
 @include media-breakpoint-down(xs) {
     html {
         font-size: .7rem;
