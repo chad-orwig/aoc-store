@@ -23,12 +23,12 @@ function AdminPage() {
     
     const child = ready ? (
         <Accordion defaultActiveKey="1">
-            <Card>
+            <Card className="hide-print">
                 <Card.Header><Accordion.Toggle as={Button} variant="link" eventKey="0">Matcher</Accordion.Toggle></Card.Header>
                 <Accordion.Collapse eventKey="0"><Card.Body><Matcher dbResults={dbResults} selections={selections} aocResults={aocResults} setDbResults={setDbResults} /></Card.Body></Accordion.Collapse>
             </Card>
             <Card>
-                <Card.Header><Accordion.Toggle as={Button} variant="link" eventKey="1">Checker</Accordion.Toggle></Card.Header>
+                <Card.Header className="hide-print" ><Accordion.Toggle as={Button} variant="link" eventKey="1">Checker</Accordion.Toggle></Card.Header>
                 <Accordion.Collapse eventKey="1"><Card.Body><Checker dbResults={dbResults} selections={selections} aocResults={aocResults}/></Card.Body></Accordion.Collapse>
             </Card>
         </Accordion>

@@ -39,9 +39,9 @@ function buildStuff(valid, setStuff) {
                 const key = [s.name, ...(Object.values(options))].join(' | ');
                 if(stuff[key]) {
                     stuff[key].qty += s.qty;
-                    stuff[key].people.push(person);
+                    stuff[key].people.push(`${person}[${s.qty}]`);
                 }
-                else Object.assign(stuff, {[key] : {options, name : s.name, qty : s.qty, people: [person]}});
+                else Object.assign(stuff, {[key] : {options, name : s.name, qty : s.qty, people: [`${person}[${s.qty}]`]}});
             });
             return stuff;
         }, {});
@@ -59,7 +59,7 @@ export default function Checker({dbResults, aocResults, selections}) {
     useEffect(buildStuff(valid, setStuff), [valid]);
 
     const invalidCards = invalid.map((item, index) => (
-        <Card key={index} bg='danger' text='white'>
+        <Card className="hide-print" key={index} bg='danger' text='white'>
             <Card.Header><Card.Title>{item.name}</Card.Title></Card.Header>
         </Card>))
     const stuffKeys = Object.keys(stuff);

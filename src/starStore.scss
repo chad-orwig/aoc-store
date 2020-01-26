@@ -14,6 +14,11 @@
         border : 2px solid green;
     }
 }
+@media print {
+    .hide-print {
+        display: none;
+    }
+}
 
 @include media-breakpoint-down(xs) {
     html {
