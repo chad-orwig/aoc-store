@@ -24,7 +24,7 @@ import keyBy from 'lodash/fp/keyBy';
 import uuid from 'uuid/v1';
 
 import firebase from './firebaseConfig';
-import {getSelectionsForUser} from './database';
+import {getSelectionsForUser, year} from './database';
 import 'firebase/auth';
 
 import Fuse from 'fuse.js';
@@ -54,7 +54,7 @@ class App extends React.Component {
   }
 
   freshItems = () => {
-    return storeItems
+    return storeItems[year]
       .map(this.assignZeroQty)
       .map(this.calculateCost)
       .sort((i1, i2) => i2.cost - i1.cost || i1.name.localeCompare(i2.name))
@@ -77,7 +77,7 @@ class App extends React.Component {
   checkForSelections = (uid) => {
     this.setEnabled(false);
     getSelectionsForUser(uid).then(doc => {
-      const selections = doc.get('selections');
+      const selections = doc.get(year);
       if(selections) {
         this.mergeItemsFromDb(selections);
       }

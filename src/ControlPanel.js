@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import firebase from './firebaseConfig';
 import 'firebase/auth';
-import {setSelectionsForUser} from './database';
+import {setSelectionsForUser, year} from './database';
 
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
@@ -74,7 +74,7 @@ function submitSelections(items, {uid, email, displayName}, addAlert, setSaving)
     }
     setSaving(true);
     setSelectionsForUser(uid, {
-        selections,
+        [year]: selections,
         email,
         displayName
     }).then(() => addAlert({ heading: 'Save Success', message: `Saved ${selections.length} selections`, variant : 'primary'}))
