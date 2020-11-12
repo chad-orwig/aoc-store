@@ -199,7 +199,7 @@ const storeItems =  [
         name : 'Tungsten Cube',
         url : 'https://www.amazon.com/Tungsten-Cube-1-5-One-Kilo/dp/B00XZBIJLS',
         img : 'https://images-na.ssl-images-amazon.com/images/I/61xgSKE-rqL._SL1500_.jpg',
-        dollar : 170
+        dollar : 140
     },
     {
         name : '24 Pack of Blenheim Ginger Ale (Chad\'s Favorite)',
