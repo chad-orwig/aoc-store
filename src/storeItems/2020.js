@@ -471,6 +471,42 @@ const storeItems =  [
         img: 'https://gear.slalom.com/images/products/dirs/41%2044095/41-44095A.jpg',
         dollar: 5.1,
     },
+    {
+        name: 'Novelty Graphic Blanket',
+        url: 'https://www.amazon.com/ZHONGKUI-Blanket-Hamburger-Flannel-Seasons/dp/B08B83ZPGH',
+        img: 'https://m.media-amazon.com/images/I/71a5ObZBhHL._AC_SL1200_.jpg',
+        dollar: 47,
+        options: [
+            { name: 'Graphic', options: [
+                'Advocado', ' Axolotl', 'Bear', 'Black Cat',
+                'Marble Water', 'Blue Ocean', 'Bohemia Feathers',
+                'Boho Elephant', 'Boston Terrier', 'Bulldog',
+                'Butterfly', 'Purple Camo', 'Cat', 'Peacock',
+                'Music Note', 'Cow', 'Shark', 'Cactus', 'Floral',
+                'French Bulldog',  'Pandas', 'Sushi', 'Dinosaurs',
+                'Dog Print', 'Elephant', 'Flamingo', 'Flower',
+                'Fruit', 'Galaxy', 'Geometric', 'Glitter',
+                'Hamburger', 'Healing Thoughts', 'Hedgehog',
+                'I Love You', 'Ink', 'Kiwi', 'Koala', 
+                'Leopard Skin', 'Mandela'
+            ]}
+        ]
+    },
+    {
+        name: 'Digital Picture Frame',
+        url: 'https://www.amazon.com/dp/B0815ZZ29C',
+        img: 'https://images-na.ssl-images-amazon.com/images/I/61X67Zhx42L._AC_SL1001_.jpg',
+        dollar: 130
+    },
+    {
+        name: 'Ring Doorbell',
+        url: 'https://www.amazon.com/dp/B07WGJ8XWZ',
+        img: 'https://images-na.ssl-images-amazon.com/images/I/51oJgHxW2eL._SL1000_.jpg',
+        dollar: 100,
+        options: [
+            { name: 'Color', options: [ 'Satin Nickel', 'Venetian Bronze' ]}
+        ]
+    },
 ]
 
 export default storeItems;
