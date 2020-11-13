@@ -17,15 +17,6 @@ const storeItems =  [
         dollar : 8
     },
     {
-        url : 'https://gear.slalom.com/SLA41/Employee+Store/Apparel/All+Apparel/Quad+Pullover.axd',
-        name : 'Quad Pullover',
-        img : 'https://gear.slalom.com/images/products/dirs/41%2014056/41-14056A.jpg',
-        dollar : 30.29,
-        options : [
-            { name : 'Size', options : [ 'XS', 'S', 'M', 'L', 'XL', '2XL' ]}
-        ]
-    },
-    {
         url : 'https://gear.slalom.com/SLA41/Employee+Store/Apparel/Men+s+Apparel/Alternative+Eco-Jersey+Zip+Lightweight+Hoodie.axd?cid=2760',
         name : 'Slalom Hoodie - A',
         img : 'https://gear.slalom.com/images/products/dirs/41%2015000/41-15000BlackA.jpg',
@@ -46,7 +37,7 @@ const storeItems =  [
     },
     {
         url : 'https://gear.slalom.com/SLA41/Employee+Store/Apparel/All+Apparel/Ladies+Adidas+-+Heathered+Sport+Shirt.axd',
-        name : 'Ladies Puma Heather Polo',
+        name : 'Ladies Adidas Polo',
         img : 'https://gear.slalom.com/images/products/dirs/41%2021007/41-21007A.jpg',
         dollar : 40.25,
         options : [
@@ -389,7 +380,97 @@ const storeItems =  [
         url : 'https://www.amazon.com/Heavy-Grips-Hand-Grippers-Strengtheners/dp/B0017OSE1A',
         img : 'https://images-na.ssl-images-amazon.com/images/I/71uASeRd3BL._SL1000_.jpg',
         dollar : 30
-    }
-];
+    },
+    {
+        name: 'Slalom Mesh Cap',
+        url: 'https://gear.slalom.com/SLA41/Employee+Store/Apparel/All+Apparel/Performance+Mesh+Cap.axd',
+        img: 'https://gear.slalom.com/images/products/dirs/41%2031008/41-31008A.jpg',
+        dollar: 12.75
+    },
+    {
+        name: 'Slalom Sweatshirt',
+        url: 'https://gear.slalom.com/SLA41/Employee+Store/Apparel/All+Apparel/Bella+Canvas+Unisex+Raglan+Sweatshirt.axd',
+        img: 'https://gear.slalom.com/images/products/dirs/41%2014005/41-14005A.jpg',
+        dollar: 29,
+        options: [
+            { name : 'Size', options : [ 'S', 'M', 'L', 'XL', '2XL' ]}
+        ]
+    },
+    {
+        name: 'Slalom Sweatpants',
+        url: 'https://gear.slalom.com/SLA41/Employee+Store/Apparel/All+Apparel/Alternative+Eco-Fleece+Jogger.axd',
+        img: 'https://gear.slalom.com/images/products/dirs/41%2016008/41-16008A.jpg',
+        dollar: 36.8,
+        options: [
+            { name : 'Size', options : [ 'S', 'M', 'L', 'XL', '2XL' ]}
+        ]
+    },
+    {
+        name: 'Slalom Baseball 3/4-Sleeve',
+        url: 'https://gear.slalom.com/SLA41/Employee+Store/Apparel/All+Apparel/New+Era+Heritage+Blend+3+4-Sleeve+Baseball+Raglan.axd',
+        img: 'https://gear.slalom.com/images/products/dirs/41%2013007/41-13007A.jpg',
+        dollar: 19.55,
+        options: [
+            { name : 'Size', options : [ 'XS', 'S', 'M', 'L', 'XL', '2XL', '3XL' ]}
+        ]
+    },
+    {
+        name: 'Pandemic: Legacy Season 1',
+        url: 'https://www.amazon.com/Pandemic-Legacy-Season-1-Red/dp/B00TQ0DXR2/',
+        img: 'https://images-na.ssl-images-amazon.com/images/I/A1c9X%2BEUeXL._AC_SL1500_.jpg',
+        dollar: 65
+    },
+    {
+        name: 'Cyberpunk 2077',
+        url: 'https://www.amazon.com/Cyberpunk-2077-PlayStation-4/dp/B07DJWBYKP',
+        img: 'https://images-na.ssl-images-amazon.com/images/I/914o8-wHBmL._SL1500_.jpg',
+        dollar: 60,
+        options: [
+            { name: 'Platform', options: [ 'PS4', 'Xbox One', 'PC' ]}
+        ]
+    },
+    {
+        name: 'Spider-Man: Miles Morales',
+        url: 'https://www.amazon.com/Marvels-Spider-Man-Miles-Morales-Launch-PlayStation/dp/B08FC5J867',
+        img: 'https://m.media-amazon.com/images/I/71xpcnEYHaL._SL1500_.jpg',
+        dollar: 60,
+        options: [
+            { name: 'Platform', options: [ 'PS4', 'PS5' ]}
+        ]
+    },
+    {
+        name: 'Hyrule Warriors: Age of Calamity',
+        url: 'https://www.amazon.com/Hyrule-Warriors-Age-Calamity-Nintendo-Switch/dp/B08HP4K7KC',
+        img: 'https://sickr.files.wordpress.com/2020/10/hyrule_warriors_age_of_calamity-.jpg',
+        dollar: 60,
+        options: [
+            { name: 'Platform', options: [ 'PS4', 'PS5' ]}
+        ]
+    },
+    {
+        name: 'Slalom Camp Mug',
+        url: 'https://gear.slalom.com/SLA41/Employee+Store/Accessories/Drinkware/MiiR+Vacuum+Insulated+Camp+Cup+-+12+Oz.axd',
+        img: 'https://gear.slalom.com/images/products/dirs/41%2052889/41-52889A.jpg',
+        dollar: 23.5,
+    },
+    {
+        name: 'Slalom Glass Tumbler',
+        url: 'https://gear.slalom.com/SLA41/Employee+Store/Accessories/Drinkware/Ello+Glass+Tumbler+20+oz.axd',
+        img: 'https://gear.slalom.com/images/products/dirs/41%2052016/41-52016A.jpg',
+        dollar: 21.75,
+    },
+    {
+        name: 'Slalom Ceramic Mug',
+        url: 'https://gear.slalom.com/SLA41/Employee+Store/Accessories/Drinkware/Sienna+Ceramic+Mug.axd',
+        img: 'https://gear.slalom.com/images/products/dirs/41%2052022/41-52022A.jpg',
+        dollar: 5.1,
+    },
+    {
+        name: 'Slalom Duffel Bag',
+        url: 'https://gear.slalom.com/SLA41/Employee+Store/Accessories/Bags/CB+19+Cotton+Weekender+Duffel.axd',
+        img: 'https://gear.slalom.com/images/products/dirs/41%2044095/41-44095A.jpg',
+        dollar: 5.1,
+    },
+]
 
 export default storeItems;
