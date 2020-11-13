@@ -6,13 +6,19 @@ import Options from './Options';
 
 function buildImgWithLink({url, img}) {
     return (
-        <a href={url} target="_blank" rel="noopener noreferrer"><Card.Img className="p-2" varient="top" src={img} /></a>
+        <div className="img-wrapper">
+            <a href={url} target="_blank" rel="noopener noreferrer">
+                <Card.Img className="p-2" varient="top" src={img} />
+            </a>
+        </div>
     );
 }
 
 function buildImgWithoutLink({img}) {
     return (
-        <Card.Img className="p-2" varient="top" src={img} />
+        <div className="img-wrapper">
+            <Card.Img className="p-2" varient="top" src={img} />
+        </div>
     );
 }
 
