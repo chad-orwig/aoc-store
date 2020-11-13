@@ -191,9 +191,9 @@ const storeItems =  [
     },
     {
         name : 'Anker Power Bank',
-        img : 'https://images-na.ssl-images-amazon.com/images/I/615GoBqVs8L._AC_SL1500_.jpg',
-        url : 'https://www.amazon.com/dp/B0832VKBFJ',
-        dollar : 40
+        img : 'https://images-na.ssl-images-amazon.com/images/I/41311aYn-dL._AC_SL1200_.jpg',
+        url : 'https://www.amazon.com/dp/B071G7TL2C',
+        dollar : 26
     },
     {
         name : 'Tungsten Cube',
