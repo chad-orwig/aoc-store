@@ -469,7 +469,7 @@ const storeItems =  [
         name: 'Slalom Duffel Bag',
         url: 'https://gear.slalom.com/SLA41/Employee+Store/Accessories/Bags/CB+19+Cotton+Weekender+Duffel.axd',
         img: 'https://gear.slalom.com/images/products/dirs/41%2044095/41-44095A.jpg',
-        dollar: 5.1,
+        dollar: 47.25,
     },
     {
         name: 'Novelty Graphic Blanket',
