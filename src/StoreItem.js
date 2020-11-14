@@ -22,13 +22,17 @@ function buildImgWithoutLink({img}) {
     );
 }
 
+
 function StoreItem( {item} ) {
+    const cost = item.cost;
+    const upcharge = item.calculateUpcharge();
+    const upchargeString = upcharge ? `+${upcharge}` : '';
     return (
         <Card style={{minWidth : '300px', maxWidth: '528px'}} bg={item.qty ? 'info' : 'light'} text={item.qty ? 'white' : undefined} className="my-2">
             {item.url ? buildImgWithLink(item) : buildImgWithoutLink(item)}
             <Card.Body>
                 <Card.Title>{item.name}</Card.Title>
-                <Card.Text>{`${item.cost} Stars`}</Card.Text>
+                <Card.Text>{`${cost}${upchargeString} Stars`}</Card.Text>
             </Card.Body>
             <Card.Footer>
                 <QtySelector item={item} />

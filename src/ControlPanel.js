@@ -15,10 +15,15 @@ import find from 'lodash/fp/find';
 const logout = () => firebase.auth().signOut();
 
 const findSelectedItems = filter(i => i.qty > 0);
-const sumByRequiredCost = sumBy(({qty, cost}) => (qty * cost));
-const optionMissingSelection = find(({selection}) => !selection)
+const sumByRequiredCost = sumBy(({qty, cost, upcharge}) => (qty * cost) + upcharge);
+const optionMissingSelection = find(({selections}) => !selections);
+const tooManySelections = (qty) => find(({selections, count}) => selections && selections.length > (qty * (count || 1)));
 const selectionsWithoutOptionSelection = filter(({options}) => {
     return options && !!optionMissingSelection(options);
+});
+const selectionsWithTooManyOptionsSelected = filter(({options, qty}) => {
+    console.log(options);
+    return options && !!tooManySelections(qty)(options);
 });
 
 function overFiftyStarsRequired(selections) {
@@ -52,6 +57,15 @@ function selectionErrors(selections) {
         }))
         .forEach(error => errors.push(error));
 
+    selectionsWithTooManyOptionsSelected(selections)
+        .map(({name}) => ({
+            heading : 'Too Many Options',
+            message : `Please check the option selections for ${name}`,
+            variant : 'danger'
+        }))
+        .forEach(error => errors.push(error));
+
+
     
 
     return errors;
@@ -60,8 +74,15 @@ function selectionErrors(selections) {
 
 function submitSelections(items, {uid, email, displayName}, addAlert, setSaving) {
     const selections = findSelectedItems(items)
-        .map(({name, qty, options, cost}) => {
-            const res = {name, qty, options, cost}
+        .map((item) => {
+            const {name, qty, options, cost} = item;
+            const res = {
+                name,
+                qty,
+                options,
+                cost,
+                upcharge : item.calculateUpcharge()
+            }
             if(!options) {
                 delete res.options;
             }

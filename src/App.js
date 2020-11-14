@@ -59,7 +59,8 @@ class App extends React.Component {
       .map(this.calculateCost)
       .sort((i1, i2) => i2.cost - i1.cost || i1.name.localeCompare(i2.name))
       .map(this.addSetQuantityFunction)
-      .map(this.addMakeSelectionFunction);
+      .map(this.addMakeSelectionFunction)
+      .map(this.addUpchargeFunction);
   }
 
   mergeItemsFromDb = (itemsFromDb) => {
@@ -147,17 +148,41 @@ class App extends React.Component {
   setOptionsAtIndex = this.updatePropertyAtIndexCurried('items', 'options');
 
   addMakeSelectionFunction = (item, index) => Object.assign({
-    makeSelection : this.createMakeSelectionFunction(item, index)
+    makeSelection : this.createMakeSelectionFunction(index)
   }, item);
-  createMakeSelectionFunction = (item, index) => {
+  addUpchargeFunction = (item, index) => Object.assign({
+    calculateUpcharge : this.createCalculateUpchargeFuncion(index)
+  }, item)
+
+  createCalculateUpchargeFuncion = (index) => () => {
+    const { options } = this.state.items[index];
+    if(!options) return 0;
+    return options.reduce((v, option) => {
+        if(!option.upcharge || !option.selections) return v;
+        const indexes = option.selections
+            .map(s => option.options.indexOf(s));
+        const upcharge = indexes.map(i => option.upcharge[i])
+        const price = upcharge.reduce((tot, num) => tot + num, 0) + v;
+        return price;
+    }, 0);
+  }
+  createMakeSelectionFunction = (index) => {
     return (optionName, optionSelection) =>  {
       const options = access(this.state.items, `[${index}].options`);
       if(!options) {
         return;
       }
+      const item = this.state.items[index];
       const optionIndex = findIndex({ name : optionName })(options);
       if(optionIndex >= 0) {
-        const updatedOption = Object.assign({}, options[optionIndex], { selection : optionSelection});
+        const selections = options[optionIndex].selections || [];
+        const newSelections = [ ...selections];
+        const maxSelections = (item.qty || 1) * (options[optionIndex].count || 1);
+        while(newSelections.length >= maxSelections) {
+          newSelections.pop();
+        }
+        newSelections.unshift(optionSelection);
+        const updatedOption = Object.assign({}, options[optionIndex], { selections : newSelections});
         const updatedOptions = this.mergeUpdateAtIndex(options, updatedOption, optionIndex);
         this.setOptionsAtIndex(updatedOptions, index);
       }

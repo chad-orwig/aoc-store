@@ -122,11 +122,11 @@ const storeItems =  [
     },
     {
         name : 'Keychron K2 Mechanical Keyboard',
-        url : 'https://cdn.shopify.com/s/files/1/0059/0630/1017/products/K2-LED-Red_f28b594f-9bde-41d3-99ff-c089037b5627_1800x1800.jpg?v=1572842100',
+        url : 'https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard',
         img : 'https://cdn.shopify.com/s/files/1/0059/0630/1017/products/Keychron-K2-wireless-mechanical-keyboard-for-Mac-Windows-iOS-Gateron-switch-red-with-type-C-RGB-white-backlight_1800x1800.jpg',
-        dollar : 76,
+        dollar : 89,
         options : [
-            { name : 'Version', options : [ 'White', 'RGB', 'RGB With Aluminum Frame']},
+            { name : 'Version', options : [ 'White', 'RGB +2⭐', 'RGB With Aluminum Frame +4⭐'], upcharge: [0, 2, 4]},
             { name : 'Switch', options : [ 'Red', 'Brown', 'Blue']}
         ]
     },
@@ -507,6 +507,43 @@ const storeItems =  [
             { name: 'Color', options: [ 'Satin Nickel', 'Venetian Bronze' ]}
         ]
     },
+    {
+        name: '3 Oz. Plum Deluxe Tea',
+        url: 'https://www.plumdeluxe.com/teashop?orderby=popularity',
+        img: 'https://www.plumdeluxe.com/wp-content/uploads/magictoolbox_cache/cf3e6ec01aac7cb79461bcfe9d0d075e/4/1/41245/thumb650x650/3628692511/plum-deluxe-tea1.jpg',
+        dollar: 25,
+        options: [
+            {
+                name: 'Flavor',
+                count: 3,
+                options: [
+                    'Magical Butterfly',
+                    'Pumpkin Spice',
+                    'Spicy Caramel Apple Cinnamon',
+                    'Peaches n\' Cream',
+                    'The Self Care Blend',
+                    'Gratitude Blend',
+                    'Vanilla Sugar Cookie',
+                    'Butterfly Pea Flowers',
+                    'Reading Nook Tea Blend',
+                    'Peach Bellini',
+                    'Sweet Spot Butterscotch',
+                    'Creme Brulee Earl Grey',
+                    "Porch Sippin' Pecan",
+                    'Chocolate Hazelnut',
+                    'Mindful Morning Tea',
+                    'Strawberries & Cream Black',
+                    'Delightful Morning Blend',
+                    'Full Moon Chai',
+                    'Royal Wedding Black',
+                    'Autumn Almond Chai',
+                    'Picard Black Tea',
+                    'House Blend Black',
+                    'Vanilla Latte Tea'
+                ]
+            }
+        ]
+    }
 ]
 
 export default storeItems;
