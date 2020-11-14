@@ -126,7 +126,7 @@ const storeItems =  [
         img : 'https://cdn.shopify.com/s/files/1/0059/0630/1017/products/Keychron-K2-wireless-mechanical-keyboard-for-Mac-Windows-iOS-Gateron-switch-red-with-type-C-RGB-white-backlight_1800x1800.jpg',
         dollar : 89,
         options : [
-            { name : 'Version', options : [ 'White', 'RGB +2⭐', 'RGB With Aluminum Frame +4⭐'], upcharge: [0, 2, 4]},
+            { name : 'Version', options : [ 'White', 'RGB +2⭐', 'RGB/Aluminum Frame +4⭐'], upcharge: [0, 2, 4]},
             { name : 'Switch', options : [ 'Red', 'Brown', 'Blue']}
         ]
     },

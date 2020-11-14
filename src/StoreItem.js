@@ -24,7 +24,7 @@ function buildImgWithoutLink({img}) {
 
 
 function StoreItem( {item} ) {
-    const cost = item.cost;
+    const cost = item.cost * (item.qty || 1);
     const upcharge = item.calculateUpcharge();
     const upchargeString = upcharge ? `+${upcharge}` : '';
     return (
