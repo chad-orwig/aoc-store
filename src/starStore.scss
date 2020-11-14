@@ -15,6 +15,15 @@
     }
 }
 
+.mx-1.dropdown {
+    max-width: 100%;
+    .dropdown-toggle {
+        max-width: 100%;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+}
+
 .img-wrapper {
     width: 100%;
     position: relative;
