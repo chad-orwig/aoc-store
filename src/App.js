@@ -143,7 +143,14 @@ class App extends React.Component {
 
   updatePropertyAtIndexCurried = curry(this.updatePropertyAtIndex);
 
-  setQuantityAtIndex = this.updatePropertyAtIndexCurried('items', 'qty');
+  setQuantityAtIndex = (index) => {
+    return (qty) => {
+      if(!qty) {
+        this.clearAllSelectionsAtIndex(index);
+      }
+      this.updatePropertyAtIndexCurried('items', 'qty', qty, index);
+    }
+  }
 
   setOptionsAtIndex = this.updatePropertyAtIndexCurried('items', 'options');
 
@@ -181,17 +188,26 @@ class App extends React.Component {
         while(newSelections.length >= maxSelections) {
           newSelections.pop();
         }
-        newSelections.unshift(optionSelection);
+        while(newSelections.length < maxSelections) {
+          newSelections.unshift(optionSelection);
+        }
         const updatedOption = Object.assign({}, options[optionIndex], { selections : newSelections});
         const updatedOptions = this.mergeUpdateAtIndex(options, updatedOption, optionIndex);
         this.setOptionsAtIndex(updatedOptions, index);
       }
-
     }
+  }
+  clearAllSelectionsAtIndex = (index) => {
+    const item = this.state.items[index];
+    if(!item.options) return;
+    const newOptions = item.options
+      .map(option => Object.assign({}, option, { selections: undefined }));
+
+    this.updatePropertyAtIndex('items', 'options', newOptions, index);
   }
 
   addSetQuantityFunction = (item, index) => Object.assign({
-    setQty : this.setQuantityAtIndex(curry.placeholder,index)
+    setQty : this.setQuantityAtIndex(index)
   }, item);
 
   componentDidMount = () => {
