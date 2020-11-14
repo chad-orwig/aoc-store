@@ -545,7 +545,7 @@ const storeItems =  [
         ]
     },
     {
-        name: '$80 toward AirBnB Online Experiences',
+        name: '$100 toward AirBnB Online Experiences',
         url: 'https://www.airbnb.com/s/experiences',
         img: 'https://media1.s-nbcnews.com/j/newscms/2020_24/3383031/airbnb-experiences-kr-2x1-tease-200608_2dbec30d590e15a8313561c9de552ad5.fit-760w.jpg',
         dollar: 100
