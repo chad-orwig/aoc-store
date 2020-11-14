@@ -570,6 +570,98 @@ const storeItems =  [
                 ]
             }
         ]
+    },
+    {
+        name: 'Infuse & Pour Alcohol Kit',
+        url: 'https://www.uncommongoods.com/product/infuse-pour-alcohol-kit',
+        img: 'https://www.uncommongoods.com/images/items/51000/51019_1_640px.jpg',
+        options: [{
+            name: 'Flavor',
+            options: [
+                'Navel Gazer Spiced Orange',
+                'Blue Sunday Blueberry Lavender',
+                'Parrot Head Strawberry Jalapeno',
+                'Island Time Spicy Pineapple',
+            ]
+        }],
+        dollar: 32
+    },
+    {
+        name: 'Votes for Women Puzzle',
+        img: 'https://www.uncommongoods.com/images/items/50700/50762_2_640px.jpg',
+        url: 'https://www.uncommongoods.com/product/votes-for-women-puzzle',
+        dollar: 27
+    },
+    {
+        name: 'Mason Jar Indoor Herb Garden',
+        url: 'https://www.uncommongoods.com/product/mason-jar-indoor-herb-garden',
+        img: 'https://www.uncommongoods.com/images/items/43400/43428_1_640px.jpg',
+        options: [{
+            name: 'Herb',
+            options: [ 'Basil', 'Cilantro', 'Mint', 'Oregano', 'Parsley', 'Sage']
+        }],
+        dollar: 27
+    },
+    {
+        name: 'National Parks Puzzle',
+        url: 'https://www.uncommongoods.com/product/vintage-national-parks-puzzle',
+        img: 'https://www.uncommongoods.com/images/items/51600/51668_2_640px.jpg',
+        dollar: 27
+    },
+    {
+        name: 'Candlefish Candle',
+        url: 'https://www.candlefish.com/collections/top-selling-fragrances',
+        img: 'https://i.pinimg.com/474x/42/3d/bd/423dbd56011dafe59e3e36b857f01f84.jpg',
+        dollar: 20,
+        options : [
+            {
+                name: 'Variety',
+                options: [  '04', '09', '25', '31', '70', '83']
+            },
+            {
+                name: 'Size',
+                options: [ '2.5 oz', '9 oz +4⭐' ],
+                upcharge: [ 0, 4 ]
+            }
+        ]
+    },
+    {
+        name: 'ATL Necklace',
+        url: 'https://www.admiralrow.com/products/atl-gold-necklace-best-seller',
+        img: 'https://cdn.shopify.com/s/files/1/0502/7476/2931/products/ATL_Gold_Necklace_13_700x.jpg',
+        dollar: 38,
+        options: [{
+            name: 'Size',
+            options: ['16"', '18"']
+        }]
+    },
+    {
+        name: 'Chrome Yellow Coffee: "Neighborhood" Blend',
+        img: 'https://chrome-yellow.square.site/uploads/1/3/1/5/131502172/s665635129870278260_p173_i3_w900.jpeg',
+        url: 'https://www.chromeyellowtradingco.com/shop/cy-x-methodical-neighborhood-blend',
+        dollar: 16,
+        options: [{
+            name: 'Grind',
+            options: [
+                'Whole Bean',
+                'Grind for Drip',
+                'Grind for French Press'
+            ]
+        }]
+    },
+    {
+        name: 'Chrome Yellow Coffee: Point Counter Point Blend',
+        img: 'https://images.squarespace-cdn.com/content/v1/52bc5ffae4b02f7251df986b/1572534779911-NRBPTN3F9OY8SKH37XO3/ke17ZwdGBToddI8pDm48kMHUi6nJs3XGQQD1dLtEzBN7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URDu2r4KZan2FWgHloO1sB8gXNay9IiiFUhbkZDyBIKHBCNz6nEb8mveAFSbJeRRHQ/DSC_0207-5.jpg',
+        url: 'https://www.chromeyellowtradingco.com/shop/chrome-yellow-coffee-point-counter-point',
+        dollar: 17,
+        options: [{
+            name: 'Grind',
+            options: [
+                'Whole Bean',
+                'Grind for Drip',
+                'Grind for French Press'
+            ]
+        }]
     }
 ]
 
