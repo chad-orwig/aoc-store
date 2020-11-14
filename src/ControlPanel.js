@@ -22,7 +22,6 @@ const selectionsWithoutOptionSelection = filter(({options}) => {
     return options && !!optionMissingSelection(options);
 });
 const selectionsWithTooManyOptionsSelected = filter(({options, qty}) => {
-    console.log(options);
     return options && !!tooManySelections(qty)(options);
 });
 
