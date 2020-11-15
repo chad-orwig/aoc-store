@@ -141,6 +141,13 @@ class App extends React.Component {
     });
   };
 
+  setSelections = (itemIndex, optionIndex, options, newSelections) => {
+    
+    const updatedOption = Object.assign({}, options[optionIndex], { selections : newSelections});
+    const updatedOptions = this.mergeUpdateAtIndex(options, updatedOption, optionIndex);
+    this.setOptionsAtIndex(updatedOptions, itemIndex);
+  }
+
   updatePropertyAtIndexCurried = curry(this.updatePropertyAtIndex);
 
   setQuantityAtIndex = (index) => {
@@ -148,8 +155,29 @@ class App extends React.Component {
       if(!qty) {
         this.clearAllSelectionsAtIndex(index);
       }
+      else if(qty > 1) {
+        this.addSelectionsIfNeeded(qty, index);
+      }
       this.updatePropertyAtIndexCurried('items', 'qty', qty, index);
     }
+  }
+
+  addSelectionsIfNeeded = (newQty, index) => {
+    const item = this.state.items[index];
+    if(!item.options) return;
+    const newOptions = item.options.map(option => {
+      if(!option.selections) return option;
+      const maxSelections = newQty * (option.count || 1);
+      const newSelections = [ ...option.selections ];
+      while(newSelections.length < maxSelections) {
+        const diff = newSelections.length - option.selections.length;
+        newSelections.push(option.selections[diff % option.selections.length]);
+      }
+      return Object.assign({}, option, { selections: newSelections});
+    });
+
+    this.setOptionsAtIndex(newOptions, index);
+
   }
 
   setOptionsAtIndex = this.updatePropertyAtIndexCurried('items', 'options');
@@ -191,9 +219,7 @@ class App extends React.Component {
         while(newSelections.length < maxSelections) {
           newSelections.unshift(optionSelection);
         }
-        const updatedOption = Object.assign({}, options[optionIndex], { selections : newSelections});
-        const updatedOptions = this.mergeUpdateAtIndex(options, updatedOption, optionIndex);
-        this.setOptionsAtIndex(updatedOptions, index);
+        this.setSelections(index, optionIndex, options, newSelections)
       }
     }
   }

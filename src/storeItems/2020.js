@@ -715,6 +715,31 @@ const storeItems =  [
             upcharge : [ 0, 1, 5, 3, 1, 1, 8]
         }]
 
+    },
+    {
+        name: 'Deluxe Silk Pillowcase',
+        img: 'https://images-na.ssl-images-amazon.com/images/I/71G7OrufJ7L._AC_SL1500_.jpg',
+        url: 'https://www.amazon.com/dp/B01D1U7ZE4',
+        dollar: 50,
+        options: [{
+            name: 'Color',
+            options: [ 
+                'Burgundy', 'Dark Green', 'English Rose', 'Light Blue',
+                'Light Green', 'Moonless Night', 'Natural White',
+                'Navy', 'Silver Pearl', 'Taupe', 'Deep Lavender'
+            ]
+        },
+        {
+            name: 'Size',
+            options : [
+                'Queen', // 50 -- 28
+                'King +1⭐', //54 -- 29
+                'Queen - Set of 2 +13⭐', //98 -- 41
+                'King - Set of 2 +15⭐' //108 -- 43
+            ],
+            upcharge: [ 0, 1, 13, 15 ]
+        }]
+
     }
 ]
 
