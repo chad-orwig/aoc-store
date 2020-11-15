@@ -695,6 +695,26 @@ const storeItems =  [
                 'XL'
             ]
         }]
+    },
+    {
+        name: 'Unlock! Escape Room Game Set',
+        url: 'https://www.amazon.com/Space-Cowboys-UNL07-Unlock-Adventures/dp/B086MBCG94',
+        img: 'https://images-na.ssl-images-amazon.com/images/I/8131N9UQrBL._AC_SL1500_.jpg',
+        dollar: 27,
+        options: [{
+            name : 'Set',
+            options: [
+                'Escape Adventures', // 19
+                'Mystery Adventures +1⭐', // 20
+                'Secret Adventures +5⭐', //24
+                'Exotic Adventures +3⭐', // 22
+                'Timeless Adventures +1⭐', //20
+                'Epic Adventures +1⭐', // 20
+                'Star Wars +8⭐' // 27
+            ],
+            upcharge : [ 0, 1, 5, 3, 1, 1, 8]
+        }]
+
     }
 ]
 
