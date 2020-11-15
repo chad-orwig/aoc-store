@@ -662,6 +662,39 @@ const storeItems =  [
                 'Grind for French Press'
             ]
         }]
+    },
+    {
+        name: 'Men\'s French Rugby Polo',
+        img: 'https://www.lecoqsportif.com/media/images/products/2021317/g_2021317_1.jpg',
+        url: 'https://www.lecoqsportif.com/uk-en/e-shop/sport-HOMMEEU20FWFFR_POLO_REPL001-xv-de-france-polo.html',
+        dollar: 100,
+        options: [{
+            name: 'Size',
+            options: [
+                'S',
+                'M',
+                'L',
+                'XL',
+                'XXL',
+                'XXXL',
+                '4XL'
+            ]
+        }]
+    },
+    {
+        name: 'Woman\'s French Rugby Jersey',
+        img: 'https://www.lecoqsportif.com/media/images/products/2020620/g_2020620_1.jpg',
+        url: 'https://www.lecoqsportif.com/uk-en/e-shop/sport-FEMMEEU20FWFFR_XV_MAILLO021-xv-de-france-jersey.html',
+        dollar: 100,
+        options: [{
+            name: 'Size',
+            options: [
+                'S',
+                'M',
+                'L',
+                'XL'
+            ]
+        }]
     }
 ]
 

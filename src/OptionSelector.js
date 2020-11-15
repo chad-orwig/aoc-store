@@ -12,7 +12,7 @@ function OptionSelector({ options, makeSelection }) {
     const title = `${options.name} ${subtitle}`
     const items = options.options.map((o, i) => {
         const numSelections = options.selections? options.selections.filter(s => s === o).length : 0;
-        const subtitle = numSelections > 1 ? ` (${numSelections})` : '';
+        const subtitle = numSelections > 1 ? ` - x${numSelections}` : '';
         return <Dropdown.Item key={i} active={!!numSelections} onClick={() => makeSelection(options.name, o)}>{o + subtitle}</Dropdown.Item>
     });
     return (
