@@ -1,8 +1,11 @@
 import {arrayOf, shape, string, number, func} from 'prop-types';
 
 export const optionType = shape({
-    name : string,
-    options : arrayOf(string)
+    name : string.isRequired,
+    options : arrayOf(string).isRequired,
+    count : number,
+    upcharge : arrayOf(number),
+    selections: arrayOf(string)
 });
 
 export const itemType = shape({
