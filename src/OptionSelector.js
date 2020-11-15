@@ -13,8 +13,9 @@ function OptionSelector({ options, makeSelection, qty }) {
     const title = `${options.name} ${subtitle}`
     const items = options.options.map((o, i) => {
         const numSelections = options.selections? options.selections.filter(s => s === o).length : 0;
-        const subtitle = numSelections > 1 ? ` - x${numSelections}` : '';
-        return <Dropdown.Item key={i} active={!!numSelections} onClick={() => makeSelection(options.name, o)}>{o + subtitle}</Dropdown.Item>
+        const selectionString = numSelections > 1 ? ` - x${numSelections}` : '';
+        const upchargeString = options.upcharge && options.upcharge[i] ? ` +${options.upcharge[i]}⭐` : '';
+        return <Dropdown.Item key={i} active={!!numSelections} onClick={() => makeSelection(options.name, o)}>{o + upchargeString + selectionString}</Dropdown.Item>
     });
     const maxSelections = (qty || 1) * (options.count || 1);
     return (

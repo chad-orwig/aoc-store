@@ -126,7 +126,7 @@ const storeItems =  [
         img : 'https://cdn.shopify.com/s/files/1/0059/0630/1017/products/Keychron-K2-wireless-mechanical-keyboard-for-Mac-Windows-iOS-Gateron-switch-red-with-type-C-RGB-white-backlight_1800x1800.jpg',
         dollar : 89,
         options : [
-            { name : 'Version', options : [ 'White', 'RGB +2⭐', 'RGB/Aluminum Frame +4⭐'], upcharge: [0, 2, 4]},
+            { name : 'Version', options : [ 'White', 'RGB', 'RGB/Aluminum Frame'], upcharge: [0, 2, 4]},
             { name : 'Switch', options : [ 'Red', 'Brown', 'Blue']}
         ]
     },
@@ -559,9 +559,9 @@ const storeItems =  [
             { 
                 name: 'Variety', 
                 options: [ 
-                    'Season 12 Warmup', 'Season 12 Trio +4⭐', 'Season 12 Heat +3⭐',
-                    'Season 13 Warmup', 'Season 13 Trio +5⭐', 'Season 13 Heat +4⭐',
-                    'Dos Los XXX +4⭐', 'Challenge Pack +11⭐' 
+                    'Season 12 Warmup', 'Season 12 Trio', 'Season 12 Heat',
+                    'Season 13 Warmup', 'Season 13 Trio', 'Season 13 Heat',
+                    'Dos Los XXX', 'Challenge Pack' 
                 ],
                 upcharge : [
                     0, 4, 3,
@@ -620,7 +620,7 @@ const storeItems =  [
             },
             {
                 name: 'Size',
-                options: [ '2.5 oz', '9 oz +4⭐' ],
+                options: [ '2.5 oz', '9 oz' ],
                 upcharge: [ 0, 4 ]
             }
         ]
@@ -705,12 +705,12 @@ const storeItems =  [
             name : 'Set',
             options: [
                 'Escape Adventures', // 19
-                'Mystery Adventures +1⭐', // 20
-                'Secret Adventures +5⭐', //24
-                'Exotic Adventures +3⭐', // 22
-                'Timeless Adventures +1⭐', //20
-                'Epic Adventures +1⭐', // 20
-                'Star Wars +8⭐' // 27
+                'Mystery Adventures', // 20
+                'Secret Adventures', //24
+                'Exotic Adventures', // 22
+                'Timeless Adventures', //20
+                'Epic Adventures', // 20
+                'Star Wars' // 27
             ],
             upcharge : [ 0, 1, 5, 3, 1, 1, 8]
         }]
@@ -733,9 +733,9 @@ const storeItems =  [
             name: 'Size',
             options : [
                 'Queen', // 50 -- 28
-                'King +1⭐', //54 -- 29
-                'Queen - Set of 2 +13⭐', //98 -- 41
-                'King - Set of 2 +15⭐' //108 -- 43
+                'King', //54 -- 29
+                'Queen - Set of 2', //98 -- 41
+                'King - Set of 2' //108 -- 43
             ],
             upcharge: [ 0, 1, 13, 15 ]
         }]
