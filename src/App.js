@@ -69,7 +69,7 @@ class App extends React.Component {
       if(item) {
         item.setQty(itemFromDb.qty);
         (itemFromDb.options || []).forEach(optionFromDb => {
-          item.makeSelection(optionFromDb.name, optionFromDb.selection);
+          optionFromDb.selections.forEach(selection => item.makeSelection(optionFromDb.name, selection));
         })
       }
     })
