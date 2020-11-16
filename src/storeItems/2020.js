@@ -70,7 +70,7 @@ const storeItems =  [
         dollar : 12
     },
     {
-        name : 'Camping Esspresso Maker',
+        name : 'Camping Espresso Maker',
         url : 'https://www.amazon.com/Minipresso-Portable-Espresso-Compatible-Manually/dp/B00VTA9F6U/ref=sr_1_5?dchild=1&keywords=portable+espresso&qid=1605206646&sr=8-5',
         img : 'https://images-na.ssl-images-amazon.com/images/I/61U70%2Bev8FL._AC_SL1001_.jpg',
         dollar : 50
@@ -112,7 +112,7 @@ const storeItems =  [
         dollar : 100
     },
     {
-        name : 'Nesspresso Coffee Maker',
+        name : 'Nespresso Coffee Maker',
         url : 'https://www.amazon.com/Nespresso-DeLonghi-ENV120GY-Espresso-Machine/dp/B084GY57Y5/ref=sr_1_8',
         img : 'https://images-na.ssl-images-amazon.com/images/I/613VLOs7plL._AC_SL1500_.jpg',
         dollar : 130,
