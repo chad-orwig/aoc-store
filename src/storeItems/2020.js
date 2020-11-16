@@ -442,10 +442,7 @@ const storeItems =  [
         name: 'Hyrule Warriors: Age of Calamity',
         url: 'https://www.amazon.com/Hyrule-Warriors-Age-Calamity-Nintendo-Switch/dp/B08HP4K7KC',
         img: 'https://sickr.files.wordpress.com/2020/10/hyrule_warriors_age_of_calamity-.jpg',
-        dollar: 60,
-        options: [
-            { name: 'Platform', options: [ 'PS4', 'PS5' ]}
-        ]
+        dollar: 60
     },
     {
         name: 'Slalom Camp Mug',
