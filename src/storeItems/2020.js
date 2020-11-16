@@ -799,6 +799,18 @@ const storeItems =  [
             options: [ '3 Bags', '6 Bags' ],
             upcharge: [ 0, 15 ]
         }]
+    },
+    {
+        name: 'Make Your Own Hotsauce Kit',
+        url: 'https://www.uncommongoods.com/product/make-your-own-hot-sauce-kit',
+        img: 'https://www.uncommongoods.com/images/items/25700/25781_1_640px.jpg',
+        dollar: 47
+    },
+    {
+        name: 'Old Fasioned Infusion Kit',
+        url: 'https://www.uncommongoods.com/product/old-fashioned-whiskey-infusion-kit',
+        img: 'https://www.uncommongoods.com/images/items/26200/26227_1_640px.jpg',
+        dollar: 42
     }
 ]
 
