@@ -558,12 +558,12 @@ const storeItems =  [
                 options: [ 
                     'Season 12 Warmup', 'Season 12 Trio', 'Season 12 Heat',
                     'Season 13 Warmup', 'Season 13 Trio', 'Season 13 Heat',
-                    'Dos Los XXX', 'Challenge Pack' 
+                    'Hot off the Grill', 'Dos Los XXX', 'Challenge Pack',
                 ],
                 upcharge : [
                     0, 4, 3,
                     0, 5, 4,
-                    4, 11
+                    3, 4, 11
                 ]
             }
         ]
