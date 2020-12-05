@@ -808,6 +808,18 @@ const storeItems =  [
         url: 'https://www.uncommongoods.com/product/old-fashioned-whiskey-infusion-kit',
         img: 'https://www.uncommongoods.com/images/items/26200/26227_1_640px.jpg',
         dollar: 42
+    },
+    {
+        name: 'Drink Infuser',
+        url: 'https://www.amazon.com/Crucial-Detail-The-Porthole-Infuser/dp/B00PUSBGPA',
+        img: 'https://images-na.ssl-images-amazon.com/images/I/51vtabKiQ5L._AC_.jpg',
+        dollar: 125
+    },
+    {
+        name: 'Three Month Shaker and Spoon Subscription',
+        url: 'https://www.shakerandspoon.com/whats_inside',
+        img: 'https://d3a1v57rabk2hm.cloudfront.net/thecureallcocktailclub/delight_mobile-copy-4/images/Kanpai-Homepage-Hero-2.jpg',
+        dollar: 135
     }
 ]
 
