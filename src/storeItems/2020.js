@@ -54,7 +54,7 @@ const storeItems =  [
     },
     {
         name : 'Custom AoC Belt Logo 30 oz Yeti Tumbler',
-        img : 'https://www.yeti.com/dw/image/v2/BBRN_PRD/on/demandware.static/-/Sites-masterCatalog_Yeti/default/dwf7d350a5/images/pdp-Rambler/Rambler%20Tumbler%2030oz/White/180027-White-Drinkware-Studio-Website-Assets-30oz-OH-1680x1024.jpg?sw=1152&sfrm=jpg&q=100',
+        img : require('../images/HammyTheYeti.png'),
         dollar : 60
     },
     {
