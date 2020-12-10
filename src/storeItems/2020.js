@@ -820,6 +820,23 @@ const storeItems =  [
         url: 'https://www.shakerandspoon.com/whats_inside',
         img: 'https://d3a1v57rabk2hm.cloudfront.net/thecureallcocktailclub/delight_mobile-copy-4/images/Kanpai-Homepage-Hero-2.jpg',
         dollar: 135
+    },
+    {
+        name: 'Ember Smart Mug',
+        url: 'https://ember.com/products/ember-mug-2?variant=30843977826389',
+        img: 'https://cdn.shopify.com/s/files/1/1080/6594/products/ember_black_CM210_600x.jpg?v=1600321021',
+        dollar: 100,
+        options: [
+            {
+                name: 'Color',
+                options: [ 'White', 'Black']
+            },
+            {
+                name: 'Size',
+                options: [ '10 oz.', '14 oz.'],
+                upcharge: [0, 7]
+            }
+        ]
     }
 ]
 
