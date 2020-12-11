@@ -122,12 +122,13 @@ const storeItems =  [
     },
     {
         name : 'Keychron K2 Mechanical Keyboard',
-        url : 'https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard',
+        url : 'https://www.amazon.com/stores/page/3E3C387A-504A-4387-A1A1-4DC76081B545',
         img : 'https://cdn.shopify.com/s/files/1/0059/0630/1017/products/Keychron-K2-wireless-mechanical-keyboard-for-Mac-Windows-iOS-Gateron-switch-red-with-type-C-RGB-white-backlight_1800x1800.jpg',
-        dollar : 89,
+        dollar : 75,
         options : [
             { name : 'Version', options : [ 'White', 'RGB', 'RGB/Aluminum Frame'], upcharge: [0, 2, 4]},
-            { name : 'Switch', options : [ 'Red', 'Brown', 'Blue']}
+            { name : 'Switch', options : [ 'Red', 'Brown', 'Blue']},
+            { name: 'Hamilton?', options: ['I am not Hamilton', 'I am Hamilton'], upcharge: [0, 10]}
         ]
     },
     {
