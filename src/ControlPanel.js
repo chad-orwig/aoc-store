@@ -15,7 +15,7 @@ import find from 'lodash/fp/find';
 const logout = () => firebase.auth().signOut();
 
 const findSelectedItems = filter(i => i.qty > 0);
-const sumByRequiredCost = sumBy(({qty, cost, upcharge}) => (qty * cost) + upcharge);
+export const sumByRequiredCost = sumBy(({qty, cost, upcharge}) => (qty * cost) + upcharge);
 const optionMissingSelection = find(({selections}) => !selections);
 const tooManySelections = (qty) => find(({selections, count}) => selections && selections.length > (qty * (count || 1)));
 const selectionsWithoutOptionSelection = filter(({options}) => {

@@ -2,16 +2,11 @@ import React, {useEffect, useState} from 'react';
 import {object, array} from 'prop-types';
 import Card from 'react-bootstrap/Card';
 import Table from 'react-bootstrap/Table';
+import { sumByRequiredCost } from './ControlPanel';
 
-function countStars({selections}) {
-    
-    return selections
-        .map(({qty, cost}) => qty * cost)
-        .reduce((tot, curr) => tot + curr, 0);
-}
 
 function isValid({selection, stars}){
-    return stars >= countStars(selection);
+    return stars >= sumByRequiredCost(selection.selections);
 }
 
 function afterCombined(combined, setInvalid, setValid) {
@@ -33,9 +28,9 @@ function buildCombined({members}, results, selections, setCombined) {
 
 function buildStuff(valid, setStuff) {
     return () => {
-        const stuff =valid.reduce((stuff, {name:person, selection}) => {
+        const stuff = valid.reduce((stuff, {name:person, selection}) => {
             selection.selections.forEach(s => {
-                const options = s.options ? s.options.reduce((o, {name, selection}) => Object.assign(o, {[name]: selection}), {}) : {};
+                const options = s.options ? s.options.reduce((o, {name, selections}) => Object.assign(o, {[name]: selections.join(', ')}), {}) : {};
                 const key = [s.name, ...(Object.values(options))].join(' | ');
                 if(stuff[key]) {
                     stuff[key].qty += s.qty;
@@ -71,7 +66,7 @@ export default function Checker({dbResults, aocResults, selections}) {
             });
             return (
                 <tr key={index} >
-                    <td colSpan={3 - optionTds.length}>{item.name}</td>
+                    <td colSpan={4 - optionTds.length}>{item.name}</td>
                     {optionTds}
                     <td>{item.qty}</td>
                     <td>{item.people.join(', ')}</td>
@@ -84,7 +79,7 @@ export default function Checker({dbResults, aocResults, selections}) {
             <Table striped bordered hover>
                 <thead><tr>
                     <th>Name</th>
-                    <th colSpan="2">Options</th>
+                    <th colSpan="3">Options</th>
                     <th>Quantity</th>
                     <th>People</th>
                 </tr></thead>
