@@ -71,22 +71,24 @@ function selectionErrors(selections) {
 
 }
 
+const processItem = (item) => {
+    const {name, qty, options, cost} = item;
+    const res = {
+        name,
+        qty,
+        options,
+        cost,
+        upcharge : item.calculateUpcharge()
+    }
+    if(!options) {
+        delete res.options;
+    }
+    return res;
+}
+
 function submitSelections(items, {uid, email, displayName}, addAlert, setSaving) {
     const selections = findSelectedItems(items)
-        .map((item) => {
-            const {name, qty, options, cost} = item;
-            const res = {
-                name,
-                qty,
-                options,
-                cost,
-                upcharge : item.calculateUpcharge()
-            }
-            if(!options) {
-                delete res.options;
-            }
-            return res;
-        });
+        .map(processItem);
     const errors = selectionErrors(selections);
     if(errors.length) {
         errors.forEach(addAlert);
@@ -101,14 +103,23 @@ function submitSelections(items, {uid, email, displayName}, addAlert, setSaving)
     .finally(() => setSaving(false));
 }
 
+const clearAll = (items) => () => {
+    items.filter(({qty}) => qty)
+        .forEach(i => i.setQty(0));
+}
+
 function ControlPanel({items, user, addAlert}) {
     const [saving, setSaving] = useState(false);
+    const numStars = sumByRequiredCost(findSelectedItems(items).map(processItem));
+    const starString = numStars ? ` ${numStars}⭐` : '';
+    const clearButton = numStars ? (<Button onClick={clearAll(items)} variant="danger">Clear</Button>) : ''
     return (
         <div className="float-right">
             
-            <span className="d-inline-block lead align-middle mr-2">{user.displayName}</span>
+            <span className="d-inline-block lead align-middle mr-2">{user.displayName}{starString}</span>
             <ButtonGroup>
                 <Button onClick={() => submitSelections(items, user, addAlert, setSaving)} disabled={saving}>Submit</Button>
+                {clearButton}
                 <Button onClick={logout} variant="warning">Logout</Button>
             </ButtonGroup>
         </div>
@@ -124,8 +135,7 @@ ControlPanel.propTypes = {
         displayName : string
     }).isRequired,
     addAlert : func.isRequired,
-    search : string,
-    setSearch : func.isRequired
+    clearAll: func.isRequired,
 }
 
 export default ControlPanel;

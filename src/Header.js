@@ -10,7 +10,7 @@ import { arrayOf, func, object, string } from 'prop-types';
 import Search from './Search.js';
 
 function Header({ user, items, addAlert, search, setSearch }) {
-    const loginPanel = !user ? (<LoginPanel />) : (<ControlPanel user={user} items={items} addAlert={addAlert} search={search} setSearch={setSearch} />);
+    const loginPanel = !user ? (<LoginPanel />) : (<ControlPanel user={user} items={items} addAlert={addAlert}/>);
     return (
         <div className="fixed-top bg-info text-white p-2 hide-print">
             <Row noGutters={true}>
@@ -32,7 +32,8 @@ Header.propTypes = {
     addAlert : func.isRequired,
     user : object,
     search : string,
-    setSearch : func.isRequired
+    setSearch : func.isRequired,
+    clearAll: func.isRequired,
 }
 
 export default Header;
