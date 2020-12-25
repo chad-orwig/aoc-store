@@ -33,7 +33,6 @@ Header.propTypes = {
     user : object,
     search : string,
     setSearch : func.isRequired,
-    clearAll: func.isRequired,
 }
 
 export default Header;

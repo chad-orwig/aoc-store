@@ -135,7 +135,6 @@ ControlPanel.propTypes = {
         displayName : string
     }).isRequired,
     addAlert : func.isRequired,
-    clearAll: func.isRequired,
 }
 
 export default ControlPanel;

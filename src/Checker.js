@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {object, array} from 'prop-types';
-import Card from 'react-bootstrap/Card';
-import Table from 'react-bootstrap/Table';
+import InvalidSelectionCard from './InvalidSelectionCard';
+import {Table, Accordion} from 'react-bootstrap';
 import { sumByRequiredCost } from './ControlPanel';
 
 
@@ -53,10 +53,7 @@ export default function Checker({dbResults, aocResults, selections}) {
     useEffect(buildCombined(dbResults, aocResults, selections, setCombined), [dbResults, aocResults, selections]);
     useEffect(buildStuff(valid, setStuff), [valid]);
 
-    const invalidCards = invalid.map((item, index) => (
-        <Card className="hide-print" key={index} bg='danger' text='white'>
-            <Card.Header><Card.Title>{item.name}</Card.Title></Card.Header>
-        </Card>))
+    const invalidCards = invalid.map((data, index) => <InvalidSelectionCard data={data} key={index} collapseKey={index} />)
     const stuffKeys = Object.keys(stuff);
     stuffKeys.sort();
     const rows = stuffKeys.map(key => stuff[key])
@@ -75,7 +72,7 @@ export default function Checker({dbResults, aocResults, selections}) {
         });
     return (
         <div>
-            {invalidCards}
+            <Accordion>{invalidCards}</Accordion>
             <Table striped bordered hover>
                 <thead><tr>
                     <th>Name</th>
