@@ -20,16 +20,26 @@ function Matcher({dbResults, aocResults, selections, setDbResults}) {
     const [currentMatch, setCurrentMatch] = useState(false);
     const [search, setSearch] = useState();
     const [aocUsers, setAocUsers] = useState([]);
+    const [searchResults, setSearchResults] = useState();
+
+    useEffect(() => {
+        setSearchResults(aocResults.map(result => new Fuse(selections, { keys : ['displayName', 'email'], threshold : 1, includeScore: true }).search(result.name)));
+    }, [aocResults, selections])
     useEffect(() => {
         const matchFunction = (index) => {
             setCurrentMatch(index);
-            const newSearch = new Fuse(selections, { keys : ['displayName', 'email'], threshold : 1 }).search(aocResults[index].name);
-            setSearch(newSearch);
+            setSearch(searchResults[index].map(({item}) => item));
             window.scrollTo(0, 0);
         }
         setAocUsers(aocResults
         .map((user, index) => Object.assign({index}, user))
         .filter(({id}) => !dbResults.members[id])
+        .sort((a,b) => {
+            const aScore = searchResults?.[a.index]?.[0]?.score || 1
+            const bScore = searchResults?.[b.index]?.[0]?.score || 1
+
+            return aScore - bScore
+        })
         .map(({name, id, stars, index}) => {
             return (
                     <li key={index} className={classNames({aocUser: true, selected: index === currentMatch})} onClick={() => matchFunction(index)}>
@@ -39,7 +49,7 @@ function Matcher({dbResults, aocResults, selections, setDbResults}) {
                     </li>
             );
         }));
-    }, [aocResults, dbResults, currentMatch, selections]);
+    }, [aocResults, dbResults, currentMatch, searchResults]);
 
    const selectionClick = currentMatch !== false ? updateDbResults(dbResults, setDbResults, aocResults[currentMatch], setCurrentMatch) : undefined;
 

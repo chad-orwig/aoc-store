@@ -4,7 +4,6 @@ import { sumByRequiredCost } from './ControlPanel';
 import { year } from './database';
 
 const optionToTableRow = (rowIndex) => (option,index) => {
-    const cost = option.upcharge ? `+ ${option.upcharge}` : '-';
     return (
         <tr key={`${rowIndex}-${index + 1}`}>
             <td colSpan="4">{option.name} - {option.selections.join(',')}</td>
