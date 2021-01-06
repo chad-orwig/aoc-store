@@ -838,6 +838,40 @@ const storeItems =  [
                 upcharge: [0, 7]
             }
         ]
+    },
+    {
+        name: 'Men\'s Liverpool Jersey',
+        url: 'https://www.anfieldshop.com/products/lfc-nike-stadium-home-jersey-customizable?ls=FGBiTC5bTV6wQeRRtgbeOg&variant=37525205483699',
+        img: 'https://cdn.shopify.com/s/files/1/0462/0120/8982/products/cz2636-687_ef862e30-ee11-4fca-a5c6-f579ff96022a.png?v=1605029728',
+        dollar: 95,
+        options : [
+            {
+                name: 'League Winners Patch',
+                options: ['Yes', 'No'],
+                upcharge: [2, 0]
+            },
+            {
+                name: 'Expedia Patch',
+                options: ['Yes', 'No'],
+            }
+        ]
+    },
+    {
+        name: 'Women\'s Liverpool Jersey',
+        url: 'https://www.anfieldshop.com/products/lfc-nike-2020-21-womens-stadium-home-jersey-customizable?ls=FGBiTC5bTV6wQeRRtgbeOg&variant=37534637228211',
+        img: 'https://cdn.shopify.com/s/files/1/0462/0120/8982/products/cz2641-687_b4fc4475-9ecc-4359-b052-c0a342c1f0b1.png?v=1605148790',
+        dollar: 95,
+        options : [
+            {
+                name: 'League Winners Patch',
+                options: ['Yes', 'No'],
+                upcharge: [2, 0]
+            },
+            {
+                name: 'Expedia Patch',
+                options: ['Yes', 'No'],
+            }
+        ]
     }
 ]
 
