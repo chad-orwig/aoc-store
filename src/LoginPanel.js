@@ -11,15 +11,29 @@ const gitHubProvider = new firebase.auth.GithubAuthProvider();
 const twitterProvider = new firebase.auth.TwitterAuthProvider();
 gitHubProvider.addScope('read:user');
 
-function login(provider) {
-    return firebase.auth().signInWithPopup(provider);
+function loginFailureHandler(addAlert) {
+    return (loginError) => {
+        console.error(loginError);
+        addAlert({
+            heading: 'Login Error',
+            message: loginError.message ?? 'No details given, check the console and talk to Chad.',
+            variant: 'danger'
+        });
+    }
 }
 
-function loginWithGoogle() {
-    login(googleProvider);
+function login(provider) {
+    return firebase.auth().signInWithPopup(provider)
 }
-function loginWithGithub() {
-    login(gitHubProvider).then(({user, additionalUserInfo}) => {
+
+function loginWithGoogle(addAlert) {
+    return () => login(googleProvider).catch(loginFailureHandler(addAlert));
+}
+function loginWithGithub(addAlert) {
+    return () => login(gitHubProvider).then((loginResult) => {
+        if(!loginResult) return;
+
+        const {user, additionalUserInfo} = loginResult;
         const displayName = user.displayName 
             || additionalUserInfo.profile.name
             || additionalUserInfo.profile.username;
@@ -28,33 +42,32 @@ function loginWithGithub() {
             user.updateProfile({ displayName }).then(() => firebase.auth().updateCurrentUser())
         }
     })
+    .catch(loginFailureHandler(addAlert));
 }
-function loginWithTwitter() {
-    login(twitterProvider)
+function loginWithTwitter(addAlert) {
+    return () => login(twitterProvider)
         .then(result => {
             console.log(result);
         })
-        .catch(err=> {
-            console.error(err);
-        });
+        .catch(loginFailureHandler(addAlert));
 }
 
-function LoginPanel({ setUser }) {
+function LoginPanel({ addAlert }) {
 
     return (
         <div className="float-right">
             <span className="d-inline-block lead align-middle mr-2">Login With</span>
             <ButtonGroup>
-                <Button onClick={loginWithGoogle}>Google</Button>
-                <Button onClick={loginWithGithub}>GitHub</Button>
-                <Button onClick={loginWithTwitter}>Twitter</Button>
+                <Button onClick={loginWithGoogle(addAlert)}>Google</Button>
+                <Button onClick={loginWithGithub(addAlert)}>GitHub</Button>
+                <Button onClick={loginWithTwitter(addAlert)}>Twitter</Button>
             </ButtonGroup>
         </div>
     );
 }
 
 LoginPanel.propTypes = {
-    setUser : func
+    addAlert : func.isRequired
 };
 
 export default LoginPanel;
