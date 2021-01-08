@@ -846,6 +846,10 @@ const storeItems =  [
         dollar: 95,
         options : [
             {
+                name: 'Size',
+                options: [ 'S', 'M', 'L', 'XL', '2XL']
+            },
+            {
                 name: 'League Winners Patch',
                 options: ['Yes', 'No'],
                 upcharge: [2, 0]
@@ -862,6 +866,10 @@ const storeItems =  [
         img: 'https://cdn.shopify.com/s/files/1/0462/0120/8982/products/cz2641-687_b4fc4475-9ecc-4359-b052-c0a342c1f0b1.png?v=1605148790',
         dollar: 95,
         options : [
+            {
+                name: 'Size',
+                options: [ 'L', 'XL' ]
+            },
             {
                 name: 'League Winners Patch',
                 options: ['Yes', 'No'],
