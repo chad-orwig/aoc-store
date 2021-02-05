@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { object, array, func } from 'prop-types';
 import classNames from 'classnames';
 import Fuse from 'fuse.js';
-import {setResults} from './database';
+import {setResults, year} from './database';
 import Button from 'react-bootstrap/Button';
 
 
@@ -23,7 +23,11 @@ function Matcher({dbResults, aocResults, selections, setDbResults}) {
     const [searchResults, setSearchResults] = useState();
 
     useEffect(() => {
-        setSearchResults(aocResults.map(result => new Fuse(selections, { keys : ['displayName', 'email'], threshold : 1, includeScore: true }).search(result.name)));
+        setSearchResults(aocResults.map(result => new Fuse(
+            selections
+                .map((o, index) => Object.assign({}, o, {index}))
+                .filter(o => o[year]),
+            { keys : ['displayName', 'email'], threshold : 1, includeScore: true }).search(result.name)));
     }, [aocResults, selections])
     useEffect(() => {
         const matchFunction = (index) => {
@@ -53,15 +57,16 @@ function Matcher({dbResults, aocResults, selections, setDbResults}) {
 
    const selectionClick = currentMatch !== false ? updateDbResults(dbResults, setDbResults, aocResults[currentMatch], setCurrentMatch) : undefined;
 
-   const selectionUsers = (search || selections).map(({displayName, email, uid}, index) => {
-       const myOnClick = selectionClick && selectionClick(uid);
-       return (
-            <li key={index} className='aocUser' onClick={myOnClick}>
-                displayName: {displayName} <br/>
-                email : {email}
-            </li>
-        );
-   });
+    const selectionUsers = (search || selections)
+        .map(({displayName, email, uid, index}) => {
+            const myOnClick = selectionClick && selectionClick(uid);
+            return (
+                    <li key={index} className='aocUser' onClick={myOnClick}>
+                        displayName: {displayName} <br/>
+                        email : {email}
+                    </li>
+                );
+        });
 
    return (
         <div>
