@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { object, array, func } from 'prop-types';
 import classNames from 'classnames';
 import Fuse from 'fuse.js';
@@ -21,6 +21,8 @@ function Matcher({dbResults, aocResults, selections, setDbResults}) {
     const [search, setSearch] = useState();
     const [aocUsers, setAocUsers] = useState([]);
     const [searchResults, setSearchResults] = useState();
+
+    const mappedFirebaseUids = useMemo(() => new Set(Object.values(dbResults.members)), [dbResults]);
 
     useEffect(() => {
         setSearchResults(aocResults.map(result => new Fuse(
@@ -58,10 +60,14 @@ function Matcher({dbResults, aocResults, selections, setDbResults}) {
    const selectionClick = currentMatch !== false ? updateDbResults(dbResults, setDbResults, aocResults[currentMatch], setCurrentMatch) : undefined;
 
     const selectionUsers = (search || selections)
-        .map(({displayName, email, uid, index}) => {
+        .filter(o => o[year])
+        .map((user) => {
+            const {displayName, email, uid, index} = user;
             const myOnClick = selectionClick && selectionClick(uid);
+            const classList = ["aocUser"];
+            if (!mappedFirebaseUids.has(uid)) classList.push("danger");
             return (
-                    <li key={index} className='aocUser' onClick={myOnClick}>
+                    <li key={index} className={classList.join(' ')} onClick={myOnClick}>
                         displayName: {displayName} <br/>
                         email : {email}
                     </li>
