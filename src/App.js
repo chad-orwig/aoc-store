@@ -12,7 +12,7 @@ import Header from './Header';
 import AlertContainer from './AlertContainer';
 import DisabledOverlay from './DisabledOverlay';
 
-import storeItems from './storeItems';
+import storeItems, { dollarsToStars } from './storeItems';
 
 import access from 'safe-access';
 
@@ -125,7 +125,7 @@ class App extends React.Component {
   assignZeroQty = (item) => Object.assign({ qty : 0 }, item);
 
   calculateCost = (item) => Object.assign({
-    cost : Math.round((5/9) * Math.pow(72*item.dollar + 121, .5) - (55/9))
+    cost : dollarsToStars(item.dollar)
   }, item)
 
   mergeUpdateAtIndex = (array, update, index) => array.map((item, i) => i === index ? Object.assign({}, item, update) : item);
@@ -186,10 +186,11 @@ class App extends React.Component {
     makeSelection : this.createMakeSelectionFunction(index)
   }, item);
   addUpchargeFunction = (item, index) => Object.assign({
+    calculateUpchargeDollar : this.createCalculateUpchargeDollarFunction(index),
     calculateUpcharge : this.createCalculateUpchargeFuncion(index)
   }, item)
 
-  createCalculateUpchargeFuncion = (index) => () => {
+  createCalculateUpchargeDollarFunction = (index) => () => {
     const { options } = this.state.items[index];
     if(!options) return 0;
     return options.reduce((v, option) => {
@@ -200,6 +201,14 @@ class App extends React.Component {
         const price = upcharge.reduce((tot, num) => tot + num, 0) + v;
         return price;
     }, 0);
+  }
+
+  createCalculateUpchargeFuncion = (index) => () => {
+    const { calculateUpchargeDollar, dollar, cost } = this.state.items[index];
+    const dollarsAdded = calculateUpchargeDollar();
+    if(dollarsAdded === 0) return 0;
+    const finalCost = dollarsToStars(dollarsAdded + dollar);
+    return finalCost - cost;
   }
   createMakeSelectionFunction = (index) => {
     return (optionName, optionSelection) =>  {

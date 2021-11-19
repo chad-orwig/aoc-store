@@ -5,7 +5,7 @@ const db = firebase.firestore();
 const selections = db.collection('selections');
 const results = db.collection('results');
 
-export const year = '2020'
+export const year = '2021'
 
 export const getSelectionsForUser = (uid) => selections.doc(uid).get();
 export const setSelectionsForUser = (uid, userSelections) => selections.doc(uid).set(userSelections, { merge: true });
