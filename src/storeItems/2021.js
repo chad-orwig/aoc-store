@@ -1,3 +1,7 @@
+const standardSizes = {
+    name: 'Size',
+    options: [ 'Small', 'Medium', 'Large', 'XL', '2XL', '3XL' ]
+};
 const storeItems =  [
     {
         url : 'https://www.canakit.com/raspberry-pi/pi-4-kits',
@@ -573,6 +577,127 @@ const storeItems =  [
         url: 'https://www.amazon.com/Dashboard-G-Sensor-Parking-Recording-Detection/dp/B086ML686Q/ref=sr_1_2_sspa',
         img: 'https://m.media-amazon.com/images/I/61+HxebIeIL._AC_SL1200_.jpg',
         dollar: 56
+    },
+    {
+        name: 'Slalom T-Shirt',
+        url: 'https://gear.slalom.com/Product/1526205-Bella_Canvas_T-shirt',
+        img: 'https://c.bdac.co/bdac/SLALOMGEAR/ProductImages/1526205_z.jpg?v=637598967750331826',
+        dollar: 9,
+        options: [
+            { name: 'Color', options: [ 'Blue', 'Grey' ]},
+            { name: 'Size', options: [ 'X-Small', 'Small', 'Med', 'Large', 'XL', '2XL', '3XL', '4XL']}
+        ]
+    },
+    {
+        name: 'Slalom _build Block T-Shirt',
+        dollar: 19,
+        url: 'https://gear.slalom.com/Product/1528788-_build_Block_T-shirt',
+        img: 'https://c.bdac.co/bdac/SLALOMGEAR/ProductImages/1528788_z.jpg?v=637692313065514330',
+        options: [
+            { name: 'Size', options: ['Med', 'Large', 'XL']}
+        ]
+    },
+    {
+        name: 'Slalom _build Brick T-Shirt',
+        dollar: 19,
+        url: 'https://gear.slalom.com/Product/1528730-_build_Brick_T-shirt',
+        img: 'https://c.bdac.co/bdac/SLALOMGEAR/ProductImages/1528730_z.jpg?v=637692313036224340',
+        options: [
+            { name: 'Size', options: [ 'Small', 'Med', 'Large', 'XL', '2XL' ]}
+        ]
+    },
+    {
+        name: 'Slalom Recycled Canvas Tote',
+        url: 'https://gear.slalom.com/Product/1526616-Recycled_Canvas_Tote',
+        img: 'https://c.bdac.co/bdac/SLALOMGEAR/ProductImages/1526616_z.jpg?v=637701932315152690',
+        dollar: 14
+    },
+    {
+        name: 'Slalom Relaxed Golf Cap',
+        url: 'https://gear.slalom.com/Product/1526902-Relaxed_Golf_Cap',
+        img: 'https://c.bdac.co/bdac/SLALOMGEAR/ProductImages/1526902_z.jpg?v=637637833122628310',
+        dollar: 9.2,
+    },
+    {
+        name: 'Slalom _build New Era Snapback Cap',
+        url: 'https://gear.slalom.com/Product/1528767-_build_New_Era_Snapback_Cap',
+        img: 'https://c.bdac.co/bdac/SLALOMGEAR/ProductImages/1528767_z.jpg?v=637701934692813340',
+        dollar: 25
+    },
+    {
+        name: 'Slalom _build Performance Socks',
+        url: 'https://gear.slalom.com/Product/1528761-_build_Socks',
+        img: 'https://c.bdac.co/bdac/SLALOMGEAR/ProductImages/1528761_z.jpg?v=637701930780252230',
+        dollar: 14
+    },
+    {
+        name: 'Slalom Comfort-Fit Ankle Socks',
+        url: 'https://gear.slalom.com/Product/1526565-Comfort-Fit_Ankle_Socks',
+        img: 'https://c.bdac.co/bdac/SLALOMGEAR/ProductImages/1526565_z.jpg?v=637611961733547386',
+        dollar: 9
+    },
+    {
+        name: 'Slalom Camp Fleece Pullover',
+        url: 'https://gear.slalom.com/Product/1529471-Camp_Fleece_Pullover',
+        img: 'https://c.bdac.co/bdac/SLALOMGEAR/ProductImages/1529471_z.jpg?v=637711216254041650',
+        dollar: 53,
+        options: [
+            standardSizes
+        ]
+    },
+    {
+        name: 'Slalom Women\'s Cozy Quarter Zip',
+        url: 'https://gear.slalom.com/Product/1529469-Womens_Cozy_Quarter_Zip',
+        img: 'https://c.bdac.co/bdac/SLALOMGEAR/ProductImages/1529469_z.jpg?v=637711216289101640',
+        dollar: 40,
+        options: [{
+            name: 'Size',
+            options: [ 'Small', 'Medium', 'Large', '2XL' ]
+        }]
+    },
+    {
+        name: 'Women\'s OGIO Pullover',
+        dollar: 57,
+        url: 'https://gear.slalom.com/Product/1529470-Womens_OGIO_Pullover',
+        img: 'https://c.bdac.co/bdac/SLALOMGEAR/ProductImages/1529470_z.jpg?v=637711216272381720',
+        options: [{
+            name: 'Size',
+            options: [ 'Small', 'Medium', 'Large', '2XL' ]
+        }]
+    },
+    {
+        name: 'Slalom _build Comfort Colors T-Shirt',
+        url: 'https://gear.slalom.com/Product/1528759-_build_Comfort_Colors_T-shirt',
+        img: 'https://c.bdac.co/bdac/SLALOMGEAR/ProductImages/1528759_z.jpg?v=637695884294889600',
+        dollar: 25,
+        options: [ standardSizes ]
+    },
+    {
+        name: 'Slalom Women\'s _build Brick T-Shirt',
+        url: 'https://gear.slalom.com/Product/1528729-Womens__build_Brick_T-shirt',
+        img: 'https://c.bdac.co/bdac/SLALOMGEAR/ProductImages/1528729_z.jpg?v=637692313050674320',
+        dollar: 19,
+        options: [ standardSizes ]
+    },
+    {
+        name: 'Slalom Canvas Graphic T-Shirt',
+        url: 'https://gear.slalom.com/Product/1526626-Bella_Canvas_Graphic_T-shirt',
+        img: 'https://c.bdac.co/bdac/SLALOMGEAR/ProductImages/1526626_z.jpg?v=637611967164107468',
+        dollar: 17,
+        options: [{
+            name: 'Size',
+            options: [ 'Medium', 'Large', 'XL', '2XL' ]
+        }]
+    },
+    {
+        name: 'Slalom _build District T-Shirt',
+        url: 'https://gear.slalom.com/Product/1526595-_build_District_T-shirt',
+        img: 'https://c.bdac.co/bdac/SLALOMGEAR/ProductImages/1526595_z.jpg?v=637611966182006779',
+        dollar: 19,
+        options: [{
+            name: 'Size',
+            options: [ 'Small', 'Medium', 'Large', 'XL' ]
+        }]
     }
 ]
 
