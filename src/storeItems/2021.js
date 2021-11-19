@@ -509,6 +509,70 @@ const storeItems =  [
                 upcharge: [0, 30]
             }
         ]
+    },
+    {
+        name: 'Logitech MX Master 3',
+        img: 'https://m.media-amazon.com/images/I/614w3LuZTYL._AC_SL1500_.jpg',
+        url: 'https://www.amazon.com/Logitech-Master-Advanced-Wireless-Mouse/dp/B07S395RWD/ref=sr_1_4',
+        dollar: 100,
+        options: [
+            { name: 'Color', options: [ 'Graphite', 'Mid Grey' ]}
+        ]
+    },
+    {
+        name: 'Advanced Wars 1 + 2: Re-Boot Camp',
+        url: 'https://www.amazon.com/Advance-Wars-Re-Boot-Camp-Nintendo-Switch/dp/B097B186JF/ref=sr_1_2',
+        img: 'https://images.nintendolife.com/da981206b1cda/advance-wars-1plus2-re-boot-camp-cover.cover_large.jpg',
+        dollar: 60
+    },
+    {
+        name: 'Pokémon Legends: Arceus',
+        url: 'https://www.amazon.com/Pokemon-Legends-Arceus-Nintendo-Switch/dp/B0914YGQSH/ref=sr_1_3',
+        img: 'https://m.media-amazon.com/images/I/71HYKF4rO9L._SL1500_.jpg',
+        dollar: 60
+    },
+    {
+        name: 'KeyRelic Key Cap',
+        url: 'https://www.etsy.com/shop/KeyRelic',
+        img : 'https://i.etsystatic.com/23335264/r/il/a6df71/2919144452/il_1588xN.2919144452_183q.jpg',
+        dollar: 90,
+        options: [
+            {
+                name: 'Style',
+                options: ['Lion', 'Greenman', 'The Wrath', 'The Judge', 'Immortal', 'Baron Harkonnen', 'Baron Harkonnen Skull']
+            },
+            {
+                name: 'Material',
+                options: [ 'Argentan Alloy', 'Solid Brass', 'High Polished Brass', 'Bronze', 'Sterling Silver'],
+                upcharge: [ 0, 0, 0, 0, 85]
+            }
+        ]
+    },
+    {
+        name: 'CleanCaps Pokémon 3 Key Cap Set',
+        dollar: 70,
+        url: 'https://www.etsy.com/shop/CleanCaps?ref=simple-shop-header-name&listing_id=1074137841',
+        img: 'https://i.etsystatic.com/30945415/r/il/ca2290/3492822995/il_794xN.3492822995_8x8h.jpg',
+        options: [{
+            name: 'Set',
+            options: [
+                'Red, Blue, Yellow',
+                'Gold, Silver, Crystal'
+            ]
+        }]
+    },
+    {
+        name: 'Pressure Cooker',
+        url: 'https://www.acehardware.com/departments/home-and-decor/kitchen-utensils-and-gadgets/cookware/68534',
+        img: 'https://cdn-tp3.mozu.com/24645-37138/cms/37138/files/6009c65b-d197-48e1-8e62-5ae7066be0b7?quality=60&_mzcb=_1618890579000',
+        dollar: 125+16
+
+    },
+    {
+        name: 'Dash Cam',
+        url: 'https://www.amazon.com/Dashboard-G-Sensor-Parking-Recording-Detection/dp/B086ML686Q/ref=sr_1_2_sspa',
+        img: 'https://m.media-amazon.com/images/I/61+HxebIeIL._AC_SL1200_.jpg',
+        dollar: 56
     }
 ]
 
