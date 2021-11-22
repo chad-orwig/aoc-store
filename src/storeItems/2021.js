@@ -1,3 +1,4 @@
+import heroCollectorOptions from './heroCollectorOptions';
 const standardSizes = {
     name: 'Size',
     options: [ 'Small', 'Medium', 'Large', 'XL', '2XL', '3XL' ]
@@ -698,6 +699,60 @@ const storeItems =  [
             name: 'Size',
             options: [ 'Small', 'Medium', 'Large', 'XL' ]
         }]
+    },
+    {
+        name: 'Men\'s Braves World Series Champions Signature Roster T-Shirt',
+        url: 'https://www.mlbshop.com/atlanta-braves/mens-atlanta-braves-fanatics-branded-black-2021-world-series-champions-signature-roster-t-shirt/t-25339605+p-3761122823589+z-9-741669999?_ref=p-SFLP:m-GRID:i-r0c2:po-2',
+        img: 'https://fanatics.frgimages.com/FFImage/thumb.aspx?i=/productimages/_4516000/altimages/ff_4516137-bec5589e19ba74ba4d63alt1_full.jpg',
+        dollar: 40,
+        options: [{
+            name: 'Size',
+            options: ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL']
+        }]
+    },
+    {
+        name: 'Men\'s Atlanta Braves World Series Champions Dream Team Roster Tri-Blend T-Shirt',
+        url: 'https://www.mlbshop.com/atlanta-braves/mens-atlanta-braves-majestic-threads-navy-2021-world-series-champions-dream-team-roster-tri-blend-t-shirt/t-47000783+p-6094627382603+z-9-4124933731?_ref=p-SFLP:m-GRID:i-r2c0:po-6',
+        img: 'https://fanatics.frgimages.com/FFImage/thumb.aspx?i=/productimages/_4566000/altimages/ff_4566449-e1de52392df6c04a90a1alt1_full.jpg&w=900',
+        dollar: 40,
+        options: [{
+            name: 'Size',
+            options: [ 'S', 'M', 'L', '2XL' ]
+        }]
+
+    },
+    {
+        name: 'Women\'s Atlanta Braves 2021 World Series Champions Signature Roster V-Neck T-Shirt',
+        url: 'https://www.mlbshop.com/atlanta-braves/womens-atlanta-braves-fanatics-branded-black-2021-world-series-champions-signature-roster-v-neck-t-shirt/t-14880783+p-4861345086314+z-9-2194011774?_ref=p-GALP:m-GRID:i-r2c0:po-6',
+        img: 'https://fanatics.frgimages.com/FFImage/thumb.aspx?i=/productimages/_4515000/altimages/ff_4515883-515f09bc31e82911542calt1_full.jpg&w=900',
+        dollar: 40,
+        options: [{
+            name: 'Size',
+            options: ['S', 'M', 'L', 'XL', '2XL', '3XL' ]
+        }]
+    },
+    {
+        name: 'Women\'s Atlanta Braves World Series Champions Roster Tri-Blend T-Shirt',
+        url: 'https://www.mlbshop.com/atlanta-braves/womens-atlanta-braves-majestic-threads-navy-2021-world-series-champions-roster-tri-blend-t-shirt/t-14554138+p-049473295759+z-8-3622025285?_ref=p-GALP:m-GRID:i-r1c1:po-4',
+        img: 'https://fanatics.frgimages.com/FFImage/thumb.aspx?i=/productimages/_4567000/altimages/ff_4567244-7e602d77e7339cf58d69alt1_full.jpg&w=900',
+        dollar: 40,
+        options: [{
+            name: 'Size',
+            options: ['S', 'M', 'L', 'XL', '2XL' ]
+        }]
+    },
+    {
+        name: 'Magnetic Backpacking Flask Set',
+        url: 'https://www.uncommongoods.com/product/magnetic-campfire-flask-set',
+        img: 'https://www.uncommongoods.com/images/items/49200/49206_1_640px.jpg',
+        dollar: 130
+    },
+    {
+        name: 'Hero Collector figure',
+        dollar: 25,
+        url: 'https://shop.eaglemoss.com/us/hero-collector/figurines#filters.in_stock_filter=Available%20Now&filters.price=,50,',
+        img: require('../images/heroCollector.jpg'),
+        options: heroCollectorOptions
     }
 ]
 
