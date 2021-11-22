@@ -1,4 +1,4 @@
-import heroCollectorOptions from './heroCollectorOptions';
+import {figureOptions, shipOptions } from './heroCollectorOptions';
 const standardSizes = {
     name: 'Size',
     options: [ 'Small', 'Medium', 'Large', 'XL', '2XL', '3XL' ]
@@ -748,11 +748,25 @@ const storeItems =  [
         dollar: 130
     },
     {
-        name: 'Hero Collector figure',
+        name: 'Hero Collector Figure',
         dollar: 25,
         url: 'https://shop.eaglemoss.com/us/hero-collector/figurines#filters.in_stock_filter=Available%20Now&filters.price=,50,',
         img: require('../images/heroCollector.jpg'),
-        options: heroCollectorOptions
+        options: figureOptions
+    },
+    {
+        name: 'Hero Collector Ship',
+        dollar: 30,
+        options: shipOptions,
+        url: 'https://shop.eaglemoss.com/us/hero-collector/starships#filters.price=20,100,&filters.in_stock_filter=Available%20Now',
+        img: require('../images/heroCollector.jpg')
+
+    },
+    {
+        name: 'RC Car',
+        url: 'https://hobbyking.com/en_us/basher-rocksta-1-24-4ws-mini-rock-crawler-rtr-metal-gear.html?queryID=ce9cbb5d8f743eaec23afa67928b7d40&objectID=76507&indexName=hbk_live_products_analytics',
+        img: 'https://cdn-global-hk.hobbyking.com/media/catalog/product/cache/1/image/660x415/17f82f742ffe127f42dca9de82fb58b1/b/a/basher-rocksta-1-24-4ws-mini-rock-crawler-rtr-metal-gears-cars-rtr-arr-kit-9249001327-0-1.jpg',
+        dollar: 100
     }
 ]
 
