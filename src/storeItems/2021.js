@@ -767,7 +767,17 @@ const storeItems =  [
         url: 'https://hobbyking.com/en_us/basher-rocksta-1-24-4ws-mini-rock-crawler-rtr-metal-gear.html?queryID=ce9cbb5d8f743eaec23afa67928b7d40&objectID=76507&indexName=hbk_live_products_analytics',
         img: 'https://cdn-global-hk.hobbyking.com/media/catalog/product/cache/1/image/660x415/17f82f742ffe127f42dca9de82fb58b1/b/a/basher-rocksta-1-24-4ws-mini-rock-crawler-rtr-metal-gears-cars-rtr-arr-kit-9249001327-0-1.jpg',
         dollar: 100
+    },
+    {
+        name: 'Adventure Challenge Scrapbook',
+        dollar: 45,
+        url: 'https://www.uncommongoods.com/product/the-adventure-challenge-scrapbook#530200000000',
+        img: 'https://www.uncommongoods.com/images/items/53000/53020_1_640px.jpg',
+        options: [{
+            name: 'Edition',
+            options: [ 'Couples', 'Friends', 'Family' ]
+        }]
     }
-]
+];
 
 export default storeItems;
