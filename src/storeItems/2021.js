@@ -795,6 +795,18 @@ const storeItems =  [
         url: 'https://www.amazon.com/Pegasus-Spiele-59060E-MicroMacro-Crime/dp/B08LDQW9CQ/ref=sr_1_2',
         img: 'https://m.media-amazon.com/images/I/81YbiBfCC6L._AC_SL1500_.jpg',
         dollar: 30
+    },
+    {
+        name: 'The Quacks of Quedlingburg Board Game',
+        url: 'https://www.amazon.com/CMYK-The-Quacks-of-Quedlinburg/dp/B08T21DYKV/ref=sr_1_2',
+        img: 'https://m.media-amazon.com/images/I/91cR+taIA3S._AC_SL1500_.jpg',
+        dollar: 40
+    },
+    {
+        name: 'Calico Board Game',
+        url: 'https://www.amazon.com/Alderac-Entertainment-Group-AEG-Calico/dp/B08B53WGWX/ref=sr_1_2',
+        img: 'https://m.media-amazon.com/images/I/81wVvuX+YML._AC_SL1500_.jpg',
+        dollar: 40
     }
 ];
 
