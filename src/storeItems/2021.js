@@ -151,7 +151,7 @@ const storeItems =  [
         ]
     },
     {
-        name : 'Tungsten Cube',
+        name : ' Tungsten Cube',
         url : 'https://www.amazon.com/Tungsten-Cube-1-5-One-Kilo/dp/B00XZBIJLS',
         img : 'https://images-na.ssl-images-amazon.com/images/I/61xgSKE-rqL._SL1500_.jpg',
         dollar : 180
@@ -807,6 +807,28 @@ const storeItems =  [
         url: 'https://www.amazon.com/Alderac-Entertainment-Group-AEG-Calico/dp/B08B53WGWX/ref=sr_1_2',
         img: 'https://m.media-amazon.com/images/I/81wVvuX+YML._AC_SL1500_.jpg',
         dollar: 40
+    },
+    {
+        name: 'Apple TV 4k (32 GB)',
+        url: 'https://www.amazon.com/2021-Apple-TV-4K-64GB/dp/B0933D3SN6/ref=sr_1_1',
+        img: 'https://m.media-amazon.com/images/I/815g8Uo656S._AC_SL1500_.jpg',
+        dollar: 175,
+    },
+    {
+        name: 'Bose SoundLink Flex Speaker',
+        url: 'https://www.amazon.com/Bose-SoundLink-Bluetooth-Portable-Waterproof/dp/B099TLMRB6/ref=sr_1_6',
+        img: 'https://m.media-amazon.com/images/I/818KSsIzohL._AC_SL1500_.jpg',
+        dollar: 150,
+        options: [{
+            name: 'Color',
+            options: [ 'White Smoke', 'Stone Blue', 'Black' ]
+        }]
+    },
+    {
+        name: 'Sonos Roam',
+        url: 'https://www.target.com/p/sonos-roam-waterproof-portable-bluetooth-speaker-with-wifi-and-voice-control/-/A-82788394?preselect=82821413#lnk=sametab',
+        img: 'https://target.scene7.com/is/image/Target/GUEST_15e71e4a-6616-47ef-993b-80e74e119270',
+        dollar: 179
     }
 ];
 

@@ -57,7 +57,7 @@ class App extends React.Component {
     return storeItems[year]
       .map(this.assignZeroQty)
       .map(this.calculateCost)
-      .sort((i1, i2) => i2.cost - i1.cost || i1.name.localeCompare(i2.name))
+      .sort((i1, i2) => i2.avgCost - i1.avgCost || i1.name.localeCompare(i2.name))
       .map(this.addSetQuantityFunction)
       .map(this.addMakeSelectionFunction)
       .map(this.addUpchargeFunction);
@@ -124,9 +124,17 @@ class App extends React.Component {
 
   assignZeroQty = (item) => Object.assign({ qty : 0 }, item);
 
-  calculateCost = (item) => Object.assign({
-    cost : dollarsToStars(item.dollar)
-  }, item)
+  calculateCost = (item) => {
+    const maxUpcharge = this.calculateMaxUpcharge(item);
+    const maxDollar = maxUpcharge + item.dollar;
+    const maxCost = dollarsToStars(maxDollar);
+    const cost =  dollarsToStars(item.dollar)
+    return Object.assign({
+      cost,
+      maxCost,
+      avgCost : (cost + maxCost) / 2
+    }, item);
+  }
 
   mergeUpdateAtIndex = (array, update, index) => array.map((item, i) => i === index ? Object.assign({}, item, update) : item);
 
@@ -188,7 +196,15 @@ class App extends React.Component {
   addUpchargeFunction = (item, index) => Object.assign({
     calculateUpchargeDollar : this.createCalculateUpchargeDollarFunction(index),
     calculateUpcharge : this.createCalculateUpchargeFuncion(index)
-  }, item)
+  }, item);
+
+  calculateMaxUpcharge = (item) => {
+    if(!item.options) return 0;
+    return item.options
+      .map(o => o.upcharge || [0]) // Map to upcharge array
+      .map(arr => Math.max(...arr)) // Take max upcharge val
+      .reduce((a,b) => a + b, 0); // Sum max of all choices
+  }
 
   createCalculateUpchargeDollarFunction = (index) => () => {
     const { options } = this.state.items[index];
