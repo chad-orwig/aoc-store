@@ -281,11 +281,12 @@ const storeItems =  [
     },
     {
         name : 'Kindle',
-        dollar : 80,
+        dollar : 110,
         img : 'https://images-na.ssl-images-amazon.com/images/I/61ntJTLVtCL._AC_SL1000_.jpg',
         url : 'https://www.amazon.com/Kindle-Now-with-Built-in-Front-Light/dp/B07FPX819Q',
         options : [
-            { name : 'Color', options : [ 'White', 'Black' ]}
+            { name : 'Color', options : [ 'White', 'Black' ]},
+            { name: 'Version', options: [ 'Standard', 'Paperwhite' ], upcharge: [ 0, 30 ]}
         ]
     },
     {
