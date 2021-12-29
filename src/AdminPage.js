@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import 'firebase/firestore';
-import {year2020 as aocResults} from './results';
+import {year2021 as aocResults} from './results';
 import Matcher from './Matcher';
 import { getResults, getAllSelections } from './database';
 import Accordion from 'react-bootstrap/Accordion';
