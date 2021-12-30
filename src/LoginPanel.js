@@ -11,45 +11,21 @@ const gitHubProvider = new firebase.auth.GithubAuthProvider();
 const twitterProvider = new firebase.auth.TwitterAuthProvider();
 gitHubProvider.addScope('read:user');
 
-function loginFailureHandler(addAlert) {
-    return (loginError) => {
-        console.error(loginError);
-        addAlert({
-            heading: 'Login Error',
-            message: loginError.message ?? 'No details given, check the console and talk to Chad.',
-            variant: 'danger'
-        });
-    }
-}
-
 function login(provider) {
-    return firebase.auth().signInWithPopup(provider)
+    return firebase.auth().signInWithRedirect(provider)
 }
 
 function loginWithGoogle(addAlert) {
-    return () => login(googleProvider).catch(loginFailureHandler(addAlert));
+    return () => login(googleProvider);
 }
 function loginWithGithub(addAlert) {
-    return () => login(gitHubProvider).then((loginResult) => {
-        if(!loginResult) return;
-
-        const {user, additionalUserInfo} = loginResult;
-        const displayName = user.displayName 
-            || additionalUserInfo.profile.name
-            || additionalUserInfo.profile.username;
-
-        if(displayName && displayName !== user.displayName) {
-            user.updateProfile({ displayName }).then(() => firebase.auth().updateCurrentUser())
-        }
-    })
-    .catch(loginFailureHandler(addAlert));
+    return () => login(gitHubProvider);
 }
 function loginWithTwitter(addAlert) {
     return () => login(twitterProvider)
         .then(result => {
             console.log(result);
-        })
-        .catch(loginFailureHandler(addAlert));
+        });
 }
 
 function LoginPanel({ addAlert }) {
