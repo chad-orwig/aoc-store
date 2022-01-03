@@ -1,4 +1,5 @@
 import {figureOptions, shipOptions } from './heroCollectorOptions';
+import { ridgeStyleOption } from './ridgeOptions';
 const standardSizes = {
     name: 'Size',
     options: [ 'Small', 'Medium', 'Large', 'XL', '2XL', '3XL' ]
@@ -834,6 +835,13 @@ const storeItems =  [
             name: 'Color',
             options: [ 'White', 'Black' ]
         }]
+    },
+    {
+        name: 'Ridge Wallet',
+        url: 'https://ridge.com/collections/wallets',
+        img: 'https://cdn.shopify.com/s/files/1/0613/6213/collections/allwallets2_2048x.jpg?v=1629749490',
+        dollar: 85,
+        options: [ridgeStyleOption]
     }
 ];
 
