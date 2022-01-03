@@ -827,9 +827,13 @@ const storeItems =  [
     },
     {
         name: 'Sonos Roam',
-        url: 'https://www.target.com/p/sonos-roam-waterproof-portable-bluetooth-speaker-with-wifi-and-voice-control/-/A-82788394?preselect=82821413#lnk=sametab',
+        url: 'https://www.sonos.com/en-us/shop/roam',
         img: 'https://target.scene7.com/is/image/Target/GUEST_15e71e4a-6616-47ef-993b-80e74e119270',
-        dollar: 179
+        dollar: 179,
+        options: [{
+            name: 'Color',
+            options: [ 'White', 'Black' ]
+        }]
     }
 ];
 
