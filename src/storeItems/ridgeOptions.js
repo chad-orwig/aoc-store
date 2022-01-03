@@ -97,7 +97,8 @@ const raw = [
     }
   ]
   .filter(({cost}) => cost <= 180)
-  .sort((a,b) => b.cost - a.cost);
+  .sort((a,b) => b.cost - a.cost ||
+    a.title.localeCompare(b.title));
 
   const minPrice = raw.map(({cost}) => cost).reduce((a,b) => Math.min(a,b));
 
