@@ -138,9 +138,13 @@ const storeItems =  [
     },
     {
         name : 'Gooseneck Electric Kettle',
-        url : 'https://www.amazon.com/Gooseneck-Electric-Variable-Temperature-Control/dp/B08CVDPWB3',
-        img : 'https://images-na.ssl-images-amazon.com/images/I/81OG4ZrJl0L._AC_SL1500_.jpg',
-        dollar : 60
+        url : 'https://www.amazon.com/COSORI-Electric-Gooseneck-Variable-Stainless/dp/B07T1CH2HH/ref=sr_1_8',
+        img : 'https://m.media-amazon.com/images/I/61O-udIUQLL._AC_SL1440_.jpg',
+        dollar : 70,
+        options: [{
+            name: 'Color',
+            options: [ 'Black', 'Silver' ]
+        }]
     },
     {
         name : 'Anker Power Bank',
