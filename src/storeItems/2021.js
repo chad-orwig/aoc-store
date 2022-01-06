@@ -846,6 +846,48 @@ const storeItems =  [
         img: 'https://cdn.shopify.com/s/files/1/0613/6213/collections/allwallets2_2048x.jpg?v=1629749490',
         dollar: 85,
         options: [ridgeStyleOption]
+    },
+    {
+        name: 'LEGO City Deep Space Rocket and Launch Control',
+        url: 'https://www.amazon.com/LEGO-Building-Monorail-Astronaut-Minifigures/dp/B07QSCLHHK',
+        img: 'https://m.media-amazon.com/images/I/9123WHzqy0L._AC_SL1500_.jpg',
+        dollar: 100,
+    },
+    {
+        name: 'LEGO City Space Mars Research Shuttle',
+        url: 'https://www.amazon.com/LEGO-Research-Building-Astronaut-Minifigures/dp/B07PS65RKM',
+        img: 'https://m.media-amazon.com/images/I/811jYHSrajL._AC_SL1500_.jpg',
+        dollar: 40,
+    },
+    {
+        name: 'LEGO Harry Potter Hogwarts Moment: Herbology Class',
+        url: 'https://www.amazon.com/LEGO-Harry-Potter-Hogwarts-Moment/dp/B08HVZJ48X',
+        img: 'https://m.media-amazon.com/images/I/810b-E2Wr8L._AC_SL1500_.jpg',
+        dollar: 30,
+    },
+    {
+        name: 'LEGO Star Wars: The Mandalorian The Child',
+        url: 'https://www.amazon.com/LEGO-Star-Wars-Mandalorian-Collectible/dp/B0883SGWXB',
+        img: 'https://m.media-amazon.com/images/I/71AqC2pFstL._AC_SL1500_.jpg',
+        dollar: 80,
+    },
+    {
+        name: 'LEGO Marvel Avengers Iron Man Hall of Armor',
+        url: 'https://www.amazon.com/LEGO-Marvel-Avengers-Armor-Building/dp/B07JMHJZYN',
+        img: 'https://m.media-amazon.com/images/I/91g0lpKJpzL._AC_SL1500_.jpg',
+        dollar: 60,
+    },
+    {
+        name: 'LEGO DC Batman Batmobile',
+        url: 'https://www.amazon.com/LEGO-DC-Batman-Batmobile-Building/dp/B07Q2N27TV',
+        img: 'https://m.media-amazon.com/images/I/817IjVlg1zL._AC_SL1500_.jpg',
+        dollar: 65,
+    },
+    {
+        name: 'LEGO Star Wars Mandalorian Starfighter',
+        url: 'https://www.amazon.com/LEGO-Mandalorian-Starfighter-Featuring-Minifigures/dp/B08YPBB2DM/ref=sr_1_3',
+        img: 'https://m.media-amazon.com/images/I/81mcKaWvBpL._AC_SL1500_.jpg',
+        dollar: 60,
     }
 ];
 
