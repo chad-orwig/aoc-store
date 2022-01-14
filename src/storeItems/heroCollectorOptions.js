@@ -263,16 +263,17 @@ const upcharge = [
     ...makeUpchargeArray(fortyFiveDollars.length, 25),
     ...makeUpchargeArray(fiftyDollars.length, 30)
 ];
+const localeComapreSort = (a, b) => a.localeCompare(b);
 export const figureOptions = [{
     name: 'Character',
     options: [
-        ...twentyDollars,
-        ...twentyFiveDollars,
-        ...thirtyDollars,
-        ...thirtyFiveDollars,
-        ...fortyDollars,
-        ...fortyFiveDollars,
-        ...fiftyDollars
+        ...twentyDollars.sort(localeComapreSort),
+        ...twentyFiveDollars.sort(localeComapreSort),
+        ...thirtyDollars.sort(localeComapreSort),
+        ...thirtyFiveDollars.sort(localeComapreSort),
+        ...fortyDollars.sort(localeComapreSort),
+        ...fortyFiveDollars.sort(localeComapreSort),
+        ...fiftyDollars.sort(localeComapreSort)
     ],
     upcharge
 }];
@@ -557,15 +558,15 @@ const twentyFiveDollarShips = [
 export const shipOptions = [{
     name: 'Ship',
     options : [
-        ...twentyFiveDollarShips,
-        ...thirtyDollarShips,
-        ...fortyDollarShips,
-        ...fiftyDollarShips,
-        ...fiftyFiveDollarShips,
-        ...sixtyFiveDollarShips,
-        ...seventyFiveDollarShips,
-        ...eightyDollarShips,
-        ...hundredDollarShips
+        ...twentyFiveDollarShips.sort(localeComapreSort),
+        ...thirtyDollarShips.sort(localeComapreSort),
+        ...fortyDollarShips.sort(localeComapreSort),
+        ...fiftyDollarShips.sort(localeComapreSort),
+        ...fiftyFiveDollarShips.sort(localeComapreSort),
+        ...sixtyFiveDollarShips.sort(localeComapreSort),
+        ...seventyFiveDollarShips.sort(localeComapreSort),
+        ...eightyDollarShips.sort(localeComapreSort),
+        ...hundredDollarShips.sort(localeComapreSort)
     ],
     upcharge : [
         ...makeUpchargeArray(twentyFiveDollarShips.length, 0),
