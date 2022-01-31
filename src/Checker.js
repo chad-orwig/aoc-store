@@ -63,7 +63,7 @@ export default function Checker({dbResults, aocResults, selections}) {
             });
             return (
                 <tr key={index} >
-                    <td colSpan={6 - optionTds.length}>{item.name}</td>
+                    <td colSpan={4 - optionTds.length}>{item.name}</td>
                     {optionTds}
                     <td>{item.qty}</td>
                     <td>{item.people.join(', ')}</td>
@@ -76,7 +76,7 @@ export default function Checker({dbResults, aocResults, selections}) {
             <Table striped bordered hover>
                 <thead><tr>
                     <th>Name</th>
-                    <th colSpan="5">Options</th>
+                    <th colSpan="3">Options</th>
                     <th>Quantity</th>
                     <th>People</th>
                 </tr></thead>

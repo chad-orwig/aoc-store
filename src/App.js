@@ -263,35 +263,14 @@ class App extends React.Component {
 
   componentDidMount = () => {
     firebase.auth().onAuthStateChanged(this.setUser);
-    firebase.auth().getRedirectResult()
-      .then((loginResult) => {
-
-        const {user, additionalUserInfo} = loginResult;
-        if(!user) return;
-        const displayName = user.displayName 
-            || additionalUserInfo.profile.name
-            || additionalUserInfo.profile.username;
-
-        if(displayName && displayName !== user.displayName) {
-            user.updateProfile({ displayName }).then(() => firebase.auth().updateCurrentUser())
-        }
-      })
-      .catch(err => {
-        console.error(err);
-        this.addAlert({
-          heading: 'Login Error',
-          message: err.message ?? 'No details given, check the console and talk to Chad.',
-          variant: 'danger'
-        });
-      })
   }
   
   render() {
-    const disabledOverlay = this.state.enabled && this.state.user !== undefined ? '' : <DisabledOverlay />
+    const disabledOverlay = this.state.enabled ? '' : <DisabledOverlay />
     const itemsByName = keyByName(this.state.items);
 
     const items = this.state.filteredItems.map(name => itemsByName[name]);
-    
+
     return (
       <Router>
         <div>
