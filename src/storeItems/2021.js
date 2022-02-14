@@ -2,9 +2,49 @@ import {figureOptions, shipOptions } from './heroCollectorOptions';
 import { ridgeStyleOption } from './ridgeOptions';
 const standardSizes = {
     name: 'Size',
-    options: [ 'Small', 'Medium', 'Large', 'XL', '2XL', '3XL' ]
+    options: [ 'Small', 'Medium', 'Large', 'XL', '2XL' ]
 };
 const storeItems =  [
+    {
+        name: 'Slalom Raglan Sweatshert',
+        url: 'https://gear.slalom.com/Product/1526920-Bella_Canvas_Raglan_Sweatshirt',
+        img: 'https://c.bdac.co/bdac/SLALOMGEAR/ProductImages/1526920_z.jpg?v=637637841299447600',
+        dollar: '26',
+        options:[{
+            name: 'Size',
+            options: ['Large', 'XL', '2XL']
+        }]
+    },
+    {
+        name: 'Slalom Hoodie',
+        url: 'https://gear.slalom.com/Product/1526907-Bella_Canvas_Fleece_Hoodie?cat=APP',
+        img: 'https://c.bdac.co/bdac/SLALOMGEAR/ProductImages/1526907_z.jpg?v=637637834277691310',
+        dollar: '31',
+        options:[{
+            name: 'Size',
+            options: ['Medium', 'Large', '2XL']
+        }]
+    },
+    {
+        name: 'Slalom Comfort Colors Long-Sleeve',
+        url: 'https://gear.slalom.com/Product/1530428-Comfort_Colors_Long-Sleeve_T-shirt?cat=APP',
+        img: 'https://c.bdac.co/bdac/SLALOMGEAR/ProductImages/1530428_z.jpg?v=637794324544785420',
+        dollar: '23',
+        options:[standardSizes]
+    },
+    {
+        name: 'Slalom Luck  Linen Cap',
+        url: 'https://gear.slalom.com/Product/1526566-Lucky_7_Linen_Cap?cat=HEAD',
+        img: 'https://c.bdac.co/bdac/SLALOMGEAR/ProductImages/1526566_z.jpg?v=637611962115652108',
+        dollar: '14',
+    },
+    {
+        name: 'Slalom _build Champion Hoodie',
+        url: 'https://gear.slalom.com/Product/1526598-_build_Champion_Hoodie?cat=APP',
+        img: 'https://c.bdac.co/bdac/SLALOMGEAR/ProductImages/1526598_z.jpg?v=637611966398672262',
+        dollar: '38',
+        options:[standardSizes]
+    },
     {
         url : 'https://www.canakit.com/raspberry-pi/pi-4-kits',
         name : 'Raspberry Pi 4 Starter Kit',
@@ -587,7 +627,7 @@ const storeItems =  [
     },
     {
         name: 'Slalom T-Shirt',
-        url: 'https://gear.slalom.com/Product/1526205-Bella_Canvas_T-shirt',
+        url: 'https://gear.slalom.com/Product/1526904-Bella_Canvas_T-Shirt',
         img: 'https://c.bdac.co/bdac/SLALOMGEAR/ProductImages/1526205_z.jpg?v=637598967750331826',
         dollar: 9,
         options: [
@@ -620,12 +660,6 @@ const storeItems =  [
         dollar: 14
     },
     {
-        name: 'Slalom Relaxed Golf Cap',
-        url: 'https://gear.slalom.com/Product/1526902-Relaxed_Golf_Cap',
-        img: 'https://c.bdac.co/bdac/SLALOMGEAR/ProductImages/1526902_z.jpg?v=637637833122628310',
-        dollar: 9.2,
-    },
-    {
         name: 'Slalom _build New Era Snapback Cap',
         url: 'https://gear.slalom.com/Product/1528767-_build_New_Era_Snapback_Cap',
         img: 'https://c.bdac.co/bdac/SLALOMGEAR/ProductImages/1528767_z.jpg?v=637701934692813340',
@@ -653,16 +687,6 @@ const storeItems =  [
         ]
     },
     {
-        name: 'Slalom Women\'s Cozy Quarter Zip',
-        url: 'https://gear.slalom.com/Product/1529469-Womens_Cozy_Quarter_Zip',
-        img: 'https://c.bdac.co/bdac/SLALOMGEAR/ProductImages/1529469_z.jpg?v=637711216289101640',
-        dollar: 40,
-        options: [{
-            name: 'Size',
-            options: [ 'Small', 'Medium', 'Large', '2XL' ]
-        }]
-    },
-    {
         name: 'Women\'s OGIO Pullover',
         dollar: 57,
         url: 'https://gear.slalom.com/Product/1529470-Womens_OGIO_Pullover',
@@ -671,13 +695,6 @@ const storeItems =  [
             name: 'Size',
             options: [ 'Small', 'Medium', 'Large', '2XL' ]
         }]
-    },
-    {
-        name: 'Slalom _build Comfort Colors T-Shirt',
-        url: 'https://gear.slalom.com/Product/1528759-_build_Comfort_Colors_T-shirt',
-        img: 'https://c.bdac.co/bdac/SLALOMGEAR/ProductImages/1528759_z.jpg?v=637695884294889600',
-        dollar: 25,
-        options: [ standardSizes ]
     },
     {
         name: 'Slalom Women\'s _build Brick T-Shirt',
