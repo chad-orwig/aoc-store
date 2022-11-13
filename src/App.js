@@ -1,8 +1,9 @@
 import React from 'react';
+import {getAuth} from 'firebase/auth';
 
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route
 } from "react-router-dom";
 
@@ -21,9 +22,8 @@ import findIndex from 'lodash/fp/findIndex';
 import find from 'lodash/fp/find';
 import filter from 'lodash/fp/filter';
 import keyBy from 'lodash/fp/keyBy';
-import uuid from 'uuid/v1';
+import {v1 as uuid} from 'uuid';
 
-import firebase from './firebaseConfig';
 import {getSelectionsForUser, year} from './database';
 import 'firebase/auth';
 
@@ -262,7 +262,7 @@ class App extends React.Component {
   }, item);
 
   componentDidMount = () => {
-    firebase.auth().onAuthStateChanged(this.setUser);
+    getAuth().onAuthStateChanged(this.setUser);
   }
   
   render() {
@@ -277,10 +277,10 @@ class App extends React.Component {
           {disabledOverlay}
           <Header search={this.state.search} setSearch={this.setSearch} items={this.state.items} addAlert={this.addAlert} user={this.state.user} />        
           <AlertContainer alerts={this.state.alerts} />
-          <Switch>
-            <Route path="/admin"><AdminPage /></Route>
-            <Route path="/"><StarStore items={items} enabled={this.state.enabled}/></Route>
-          </Switch>
+          <Routes>
+            <Route path="/admin" element={<AdminPage />} />
+            <Route path="/" element={<StarStore items={items} enabled={this.state.enabled}/>}/>
+          </Routes>
         </div>
       </Router>
     );

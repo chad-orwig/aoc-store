@@ -1,14 +1,14 @@
+import app from './firebaseConfig';
 import React from 'react';
 import { func } from 'prop-types';
 
-import firebase from './firebaseConfig';
-import 'firebase/auth';
+import {getAuth, GoogleAuthProvider, GithubAuthProvider, TwitterAuthProvider, signInWithPopup, updateCurrentUser} from 'firebase/auth';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 
-const googleProvider = new firebase.auth.GoogleAuthProvider();
-const gitHubProvider = new firebase.auth.GithubAuthProvider();
-const twitterProvider = new firebase.auth.TwitterAuthProvider();
+const googleProvider = new GoogleAuthProvider();
+const gitHubProvider = new GithubAuthProvider();
+const twitterProvider = new TwitterAuthProvider();
 gitHubProvider.addScope('read:user');
 
 function loginFailureHandler(addAlert) {
@@ -23,7 +23,7 @@ function loginFailureHandler(addAlert) {
 }
 
 function login(provider) {
-    return firebase.auth().signInWithPopup(provider)
+    return signInWithPopup(provider)
 }
 
 function loginWithGoogle(addAlert) {
@@ -39,7 +39,7 @@ function loginWithGithub(addAlert) {
             || additionalUserInfo.profile.username;
 
         if(displayName && displayName !== user.displayName) {
-            user.updateProfile({ displayName }).then(() => firebase.auth().updateCurrentUser())
+            user.updateProfile({ displayName }).then(() => updateCurrentUser())
         }
     })
     .catch(loginFailureHandler(addAlert));

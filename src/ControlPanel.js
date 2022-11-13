@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import firebase from './firebaseConfig';
-import 'firebase/auth';
+import {getAuth} from 'firebase/auth';
 import {setSelectionsForUser, year} from './database';
 
 import Button from 'react-bootstrap/Button';
@@ -12,7 +11,7 @@ import filter from 'lodash/fp/filter';
 import sumBy from 'lodash/fp/sumBy';
 import find from 'lodash/fp/find';
 
-const logout = () => firebase.auth().signOut();
+const logout = () => getAuth().auth().signOut();
 
 const findSelectedItems = filter(i => i.qty > 0);
 export const sumByRequiredCost = sumBy(({qty, cost, upcharge}) => (qty * cost) + upcharge);
