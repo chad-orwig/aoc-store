@@ -1,8 +1,7 @@
-import app from './firebaseConfig';
 import React from 'react';
 import { func } from 'prop-types';
 
-import {getAuth, GoogleAuthProvider, GithubAuthProvider, TwitterAuthProvider, signInWithPopup, updateCurrentUser} from 'firebase/auth';
+import { GoogleAuthProvider, GithubAuthProvider, TwitterAuthProvider, signInWithPopup, updateCurrentUser} from 'firebase/auth';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 

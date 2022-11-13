@@ -10,38 +10,33 @@ function isValid({selection, stars}){
 }
 
 function afterCombined(combined, setInvalid, setValid) {
-    return () => {
-        setInvalid(combined.filter(c => !isValid(c)));
-        setValid(combined.filter(c => isValid(c)));
-    };
+    setInvalid(combined.filter(c => !isValid(c)));
+    setValid(combined.filter(c => isValid(c)));
 }
 
 function buildCombined({members}, results, selections, setCombined) {
-    return () => {
-        const selectionsByGid = selections.reduce((o, curr) => Object.assign(o, {[curr.uid] : curr}), {});
-        const combined = results
-            .filter(({id}) => members[id])
-            .map(o => Object.assign({}, o, {selection : selectionsByGid[members[o.id]]}));
-        setCombined(combined);
-    }
+    const selectionsByGid = selections.reduce((o, curr) => Object.assign(o, {[curr.uid] : curr}), {});
+    const combined = results
+        .filter(({id}) => members[id])
+        .map(o => Object.assign({}, o, {selection : selectionsByGid[members[o.id]]}));
+    setCombined(combined);
+    
 }
 
 function buildStuff(valid, setStuff) {
-    return () => {
-        const stuff = valid.reduce((stuff, {name:person, selection}) => {
-            selection.selections.forEach(s => {
-                const options = s.options ? s.options.reduce((o, {name, selections}) => Object.assign(o, {[name]: selections.join(', ')}), {}) : {};
-                const key = [s.name, ...(Object.values(options))].join(' | ');
-                if(stuff[key]) {
-                    stuff[key].qty += s.qty;
-                    stuff[key].people.push(`${person}[${s.qty}]`);
-                }
-                else Object.assign(stuff, {[key] : {options, name : s.name, qty : s.qty, people: [`${person}[${s.qty}]`]}});
-            });
-            return stuff;
-        }, {});
-        setStuff(stuff);
-    }
+    const stuff = valid.reduce((stuff, {name:person, selection}) => {
+        selection.selections.forEach(s => {
+            const options = s.options ? s.options.reduce((o, {name, selections}) => Object.assign(o, {[name]: selections.join(', ')}), {}) : {};
+            const key = [s.name, ...(Object.values(options))].join(' | ');
+            if(stuff[key]) {
+                stuff[key].qty += s.qty;
+                stuff[key].people.push(`${person}[${s.qty}]`);
+            }
+            else Object.assign(stuff, {[key] : {options, name : s.name, qty : s.qty, people: [`${person}[${s.qty}]`]}});
+        });
+        return stuff;
+    }, {});
+    setStuff(stuff);
 }
 
 export default function Checker({dbResults, aocResults, selections}) {
@@ -49,9 +44,9 @@ export default function Checker({dbResults, aocResults, selections}) {
     const [invalid, setInvalid] = useState([]);
     const [valid, setValid] = useState([]);
     const [stuff, setStuff] = useState([]);
-    useEffect(afterCombined(combined, setInvalid, setValid), [combined]);
-    useEffect(buildCombined(dbResults, aocResults, selections, setCombined), [dbResults, aocResults, selections]);
-    useEffect(buildStuff(valid, setStuff), [valid]);
+    useEffect(() => afterCombined(combined, setInvalid, setValid), [combined]);
+    useEffect(() => buildCombined(dbResults, aocResults, selections, setCombined), [dbResults, aocResults, selections]);
+    useEffect(() => buildStuff(valid, setStuff), [valid]);
 
     const invalidCards = invalid.map((data, index) => <InvalidSelectionCard data={data} key={index} collapseKey={index} />)
     const stuffKeys = Object.keys(stuff);
