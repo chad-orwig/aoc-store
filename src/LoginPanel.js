@@ -54,7 +54,7 @@ function loginWithTwitter(addAlert) {
 function LoginPanel({ addAlert }) {
 
     return (
-        <div className="float-right">
+        <div className="float-end">
             <span className="d-inline-block lead align-middle mr-2">Login With</span>
             <ButtonGroup>
                 <Button onClick={loginWithGoogle(addAlert)}>Google</Button>

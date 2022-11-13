@@ -6,8 +6,8 @@ function QtySelector({item}) {
     return (
         <div>
             <span>Qty: {item.qty}</span>
-            <Button onClick={clearQty} size='sm' disabled={item.qty === 0} variant='danger' className="float-right"><span className="oi oi-x"></span></Button>
-            <Button onClick={incQty} size='sm' variant='success' className="float-right" ><span className="oi oi-plus"></span></Button>
+            <Button onClick={clearQty} size='sm' disabled={item.qty === 0} variant='danger' className="float-end"><span className="oi oi-x"></span></Button>
+            <Button onClick={incQty} size='sm' variant='success' className="float-end" ><span className="oi oi-plus"></span></Button>
         </div>
     );
 }

@@ -113,7 +113,7 @@ function ControlPanel({items, user, addAlert}) {
     const starString = numStars ? ` ${numStars}⭐` : '';
     const clearButton = numStars ? (<Button onClick={clearAll(items)} variant="danger">Clear</Button>) : ''
     return (
-        <div className="float-right">
+        <div className="float-end">
             
             <span className="d-inline-block lead align-middle mr-2">{user.displayName}{starString}</span>
             <ButtonGroup>
