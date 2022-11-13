@@ -12,7 +12,7 @@ import Search from './Search.js';
 function Header({ user, items, addAlert, search, setSearch }) {
     const loginPanel = !user ? (<LoginPanel addAlert={addAlert} />) : (<ControlPanel user={user} items={items} addAlert={addAlert}/>);
     return (
-        <div className="fixed-top bg-info text-white p-2 hide-print">
+        <div className="fixed-top bg-info text-dark p-2 hide-print">
                 <Row className="g-0">
                     <Col xs={0} md={2} lg={3}>
                         <h2 className="d-none d-md-inline-block d-lg-none">AOC</h2>

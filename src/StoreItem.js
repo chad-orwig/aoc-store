@@ -30,7 +30,7 @@ function StoreItem( {item} ) {
     const extraString = upcharge ? `+${upcharge}` : (!item.qty && item.maxCost > item.cost) ? `-${item.maxCost}` : '';
     return (
         <Col className="my-2">
-            <Card style={{minWidth : '300px', maxWidth: '528px', height: "100%"}} bg={item.qty ? 'info' : 'light'} text={item.qty ? 'white' : undefined}>
+            <Card style={{minWidth : '300px', maxWidth: '528px', height: "100%"}} bg={item.qty ? 'info' : 'light'}>
                 {item.url ? buildImgWithLink(item) : buildImgWithoutLink(item)}
                 <Card.Body>
                     <Card.Title>{item.name}</Card.Title>
