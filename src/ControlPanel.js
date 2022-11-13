@@ -115,7 +115,7 @@ function ControlPanel({items, user, addAlert}) {
     return (
         <div className="float-end">
             
-            <span className="d-inline-block lead align-middle mr-2">{user.displayName}{starString}</span>
+            <span className="d-inline-block lead align-middle me-2">{user.displayName}{starString}</span>
             <ButtonGroup>
                 <Button onClick={() => submitSelections(items, user, addAlert, setSaving)} disabled={saving}>Submit</Button>
                 {clearButton}
