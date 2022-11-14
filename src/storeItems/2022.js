@@ -515,6 +515,12 @@ const storeItems =  [
         url: 'https://www.amazon.com/M5Stack-Core2-ESP32-Development-EduKit/dp/B08VGRZYJR/ref=sr_1_3',
         img: 'https://m.media-amazon.com/images/I/61krY36P99L._AC_.jpg',
         dollar: 50,
+    },
+    {
+        name: 'Bripe Collection',
+        img: 'https://cdn.shopify.com/s/files/1/0026/7671/9676/products/ScreenShot2022-09-29at3.34.04PM_1800x1800.png?v=1664488805',
+        url: 'https://briping.com/collections/all/products/international-bripe-kit-packaged-appropriately-for-shipping',
+        dollar: 110,
     }
 ];
 
