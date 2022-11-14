@@ -1,28 +1,6 @@
-import {figureOptions, shipOptions } from './heroCollectorOptions';
 import { ridgeStyleOption } from './ridgeOptions';
-const standardSizes = {
-    name: 'Size',
-    options: [ 'Small', 'Medium', 'Large', 'XL', '2XL' ]
-};
+import {minPrice, variety} from './plumTeaOptions';
 const storeItems =  [
-    {
-        url : 'https://www.canakit.com/raspberry-pi/pi-4-kits',
-        name : 'Raspberry Pi 4 Starter Kit',
-        img : 'https://images-na.ssl-images-amazon.com/images/I/817DclokSqL._AC_SL1500_.jpg',
-        options : [
-            {
-                name: 'Memory',
-                options: [ '2GB', '4GB', '8GB' ],
-                upcharge: [ 0, 20, 40 ]
-            },
-            {
-                name: 'Storage',
-                options: [ '32GB', '64GB (Requires 4GB+ Memory)', '128GB (Requires 4GB+ Memory)'],
-                upcharge: [0, 20, 40]
-            }
-        ],
-        dollar : 90
-    },
     {
         name : 'Donation to Charity',
         img : 'https://mtypks.org/wp-content/uploads/2018/10/mtyp-name-your-own-price-donation-image.png',
@@ -37,36 +15,29 @@ const storeItems =  [
         ]
     },
     {
-        name : 'Custom AoC Belt Logo 30 oz Yeti Tumbler',
-        img : require('../images/HammyTheYeti.png'),
-        dollar : 70
-    },
-    {
-        name : 'NordVPN 18 Month Subscription',
-        img : 'https://images-na.ssl-images-amazon.com/images/I/81wapg7MoLL._AC_SL1500_.jpg',
-        url : 'https://www.amazon.com/gp/product/B0741DHY3Z/ref=as_li_qf_sp_asin_il_tl',
-        dollar : 100
-    },
-    {
-        name : 'Basic Phone Charging Pad',
+        name : 'Phone Charging Pad',
         url : 'https://www.amazon.com/Anker-Wireless-PowerWave-Upgraded-Fast-Charging/dp/B07THHQMHM/ref=sr_1_3',
         img : 'https://images-na.ssl-images-amazon.com/images/I/6114qzNg-3L._AC_SL1500_.jpg',
-        dollar : 14
+        dollar : 16
     },
     {
-        name : 'Google Nest Hub',
-        url : 'https://store.google.com/product/google_nest_hub',
-        img : 'https://lh3.googleusercontent.com/RjaBc8Q2dAPSsunfK5KwEMGzZzugCwZL0khwZAFfhbz9xIjfVAV3Y9wWIc5adf_9qSdo=w2288',
-        dollar : 90,
+        name : 'Google Nest Hub (2nd Gen)',
+        url : 'https://store.google.com/us/product/nest_hub_2nd_gen?hl=en-US',
+        img : 'https://lh3.googleusercontent.com/NO0tdBFIe8zu8_fzr-mywjLfJO-rpfOM1MBolQ-EJ9CvTMmvo5KQwDWmHDZ88Y2oEisyjFRYIFEn2G50BTLimp7fQIrs7odKVQ',
+        dollar : 100,
         options : [
             { name : 'Color', options : [ 'Chalk', 'Charcoal', 'Mist', 'Sand']}
         ]
     },
     {
         name : 'Chromecast With Google TV',
-        img : 'https://lh3.googleusercontent.com/7vxGbgFArMQ3DZ4kYmLuuSOYyynyMMEnpYy_EITwrnP2y5beVTsLVsJqN0y4lXq5w_peM2bj0MljAmjMYCUcYg=w1890',
+        img : 'https://lh3.googleusercontent.com/PccevIl8FWmhSs0zCrDftH9Mv-uXZaepgsxM_UdeXA_PrAo4rxmLnNNemrUup9fed5pwhOobWsTk7ZpPd8B85Fh-3Y-FZPvdjMbE=rw-e365-w1700',
         url : 'https://store.google.com/product/chromecast_google_tv',
-        dollar : 50
+        dollar : 50,
+        options:[{
+            name: 'Color',
+            options: [ 'Sky', 'Sunrise', 'Snow' ]
+        }],
     },
     {
         name : 'Google Nest Mini',
@@ -74,37 +45,38 @@ const storeItems =  [
         img : 'https://o.aolcdn.com/images/dims?quality=85&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D1600%252C1067%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1067%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-uploaded-images%252F2019-10%252Fefd931e0-ef58-11e9-bdef-b2beac92b25c%26client%3Da1acac3e1b3290917d92%26signature%3Da1b1d7d1d92dc7d0ce104c52ab4fcf4c3a2f6ba9&client=amp-blogside-v2&signature=ee12299a4f025cd000209797223cf3aac0d23310',
         dollar : 39,
         options : [
-            { name : 'Color', options: ['Chalk', 'Charcoal', 'Sand', 'Sage', 'Sky']}
+            { name : 'Color', options: ['Chalk', 'Charcoal', 'Sky', 'Coral']}
         ]
     },
     {
         name : 'Google Nest Audio',
         url : 'https://store.google.com/product/nest_audio',
         img : 'https://lh3.googleusercontent.com/HiWaIT9vn0iPHu92ozZUNg5F28T3Aq2XppyAwOiXoEQyHWuSJe4FyWoNHyBzkh9rk4tfXKhdwAaErmS8qPwJqPc=w1890',
-        dollar : 90,
+        dollar : 100,
         options : [
             { name : 'Color', options: ['Chalk', 'Charcoal', 'Sand', 'Sage', 'Sky']}
         ]
     },
     {
         name : 'Keychron Mechanical Keyboard',
-        url : 'https://www.amazon.com/stores/page/3E3C387A-504A-4387-A1A1-4DC76081B545',
+        url : 'https://www.amazon.com/stores/page/84B74B76-882C-4F51-867A-051241D385DF',
         img : 'https://m.media-amazon.com/images/S/stores-image-uploads-na-prod/1/AmazonStores/ATVPDKIKX0DER/b61157c9b5c76ca518cf4907bfbd60c7.w3000.h600._CR0%2C0%2C3000%2C600_SX3000_.jpg',
         dollar : 80,
         options : [
             {
                 name: 'Model',
                 link: 'https://www.keychron.com/blogs/news/difference-among-keychron-keyboards',
-                options: [ 'K1', 'K2', 'K3', 'K4', 'K6', 'K8', 'K12' ], upcharge: [ 0, 0, 5, 0, 5, 15, 0 ]
+                options: [ 'K2', 'K4', 'K6', 'K8', 'K12' ]
             },
             { name : 'Backlight', options : [ 'White', 'RGB'], upcharge: [0, 10 ]},
             { name : 'Switch', options : [ 'Red', 'Brown', 'Blue']},
-            { name: 'Hot Swappable?', options: ['No', 'Yes'], upcharge: [0, 10]}
+            { name: 'Hot Swappable?', options: ['No', 'Yes'], upcharge: [0, 10]},
+            { name: 'Frame', options: ['Plastic', 'Aluminum'], upcharge: [0, 10]},
         ]
     },
     {
         name : 'Subcription to Audible',
-        img : 'https://m.media-amazon.com/images/G/01/Audible/en_US/images/creative/A4-746_Tabrefreshbookwall_LP_Benefits_Bookwall_v3.png',
+        img : 'https://m.media-amazon.com/images/G/01/Audible/en_US/images/creative/amazon/22-1148-USNJCDE-Holiday2022-Storefront_ENG_DT-1200x960_V04.png',
         url : 'https://www.amazon.com/hz/audible/gift-membership-detail?ref=adbl_mdp_dt_paid_annual_so',
         dollar : 15,
         options: [
@@ -117,9 +89,9 @@ const storeItems =  [
     },
     {
         name : 'Aeropress',
-        url : 'https://www.amazon.com/AeroPress-Coffee-Espresso-Maker-Bitterness/dp/B0047BIWSK/ref=sr_1_5',
-        img : 'https://images-na.ssl-images-amazon.com/images/I/71P5EQ1CqpL._AC_SL1500_.jpg',
-        dollar : 30
+        url : 'https://www.amazon.com/AeroPress-Coffee-Espresso-Maker-Bitterness/dp/B0047BIWSK',
+        img : 'https://m.media-amazon.com/images/I/51zgM9yqjRL._AC_SL1500_.jpg',
+        dollar : 40
     },
     {
         name : 'Gooseneck Electric Kettle',
@@ -132,12 +104,12 @@ const storeItems =  [
         }]
     },
     {
-        name : 'Anker Power Bank',
-        img : 'https://images-na.ssl-images-amazon.com/images/I/41311aYn-dL._AC_SL1200_.jpg',
-        url : 'https://www.amazon.com/dp/B071G7TL2C',
-        dollar : 30,
+        name : 'Anker Power Bank (20,000 mAh)',
+        img : 'https://m.media-amazon.com/images/I/71nOfyDPShL._AC_SL1500_.jpg',
+        url : 'https://www.amazon.com/Anker-PowerCore-Portable-Charger-Microsoft/dp/B0BBZKBSDQ',
+        dollar : 70,
         options: [
-            { name: 'Color', options:[ 'White', 'Black', 'Blue' ]}
+            { name: 'Color', options:[ 'White', 'Black', 'Blue', 'Green', 'Violet' ]}
         ]
     },
     {
@@ -150,28 +122,28 @@ const storeItems =  [
         name : '24 Pack of Blenheim Ginger Ale (Chad\'s Favorite)',
         url : 'https://www.blenheimgingerale.com/products/',
         img : 'https://www.shopblenheimgingerale.com/v/vspfiles/photos/001-2.jpg',
-        dollar : 33,
+        dollar : 35,
         options : [
-            { name : 'Variety', options : [ 'Hot', 'Not as Hot', 'Diet', 'Half Hot/Half Not as Hot']}
+            { name : 'Variety', options : [ 'Hot', 'Not as Hot', 'Diet', 'Half Hot/Half Not as Hot', 'Half Diet/Half Hot', 'Half Diet/Half Not as Hot']}
         ]
     },
     {
         name : 'Tea Infuser',
         url : 'https://www.amazon.com/Threaded-Connection-Stainless-Extended-Seasonings/dp/B075K57B73/ref=sr_1_4',
-        img : 'https://images-na.ssl-images-amazon.com/images/I/61FDiSD3OhL._AC_SL1000_.jpg',
+        img : 'https://m.media-amazon.com/images/I/71lJTufEAvL._AC_SL1500_.jpg',
         dollar : 10
     },
     {
         name : 'Coldbrew Coffee Maker',
         url : 'https://www.amazon.com/dp/B071ZWR7M8',
         img : 'https://images-na.ssl-images-amazon.com/images/I/71jlAVRFLkL._AC_SL1500_.jpg',
-        dollar : 27
+        dollar : 15
     },
     {
         name : 'Adult Coloring Book Set',
         url : 'https://www.amazon.com/Adult-Coloring-Book-Bundle-Butterflies/dp/B08L8F1264/ref=sr_1_5',
         img : 'https://m.media-amazon.com/images/I/91NTR8RJSNL._AC_SL1500_.jpg',
-        dollar : 20,
+        dollar : 25,
         options: [{
             name: 'Set',
             options: [
@@ -180,73 +152,33 @@ const storeItems =  [
                 'Landmarks | Henna | Butterflies and Flowers',
                 'All Nine Books'
             ],
-            upcharge: [ 0, 0, 0, 35 ]
+            upcharge: [ 0, 0, 0, 40 ]
         }]
     },
     {
-        name : 'Cold Roll Massager',
-        url : 'https://www.amazon.com/dp/B01EKMN9LA/ref=cm_sw_r_sms_apa_i_IiQ3Db2BY3FN4',
-        img : 'https://images-na.ssl-images-amazon.com/images/I/71nx3VOOAJL._AC_SL1500_.jpg',
-        dollar : 50
-    },
-    {
-        name : 'AoC T-Shirt',
-        url : 'https://teespring.com/adventofcode-2019?pid=2',
-        img : 'https://vangogh.teespring.com/v3/image/FrlKMefV2MqpSxWRlTmb3G_faH0/480/560.jpg',
-        dollar : 22,
-        options : [
-            { name : 'Size', options : ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL', 'LT', 'XLT', '2XLT', '3XLT', '4XLT']},
-            { name: 'Color', options: ['Grey', 'Navy']}
-        ]
-    },
-    {
-        name : 'AoC Mug',
-        url : 'https://teespring.com/adventofcode-2019?pid=658',
-        img : 'https://vangogh.teespring.com/v3/image/AvADWBK9MBbtjPIw0xzMwNX-WYE/480/560.jpg',
-        dollar : 15
-    },
-    {
-        name : 'AoC Sticker',
-        url : 'https://teespring.com/adventofcode-2019?pid=663',
-        img : 'https://vangogh.teespring.com/v3/image/BoDg1pUavPRC4bESGh2SqOWSXZ4/480/560.jpg',
-        dollar : 6,
-        options: [
-            { name: 'Size', options: [ '3.6 x 5', '5 x 7'], upcharge: [0, 1 ]}
-        ]
-    },
-    {
-        name : 'AoC Hoodie',
-        url : 'https://teespring.com/adventofcode-2019?pid=212',
-        img : 'https://vangogh.teespring.com/v3/image/j_d0B3g2ljqXUu3fLdR3e1P00rQ/480/560.jpg',
-        dollar : 39, 
-        options : [
-            { name : 'Size', options : ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', '5XL']},
-            { name: 'Color', options: [ 'Grey', 'Navy' ]}
-        ]
-    },
-    {
-        name : 'Echo Dot (4th Gen)',
-        url : 'https://www.amazon.com/All-New-Echo-Dot-4th-Gen/dp/B07XJ8C8F5/',
-        img : 'https://images-na.ssl-images-amazon.com/images/I/61eDaLg-%2BrL._AC_SL1000_.jpg',
+        name : 'Echo Dot (5th Gen)',
+        url : 'https://www.amazon.com/All-New-release-Smart-speaker-Charcoal/dp/B09B8V1LZ3/ref=sr_1_3',
+        img : 'https://m.media-amazon.com/images/I/61E80QtGeCL._AC_SL1000_.jpg',
         dollar : 50,
         options : [
-            { name : 'Color', options : [ 'Charcoal', 'Glacier White', 'Twilight Blue' ]}
+            { name : 'Color', options : [ 'Charcoal', 'Glacier White', 'Deep Sea Blue' ]}
         ]
     },
     {
-        name : 'Echo Show 8',
-        url : 'https://www.amazon.com/Echo-Show-8/dp/B07PF1Y28C/ref=sr_1_2',
-        img : 'https://images-na.ssl-images-amazon.com/images/I/61grXNrQeZL._AC_SL1000_.jpg',
-        dollar : 90,
+        name : 'Echo Show 2nd Edition',
+        url : 'https://www.amazon.com/Echo-Show-8-2nd-Gen-2021-release/dp/B084DCJKSL/ref=sr_1_2?crid=2RLFFD5U56Q3G&keywords=echo+show&qid=1668433816&s=amazon-devices&sprefix=ec%2Camazon-devices%2C444&sr=1-2',
+        img : 'https://m.media-amazon.com/images/I/51yQll2L7xL._AC_SL1000_.jpg',
+        dollar : 85,
         options : [
-            { name : 'Color', options : [ 'Charcoal', 'Sandstone']}
+            { name: 'Size', options: [ '5', '8' ], upcharge: [ 0, 45]},
+            { name : 'Color', options : [ 'Charcoal', 'Glacier White', 'Deep Sea Blue']}
         ]
     },
     {
         name : 'Amazon Echo 4th Gen',
         url : 'https://www.amazon.com/Staging-Product-Not-Retail-Sale/dp/B085HK4KL6',
         img : 'https://images-na.ssl-images-amazon.com/images/I/61sp69Abq%2BL._AC_SL1000_.jpg',
-        dollar : 80,
+        dollar : 100,
         options : [
             { name : 'Color', options : [ 'Charcoal', 'Glacier White', 'Twilight Blue' ]}
         ]
@@ -254,140 +186,84 @@ const storeItems =  [
     {
         name : 'Anker Bluetooth Speaker',
         url : 'https://www.amazon.com/dp/B01HTH3C8S',
-        img : 'https://d2211byn0pk9fi.cloudfront.net/spree/products/65445/product/A3101111_TD03.jpg?1517462852',
+        img : 'https://m.media-amazon.com/images/I/61dG5TgKFNL._AC_SL1500_.jpg',
         dollar : 25
     },
     {
         name : 'Roku Ultra',
         url : 'https://www.roku.com/products/roku-ultra',
-        img : 'https://cigars.roku.com/v1/http%3A%2F%2Fimage.roku.com%2Fw%2Frapid%2Fimages%2Fpdp-carousel-items%2F5dbb1b0c-e132-4dab-8e3f-06021bb8b48e.png',
+        img : 'https://cigars.roku.com/v1/http%3A%2F%2Fimage.roku.com%2Fw%2Frapid%2Fimages%2Fpdp-carousel-items%2Fd154cc63-9ca9-4593-9b1f-8a2cd3416326.png',
         dollar : 100
     },
     {
         name : 'Fire TV Six-Faced, Regular Polyhedron',
-        url : 'https://www.amazon.com/all-new-fire-tv-cube-with-alexa-voice-remote/dp/B07KGVB6D6/ref=sr_1_2',
-        img : 'https://images-na.ssl-images-amazon.com/images/I/41fziVetM7L._AC_SL1000_.jpg',
-        dollar : 100
+        url : 'https://www.amazon.com/dp/B08XMDNVX6',
+        img : 'https://m.media-amazon.com/images/I/517S3hcoI0L._AC_SL1000_.jpg',
+        dollar : 120
     },
     {
         name : 'Kindle',
-        dollar : 110,
+        dollar : 120,
         img : 'https://images-na.ssl-images-amazon.com/images/I/61ntJTLVtCL._AC_SL1000_.jpg',
         url : 'https://www.amazon.com/Kindle-Now-with-Built-in-Front-Light/dp/B07FPX819Q',
         options : [
-            { name : 'Color', options : [ 'White', 'Black' ]},
-            { name: 'Version', options: [ 'Standard', 'Paperwhite' ], upcharge: [ 0, 30 ]}
+            { name: 'Version', options: [ 'Standard Black', 'Standard Denim', 'Paperwhite' ], upcharge: [ 0, 0, 40 ]}
         ]
     },
     {
         name : 'Arduino Smart Car Starter Set',
         url : 'https://www.amazon.com/ELEGOO-Tracking-Ultrasonic-Intelligent-Educational/dp/B07KPZ8RSZ/ref=sr_1_8',
-        dollar : 90,
+        dollar : 80,
         img : 'https://images-na.ssl-images-amazon.com/images/I/61ZlKT5cWxL._AC_SL1200_.jpg'
     },
     {
         name : 'Arduino Starter Set',
         url : 'https://www.amazon.com/ELEGOO-Project-Tutorial-Controller-Projects/dp/B01D8KOZF4/ref=sr_1_3',
-        dollar : 39,
+        dollar : 45,
         img : 'https://images-na.ssl-images-amazon.com/images/I/91O05A7aWXL._SL1500_.jpg'
     },
     {
         name : 'Anova Sous Vide',
         url : 'https://www.amazon.com/Anova-Culinary-Precision-Bluetooth-Included/dp/B07C7PW3PC/',
-        dollar : 110,
+        dollar : 100,
         img : 'https://images-na.ssl-images-amazon.com/images/I/71WAEEysRpL._AC_SL1500_.jpg'
     },
     {
-        name: 'Novelty Graphic Blanket',
-        url: 'https://www.amazon.com/ZHONGKUI-Blanket-Hamburger-Flannel-Seasons/dp/B08B83ZPGH',
-        img: 'https://m.media-amazon.com/images/I/71a5ObZBhHL._AC_SL1200_.jpg',
-        dollar: 40,
-        options: [
-            { name: 'Graphic', options: [
-                'Advocado', ' Axolotl', 'Bear', 'Black Cat',
-                'Marble Water', 'Blue Ocean', 'Bohemia Feathers',
-                'Boho Elephant', 'Boston Terrier', 'Bulldog',
-                'Butterfly', 'Purple Camo', 'Cat', 'Peacock',
-                'Music Note', 'Cow', 'Shark', 'Cactus', 'Floral',
-                'French Bulldog',  'Pandas', 'Sushi', 'Dinosaurs',
-                'Dog Print', 'Elephant', 'Flamingo', 'Flower',
-                'Fruit', 'Galaxy', 'Geometric', 'Glitter',
-                'Hamburger', 'Healing Thoughts', 'Hedgehog',
-                'I Love You', 'Ink', 'Kiwi', 'Koala', 
-                'Leopard Skin', 'Mandela'
-            ]}
-        ]
-    },
-    {
         name: 'Digital Picture Frame',
-        url: 'https://www.amazon.com/dp/B0815ZZ29C',
-        img: 'https://images-na.ssl-images-amazon.com/images/I/61X67Zhx42L._AC_SL1001_.jpg',
-        dollar: 130
-    },
-    {
-        name: 'Ring Doorbell',
-        url: 'https://www.amazon.com/dp/B07WGJ8XWZ',
-        img: 'https://images-na.ssl-images-amazon.com/images/I/51oJgHxW2eL._SL1000_.jpg',
+        url: 'https://www.amazon.com/Digital-Picture-1280x800-Facebook-W10/dp/B07QQW2PXR/ref=sr_1_3',
+        img: 'https://m.media-amazon.com/images/I/61bv-07kmGL._AC_SL1500_.jpg',
         dollar: 100,
-        options: [
-            { name: 'Color', options: [ 'Satin Nickel', 'Venetian Bronze' ]}
-        ]
+        options: [{
+            name: 'Style',
+            options: [ '10.1 inch', '11 inch Blue', '11 inch brown' ],
+            upcharge: [ 0, 20, 20 ]
+        }]
     },
     {
         name: '3 Oz. Plum Deluxe Tea',
         url: 'https://www.plumdeluxe.com/teashop?orderby=popularity',
-        img: 'https://www.plumdeluxe.com/wp-content/uploads/magictoolbox_cache/cf3e6ec01aac7cb79461bcfe9d0d075e/4/1/41245/thumb650x650/3628692511/plum-deluxe-tea1.jpg',
-        dollar: 25,
-        options: [
-            {
-                name: 'Flavor',
-                count: 3,
-                options: [
-                    'Magical Butterfly',
-                    'Pumpkin Spice',
-                    'Spicy Caramel Apple Cinnamon',
-                    'Peaches n\' Cream',
-                    'The Self Care Blend',
-                    'Gratitude Blend',
-                    'Vanilla Sugar Cookie',
-                    'Butterfly Pea Flowers',
-                    'Reading Nook Tea Blend',
-                    'Peach Bellini',
-                    'Sweet Spot Butterscotch',
-                    'Creme Brulee Earl Grey',
-                    "Porch Sippin' Pecan",
-                    'Chocolate Hazelnut',
-                    'Mindful Morning Tea',
-                    'Strawberries & Cream Black',
-                    'Delightful Morning Blend',
-                    'Full Moon Chai',
-                    'Royal Wedding Black',
-                    'Autumn Almond Chai',
-                    'Picard Black Tea',
-                    'House Blend Black',
-                    'Vanilla Latte Tea'
-                ]
-            }
-        ]
+        img: variety.imgs[0],
+        dollar: minPrice * 3 + 4,
+        options: [variety]
     },
     {
         name : 'Hot Sauce Gift Pack',
         url : 'https://heatonist.com/collections/hot-sauce-gift-packs?page=1',
         img : 'https://cdn.shopify.com/s/files/1/2086/9287/products/Trioblueclassic1_1024x1024.jpg?v=1594911992',
-        dollar: 30,
+        dollar: 32,
         options: [
             { 
                 name: 'Variety', 
                 options: [ 
-                    'Season 15 Warmup', 'Season 15 Trio', 'Season 15 Heat', 'Season 15 | 10 Pack',
-                    'Season 16 Warmup', 'Season 16 Trio', 'Season 16 Heat',
-                    'Los Calientes Trio', 'Keith\'s Trio', 'Original Trio'
+                    'Season 19 Warmup', 'Season 19 Trio', 'Season 19 Heat', 'Season 19 | 10 Pack',
+                    'Season 18 Warmup', 'Season 18 Trio', 'Season 18 Heat', 'Season 18 | 10 Pack',
+                    'Los Calientes Trio', 'Original Trio', 'Happy Pack'
                 ],
                 upcharge : [
-                    0, 10, 8, 90,
-                    2, 10, 12,
-                    3, 3, 10,
-                ]
+                    6, 10, 14, 90,
+                    4, 10, 14, 90,
+                    3, 10, 2,
+                ].map(n => n-2)
             }
         ]
     },
@@ -405,13 +281,7 @@ const storeItems =  [
                 'Rose Ceremony Raspberry Rose',
             ]
         }],
-        dollar: 32
-    },
-    {
-        name: 'Votes for Women Puzzle',
-        img: 'https://www.uncommongoods.com/images/items/50700/50762_2_640px.jpg',
-        url: 'https://www.uncommongoods.com/product/votes-for-women-puzzle',
-        dollar: 27
+        dollar: 25
     },
     {
         name: 'Mason Jar Indoor Herb Garden',
@@ -421,28 +291,28 @@ const storeItems =  [
             name: 'Herb',
             options: [ 'Basil', 'Cilantro', 'Mint', 'Oregano', 'Parsley', 'Sage']
         }],
-        dollar: 27
+        dollar: 24
     },
     {
         name: 'National Parks Puzzle',
         url: 'https://www.uncommongoods.com/product/vintage-national-parks-puzzle',
         img: 'https://www.uncommongoods.com/images/items/51600/51668_2_640px.jpg',
-        dollar: 27
+        dollar: 22
     },
     {
         name: 'Candlefish Candle',
         url: 'https://www.candlefish.com/collections/top-selling-fragrances',
         img: 'https://i.pinimg.com/474x/42/3d/bd/423dbd56011dafe59e3e36b857f01f84.jpg',
-        dollar: 20,
+        dollar: 16,
         options : [
             {
                 name: 'Variety',
-                options: [  '04', '09', '25', '31', '70', '83']
+                options: [  '04', '09', '12', '25', '31', '70', '83']
             },
             {
                 name: 'Size',
                 options: [ '2.5 oz', '9 oz' ],
-                upcharge: [ 0, 4 ]
+                upcharge: [ 0, 14 ]
             }
         ]
     },
@@ -475,78 +345,43 @@ const storeItems =  [
         name: 'Make Your Own Hotsauce Kit',
         url: 'https://www.uncommongoods.com/product/make-your-own-hot-sauce-kit',
         img: 'https://www.uncommongoods.com/images/items/25700/25781_1_640px.jpg',
-        dollar: 47
+        dollar: 42
     },
     {
         name: 'Old Fasioned Infusion Kit',
         url: 'https://www.uncommongoods.com/product/old-fashioned-whiskey-infusion-kit',
         img: 'https://www.uncommongoods.com/images/items/26200/26227_1_640px.jpg',
-        dollar: 42
-    },
-    {
-        name: 'Drink Infuser',
-        url: 'https://www.amazon.com/Crucial-Detail-The-Porthole-Infuser/dp/B00PUSBGPA',
-        img: 'https://images-na.ssl-images-amazon.com/images/I/51vtabKiQ5L._AC_.jpg',
-        dollar: 125
+        dollar: 45
     },
     {
         name: 'Ember Smart Mug',
         url: 'https://ember.com/products/ember-mug-2?variant=30843977826389',
         img: 'https://cdn.shopify.com/s/files/1/1080/6594/products/ember_black_CM210_600x.jpg?v=1600321021',
-        dollar: 100,
+        dollar: 130,
         options: [
             {
                 name: 'Color',
-                options: [ 'White', 'Black', 'Grey' ]
+                options: [ 'Red', 'White', 'Black', 'Grey' ]
             },
             {
                 name: 'Size',
                 options: [ '10 oz.', '14 oz.'],
-                upcharge: [0, 30]
+                upcharge: [0, 20]
             }
         ]
     },
     {
-        name: 'Logitech MX Master 3',
-        img: 'https://m.media-amazon.com/images/I/614w3LuZTYL._AC_SL1500_.jpg',
-        url: 'https://www.amazon.com/Logitech-Master-Advanced-Wireless-Mouse/dp/B07S395RWD/ref=sr_1_4',
+        name: 'Logitech MX Master 3s',
+        img: 'https://m.media-amazon.com/images/I/61ni3t1ryQL._AC_SL1500_.jpg',
+        url: 'https://www.amazon.com/Logitech-Master-Advanced-Wireless-Mouse/dp/B09HM94VDS/ref=sr_1_4?th=1',
         dollar: 100,
         options: [
-            { name: 'Color', options: [ 'Graphite', 'Mid Grey' ]}
-        ]
-    },
-    {
-        name: 'Advanced Wars 1 + 2: Re-Boot Camp',
-        url: 'https://www.amazon.com/Advance-Wars-Re-Boot-Camp-Nintendo-Switch/dp/B097B186JF/ref=sr_1_2',
-        img: 'https://images.nintendolife.com/da981206b1cda/advance-wars-1plus2-re-boot-camp-cover.cover_large.jpg',
-        dollar: 60
-    },
-    {
-        name: 'Pokémon Legends: Arceus',
-        url: 'https://www.amazon.com/Pokemon-Legends-Arceus-Nintendo-Switch/dp/B0914YGQSH/ref=sr_1_3',
-        img: 'https://m.media-amazon.com/images/I/71HYKF4rO9L._SL1500_.jpg',
-        dollar: 60
-    },
-    {
-        name: 'KeyRelic Key Cap',
-        url: 'https://www.etsy.com/shop/KeyRelic',
-        img : 'https://i.etsystatic.com/23335264/r/il/a6df71/2919144452/il_1588xN.2919144452_183q.jpg',
-        dollar: 90,
-        options: [
-            {
-                name: 'Style',
-                options: ['Lion', 'Greenman', 'The Wrath', 'The Judge', 'Immortal', 'Baron Harkonnen', 'Baron Harkonnen Skull']
-            },
-            {
-                name: 'Material',
-                options: [ 'Argentan Alloy', 'Solid Brass', 'High Polished Brass', 'Bronze', 'Sterling Silver'],
-                upcharge: [ 0, 0, 0, 0, 85]
-            }
+            { name: 'Color', options: [ 'Graphite', 'Pale Grey' ]}
         ]
     },
     {
         name: 'CleanCaps Pokémon 3 Key Cap Set',
-        dollar: 70,
+        dollar: 35,
         url: 'https://www.etsy.com/shop/CleanCaps?ref=simple-shop-header-name&listing_id=1074137841',
         img: 'https://i.etsystatic.com/30945415/r/il/ca2290/3492822995/il_794xN.3492822995_8x8h.jpg',
         options: [{
@@ -558,58 +393,14 @@ const storeItems =  [
         }]
     },
     {
-        name: 'Pressure Cooker',
-        url: 'https://www.acehardware.com/departments/home-and-decor/kitchen-utensils-and-gadgets/cookware/68534',
-        img: 'https://cdn-tp3.mozu.com/24645-37138/cms/37138/files/6009c65b-d197-48e1-8e62-5ae7066be0b7?quality=60&_mzcb=_1618890579000',
-        dollar: 125+16
-
-    },
-    {
         name: 'Dash Cam',
         url: 'https://www.amazon.com/Dashboard-G-Sensor-Parking-Recording-Detection/dp/B086ML686Q/ref=sr_1_2_sspa',
         img: 'https://m.media-amazon.com/images/I/61+HxebIeIL._AC_SL1200_.jpg',
-        dollar: 56
-    },
-    {
-        name: 'Slalom T-Shirt',
-        url: 'https://gear.slalom.com/Product/1526904-Bella_Canvas_T-Shirt',
-        img: 'https://c.bdac.co/bdac/SLALOMGEAR/ProductImages/1526205_z.jpg?v=637598967750331826',
-        dollar: 9,
-        options: [
-            { name: 'Color', options: [ 'Blue', 'Grey' ]},
-            { name: 'Size', options: [ 'X-Small', 'Small', 'Med', 'Large', 'XL', '2XL', '3XL', '4XL']}
-        ]
-    },
-    {
-        name: 'Magnetic Backpacking Flask Set',
-        url: 'https://www.uncommongoods.com/product/magnetic-campfire-flask-set',
-        img: 'https://www.uncommongoods.com/images/items/49200/49206_1_640px.jpg',
-        dollar: 130
-    },
-    {
-        name: 'Hero Collector Figure',
-        dollar: 25,
-        url: 'https://shop.eaglemoss.com/us/hero-collector/figurines#filters.in_stock_filter=Available%20Now&filters.price=,50,',
-        img: require('../images/heroCollector.jpg'),
-        options: figureOptions
-    },
-    {
-        name: 'Hero Collector Ship',
-        dollar: 30,
-        options: shipOptions,
-        url: 'https://shop.eaglemoss.com/us/hero-collector/starships#filters.price=20,100,&filters.in_stock_filter=Available%20Now',
-        img: require('../images/heroCollector.jpg')
-
-    },
-    {
-        name: 'RC Car',
-        url: 'https://hobbyking.com/en_us/basher-rocksta-1-24-4ws-mini-rock-crawler-rtr-metal-gear.html?queryID=ce9cbb5d8f743eaec23afa67928b7d40&objectID=76507&indexName=hbk_live_products_analytics',
-        img: 'https://cdn-global-hk.hobbyking.com/media/catalog/product/cache/1/image/660x415/17f82f742ffe127f42dca9de82fb58b1/b/a/basher-rocksta-1-24-4ws-mini-rock-crawler-rtr-metal-gears-cars-rtr-arr-kit-9249001327-0-1.jpg',
-        dollar: 100
+        dollar: 60
     },
     {
         name: 'Adventure Challenge Scrapbook',
-        dollar: 45,
+        dollar: 50,
         url: 'https://www.uncommongoods.com/product/the-adventure-challenge-scrapbook#530200000000',
         img: 'https://www.uncommongoods.com/images/items/53000/53020_1_640px.jpg',
         options: [{
@@ -618,40 +409,10 @@ const storeItems =  [
         }]
     },
     {
-        name: 'Gloomhaven: Jaws of the Lion Board Game',
-        url: 'https://www.amazon.com/Cephalofair-Games-Gloomhaven-Strategy-Boxed/dp/B088QSDB7S/ref=sr_1_3',
-        img: 'https://m.media-amazon.com/images/I/81CWuOZMbaL._AC_SL1500_.jpg',
-        dollar: 30
-    },
-    {
-        name: 'The Crew: Mission Deep Sea Card Game',
-        url: 'https://www.amazon.com/Crew-Cooperative-Exploration-Trick-Taking-Replayability/dp/B08TX1GGSH/ref=sr_1_2',
-        img: 'https://m.media-amazon.com/images/I/81TwRc6uh0L._AC_SL1500_.jpg',
-        dollar: 15
-    },
-    {
-        name: 'Micro Macro: Crime City Board Game',
-        url: 'https://www.amazon.com/Pegasus-Spiele-59060E-MicroMacro-Crime/dp/B08LDQW9CQ/ref=sr_1_2',
-        img: 'https://m.media-amazon.com/images/I/81YbiBfCC6L._AC_SL1500_.jpg',
-        dollar: 30
-    },
-    {
-        name: 'The Quacks of Quedlingburg Board Game',
-        url: 'https://www.amazon.com/CMYK-The-Quacks-of-Quedlinburg/dp/B08T21DYKV/ref=sr_1_2',
-        img: 'https://m.media-amazon.com/images/I/91cR+taIA3S._AC_SL1500_.jpg',
-        dollar: 40
-    },
-    {
-        name: 'Calico Board Game',
-        url: 'https://www.amazon.com/Alderac-Entertainment-Group-AEG-Calico/dp/B08B53WGWX/ref=sr_1_2',
-        img: 'https://m.media-amazon.com/images/I/81wVvuX+YML._AC_SL1500_.jpg',
-        dollar: 40
-    },
-    {
         name: 'Apple TV 4k (32 GB)',
         url: 'https://www.amazon.com/2021-Apple-TV-4K-64GB/dp/B0933D3SN6/ref=sr_1_1',
         img: 'https://m.media-amazon.com/images/I/815g8Uo656S._AC_SL1500_.jpg',
-        dollar: 175,
+        dollar: 125,
     },
     {
         name: 'Bose SoundLink Flex Speaker',
@@ -660,7 +421,7 @@ const storeItems =  [
         dollar: 150,
         options: [{
             name: 'Color',
-            options: [ 'White Smoke', 'Stone Blue', 'Black' ]
+            options: [ 'White Smoke', 'Stone Blue', 'Black', 'Carmine Red' ]
         }]
     },
     {
@@ -670,64 +431,76 @@ const storeItems =  [
         dollar: 179,
         options: [{
             name: 'Color',
-            options: [ 'White', 'Black' ]
+            options: [ 'Shadow Black', 'Lunar White', "Sunset", "Wave", "Olive" ]
         }]
     },
     {
         name: 'Ridge Wallet',
         url: 'https://ridge.com/collections/wallets',
-        img: 'https://cdn.shopify.com/s/files/1/0613/6213/collections/allwallets2_2048x.jpg?v=1629749490',
+        img: 'https://cdn.shopify.com/s/files/1/0613/6213/products/NEW-RENDERS_Variant_carbon-cs_1200x.jpg',
         dollar: 85,
         options: [ridgeStyleOption]
     },
     {
-        name: 'LEGO City Deep Space Rocket and Launch Control',
-        url: 'https://www.amazon.com/LEGO-Building-Monorail-Astronaut-Minifigures/dp/B07QSCLHHK',
-        img: 'https://m.media-amazon.com/images/I/9123WHzqy0L._AC_SL1500_.jpg',
-        dollar: 100,
+        name: 'LEGO Avatar Toruk Makto & Tree of Souls',
+        url: 'https://www.amazon.com/LEGO-Avatar-Toruk-Building-Pieces/dp/B09X1XZ2RY',
+        img: 'https://m.media-amazon.com/images/I/91RXNHco-EL._AC_SL1500_.jpg',
+        dollar: 150,
     },
     {
-        name: 'LEGO City Space Mars Research Shuttle',
-        url: 'https://www.amazon.com/LEGO-Research-Building-Astronaut-Minifigures/dp/B07PS65RKM',
-        img: 'https://m.media-amazon.com/images/I/811jYHSrajL._AC_SL1500_.jpg',
-        dollar: 40,
+        name: 'LEGO Icons Adult Flowers',
+        url: 'https://www.amazon.com/LEGO-Succulents-Building-Adults-Display/dp/B09Q4GWMZQ',
+        img: 'https://m.media-amazon.com/images/I/71OywSYVdzL._AC_SL1500_.jpg',
+        dollar: 50,
+        options:[{
+            name: 'Variety',
+            options: ['Succulents', 'Orchid', 'Bonsai Tree', 'Bouquet'],
+            imgs: [
+                null,
+                'https://m.media-amazon.com/images/I/71iY-AO2D1L._AC_SL1500_.jpg',
+                'https://m.media-amazon.com/images/I/81OqSTy+A1L._AC_SL1500_.jpg',
+                'https://m.media-amazon.com/images/I/81NCFZ3iJdL._AC_SL1500_.jpg',
+
+            ],
+            urls: [
+                null,
+                'https://www.amazon.com/LEGO-Orchid-Building-Adults-Display/dp/B09Q4L157D',
+                'https://www.amazon.com/LEGO-Building-Project-Beautiful-Display/dp/B08HVXZW8X?ref_=ast_sto_dp',
+                'https://www.amazon.com/LEGO-Bouquet-Building-Creative-Project/dp/B08HW1L75J?ref_=ast_sto_dp',
+            ],
+            upcharge: [ null, null, null, 10 ],
+        }],
     },
     {
-        name: 'LEGO Harry Potter Hogwarts Moment: Herbology Class',
-        url: 'https://www.amazon.com/LEGO-Harry-Potter-Hogwarts-Moment/dp/B08HVZJ48X',
-        img: 'https://m.media-amazon.com/images/I/810b-E2Wr8L._AC_SL1500_.jpg',
-        dollar: 30,
+        name: 'LEGO Horizon - Forbidden West: Tallneck',
+        url: 'https://www.amazon.com/LEGO-Horizon-Forbidden-West-Collectible/dp/B09Q46YHKB?ref_=ast_sto_dp',
+        img: 'https://m.media-amazon.com/images/I/81IYVkkYj3L._AC_SL1500_.jpg',
+        dollar: 90,
     },
     {
-        name: 'LEGO Star Wars: The Mandalorian The Child',
-        url: 'https://www.amazon.com/LEGO-Star-Wars-Mandalorian-Collectible/dp/B0883SGWXB',
-        img: 'https://m.media-amazon.com/images/I/71AqC2pFstL._AC_SL1500_.jpg',
+        name: 'LEGO Star Wars: Millennium Falcon',
+        url: 'https://www.amazon.com/LEGO-Star-Wars-Millennium-Minifigures/dp/B07QQ396NH?ref_=ast_sto_dp&th=1&psc=1',
+        img: 'https://m.media-amazon.com/images/I/81PhO-kyPuL._AC_SL1500_.jpg',
+        dollar: 170,
+    },
+    {
+        name: 'LEGO Marvel: Infinity Gauntlet',
+        url: 'https://www.amazon.com/LEGO-Infinity-Gauntlet-Collectible-Building/dp/B08YP94QJN?ref_=ast_sto_dp',
+        img: 'https://m.media-amazon.com/images/I/81uwk+ags9L._AC_SL1500_.jpg',
         dollar: 80,
     },
     {
-        name: 'LEGO Marvel Avengers Iron Man Hall of Armor',
-        url: 'https://www.amazon.com/LEGO-Marvel-Avengers-Armor-Building/dp/B07JMHJZYN',
-        img: 'https://m.media-amazon.com/images/I/91g0lpKJpzL._AC_SL1500_.jpg',
-        dollar: 60,
+        name: 'LEGO Star Wars: The Razor Crest',
+        url: 'https://www.amazon.com/LEGO-Star-Wars-Mandalorian-Exclusive/dp/B0849GZMZH?ref_=ast_sto_dp&th=1&psc=1',
+        img: 'https://m.media-amazon.com/images/I/918CAx5r5PL._AC_SL1500_.jpg',
+        dollar: 140,
     },
     {
-        name: 'LEGO DC Batman Batmobile',
-        url: 'https://www.amazon.com/LEGO-DC-Batman-Batmobile-Building/dp/B07Q2N27TV',
-        img: 'https://m.media-amazon.com/images/I/817IjVlg1zL._AC_SL1500_.jpg',
-        dollar: 65,
-    },
-    {
-        name: 'LEGO Star Wars Mandalorian Starfighter',
-        url: 'https://www.amazon.com/LEGO-Mandalorian-Starfighter-Featuring-Minifigures/dp/B08YPBB2DM/ref=sr_1_3',
-        img: 'https://m.media-amazon.com/images/I/81mcKaWvBpL._AC_SL1500_.jpg',
-        dollar: 60,
-    },
-    {
-        url: 'https://www.amazon.com/LEGO-International-Station-Building-Birthday/dp/B083JWZNW7',
-        name: 'LEGO Ideas International Space Station 21321 Building Kit',
-        img: 'https://m.media-amazon.com/images/I/91g71Jc3KcL._AC_SL1500_.jpg',
+        name: 'LEGO Sonic The Hedgehog: Green Hill Zone',
+        url: 'https://www.amazon.com/LEGO-Ideas-Sonic-Hedgehog-Memorabilia/dp/B09JKZVBQ9?ref_=ast_sto_dp',
+        img: 'https://m.media-amazon.com/images/I/81-AeHY9d2L._AC_SL1500_.jpg',
         dollar: 80,
-    }
+    },
 ];
 
 export default storeItems;

@@ -119,7 +119,7 @@ function ControlPanel({items, user, addAlert}) {
             <ButtonGroup>
                 <Button onClick={() => submitSelections(items, user, addAlert, setSaving)} disabled={saving}>Submit</Button>
                 {clearButton}
-                <Button onClick={logout} variant="warning">Logout</Button>
+                <Button onClick={logout} variant="success">Logout</Button>
             </ButtonGroup>
         </div>
     );

@@ -201,8 +201,8 @@ class App extends React.Component {
   calculateMaxUpcharge = (item) => {
     if(!item.options) return 0;
     return item.options
-      .map(o => o.upcharge || [0]) // Map to upcharge array
-      .map(arr => Math.max(...arr)) // Take max upcharge val
+      .map(o => ({count: o.count || 1, arr: o.upcharge || [0]})) // Map to upcharge array
+      .map(({count, arr}) => Math.max(...arr) * count) // Take max upcharge val
       .reduce((a,b) => a + b, 0); // Sum max of all choices
   }
 
