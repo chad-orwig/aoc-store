@@ -88,9 +88,9 @@ class App extends React.Component {
   }
 
   setSearch = (search) => {
-    const searchResult = search ? this.fuse.search(search) : this.state.items;
+    const searchResult = search ? this.fuse.search(search) : this.state.items.map(item => ({item}));
 
-    const filteredItems = searchResult.map(i => i.name);
+    const filteredItems = searchResult.map(i => i.item.name);
     
     this.setState({
       search,
