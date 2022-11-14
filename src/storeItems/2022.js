@@ -1,6 +1,8 @@
 import { ridgeStyleOption } from './ridgeOptions';
 import {minPrice, variety} from './plumTeaOptions';
+import slalomItems from './slalomItems';
 const storeItems =  [
+    ...slalomItems,
     {
         name : 'Donation to Charity',
         img : 'https://mtypks.org/wp-content/uploads/2018/10/mtyp-name-your-own-price-donation-image.png',
