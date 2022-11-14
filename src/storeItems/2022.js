@@ -25,7 +25,7 @@ const storeItems =  [
     {
         name : 'Google Nest Hub (2nd Gen)',
         url : 'https://store.google.com/us/product/nest_hub_2nd_gen?hl=en-US',
-        img : 'https://lh3.googleusercontent.com/NO0tdBFIe8zu8_fzr-mywjLfJO-rpfOM1MBolQ-EJ9CvTMmvo5KQwDWmHDZ88Y2oEisyjFRYIFEn2G50BTLimp7fQIrs7odKVQ',
+        img : 'https://lh3.googleusercontent.com/yv4mlDC2wiFsWPKYhgXMklF_yJu2BgnoklDgEENeruwOmtQ7Gxd9z8RpnXU4E-SR9u3DZpr3IDd7sJpYIJVbCtbkJgH-hbZoiXI=rw-e365-w2880',
         dollar : 100,
         options : [
             { name : 'Color', options : [ 'Chalk', 'Charcoal', 'Mist', 'Sand']}
