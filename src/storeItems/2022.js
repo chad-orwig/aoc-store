@@ -521,6 +521,16 @@ const storeItems =  [
         img: 'https://cdn.shopify.com/s/files/1/0026/7671/9676/products/ScreenShot2022-09-29at3.34.04PM_1800x1800.png?v=1664488805',
         url: 'https://briping.com/collections/all/products/international-bripe-kit-packaged-appropriately-for-shipping',
         dollar: 110,
+    },
+    {
+        img: 'https://m.media-amazon.com/images/I/61v0gVKBSpL._AC_SL1000_.jpg',
+        name: 'Star Wars Paint by Number',
+        url: 'https://www.amazon.com/dp/B093FS6P6F',
+        dollar: 13,
+        options: [{
+            name: 'Picture',
+            options: ['01-Vader', '02-Mando', '04-Vader']
+        }],
     }
 ];
 
