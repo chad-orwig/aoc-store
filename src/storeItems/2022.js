@@ -503,6 +503,19 @@ const storeItems =  [
         img: 'https://m.media-amazon.com/images/I/81-AeHY9d2L._AC_SL1500_.jpg',
         dollar: 80,
     },
+    {
+        name: 'James Hoffman approved Fancy Pants Kettle',
+        url: 'https://www.amazon.com/Fellow-Electric-Pour-over-Temperature-Stopwatch/dp/B077JBQZPX/ref=sr_1_5',
+        img: 'https://m.media-amazon.com/images/I/515ardfTZlL._AC_SL1102_.jpg',
+        dollar: 165,
+        options: []
+    },
+    {
+        name: 'IoT Development Kit for AWS',
+        url: 'https://www.amazon.com/M5Stack-Core2-ESP32-Development-EduKit/dp/B08VGRZYJR/ref=sr_1_3',
+        img: 'https://m.media-amazon.com/images/I/61krY36P99L._AC_.jpg',
+        dollar: 50,
+    }
 ];
 
 export default storeItems;
