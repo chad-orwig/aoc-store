@@ -11,7 +11,7 @@ import filter from 'lodash/fp/filter';
 import sumBy from 'lodash/fp/sumBy';
 import find from 'lodash/fp/find';
 
-const logout = () => getAuth().auth().signOut();
+const logout = () => getAuth().signOut();
 
 const findSelectedItems = filter(i => i.qty > 0);
 export const sumByRequiredCost = sumBy(({qty, cost, upcharge}) => (qty * cost) + upcharge);

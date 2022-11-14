@@ -1,7 +1,7 @@
 import React from 'react';
 import { func } from 'prop-types';
 
-import { GoogleAuthProvider, GithubAuthProvider, TwitterAuthProvider, signInWithPopup, updateCurrentUser} from 'firebase/auth';
+import { getAuth, GoogleAuthProvider, GithubAuthProvider, TwitterAuthProvider, signInWithPopup, updateCurrentUser} from 'firebase/auth';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 
@@ -22,7 +22,7 @@ function loginFailureHandler(addAlert) {
 }
 
 function login(provider) {
-    return signInWithPopup(provider)
+    return signInWithPopup(getAuth(), provider)
 }
 
 function loginWithGoogle(addAlert) {
