@@ -6,14 +6,14 @@ const storeItems =  [
     ...slalomItems,
     {
         name : 'Donation to Charity',
-        img : 'https://mtypks.org/wp-content/uploads/2018/10/mtyp-name-your-own-price-donation-image.png',
+        img : 'https://img.freepik.com/free-vector/people-carrying-donation-charity-related-icons_53876-43091.jpg',
         dollar : 20,
         options : [
             { name : 'Cause', options : [ 'Alzheimer\'s Research', 'Parkinson\'s Research', 'American Cancer Society', 'Local McDonald House Charities']},
             { 
                 name: 'Amount',
-                options: [ '$20', '$50', '$100', '$150'],
-                upcharge: [0, 30, 80, 130]
+                options: [ '$20', '$50', '$100', '$150', '$180'],
+                upcharge: [0, 30, 80, 130, 160]
             }
         ]
     },
