@@ -1,6 +1,7 @@
 import { ridgeStyleOption } from './ridgeOptions';
 import {minPrice, variety} from './plumTeaOptions';
 import slalomItems from './slalomItems';
+import { nationalParkImgs, nationalParkNames } from './nationalParkOptions';
 const storeItems =  [
     ...slalomItems,
     {
@@ -265,7 +266,20 @@ const storeItems =  [
                     6, 10, 14, 90,
                     4, 10, 14, 90,
                     3, 10, 2,
-                ].map(n => n-2)
+                ].map(n => n-2),
+                imgs: [
+                    'https://cdn.shopify.com/s/files/1/2086/9287/products/IMG_7031-Edit-Edit.jpg',
+                    'https://cdn.shopify.com/s/files/1/2086/9287/products/HOTONESSEASON19TRIOPACK.jpg',
+                    'https://cdn.shopify.com/s/files/1/2086/9287/products/IMG_7038-Edit-Edit.jpg',
+                    'https://cdn.shopify.com/s/files/1/2086/9287/products/IMG_6968-Edit-Edit.jpg',
+                    'https://cdn.shopify.com/s/files/1/2086/9287/products/HOTONES-SEASON18WARMUP.jpg',
+                    'https://cdn.shopify.com/s/files/1/2086/9287/products/HOTONESSEASON16trio_1024x1024_d00f7599-456a-497a-a145-2fe4a253f167.jpg',
+                    'https://cdn.shopify.com/s/files/1/2086/9287/products/HOTONES-SEASON18-heatpack.jpg',
+                    'https://cdn.shopify.com/s/files/1/2086/9287/products/HOTONES-SEASON18-10pack.jpg',
+                    'https://cdn.shopify.com/s/files/1/2086/9287/products/loscal-barbacoa-trio.jpg',
+                    'https://cdn.shopify.com/s/files/1/2086/9287/products/trio1.jpg',
+                    'https://cdn.shopify.com/s/files/1/2086/9287/products/hotoneshappypack.jpg',
+                ]
             }
         ]
     },
@@ -326,7 +340,8 @@ const storeItems =  [
         options : [
             {
                 name: 'Picture',
-                options: []
+                options: nationalParkNames,
+                imgs: nationalParkImgs,
             },
             {
                 name: 'Size',

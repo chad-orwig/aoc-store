@@ -5,11 +5,19 @@ import QtySelector from './QtySelector';
 import Options from './Options';
 import Col from 'react-bootstrap/Col';
 
-function buildImgWithLink({url, img}) {
+function buildImgWithLink({url, img, options}) {
+    const imageToUse = options?.reduce((optionImg, option) => {
+        const selectedIndex = option.options.findIndex((name) => name === option?.selections?.[0])
+        
+        return optionImg
+            ?? option?.imgs?.[selectedIndex]
+    }, null)
+    ?? img;
+    
     return (
         <div className="img-wrapper">
             <a href={url} target="_blank" rel="noopener noreferrer">
-                <Card.Img className="p-2" varient="top" src={img} />
+                <Card.Img className="p-2" varient="top" src={imageToUse} />
             </a>
         </div>
     );
