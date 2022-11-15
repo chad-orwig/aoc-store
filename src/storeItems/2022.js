@@ -546,6 +546,30 @@ const storeItems =  [
             name: 'Picture',
             options: ['01-Vader', '02-Mando', '04-Vader']
         }],
+    },
+    {
+        name: 'Cascadia Board Game',
+        url: 'https://www.amazon.com/Alderac-Entertainment-Group-AEG-Cascadia/dp/B093H8RGXX/ref=sr_1_4',
+        img: 'https://m.media-amazon.com/images/I/51c-SnEboaL._AC_SL1000_.jpg',
+        dollar: 45,
+    },
+    {
+        name: 'Horizons of Spirit Island Board Game',
+        url: 'https://www.target.com/p/horizons-of-spirit-island-game/-/A-85008800#lnk=sametab',
+        img: 'https://target.scene7.com/is/image/Target/GUEST_17530488-3dfd-418a-8c01-2ac264280499?wid=800&hei=800&qlt=80&fmt=webp',
+        dollar: 30,
+    },
+    {
+        name: 'Azul Board Game',
+        url: 'https://www.amazon.com/Board-Game-Mosaic-Tile-Placement-Next-Move/dp/B077MZ2MPW/ref=sr_1_23',
+        img: 'https://m.media-amazon.com/images/I/91A0nIsV57S._AC_SL1500_.jpg',
+        dollar: 35,
+    },
+    {
+        name: 'Scythe Board Game',
+        url: 'https://www.amazon.com/Stonemaier-Games-STM600-Scythe-Board/dp/B01IPUGYK6/ref=sr_1_56',
+        img: 'https://m.media-amazon.com/images/I/918TkODhXPL._AC_SL1500_.jpg',
+        dollar: 70,
     }
 ];
 
