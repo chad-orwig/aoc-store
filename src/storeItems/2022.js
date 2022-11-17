@@ -570,6 +570,23 @@ const storeItems =  [
         url: 'https://www.amazon.com/Stonemaier-Games-STM600-Scythe-Board/dp/B01IPUGYK6/ref=sr_1_56',
         img: 'https://m.media-amazon.com/images/I/918TkODhXPL._AC_SL1500_.jpg',
         dollar: 70,
+    },
+    {
+        name: 'LEGO Speed Champions Mercedes-AMG F1 W12 E Performance & Mercedes-AMG Project One',
+        url: 'https://www.amazon.com/LEGO-Champions-Mercedes-AMG-Performance-Building/dp/B09JKYSWN3/ref=sr_1_4',
+        img: 'https://m.media-amazon.com/images/I/81F-37N0DHL._AC_SL1500_.jpg',
+        dollar: 35,
+    },
+    {
+        name: 'Trade Coffee Subscription',
+        dollar: 40,
+        img: 'https://res.cloudinary.com/roastcollective/image/upload/w_670,f_jpg,fl_progressive:steep,q_auto:good/v1668452878/solidus/xuriokhntlw42vvwgthg.png',
+        url: 'https://www.drinktrade.com/gift-subscription/p/1858',
+        options:[{
+            name: 'Number of Bags',
+            options: ['2 Bags', '3 Bags', '6 Bags', '9 Bags'],
+            upcharge: [0, 20, 68, 122],
+        }],
     }
 ];
 
