@@ -587,6 +587,12 @@ const storeItems =  [
             options: ['2 Bags', '3 Bags', '6 Bags', '9 Bags'],
             upcharge: [0, 20, 68, 122],
         }],
+    },
+    {
+        name: 'Lgo Icons: Porsch 911',
+        url: 'https://www.amazon.com/LEGO-Porsche-Building-Engaging-Project/dp/B08TK97649/ref=sr_1_2',
+        img: 'https://m.media-amazon.com/images/I/71JuQkvmFdL._AC_SL1500_.jpg',
+        dollar: 170,
     }
 ];
 
