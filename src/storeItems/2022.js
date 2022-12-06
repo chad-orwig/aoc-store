@@ -593,7 +593,23 @@ const storeItems =  [
         url: 'https://www.amazon.com/LEGO-Porsche-Building-Engaging-Project/dp/B08TK97649/ref=sr_1_2',
         img: 'https://m.media-amazon.com/images/I/71JuQkvmFdL._AC_SL1500_.jpg',
         dollar: 170,
-    }
+    },
+    {
+        name: 'Professional Cutting Board',
+        url: 'https://www.johnboos.com/product/maple-cutting-boards-1-1-2-thick-r-board-series/',
+        img: 'https://www.johnboos.com/wp-content/uploads/2020/04/R03_1.jpg',
+        options: [{
+            name: 'Size',
+            options: ['18x12', '20x15', '24x18'],
+            upcharge: [0, 30, 60],
+            imgs: [
+                'https://www.johnboos.com/wp-content/uploads/2020/04/R01_2.jpg',
+                'https://www.johnboos.com/wp-content/uploads/2020/04/R03_2.jpg',
+                'https://www.johnboos.com/wp-content/uploads/2020/04/R02_2.jpg',
+            ]
+        }],
+        dollar: 100,
+    },
 ];
 
 export default storeItems;
