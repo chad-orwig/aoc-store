@@ -2,6 +2,7 @@
   "name": "aoc-store",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "dependencies": {
     "bootstrap": "^5.2.2",
     "camelcase": "^7.0.0",
