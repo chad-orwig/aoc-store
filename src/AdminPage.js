@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import 'firebase/firestore';
-import {year2021 as aocResults} from './results';
+import {year2022 as aocResults} from './results';
 import Matcher from './Matcher';
 import { getResults, getAllSelections } from './database';
 import Accordion from 'react-bootstrap/Accordion';
-import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 import Checker from './Checker';
 
 function AdminPage() {
@@ -23,14 +21,18 @@ function AdminPage() {
     
     const child = ready ? (
         <Accordion defaultActiveKey="1">
-            <Card className="hide-print">
-                <Card.Header><Accordion.Toggle as={Button} variant="link" eventKey="0">Matcher</Accordion.Toggle></Card.Header>
-                <Accordion.Collapse eventKey="0"><Card.Body><Matcher dbResults={dbResults} selections={selections} aocResults={aocResults} setDbResults={setDbResults} /></Card.Body></Accordion.Collapse>
-            </Card>
-            <Card>
-                <Card.Header className="hide-print" ><Accordion.Toggle as={Button} variant="link" eventKey="1">Checker</Accordion.Toggle></Card.Header>
-                <Accordion.Collapse eventKey="1"><Card.Body><Checker dbResults={dbResults} selections={selections} aocResults={aocResults}/></Card.Body></Accordion.Collapse>
-            </Card>
+            <Accordion.Item eventKey="0">
+                <Accordion.Header>Matcher</Accordion.Header>
+                <Accordion.Body>
+                    <Matcher dbResults={dbResults} selections={selections} aocResults={aocResults} setDbResults={setDbResults} />
+                </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="1">
+                <Accordion.Header>Checker</Accordion.Header>
+                <Accordion.Body>
+                    <Checker dbResults={dbResults} selections={selections} aocResults={aocResults}/>
+                </Accordion.Body>
+            </Accordion.Item>
         </Accordion>
     
     ) : <p>...Loading</p>;

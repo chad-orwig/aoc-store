@@ -25,11 +25,15 @@ function Matcher({dbResults, aocResults, selections, setDbResults}) {
     const mappedFirebaseUids = useMemo(() => new Set(Object.values(dbResults.members)), [dbResults]);
 
     useEffect(() => {
-        setSearchResults(aocResults.map(result => new Fuse(
-            selections
-                .map((o, index) => Object.assign({}, o, {index}))
-                .filter(o => o[year]),
-            { keys : ['displayName', 'email'], threshold : 1, includeScore: true }).search(result.name)));
+        setSearchResults(aocResults.map(result => {
+            const fuse =  new Fuse(
+                selections
+                    .map((o, index) => Object.assign({}, o, {index}))
+                    .filter(o => o[year]),
+                { keys : ['displayName', 'email'], threshold : 1, includeScore: true })
+            return fuse.search(result.name);
+        
+        }));
     }, [aocResults, selections])
     useEffect(() => {
         const matchFunction = (index) => {
