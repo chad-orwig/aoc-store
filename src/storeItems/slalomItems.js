@@ -177,6 +177,18 @@ const items = [
     dollar: 20,
     options: [sizeOptions],
     url: 'https://gear.slalom.com/Product/1532434-_build_Womens_Bella_Canvas_Slim_Fit_T-Shirt',
+  },
+  {
+    name: "_build Nalgene Wide Mouth Bottle",
+    img: "https://c.bdac.co/bdac/SLALOMGEAR/ProductImages/1532440_z.jpg",
+    url: "https://gear.slalom.com/Product/1532440-_build_Nalgene_Wide_Mouth_Bottle",
+    dollar: 15,
+  },
+  {
+    name: 'Hydro Flask Wide Mouth Bottle',
+    url: 'https://gear.slalom.com/Product/1535934-Hydro_Flask_Wide_Mouth_Bottle',
+    img: 'https://c.bdac.co/bdac/SLALOMGEAR/ProductImages/1535934_z.jpg',
+    dollar: 60,
   }
 ];
 
