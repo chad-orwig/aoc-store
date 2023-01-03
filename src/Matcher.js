@@ -52,7 +52,7 @@ function Matcher({dbResults, aocResults, selections, setDbResults}) {
         })
         .map(({name, id, stars, index}) => {
             return (
-                    <li key={index} className={classNames({aocUser: true, selected: index === currentMatch})} onClick={() => matchFunction(index)}>
+                    <li key={id} className={classNames({aocUser: true, selected: index === currentMatch})} onClick={() => matchFunction(index)}>
                         name: {name} <br/>
                         stars : {stars} <br/>
                         google : {dbResults.members[id]}
@@ -66,12 +66,12 @@ function Matcher({dbResults, aocResults, selections, setDbResults}) {
     const selectionUsers = (search || selections)
         .filter(o => o[year])
         .map((user) => {
-            const {displayName, email, uid, index} = user;
+            const {displayName, email, uid} = user;
             const myOnClick = selectionClick && selectionClick(uid);
             const classList = ["aocUser"];
             if (!mappedFirebaseUids.has(uid)) classList.push("danger");
             return (
-                    <li key={index} className={classList.join(' ')} onClick={myOnClick}>
+                    <li key={uid} className={classList.join(' ')} onClick={myOnClick}>
                         displayName: {displayName} <br/>
                         email : {email}
                     </li>
