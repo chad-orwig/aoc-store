@@ -22,13 +22,13 @@ function AdminPage() {
     const child = ready ? (
         <Accordion defaultActiveKey="1">
             <Accordion.Item eventKey="0">
-                <Accordion.Header>Matcher</Accordion.Header>
+                <Accordion.Header className='hide-print'>Matcher</Accordion.Header>
                 <Accordion.Body>
                     <Matcher dbResults={dbResults} selections={selections} aocResults={aocResults} setDbResults={setDbResults} />
                 </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="1">
-                <Accordion.Header>Checker</Accordion.Header>
+                <Accordion.Header className='hide-print'>Checker</Accordion.Header>
                 <Accordion.Body>
                     <Checker dbResults={dbResults} selections={selections} aocResults={aocResults}/>
                 </Accordion.Body>
