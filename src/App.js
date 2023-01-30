@@ -278,7 +278,7 @@ class App extends React.Component {
           <Header search={this.state.search} setSearch={this.setSearch} items={this.state.items} addAlert={this.addAlert} user={this.state.user} />        
           <AlertContainer alerts={this.state.alerts} />
           <Routes>
-            <Route path="/admin" element={<AdminPage />} />
+            <Route path="/admin" element={<AdminPage items={itemsByName}/>} />
             <Route path="/" element={<StarStore items={items} enabled={this.state.enabled}/>}/>
           </Routes>
         </div>

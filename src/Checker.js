@@ -23,7 +23,7 @@ function buildCombined({members}, results, selections, setCombined) {
     
 }
 
-function buildStuff(valid, setStuff) {
+function buildStuff(valid, items, setStuff) {
     const stuff = valid.reduce((stuff, {name:person, selection}) => {
         selection.selections.forEach(s => {
             const options = s.options ? s.options.reduce((o, {name, selections}) => Object.assign(o, {[name]: selections.join(', ')}), {}) : {};
@@ -32,21 +32,21 @@ function buildStuff(valid, setStuff) {
                 stuff[key].qty += s.qty;
                 stuff[key].people.push(`${person}[${s.qty}]`);
             }
-            else Object.assign(stuff, {[key] : {options, name : s.name, qty : s.qty, people: [`${person}[${s.qty}]`]}});
+            else Object.assign(stuff, {[key] : {options, name : s.name, qty : s.qty, people: [`${person}[${s.qty}]`], url: items[s.name]?.url }});
         });
         return stuff;
     }, {});
     setStuff(stuff);
 }
 
-export default function Checker({dbResults, aocResults, selections}) {
+export default function Checker({dbResults, aocResults, selections, items}) {
     const [combined, setCombined] = useState([]);
     const [invalid, setInvalid] = useState([]);
     const [valid, setValid] = useState([]);
     const [stuff, setStuff] = useState([]);
     useEffect(() => afterCombined(combined, setInvalid, setValid), [combined]);
     useEffect(() => buildCombined(dbResults, aocResults, selections, setCombined), [dbResults, aocResults, selections]);
-    useEffect(() => buildStuff(valid, setStuff), [valid]);
+    useEffect(() => buildStuff(valid, items, setStuff), [valid, items]);
 
     const invalidCards = invalid.map((data, index) => <InvalidSelectionCard data={data} key={index} collapseKey={index} />)
     const stuffKeys = Object.keys(stuff);
@@ -58,7 +58,7 @@ export default function Checker({dbResults, aocResults, selections}) {
             });
             return (
                 <tr key={index} >
-                    <td colSpan={6 - optionTds.length}>{item.name}</td>
+                    <td colSpan={6 - optionTds.length}><a href={item.url}>{item.name}</a></td>
                     {optionTds}
                     <td>{item.qty}</td>
                     <td>{item.people.join(', ')}</td>

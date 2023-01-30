@@ -6,7 +6,7 @@ import { getResults, getAllSelections } from './database';
 import Accordion from 'react-bootstrap/Accordion';
 import Checker from './Checker';
 
-function AdminPage() {
+function AdminPage({items}) {
     const [ready, setReady] = useState(false);
     const [dbResults, setDbResults] = useState();
     const [selections, setSelections] = useState();
@@ -30,7 +30,7 @@ function AdminPage() {
             <Accordion.Item eventKey="1">
                 <Accordion.Header className='hide-print'>Checker</Accordion.Header>
                 <Accordion.Body>
-                    <Checker dbResults={dbResults} selections={selections} aocResults={aocResults}/>
+                    <Checker dbResults={dbResults} selections={selections} aocResults={aocResults} items={items}/>
                 </Accordion.Body>
             </Accordion.Item>
         </Accordion>
