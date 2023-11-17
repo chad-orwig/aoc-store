@@ -1,35 +1,11 @@
 const raw = [
   {
-    "src": "https://s3.amazonaws.com/adg-bucket/grand-teton-national-park-autumn-glory/small.jpg",
-    "name": "Grand Teton National Park: Autumn Glory"
-  },
-  {
-    "src": "https://s3.amazonaws.com/adg-bucket/denali-national-park-early-winter/small.jpg",
-    "name": "Denali National Park: Early Winter"
-  },
-  {
-    "src": "https://s3.amazonaws.com/adg-bucket/acadia-national-park-sunrise-hike/small.jpg",
-    "name": "Acadia National Park: Sunrise Hike"
-  },
-  {
-    "src": "https://s3.amazonaws.com/adg-bucket/isle-royale-national-park-sunrise/small.jpg",
-    "name": "Isle Royale National Park: Sunrise"
-  },
-  {
-    "src": "https://s3.amazonaws.com/adg-bucket/arches-national-park-daybreak/small.jpg",
-    "name": "Arches National Park: Daybreak"
-  },
-  {
-    "src": "https://s3.amazonaws.com/adg-bucket/legends-of-the-national-parks-saguaros-mongollon-monster/small.jpg",
-    "name": "Legends Of The National Parks: Saguaro's Mogollon Monster"
-  },
-  {
-    "src": "https://s3.amazonaws.com/adg-bucket/badlands-national-park-valley-view/small.jpg",
-    "name": "Badlands National Park: Valley View"
-  },
-  {
     "src": "https://s3.amazonaws.com/adg-bucket/63-image-national-park-print/small.jpg",
     "name": "63 Image National Park Print"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/63-image-national-park-print-horizontal/small.jpg",
+    "name": "63 Image National Park Print (Horizontal)"
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/63-image-national-park-print-by-kenneth-crane/small.jpg",
@@ -88,6 +64,10 @@ const raw = [
     "name": "Acadia National Park: Secrets of the Sea"
   },
   {
+    "src": "https://s3.amazonaws.com/adg-bucket/acadia-national-park-sunrise-hike/small.jpg",
+    "name": "Acadia National Park: Sunrise Hike"
+  },
+  {
     "src": "https://s3.amazonaws.com/adg-bucket/acadia-national-park-whale-watching/small.jpg",
     "name": "Acadia National Park: Whale Watching"
   },
@@ -98,6 +78,10 @@ const raw = [
   {
     "src": "https://s3.amazonaws.com/adg-bucket/arches-national-park-collage-print/small.jpg",
     "name": "Arches National Park: Collage Print"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/arches-national-park-daybreak/small.jpg",
+    "name": "Arches National Park: Daybreak"
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/arches-national-park-delicate-arch/small.jpg",
@@ -144,12 +128,20 @@ const raw = [
     "name": "Badlands National Park: Emblem Print"
   },
   {
+    "src": "https://s3.amazonaws.com/adg-bucket/badlands-national-park-rumbling-herd/small.jpg",
+    "name": "Badlands National Park: Rumbling Herd"
+  },
+  {
     "src": "https://s3.amazonaws.com/adg-bucket/badlandsnationalparksong-of-solitude/small.jpg",
     "name": "Badlands National Park: Song of Solitude"
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/badlands-national-park-the-good-life/small.jpg",
     "name": "Badlands National Park: The Good Life"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/badlands-national-park-valley-view/small.jpg",
+    "name": "Badlands National Park: Valley View"
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/badlands-national-park-vulture-peak/small.jpg",
@@ -232,6 +224,10 @@ const raw = [
     "name": "Bryce Canyon National Park: Moonrise"
   },
   {
+    "src": "https://s3.amazonaws.com/adg-bucket/bryce-canyon-national-park-mule-deer/small.jpg",
+    "name": "Bryce Canyon National Park: Mule Deer"
+  },
+  {
     "src": "https://s3.amazonaws.com/adg-bucket/bryce-canyon-national-park-peekaboo-trail/small.jpg",
     "name": "Bryce Canyon National Park: Peekaboo Trail"
   },
@@ -312,6 +308,10 @@ const raw = [
     "name": "Capitol Reef National Park: Twilight"
   },
   {
+    "src": "https://s3.amazonaws.com/adg-bucket/capitol-reef-bighorn-sheep/small.jpg",
+    "name": "Capitol Reef: Bighorn Sheep"
+  },
+  {
     "src": "https://s3.amazonaws.com/adg-bucket/carlsbad-caverns-national-park-big-room-kc/small.jpg",
     "name": "Carlsbad Caverns National Park: Big Room-KC"
   },
@@ -324,12 +324,24 @@ const raw = [
     "name": "Carlsbad Caverns National Park: Into The Depths"
   },
   {
+    "src": "https://s3.amazonaws.com/adg-bucket/carlsbad-caverns-national-park-lechuguilla-cave/small.jpg",
+    "name": "Carlsbad Caverns National Park: Lechuguilla Cave"
+  },
+  {
     "src": "https://s3.amazonaws.com/adg-bucket/channel-islands-national-park-anacapa-lighthouse/small.jpg",
     "name": "Channel Islands National Park: Anacapa Lighthouse"
   },
   {
+    "src": "https://s3.amazonaws.com/adg-bucket/channel-islands-national-park-breaching-whale/small.jpg",
+    "name": "Channel Islands National Park: Breaching Whale"
+  },
+  {
     "src": "https://s3.amazonaws.com/adg-bucket/channel-islands-national-park-dolphins/small.jpg",
     "name": "Channel Islands National Park: Dolphins"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/channel-islands-national-park-island-fox/small.jpg",
+    "name": "Channel Islands National Park: Island Fox"
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/channel-islands-national-park-sea-lion/small.jpg",
@@ -360,6 +372,10 @@ const raw = [
     "name": "Crater Lake National Park: Fox"
   },
   {
+    "src": "https://s3.amazonaws.com/adg-bucket/crater-lake-national-park-morning-glory/small.jpg",
+    "name": "Crater Lake National Park: Morning Glory"
+  },
+  {
     "src": "https://s3.amazonaws.com/adg-bucket/crater-lake-national-park-star-light/small.jpg",
     "name": "Crater Lake National Park: Star Light"
   },
@@ -372,8 +388,20 @@ const raw = [
     "name": "Crater Lake National Park: Winter"
   },
   {
+    "src": "https://s3.amazonaws.com/adg-bucket/crater-lake-national-park-winter-fox-horizontal/small.jpg",
+    "name": "Crater Lake National Park: Winter Fox (Horizontal)"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/crater-lake-national-park-winter-fox-vertical/small.jpg",
+    "name": "Crater Lake National Park: Winter Fox (Vertical)"
+  },
+  {
     "src": "https://s3.amazonaws.com/adg-bucket/cuyahoga-valley-national-park-afternoon-shade/small.jpg",
     "name": "Cuyahoga Valley National Park: Afternoon Shade"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/cuyahoga-valley-national-park-autumn-glory/small.jpg",
+    "name": "Cuyahoga Valley National Park: Autumn Glory"
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/cuyahoga-valley-national-park-brandywine-falls/small.jpg",
@@ -382,6 +410,10 @@ const raw = [
   {
     "src": "https://s3.amazonaws.com/adg-bucket/cuyahoga-valley-national-park-deer/small.jpg",
     "name": "Cuyahoga Valley National Park: Deer"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/cuyahoga-valley-national-park-historic-railway/small.jpg",
+    "name": "Cuyahoga Valley National Park: Historic Railway"
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/cuyahoga-valley-national-park-wildflowers/small.jpg",
@@ -420,6 +452,10 @@ const raw = [
     "name": "Death Valley National Park: Hottest Place On Earth"
   },
   {
+    "src": "https://s3.amazonaws.com/adg-bucket/death-valley-national-park-leopard-lizard/small.jpg",
+    "name": "Death Valley National Park: Leopard Lizard"
+  },
+  {
     "src": "https://s3.amazonaws.com/adg-bucket/death-valley-national-park-living-it-up-kc/small.jpg",
     "name": "Death Valley National Park: Living it Up-KC"
   },
@@ -438,6 +474,10 @@ const raw = [
   {
     "src": "https://s3.amazonaws.com/adg-bucket/death-valley-national-park-sand-dunes/small.jpg",
     "name": "Death Valley National Park: Sand Dunes"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/death-valley-national-park-scottys-castle/small.jpg",
+    "name": "Death Valley National Park: Scotty's Castle"
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/death-valley-national-park-star-gazing/small.jpg",
@@ -462,6 +502,10 @@ const raw = [
   {
     "src": "https://s3.amazonaws.com/adg-bucket/denali-national-park-dall-sheep/small.jpg",
     "name": "Denali National Park: Dall Sheep"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/denali-national-park-early-winter/small.jpg",
+    "name": "Denali National Park: Early Winter"
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/denali-national-park-living-on-the-edge-kc/small.jpg",
@@ -498,6 +542,14 @@ const raw = [
   {
     "src": "https://s3.amazonaws.com/adg-bucket/dry-tortugas-national-park-tropicalheat/small.jpg",
     "name": "Dry Tortugas National Park: Tropical Heat"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/everglades-national-park-flight-of-the-flamingos/small.jpg",
+    "name": "Everglades National Park: Flight Of The Flamingos"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/everglades-national-park-florida-panther/small.jpg",
+    "name": "Everglades National Park: Florida Panther"
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/everglades-national-park-gator/small.jpg",
@@ -546,6 +598,10 @@ const raw = [
   {
     "src": "https://s3.amazonaws.com/adg-bucket/gateway-arch-national-park/small.jpg",
     "name": "Gateway Arch National Park"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/gateway-arch-national-park-birds-eye-view/small.jpg",
+    "name": "Gateway Arch National Park: Bird's-eye View"
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/gateway-arch-national-park-reflecting-pool/small.jpg",
@@ -616,6 +672,10 @@ const raw = [
     "name": "Glacier National Park: Saint Mary Lake"
   },
   {
+    "src": "https://s3.amazonaws.com/adg-bucket/glacier-national-park-starlight/small.jpg",
+    "name": "Glacier National Park: Starlight"
+  },
+  {
     "src": "https://s3.amazonaws.com/adg-bucket/grand-canyon-national-park-100th-anniversary-horizontal/small.jpg",
     "name": "Grand Canyon National Park: 100th Anniversary (Horizontal)"
   },
@@ -634,6 +694,10 @@ const raw = [
   {
     "src": "https://s3.amazonaws.com/adg-bucket/grand-canyon-national-park-condors/small.jpg",
     "name": "Grand Canyon National Park: Condors"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/grand-canyon-national-park-deep-shadows/small.jpg",
+    "name": "Grand Canyon National Park: Deep Shadows"
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/grand-canyon-national-park-desert-view-watchtower/small.jpg",
@@ -712,6 +776,10 @@ const raw = [
     "name": "Grand Circle Multi-Image Design"
   },
   {
+    "src": "https://s3.amazonaws.com/adg-bucket/grand-teton-national-park-autumn-glory/small.jpg",
+    "name": "Grand Teton National Park: Autumn Glory"
+  },
+  {
     "src": "https://s3.amazonaws.com/adg-bucket/grand-teton-national-park-bull-moose/small.jpg",
     "name": "Grand Teton National Park: Bull Moose"
   },
@@ -752,6 +820,10 @@ const raw = [
     "name": "Grand Teton National Park: Snake River Valley"
   },
   {
+    "src": "https://s3.amazonaws.com/adg-bucket/grand-teton-national-park-winter-hush/small.jpg",
+    "name": "Grand Teton National Park: Winter Hush"
+  },
+  {
     "src": "https://s3.amazonaws.com/adg-bucket/grand-teton-morning-mist/small.jpg",
     "name": "Grand Teton: Morning Mist"
   },
@@ -782,6 +854,10 @@ const raw = [
   {
     "src": "https://s3.amazonaws.com/adg-bucket/great-sand-dunes-national-park-bison/small.jpg",
     "name": "Great Sand Dunes National Park: Bison"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/great-sand-dunes-national-park-dreamscape/small.jpg",
+    "name": "Great Sand Dunes National Park: Dreamscape"
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/great-sand-dunes-national-park-shifting-hills/small.jpg",
@@ -872,6 +948,10 @@ const raw = [
     "name": "Great Smoky Mountains National Park: Deer"
   },
   {
+    "src": "https://s3.amazonaws.com/adg-bucket/great-smoky-mountains-national-park-dusk-in-cades-cove/small.jpg",
+    "name": "Great Smoky Mountains National Park: Dusk In Cades Cove"
+  },
+  {
     "src": "https://s3.amazonaws.com/adg-bucket/great-smoky-mountains-national-park-firefly-cubs/small.jpg",
     "name": "Great Smoky Mountains National Park: Firefly Cubs"
   },
@@ -960,6 +1040,10 @@ const raw = [
     "name": "Great Smoky Mountains National Park: Rock Hopping"
   },
   {
+    "src": "https://s3.amazonaws.com/adg-bucket/great-smoky-mountains-national-park-romping-cubs/small.jpg",
+    "name": "Great Smoky Mountains National Park: Romping Cubs"
+  },
+  {
     "src": "https://s3.amazonaws.com/adg-bucket/great-smoky-mountains-national-park-salamander/small.jpg",
     "name": "Great Smoky Mountains National Park: Salamander"
   },
@@ -986,6 +1070,10 @@ const raw = [
   {
     "src": "https://s3.amazonaws.com/adg-bucket/guadalupe-mountains-national-park/small.jpg",
     "name": "Guadalupe Mountains National Park, TX"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/guadalupe-mountains-national-park-deer-in-the-shadows/small.jpg",
+    "name": "Guadalupe Mountains National Park: Deer In The Shadows"
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/guadalupe-mountains-national-park-early-bird/small.jpg",
@@ -1020,8 +1108,16 @@ const raw = [
     "name": "Hot Springs National Park"
   },
   {
+    "src": "https://s3.amazonaws.com/adg-bucket/hot-springs-national-park-overlook/small.jpg",
+    "name": "Hot Springs National Park: Overlook"
+  },
+  {
     "src": "https://s3.amazonaws.com/adg-bucket/hot-springs-national-park-quapaw-baths/small.jpg",
     "name": "Hot Springs National Park: Quapaw Baths"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/indiana-dunes-national-park-day-break/small.jpg",
+    "name": "Indiana Dunes National Park: Daybreak"
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/indiana-dunes-national-park-deer/small.jpg",
@@ -1044,6 +1140,18 @@ const raw = [
     "name": "Isle Royale National Park: Fox"
   },
   {
+    "src": "https://s3.amazonaws.com/adg-bucket/isle-royale-national-park-magical-morning/small.jpg",
+    "name": "Isle Royale National Park: Magical Morning"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/isle-royale-national-park-morning-moose/small.jpg",
+    "name": "Isle Royale National Park: Morning Moose"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/isle-royale-national-park-sunrise/small.jpg",
+    "name": "Isle Royale National Park: Sunrise"
+  },
+  {
     "src": "https://s3.amazonaws.com/adg-bucket/joshua-tree-national-park/small.jpg",
     "name": "Joshua Tree National Park"
   },
@@ -1056,8 +1164,16 @@ const raw = [
     "name": "Joshua Tree National Park: Golden Hush"
   },
   {
+    "src": "https://s3.amazonaws.com/adg-bucket/joshua-tree-national-park-into-the-evening/small.jpg",
+    "name": "Joshua Tree National Park: Into The Evening"
+  },
+  {
     "src": "https://s3.amazonaws.com/adg-bucket/joshua-tree-national-park-jack-rabbit/small.jpg",
     "name": "Joshua Tree National Park: Jack Rabbit"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/joshua-tree-national-park-windswept-wonder/small.jpg",
+    "name": "Joshua Tree National Park: Windswept Wonder"
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/katmai-national-park/small.jpg",
@@ -1112,6 +1228,10 @@ const raw = [
     "name": "Kings Canyon National Park: Sequoia Grove"
   },
   {
+    "src": "https://s3.amazonaws.com/adg-bucket/kings-canyon-national-park-valley-view/small.jpg",
+    "name": "Kings Canyon National Park: Valley View"
+  },
+  {
     "src": "https://s3.amazonaws.com/adg-bucket/kobuk-valley-national-park/small.jpg",
     "name": "Kobuk Valley National Park"
   },
@@ -1160,6 +1280,14 @@ const raw = [
     "name": "Legends Of The National Parks: Big Bend's Bruja"
   },
   {
+    "src": "https://s3.amazonaws.com/adg-bucket/legends-of-the-national-parks-canyonlands-dead-horse/small.jpg",
+    "name": "Legends Of The National Parks: Canyonlands' Dead Horse"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/legends-of-the-national-parks-carlsbad-caverns-cave-sloth/small.jpg",
+    "name": "Legends Of The National Parks: Carlsbad Caverns' Cave Sloth"
+  },
+  {
     "src": "https://s3.amazonaws.com/adg-bucket/legends-of-the-national-parks-congarees-lizard-manasifswampcountrywasntalreadyspookyenougha/small.jpg",
     "name": "Legends Of The National Parks: Congaree's Lizard Man"
   },
@@ -1182,6 +1310,10 @@ const raw = [
   {
     "src": "https://s3.amazonaws.com/adg-bucket/legends-of-the-national-parks-everglades-swamp-ape/small.jpg",
     "name": "Legends Of The National Parks: Everglade's Swamp Ape"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/legends-of-the-national-parks-gates-of-the-arctics-kushtaka/small.jpg",
+    "name": "Legends Of The National Parks: Gates Of The Arctic's Kushtaka"
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/legends-of-the-national-parks-glaciers-shunka-warakin/small.jpg",
@@ -1208,12 +1340,20 @@ const raw = [
     "name": "Legends Of The National Parks: Haleakala's Green Lady"
   },
   {
+    "src": "https://s3.amazonaws.com/adg-bucket/legends-of-the-national-parks-hawaii-volcanoes-moo-water-guardian/small.jpg",
+    "name": "Legends Of The National Parks: Hawaii Volcanoes' Mo'o Water Guardian"
+  },
+  {
     "src": "https://s3.amazonaws.com/adg-bucket/legends-of-the-national-parks-indianadunes-sandsquatch/small.jpg",
     "name": "Legends Of The National Parks: Indiana Dunes' Sandsquatch"
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/legends-of-the-national-parks-joshua-trees-yucca-man/small.jpg",
     "name": "Legends Of The National Parks: Joshua Tree's Yucca Man"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/legendsofthenationalparkskatmaisthunderbird/small.jpg",
+    "name": "Legends Of The National Parks: Katmai's Thunderbird"
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/legends-of-the-national-parks-kenai-fjords-tizheruk/small.jpg",
@@ -1260,6 +1400,10 @@ const raw = [
     "name": "Legends Of The National Parks: Rocky Mountain's Slide Rock Bolter"
   },
   {
+    "src": "https://s3.amazonaws.com/adg-bucket/legends-of-the-national-parks-saguaros-mongollon-monster/small.jpg",
+    "name": "Legends Of The National Parks: Saguaro's Mogollon Monster"
+  },
+  {
     "src": "https://s3.amazonaws.com/adg-bucket/legends-of-the-national-parks-shenandoahs-snallygaster/small.jpg",
     "name": "Legends Of The National Parks: Shenandoah's Snallygaster"
   },
@@ -1294,6 +1438,10 @@ const raw = [
   {
     "src": "https://s3.amazonaws.com/adg-bucket/mammoth-cave-national-park/small.jpg",
     "name": "Mammoth Cave National Park"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/mammoth-cave-national-park-cave-entrance/small.jpg",
+    "name": "Mammoth Cave National Park: Cave Entrance"
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/mammoth-cave-national-park-frozen-niagara/small.jpg",
@@ -1348,6 +1496,10 @@ const raw = [
     "name": "Mesa Verde National Park: Cliffside Treasure"
   },
   {
+    "src": "https://s3.amazonaws.com/adg-bucket/mesa-verde-national-park-golden-moment/small.jpg",
+    "name": "Mesa Verde National Park: Golden Moment"
+  },
+  {
     "src": "https://s3.amazonaws.com/adg-bucket/mount-rainier-national-park/small.jpg",
     "name": "Mount Rainier National Park"
   },
@@ -1370,6 +1522,10 @@ const raw = [
   {
     "src": "https://s3.amazonaws.com/adg-bucket/mount-rainier-national-park-snow-shadows/small.jpg",
     "name": "Mount Rainier National Park: Snow Shadows"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/mount-rainier-national-park-streamside-meditation/small.jpg",
+    "name": "Mount Rainier National Park: Streamside Meditation"
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/mount-rainier-national-park-wildflowers/small.jpg",
@@ -1401,7 +1557,7 @@ const raw = [
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/3-of-5-american-national-parks-collector-series-3-of-5/small.jpg",
-    "name": " National Parks Collector Series: 3 of 5"
+    "name": "National Parks Collector Series: 3 of 5"
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/4-of-5-american-national-parks-collector-series/small.jpg",
@@ -1440,6 +1596,10 @@ const raw = [
     "name": "National Parks Wildlife: Moose"
   },
   {
+    "src": "https://s3.amazonaws.com/adg-bucket/national-parks-wildlife-pika/small.jpg",
+    "name": "National Parks Wildlife: Pika"
+  },
+  {
     "src": "https://s3.amazonaws.com/adg-bucket/national-parks-wildlife-red-fox/small.jpg",
     "name": "National Parks Wildlife: Red Fox"
   },
@@ -1472,12 +1632,24 @@ const raw = [
     "name": "New River Gorge National Park & Preserve"
   },
   {
+    "src": "https://s3.amazonaws.com/adg-bucket/new-river-gorge-national-park-preserve-fall-colors/small.jpg",
+    "name": "New River Gorge National Park & Preserve: Fall Colors"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/new-river-gorge-national-park-preserve-fish-eye-view/small.jpg",
+    "name": "New River Gorge National Park & Preserve: Fish-Eye-View"
+  },
+  {
     "src": "https://s3.amazonaws.com/adg-bucket/new-river-gorge-national-park-looking-up/small.jpg",
     "name": "New River Gorge National Park: Looking Up"
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/north-cascades-national-park/small.jpg",
     "name": "North Cascades National Park"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/north-cascades-national-park-billy-the-kid/small.jpg",
+    "name": "North Cascades National Park: Billy The Kid"
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/north-cascades-national-park-mule-deer/small.jpg",
@@ -1508,6 +1680,14 @@ const raw = [
     "name": "Olympic National Park: Mountain Goat"
   },
   {
+    "src": "https://s3.amazonaws.com/adg-bucket/olympic-national-park-pelican-sunset/small.jpg",
+    "name": "Olympic National Park: Pelican Sunset"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/olympic-national-park-sea-otter/small.jpg",
+    "name": "Olympic National Park: Sea Otter"
+  },
+  {
     "src": "https://s3.amazonaws.com/adg-bucket/olympic-national-park-sol-duc-falls/small.jpg",
     "name": "Olympic National Park: Sol Duc Falls"
   },
@@ -1532,6 +1712,10 @@ const raw = [
     "name": "Pinnacles National Park"
   },
   {
+    "src": "https://s3.amazonaws.com/adg-bucket/pinnacles-national-park-california-condors/small.jpg",
+    "name": "Pinnacles National Park: California Condors"
+  },
+  {
     "src": "https://s3.amazonaws.com/adg-bucket/pinnacles-national-park-high-peaks-trail/small.jpg",
     "name": "Pinnacles National Park: High Peaks Trail"
   },
@@ -1544,20 +1728,24 @@ const raw = [
     "name": "Redwood National And State Parks: Scenic Drive"
   },
   {
-    "src": "https://s3.amazonaws.com/adg-bucket/redwood-national-park/small.jpg",
+    "src": "https://shopify.adgstore.com/shopify-assets//images/adg-loading.jpg",
     "name": "Redwood National Park"
   },
   {
-    "src": "https://s3.amazonaws.com/adg-bucket/redwood-national-park-among-the-giants/small.jpg",
+    "src": "https://shopify.adgstore.com/shopify-assets//images/adg-loading.jpg",
     "name": "Redwood National Park: Among the Giants"
   },
   {
-    "src": "https://s3.amazonaws.com/adg-bucket/redwood-national-park-chandelier-tree/small.jpg",
+    "src": "https://shopify.adgstore.com/shopify-assets//images/adg-loading.jpg",
     "name": "Redwood National Park: Chandelier Tree"
   },
   {
-    "src": "https://s3.amazonaws.com/adg-bucket/redwood-national-park-dancing-shadows/small.jpg",
+    "src": "https://shopify.adgstore.com/shopify-assets//images/adg-loading.jpg",
     "name": "Redwood National Park: Dancing Shadows"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/redwood-national-park-morning-hush/small.jpg",
+    "name": "Redwood National Park: Morning Hush"
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/redwood-national-and-state-parks-splendor/small.jpg",
@@ -1592,12 +1780,28 @@ const raw = [
     "name": "Rocky Mountain National Park: Cougar"
   },
   {
+    "src": "https://s3.amazonaws.com/adg-bucket/rocky-mountain-national-park-deer/small.jpg",
+    "name": "Rocky Mountain National Park: Deer"
+  },
+  {
     "src": "https://s3.amazonaws.com/adg-bucket/rocky-mountain-national-park-deer-family/small.jpg",
     "name": "Rocky Mountain National Park: Deer Family"
   },
   {
+    "src": "https://s3.amazonaws.com/adg-bucket/rocky-mountain-national-park-dream-lake/small.jpg",
+    "name": "Rocky Mountain National Park: Dream Lake"
+  },
+  {
     "src": "https://s3.amazonaws.com/adg-bucket/rocky-mountain-national-park-elk-herd/small.jpg",
     "name": "Rocky Mountain National Park: Elk Herd"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/rocky-mountain-national-park-emerald-lake-winter/small.jpg",
+    "name": "Rocky Mountain National Park: Emerald Lake, Winter"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/rocky-mountain-national-park-lone-elk/small.jpg",
+    "name": "Rocky Mountain National Park: Lone Elk"
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/rocky-mountain-national-park-longs-peak/small.jpg",
@@ -1606,6 +1810,10 @@ const raw = [
   {
     "src": "https://s3.amazonaws.com/adg-bucket/rocky-mountain-national-park-moose-in-the-morning-kc/small.jpg",
     "name": "Rocky Mountain National Park: Moose In The Morning-KC"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/rocky-mountain-national-park-pyramid-peak/small.jpg",
+    "name": "Rocky Mountain National Park: Pyramid Peak"
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/rocky-mountain-national-park-sprague-lake/small.jpg",
@@ -1624,8 +1832,16 @@ const raw = [
     "name": "Saguaro National Park: Cactus Wren"
   },
   {
+    "src": "https://s3.amazonaws.com/adg-bucket/saguaro-national-park-desert-daybreak/small.jpg",
+    "name": "Saguaro National Park: Desert Daybreak"
+  },
+  {
     "src": "https://s3.amazonaws.com/adg-bucket/saguaro-national-park-desert-delight/small.jpg",
     "name": "Saguaro National Park: Desert Delight"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/saguaro-national-park-twilight/small.jpg",
+    "name": "Saguaro National Park: Twilight"
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/sequoia-national-park/small.jpg",
@@ -1636,12 +1852,24 @@ const raw = [
     "name": "Sequoia National Park: At the Foot of Sherman"
   },
   {
+    "src": "https://s3.amazonaws.com/adg-bucket/sequoia-national-park-fresh-snow/small.jpg",
+    "name": "Sequoia National Park: Fresh Snow"
+  },
+  {
     "src": "https://s3.amazonaws.com/adg-bucket/sequoia-national-park-morning-glow/small.jpg",
     "name": "Sequoia National Park: Morning Glow"
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/sequoia-national-park-nature-s-cathedral-kc/small.jpg",
     "name": "Sequoia National Park: Nature's Cathedral-KC"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/sequoia-national-park-through-the-trees/small.jpg",
+    "name": "Sequoia National Park: Through The Trees"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/sequoia-national-park-winter-wonderland/small.jpg",
+    "name": "Sequoia National Park: Winter Wonderland"
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/shenandoah-national-park-barred-owl-kc/small.jpg",
@@ -1720,12 +1948,20 @@ const raw = [
     "name": "Voyageurs National Park: Secret Cove"
   },
   {
+    "src": "https://s3.amazonaws.com/adg-bucket/voyageurs-national-park-sunset-eagle/small.jpg",
+    "name": "Voyageurs National Park: Sunset Eagle"
+  },
+  {
     "src": "https://s3.amazonaws.com/adg-bucket/whitesandsnationalpark/small.jpg",
     "name": "White Sands National Park"
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/white-sands-national-park-drifting-dunes/small.jpg",
     "name": "White Sands National Park: Drifting Dunes"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/white-sands-national-park-jack-rabbit/small.jpg",
+    "name": "White Sands National Park: Jack Rabbit"
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/wind-cave-national-park/small.jpg",
@@ -1820,6 +2056,10 @@ const raw = [
     "name": "Yosemite National Park"
   },
   {
+    "src": "https://s3.amazonaws.com/adg-bucket/yosemitenationalparkclimbelcapitanmoddesign/small.jpg",
+    "name": "Yosemite National Park: Climb El Capitan (Mod Design)"
+  },
+  {
     "src": "https://s3.amazonaws.com/adg-bucket/yosemite-national-park-collage-print/small.jpg",
     "name": "Yosemite National Park: Collage Print"
   },
@@ -1846,6 +2086,10 @@ const raw = [
   {
     "src": "https://s3.amazonaws.com/adg-bucket/yosemite-national-park-morning-glory/small.jpg",
     "name": "Yosemite National Park: Morning Glory"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/yosemite-national-park-sunset-on-el-capitan/small.jpg",
+    "name": "Yosemite National Park: Sunset On El Capitan"
   },
   {
     "src": "https://s3.amazonaws.com/adg-bucket/yosemite-national-park-travel-trailer/small.jpg",
@@ -1938,6 +2182,10 @@ const raw = [
   {
     "src": "https://s3.amazonaws.com/adg-bucket/zion-national-park-virgin-river-valley/small.jpg",
     "name": "Zion National Park: Virgin River Valley"
+  },
+  {
+    "src": "https://s3.amazonaws.com/adg-bucket/zion-checkerboard-mesa/small.jpg",
+    "name": "Zion: Checkerboard Mesa"
   }
 ];
 

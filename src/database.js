@@ -6,7 +6,7 @@ const db = getFirestore(app);
 const selections = collection(db, 'selections');
 const results = collection(db, 'results');
 
-export const year = '2022'
+export const year = '2023'
 
 export const getSelectionsForUser = (uid) => getDoc(doc(selections, uid));
 export const setSelectionsForUser = (uid, userSelections) => setDoc(doc(selections, uid), userSelections, { merge: true });
