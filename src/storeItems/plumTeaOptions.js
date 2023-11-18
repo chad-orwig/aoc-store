@@ -30,11 +30,6 @@ const page1 = [
       "srcset": "//www.plumdeluxe.com/cdn/shop/files/Be-Well-Blend-Black-circle.png?v=1684533597&width=165 165w,//www.plumdeluxe.com/cdn/shop/files/Be-Well-Blend-Black-circle.png?v=1684533597&width=239 239w,"
     },
     {
-      "name": "Best Sellers Sampler Set",
-      "price": "$14.00/oz",
-      "srcset": "//www.plumdeluxe.com/cdn/shop/files/Best-Seller-Sampler-herbal-2.jpg?v=1683248626&width=165 165w,//www.plumdeluxe.com/cdn/shop/files/Best-Seller-Sampler-herbal-2.jpg?v=1683248626&width=239 239w,"
-    },
-    {
       "name": "Blackberry Mojito Black Tea (Lime - Maple - Spearmint)",
       "price": "$7.00/oz",
       "srcset": "//www.plumdeluxe.com/cdn/shop/files/Staff_Fave.png?v=1683612079&width=90 90w"

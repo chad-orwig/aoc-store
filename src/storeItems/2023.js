@@ -319,7 +319,7 @@ const storeItems =  [
     {
         name: 'Ember Smart Mug',
         url: 'https://ember.com/products/ember-mug-2?variant=30843977826389',
-        img: 'https://cdn.shopify.com/s/files/1/1080/6594/products/ember_black_CM210_600x.jpg?v=1600321021',
+        img: 'https://ember.com/cdn/shop/files/ember_CM1910_00-black_2048x.jpg',
         dollar: 130,
         options: [
             {
@@ -393,6 +393,78 @@ const storeItems =  [
             upcharge: [0, 60],
         }],
     },
+    {
+        name: 'Nord VPN Subscription',
+        img: 'https://m.media-amazon.com/images/I/71Q1gco9-EL._AC_SL1500_.jpg',
+        url: 'https://www.amazon.com/NordVPN-Standard-Cybersecurity-Subscription-Information/dp/B0C9FYN8GF',
+        dollar: 70,
+        options: [{
+            name: 'Duration',
+            options: ['1 Year', '2 Years'],
+            upcharge: [ 0, 35 ],
+        }],
+
+    },
+    {
+        name: 'LEGO Icons Flowers Tranquil Garden',
+        dollar: 110,
+        img: 'https://m.media-amazon.com/images/I/81bdwfzlx2L._AC_SL1500_.jpg',
+        url: 'https://www.amazon.com/LEGO-Tranquil-Creative-Building-Meditation/dp/B0BSRGKTGB',
+    },
+    {
+        name: 'LEGO Icons Orchid',
+        dollar: 50,
+        img: 'https://m.media-amazon.com/images/I/71iY-AO2D1L._AC_SL1500_.jpg',
+        url: 'https://www.amazon.com/LEGO-Orchid-Building-Adults-Display/dp/B09Q4L157D',
+    },
+    {
+        name: 'LEGO Marvel Spider-Man Final Battle',
+        img: 'https://m.media-amazon.com/images/I/81NEJ718WFL._AC_SL1500_.jpg',
+        dollar: 110,
+        url: 'https://www.amazon.com/LEGO-Marvel-Spider-Man-Building-Collectible/dp/B0BSRG6RYX',
+    },
+    {
+        name: 'LEGO Icons Flower Bouquet',
+        dollar: 50,
+        img: 'https://m.media-amazon.com/images/I/81lnPKhwFfL._AC_SL1500_.jpg',
+        url: 'https://www.amazon.com/LEGO-Bouquet-Building-Creative-Project/dp/B08HW1L75J'
+    },
+    {
+        name: 'LEGO Technic Mars Rover Perseverance',
+        dollar: 100,
+        url: 'https://www.amazon.com/LEGO-Perseverance-Ingenuity-Helicopter-Engineering/dp/B0BSRD2CXY',
+        img: 'https://m.media-amazon.com/images/I/81-tHOXd5eL._AC_SL1500_.jpg',
+    },
+    {
+        name: 'LEGO Minecraft The End Arena',
+        dollar: 25,
+        url: 'https://www.amazon.com/LEGO-Minecraft-Player-vs-Player-Playset-Enderman/dp/B0BBSKQGTW',
+        img: 'https://m.media-amazon.com/images/I/7153iSCFRUL._AC_SL1500_.jpg',
+    },
+    {
+        name: 'LEGO Star Wars Millennium Falcon',
+        dollar: 170,
+        url: 'https://www.amazon.com/LEGO-Star-Wars-Skywalker-Millennium/dp/B07Q2TQ48F',
+        img: 'https://m.media-amazon.com/images/I/81PhO-kyPuL._AC_SL1500_.jpg',
+    },
+    {
+        name: 'LEGO Star Wars Shsoka Tano\'s T-6',
+        dollar: 80,
+        url: 'https://www.amazon.com/LEGO-Inspired-Building-Featuring-Buildable/dp/B0BXQ64WP4',
+        img: 'https://m.media-amazon.com/images/I/61rj5+f24VL._AC_SL1000_.jpg',
+    },
+    {
+        name: 'Standard Pour Kettle -- 5 Preset Temperatures',
+        url: 'https://www.amazon.com/Chefman-Electric-Glass-Kettle-Temperature/dp/B07FNW57J7/',
+        img: 'https://m.media-amazon.com/images/I/71f41B7B4tL._AC_SL1500_.jpg',
+        dollar: 35,
+    },
+    {
+        name: 'Travel Tea Set',
+        url: 'https://www.amazon.com/Ceramic-Chinese-Porcelain-Teacups-Portable/dp/B0897MF51R/',
+        img: 'https://m.media-amazon.com/images/I/61p1V+dhmFL._AC_SL1200_.jpg',
+        dollar: 33,
+    }
 ];
 
 export default storeItems;
