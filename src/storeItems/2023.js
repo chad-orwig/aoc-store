@@ -464,6 +464,18 @@ const storeItems =  [
         url: 'https://www.amazon.com/Ceramic-Chinese-Porcelain-Teacups-Portable/dp/B0897MF51R/',
         img: 'https://m.media-amazon.com/images/I/61p1V+dhmFL._AC_SL1200_.jpg',
         dollar: 33,
+    },
+    {
+        name: 'Lego Nutcracker',
+        url: 'https://www.amazon.com/LEGO-40254-The-Nutcracker/dp/B076GF77XV',
+        img: 'https://m.media-amazon.com/images/I/61tTi1hyeJL._AC_SL1024_.jpg',
+        dollar: 105,
+    },
+    {
+        name: 'Mario Fire Flower Neon Sign',
+        url: 'https://www.amazon.com/Control-Dimmable-Lighting-Birthday-Christmas/dp/B0CM41BSP6',
+        img : 'https://m.media-amazon.com/images/I/81W4j0Zi07L._AC_SL1500_.jpg',
+        dollar: 70,
     }
 ];
 
