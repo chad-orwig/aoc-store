@@ -167,12 +167,12 @@ const storeItems =  [
     },
     {
         name : 'Echo Show',
-        url : 'https://www.amazon.com/Echo-Show-8-2nd-Gen-2021-release/dp/B084DCJKSL/ref=sr_1_2?crid=2RLFFD5U56Q3G&keywords=echo+show&qid=1668433816&s=amazon-devices&sprefix=ec%2Camazon-devices%2C444&sr=1-2',
-        img : 'https://m.media-amazon.com/images/I/51yQll2L7xL._AC_SL1000_.jpg',
+        url : 'https://www.amazon.com/dp/B0CDR2MP7Q?ref_=mars_gen_B084DCJKSL',
+        img : 'https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/71JSM9i1bQL._AC_SL1500_.jpg',
         dollar : 90,
         options : [
-            { name: 'Size', options: [ '5', '8' ], upcharge: [ 0, 40]},
-            { name : 'Color', options : [ 'Charcoal', 'Glacier White', 'Deep Sea Blue']}
+            { name : 'Color', options : [ 'Charcoal', 'Glacier White', 'Cloud Blue (5in. only)' ]},
+            { name: 'Size', options: ['5 in.', '8 in.'], upcharge: [0, 60] }
         ]
     },
     {

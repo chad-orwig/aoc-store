@@ -46,7 +46,8 @@ const items = [
     name: 'Slalom Hoodie',
     url: 'https://gear.slalom.com/Product/1526907-Bella_Canvas_Fleece_Hoodie#frm%3DAPP%26p%3D48',
     img: 'https://c.bdac.co/bdac/SLALOMGEAR/ProductImages/1526907_z.jpg?v=637637834277691310',
-    options:[sizeOptionsWithout(['3XL'])]
+    options:[sizeOptionsWithout(['3XL'])],
+    dollar: 35
   }
 
 ];
