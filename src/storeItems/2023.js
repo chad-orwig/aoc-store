@@ -1,6 +1,8 @@
 import {minPrice, variety} from './plumTeaOptions';
 import { nationalParkImgs, nationalParkNames } from './nationalParkOptions';
+import slalomItems from './slalomItems';
 const storeItems =  [
+    ...slalomItems,
     {
         name : 'Donation to Charity',
         img : 'https://img.freepik.com/free-vector/people-carrying-donation-charity-related-icons_53876-43091.jpg',
@@ -454,12 +456,6 @@ const storeItems =  [
         img: 'https://m.media-amazon.com/images/I/61rj5+f24VL._AC_SL1000_.jpg',
     },
     {
-        name: 'Standard Pour Kettle -- 5 Preset Temperatures',
-        url: 'https://www.amazon.com/Chefman-Electric-Glass-Kettle-Temperature/dp/B07FNW57J7/',
-        img: 'https://m.media-amazon.com/images/I/71f41B7B4tL._AC_SL1500_.jpg',
-        dollar: 35,
-    },
-    {
         name: 'Travel Tea Set',
         url: 'https://www.amazon.com/Ceramic-Chinese-Porcelain-Teacups-Portable/dp/B0897MF51R/',
         img: 'https://m.media-amazon.com/images/I/61p1V+dhmFL._AC_SL1200_.jpg',
@@ -488,7 +484,65 @@ const storeItems =  [
         url: 'https://www.amazon.com/Chefman-Electric-Glass-Kettle-Temperature/dp/B07FNW57J7/',
         img: 'https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71f41B7B4tL._AC_SL1500_.jpg',
         dollar: 35,
-
+    },
+    {
+        name: 'Apple Air Tag 4 pack',
+        url: 'https://www.amazon.com/dp/B0932QJ2JZ',
+        img: 'https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/71gY9E+cTaS._AC_SL1500_.jpg',
+        dollar: 99,
+    },
+    {
+        name: 'Gourmet Seasoning Collection',
+        url: 'https://www.amazon.com/dp/B00JXLYK6M',
+        img: 'https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/91lfHe2qTML._SL1500_.jpg',
+        dollar: 35,
+    },
+    {
+        name: 'Cast Iron Dutch Oven',
+        url: 'https://www.amazon.com/dp/B000LEXR0K',
+        img: 'https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/91UT4fU+y3L._AC_SL1500_.jpg',
+        dollar: 50,
+    },
+    {
+        name: 'Bonsai Tree Seed Starter Kit',
+        url: 'https://www.amazon.com/dp/B07DRQ3382',
+        img: 'https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/91E9iYlYkVL._AC_SL1500_.jpg',
+        dollar: 36,
+    },
+    {
+        name: 'Milk Frother',
+        url: 'https://www.amazon.com/dp/B08VJP18XN',
+        img: 'https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61oWTZsX9DS._AC_SL1500_.jpg',
+        dollar: 40,
+    },
+    {
+        name: 'Over-Ear Studio Headphones',
+        url: 'https://www.amazon.com/beyerdynamic-Over-Ear-Studio-Headphones-construction/dp/B0011UB9CQ',
+        img: 'https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/81Ss9KeiSRL._AC_SL1500_.jpg',
+        dollar: 159,
+    },
+    {
+        name: 'Electric Salt and Pepper grinders',
+        url: 'https://www.amazon.com/dp/B07WK8HK56',
+        img: 'https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/81xKi+DMFeL._AC_SL1500_.jpg',
+        options:[
+            {
+                name: 'Color',
+                options: ['Red', 'Stainless', 'Black' ],
+                imgs: [
+                    'https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/71LjegTRKAL._AC_SL1500_.jpg',
+                    'https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/81xKi+DMFeL._AC_SL1500_.jpg',
+                    'https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/71d--PqgVeL._AC_SL1500_.jpg',
+                ]
+            }
+        ],
+        dollar: 43,
+    },
+    {
+        name: 'Headphone amp',
+        url: 'https://www.amazon.com/FiiO-K5-AK4493EQ-Amplifier-Headphone/dp/B07WT7TYWY',
+        img: 'https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/518gsj64bbL._SL1000_.jpg',
+        dollar: 150,
     }
 ];
 
