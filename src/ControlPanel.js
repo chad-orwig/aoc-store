@@ -10,6 +10,8 @@ import { arrayOf, shape, string, func } from 'prop-types';
 import filter from 'lodash/fp/filter';
 import sumBy from 'lodash/fp/sumBy';
 import find from 'lodash/fp/find';
+import { Modal, ToggleButton } from 'react-bootstrap';
+import { useBonusStars } from './BonusStarContext';
 
 const logout = () => getAuth().signOut();
 
@@ -109,9 +111,12 @@ const clearAll = (items) => () => {
 
 function ControlPanel({items, user, addAlert}) {
     const [saving, setSaving] = useState(false);
+    const [modalShown, setModalShown] = useState(false);
+    const { newbie, challange, saveBonusStars} = useBonusStars();
     const numStars = sumByRequiredCost(findSelectedItems(items).map(processItem));
     const starString = numStars ? ` ${numStars}⭐` : '';
     const clearButton = numStars ? (<Button onClick={clearAll(items)} variant="danger">Clear</Button>) : ''
+    const bonusButton = <Button variant='warning' onClick={() => setModalShown(true)}>Claim Bonus</Button>;
     return (
         <div className="float-end">
             
@@ -119,8 +124,31 @@ function ControlPanel({items, user, addAlert}) {
             <ButtonGroup>
                 <Button onClick={() => submitSelections(items, user, addAlert, setSaving)} disabled={saving}>Submit</Button>
                 {clearButton}
+                {bonusButton}
                 <Button onClick={logout} variant="success">Logout</Button>
             </ButtonGroup>
+            <Modal show={modalShown} onHide={() => setModalShown(false)}>
+                <Modal.Header closeButton>
+                    <Modal.Title>Bonus Stars</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                    <p>
+                        There are two possible ways to claim 5 bonus stars.  First, if you have no
+                        coding experience and completed 5 stars, you can claim the Newbie Bonus.
+                        Or, if you challenged yourself to learn a new technology by doing all your
+                        problems utilizing that tech and complete at least 20 stars, you can claim
+                        the challenge bonus.
+                    </p>
+                    <p>
+                        Use the buttons bellow to claim any bonus you&apos;ve earned
+                    </p>
+                    <ButtonGroup>
+                        <ToggleButton variant='outline-primary' value="no-bonus" type="radio" checked={ !newbie && !challange} onClick={() => saveBonusStars({ newbie: false, challange: false})}>No Bonus</ToggleButton>
+                        <ToggleButton variant='outline-primary' value="newbie" type="radio" checked={newbie} onClick={() => saveBonusStars({ newbie: true, challange: false})}>Newbie</ToggleButton>
+                        <ToggleButton variant='outline-primary' value="challenge" type="radio" checked={challange} onClick={() => saveBonusStars({ newbie: false, challange: true})}>Challenge</ToggleButton>
+                    </ButtonGroup>
+                </Modal.Body>
+            </Modal>
         </div>
     );
      

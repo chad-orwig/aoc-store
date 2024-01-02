@@ -476,6 +476,19 @@ const storeItems =  [
         url: 'https://www.amazon.com/Control-Dimmable-Lighting-Birthday-Christmas/dp/B0CM41BSP6',
         img : 'https://m.media-amazon.com/images/I/81W4j0Zi07L._AC_SL1500_.jpg',
         dollar: 70,
+    },
+    {
+        name: 'Ninja Air Fryer',
+        url: 'https://www.amazon.com/dp/B07FDJMC9Q',
+        img: 'https://m.media-amazon.com/images/I/71+8uTMDRFL._AC_SL1500_.jpg',
+        dollar: 100,
+    },
+    {
+        name: 'Electric Kettle and Tea Infuser',
+        url: 'https://www.amazon.com/Chefman-Electric-Glass-Kettle-Temperature/dp/B07FNW57J7/',
+        img: 'https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71f41B7B4tL._AC_SL1500_.jpg',
+        dollar: 35,
+
     }
 ];
 

@@ -61,7 +61,7 @@ $theme-colors: (
     }
 }
 
-@include media-breakpoint-down(sm) {
+@include media-breakpoint-down(md) {
     html {
         font-size: .7rem;
     }

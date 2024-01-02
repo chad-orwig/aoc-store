@@ -24,10 +24,11 @@ import filter from 'lodash/fp/filter';
 import keyBy from 'lodash/fp/keyBy';
 import {v1 as uuid} from 'uuid';
 
-import {getSelectionsForUser, year} from './database';
+import {getSelectionsForUser, saveBonusStars, subscribeToBonusStars, year} from './database';
 import 'firebase/auth';
 
 import Fuse from 'fuse.js';
+import { BonusStarContext } from './BonusStarContext';
 
 const alertTimeout = 3000;
 const keyByName = keyBy('name');
@@ -49,7 +50,10 @@ class App extends React.Component {
       user : undefined,
       enabled : true,
       search : '',
-      filteredItems: items.map(i => i.name)
+      filteredItems: items.map(i => i.name),
+      bonusStars: null,
+      cleanupBonusStarsSubscription: () => {},
+      saveBonusStars: () => {},
     };
   }
 
@@ -97,11 +101,18 @@ class App extends React.Component {
       filteredItems
     });
   };
+  setBonusStars = (bonusStars) => {
+    this.setState({ bonusStars });
+  }
 
   setUser = (user) => {
     this.setState({user});
+    this.state.cleanupBonusStarsSubscription();
     if(user) {
       this.checkForSelections(user.uid);
+      const cleanupBonusStarsSubscription = subscribeToBonusStars(user.uid)(this.setBonusStars);
+      const saveStars = saveBonusStars(user.uid);
+      this.setState({ cleanupBonusStarsSubscription, saveBonusStars: saveStars });
     }
     else {
       this.setState({ items : this.freshItems() });
@@ -270,18 +281,20 @@ class App extends React.Component {
     const itemsByName = keyByName(this.state.items);
 
     const items = this.state.filteredItems.map(name => itemsByName[name]);
-
+    const { bonusStars, saveBonusStars } = this.state;
     return (
       <Router>
-        <div>
-          {disabledOverlay}
-          <Header search={this.state.search} setSearch={this.setSearch} items={this.state.items} addAlert={this.addAlert} user={this.state.user} />        
-          <AlertContainer alerts={this.state.alerts} />
-          <Routes>
-            <Route path="/admin" element={<AdminPage items={itemsByName}/>} />
-            <Route path="/" element={<StarStore items={items} enabled={this.state.enabled}/>}/>
-          </Routes>
-        </div>
+        <BonusStarContext.Provider value={{ ...bonusStars, saveBonusStars }}>
+          <div>
+            {disabledOverlay}
+            <Header search={this.state.search} setSearch={this.setSearch} items={this.state.items} addAlert={this.addAlert} user={this.state.user} />        
+            <AlertContainer alerts={this.state.alerts} />
+            <Routes>
+              <Route path="/admin" element={<AdminPage items={itemsByName}/>} />
+              <Route path="/" element={<StarStore items={items} enabled={this.state.enabled}/>}/>
+            </Routes>
+          </div>
+        </BonusStarContext.Provider>
       </Router>
     );
   }
