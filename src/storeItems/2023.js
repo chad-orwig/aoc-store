@@ -205,11 +205,19 @@ const storeItems =  [
     {
         name : 'Kindle',
         dollar : 100,
-        img : 'https://images-na.ssl-images-amazon.com/images/I/61ntJTLVtCL._AC_SL1000_.jpg',
-        url : 'https://www.amazon.com/Kindle-Now-with-Built-in-Front-Light/dp/B07FPX819Q',
+        img : 'https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/81e6xHv-NzL._AC_SL1500_.jpg',
+        url : 'https://www.amazon.com/kindle-the-lightest-and-most-compact-kindle/dp/B09SWV3BYH',
         options : [
-            { name: 'Color', options: [ 'Black', 'Denim', 'Agave (Paperwhite only)' ]},
-            { name: 'Version', options: [ 'Lock Screen Ads', 'No Ads', 'Paperwhite', ]}
+            { name: 'Color', options: [ 'Black', 'Denim', 'Agave Green (Paperwhite only)' ]},
+            { 
+                name: 'Version', 
+                options: [ 'Standard', 'Paperwhite' ],
+                upcharge: [ 0, 50 ]
+            },
+            { name: 'Ad Support',
+                options: ['Ad-Supported', 'Without Ad-Support'],
+                upcharge: [0, 20]
+            }
         ]
     },
     {
