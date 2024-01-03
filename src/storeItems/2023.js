@@ -551,7 +551,18 @@ const storeItems =  [
         url: 'https://www.amazon.com/FiiO-K5-AK4493EQ-Amplifier-Headphone/dp/B07WT7TYWY',
         img: 'https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/518gsj64bbL._SL1000_.jpg',
         dollar: 150,
-    }
+    },
+    {
+        name: 'numphy Halo65',
+        url: 'https://www.amazon.com/nuphy-Halo65-Bluetooth%E3%80%812-4G-Connection%EF%BC%8CCompatible-Windows-White/dp/B0BJTS6VC7',
+        img: 'https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61dzLafGv2L._AC_SL1500_.jpg',
+        dollar: 140,
+        options:[{
+            name: 'Switches',
+            options: [ 'Baby Kangaroo', 'Baby Racoon', 'Gateron Brown', 'Rose Glacier'],
+            upcharge: [ 10, 10, 0, 0]
+        }],
+    },
 ];
 
 export default storeItems;
