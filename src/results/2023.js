@@ -1,9 +1,6 @@
 const raw = {
   "members": {
     "140796": {
-      "last_star_ts": 1702646410,
-      "global_score": 0,
-      "local_score": 1710,
       "stars": 17,
       "id": 140796,
       "completion_day_level": {
@@ -13,18 +10,18 @@ const raw = {
             "star_index": 103845
           },
           "2": {
-            "star_index": 206610,
-            "get_star_ts": 1701462574
+            "get_star_ts": 1701462574,
+            "star_index": 206610
           }
         },
         "2": {
           "1": {
-            "get_star_ts": 1701535358,
-            "star_index": 433668
+            "star_index": 433668,
+            "get_star_ts": 1701535358
           },
           "2": {
-            "star_index": 435327,
-            "get_star_ts": 1701535801
+            "get_star_ts": 1701535801,
+            "star_index": 435327
           }
         },
         "4": {
@@ -35,8 +32,8 @@ const raw = {
         },
         "5": {
           "1": {
-            "get_star_ts": 1701921462,
-            "star_index": 1469464
+            "star_index": 1469464,
+            "get_star_ts": 1701921462
           }
         },
         "6": {
@@ -55,8 +52,8 @@ const raw = {
             "star_index": 1820347
           },
           "2": {
-            "get_star_ts": 1702127372,
-            "star_index": 1906802
+            "star_index": 1906802,
+            "get_star_ts": 1702127372
           }
         },
         "9": {
@@ -71,8 +68,8 @@ const raw = {
         },
         "11": {
           "1": {
-            "star_index": 2270755,
-            "get_star_ts": 1702340533
+            "get_star_ts": 1702340533,
+            "star_index": 2270755
           }
         },
         "13": {
@@ -81,28 +78,32 @@ const raw = {
             "get_star_ts": 1702504458
           },
           "2": {
-            "get_star_ts": 1702507519,
-            "star_index": 2474428
+            "star_index": 2474428,
+            "get_star_ts": 1702507519
           }
         },
         "14": {
           "1": {
-            "star_index": 2582088,
-            "get_star_ts": 1702605823
+            "get_star_ts": 1702605823,
+            "star_index": 2582088
           }
         },
         "15": {
           "1": {
-            "get_star_ts": 1702646410,
-            "star_index": 2641350
+            "star_index": 2641350,
+            "get_star_ts": 1702646410
           }
         }
       },
-      "name": "Donnie Mattingly"
+      "global_score": 0,
+      "last_star_ts": 1702646410,
+      "name": "Donnie Mattingly",
+      "local_score": 1710
     },
     "186556": {
-      "last_star_ts": 1702941737,
       "id": 186556,
+      "stars": 31,
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
@@ -130,8 +131,8 @@ const raw = {
             "get_star_ts": 1701623520
           },
           "2": {
-            "star_index": 680741,
-            "get_star_ts": 1701625567
+            "get_star_ts": 1701625567,
+            "star_index": 680741
           }
         },
         "4": {
@@ -140,8 +141,8 @@ const raw = {
             "get_star_ts": 1701692910
           },
           "2": {
-            "get_star_ts": 1701696492,
-            "star_index": 900935
+            "star_index": 900935,
+            "get_star_ts": 1701696492
           }
         },
         "5": {
@@ -150,14 +151,14 @@ const raw = {
             "get_star_ts": 1701776652
           },
           "2": {
-            "star_index": 1143151,
-            "get_star_ts": 1701786697
+            "get_star_ts": 1701786697,
+            "star_index": 1143151
           }
         },
         "6": {
           "1": {
-            "star_index": 1431917,
-            "get_star_ts": 1701895591
+            "get_star_ts": 1701895591,
+            "star_index": 1431917
           },
           "2": {
             "star_index": 1433463,
@@ -170,14 +171,14 @@ const raw = {
             "star_index": 1633212
           },
           "2": {
-            "get_star_ts": 1701993086,
-            "star_index": 1636872
+            "star_index": 1636872,
+            "get_star_ts": 1701993086
           }
         },
         "8": {
           "1": {
-            "get_star_ts": 1702034793,
-            "star_index": 1721689
+            "star_index": 1721689,
+            "get_star_ts": 1702034793
           },
           "2": {
             "star_index": 1735707,
@@ -186,18 +187,18 @@ const raw = {
         },
         "9": {
           "1": {
-            "get_star_ts": 1702122891,
-            "star_index": 1896514
+            "star_index": 1896514,
+            "get_star_ts": 1702122891
           },
           "2": {
-            "get_star_ts": 1702123375,
-            "star_index": 1897665
+            "star_index": 1897665,
+            "get_star_ts": 1702123375
           }
         },
         "10": {
           "1": {
-            "get_star_ts": 1702216634,
-            "star_index": 2054173
+            "star_index": 2054173,
+            "get_star_ts": 1702216634
           },
           "2": {
             "star_index": 2126696,
@@ -206,12 +207,12 @@ const raw = {
         },
         "11": {
           "1": {
-            "star_index": 2205166,
-            "get_star_ts": 1702303051
+            "get_star_ts": 1702303051,
+            "star_index": 2205166
           },
           "2": {
-            "get_star_ts": 1702305676,
-            "star_index": 2210183
+            "star_index": 2210183,
+            "get_star_ts": 1702305676
           }
         },
         "12": {
@@ -222,8 +223,8 @@ const raw = {
         },
         "13": {
           "1": {
-            "get_star_ts": 1702827351,
-            "star_index": 2818501
+            "star_index": 2818501,
+            "get_star_ts": 1702827351
           },
           "2": {
             "star_index": 2830271,
@@ -232,18 +233,18 @@ const raw = {
         },
         "14": {
           "1": {
-            "star_index": 2832633,
-            "get_star_ts": 1702840904
+            "get_star_ts": 1702840904,
+            "star_index": 2832633
           },
           "2": {
-            "get_star_ts": 1702853973,
-            "star_index": 2846584
+            "star_index": 2846584,
+            "get_star_ts": 1702853973
           }
         },
         "15": {
           "1": {
-            "get_star_ts": 1702854657,
-            "star_index": 2847163
+            "star_index": 2847163,
+            "get_star_ts": 1702854657
           },
           "2": {
             "star_index": 2849886,
@@ -252,40 +253,44 @@ const raw = {
         },
         "16": {
           "1": {
-            "get_star_ts": 1702940279,
-            "star_index": 2927864
+            "star_index": 2927864,
+            "get_star_ts": 1702940279
           },
           "2": {
-            "get_star_ts": 1702941737,
-            "star_index": 2929082
+            "star_index": 2929082,
+            "get_star_ts": 1702941737
           }
         }
       },
-      "name": "Chad Orwig",
+      "last_star_ts": 1702941737,
       "local_score": 3266,
-      "global_score": 0,
-      "stars": 31
+      "name": "Chad Orwig"
     },
     "188240": {
-      "last_star_ts": 0,
-      "stars": 0,
-      "global_score": 0,
-      "local_score": 0,
-      "completion_day_level": {},
       "name": "trevcor",
-      "id": 188240
+      "local_score": 0,
+      "last_star_ts": 0,
+      "global_score": 0,
+      "completion_day_level": {},
+      "id": 188240,
+      "stars": 0
     },
     "188248": {
-      "last_star_ts": 0,
-      "name": "Matthew Keelan",
-      "completion_day_level": {},
-      "id": 188248,
-      "stars": 0,
       "local_score": 0,
-      "global_score": 0
+      "name": "Matthew Keelan",
+      "last_star_ts": 0,
+      "completion_day_level": {},
+      "global_score": 0,
+      "stars": 0,
+      "id": 188248
     },
     "188249": {
+      "last_star_ts": 1703456880,
+      "local_score": 2463,
       "name": "Austin Assavavallop",
+      "id": 188249,
+      "stars": 27,
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
@@ -293,8 +298,8 @@ const raw = {
             "star_index": 715255
           },
           "2": {
-            "star_index": 727547,
-            "get_star_ts": 1701639734
+            "get_star_ts": 1701639734,
+            "star_index": 727547
           }
         },
         "2": {
@@ -303,8 +308,8 @@ const raw = {
             "star_index": 733962
           },
           "2": {
-            "star_index": 735368,
-            "get_star_ts": 1701642336
+            "get_star_ts": 1701642336,
+            "star_index": 735368
           }
         },
         "3": {
@@ -319,8 +324,8 @@ const raw = {
         },
         "4": {
           "1": {
-            "get_star_ts": 1701668807,
-            "star_index": 792849
+            "star_index": 792849,
+            "get_star_ts": 1701668807
           },
           "2": {
             "star_index": 1009133,
@@ -329,8 +334,8 @@ const raw = {
         },
         "5": {
           "1": {
-            "get_star_ts": 1701872636,
-            "star_index": 1372348
+            "star_index": 1372348,
+            "get_star_ts": 1701872636
           }
         },
         "6": {
@@ -339,18 +344,18 @@ const raw = {
             "star_index": 1402826
           },
           "2": {
-            "star_index": 1403942,
-            "get_star_ts": 1701884468
+            "get_star_ts": 1701884468,
+            "star_index": 1403942
           }
         },
         "7": {
           "1": {
-            "star_index": 1739816,
-            "get_star_ts": 1702042923
+            "get_star_ts": 1702042923,
+            "star_index": 1739816
           },
           "2": {
-            "get_star_ts": 1702137390,
-            "star_index": 1929823
+            "star_index": 1929823,
+            "get_star_ts": 1702137390
           }
         },
         "8": {
@@ -361,8 +366,8 @@ const raw = {
         },
         "9": {
           "1": {
-            "get_star_ts": 1702506687,
-            "star_index": 2473473
+            "star_index": 2473473,
+            "get_star_ts": 1702506687
           },
           "2": {
             "star_index": 2474879,
@@ -371,8 +376,8 @@ const raw = {
         },
         "10": {
           "1": {
-            "star_index": 3268371,
-            "get_star_ts": 1703436208
+            "get_star_ts": 1703436208,
+            "star_index": 3268371
           },
           "2": {
             "star_index": 3270289,
@@ -385,14 +390,14 @@ const raw = {
             "get_star_ts": 1702872161
           },
           "2": {
-            "star_index": 2902388,
-            "get_star_ts": 1702916191
+            "get_star_ts": 1702916191,
+            "star_index": 2902388
           }
         },
         "13": {
           "1": {
-            "star_index": 2926230,
-            "get_star_ts": 1702938464
+            "get_star_ts": 1702938464,
+            "star_index": 2926230
           }
         },
         "14": {
@@ -407,14 +412,14 @@ const raw = {
             "get_star_ts": 1703214716
           },
           "2": {
-            "get_star_ts": 1703315672,
-            "star_index": 3199554
+            "star_index": 3199554,
+            "get_star_ts": 1703315672
           }
         },
         "18": {
           "1": {
-            "star_index": 3237252,
-            "get_star_ts": 1703376058
+            "get_star_ts": 1703376058,
+            "star_index": 3237252
           },
           "2": {
             "star_index": 3241046,
@@ -423,29 +428,23 @@ const raw = {
         },
         "19": {
           "1": {
-            "get_star_ts": 1703456880,
-            "star_index": 3278262
+            "star_index": 3278262,
+            "get_star_ts": 1703456880
           }
         }
-      },
-      "id": 188249,
-      "stars": 27,
-      "local_score": 2463,
-      "global_score": 0,
-      "last_star_ts": 1703456880
+      }
     },
     "189285": {
-      "last_star_ts": 0,
-      "completion_day_level": {},
-      "name": "Steven Porter",
       "id": 189285,
       "stars": 0,
       "global_score": 0,
+      "completion_day_level": {},
+      "last_star_ts": 0,
+      "name": "Steven Porter",
       "local_score": 0
     },
     "250536": {
-      "last_star_ts": 1702387692,
-      "name": "Jeremy Lizza",
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
@@ -453,14 +452,14 @@ const raw = {
             "get_star_ts": 1701436722
           },
           "2": {
-            "get_star_ts": 1701442773,
-            "star_index": 133307
+            "star_index": 133307,
+            "get_star_ts": 1701442773
           }
         },
         "2": {
           "1": {
-            "star_index": 279048,
-            "get_star_ts": 1701494818
+            "get_star_ts": 1701494818,
+            "star_index": 279048
           },
           "2": {
             "get_star_ts": 1701495196,
@@ -469,8 +468,8 @@ const raw = {
         },
         "3": {
           "1": {
-            "star_index": 540955,
-            "get_star_ts": 1701581633
+            "get_star_ts": 1701581633,
+            "star_index": 540955
           },
           "2": {
             "star_index": 548897,
@@ -483,14 +482,14 @@ const raw = {
             "star_index": 783505
           },
           "2": {
-            "get_star_ts": 1701668618,
-            "star_index": 791816
+            "star_index": 791816,
+            "get_star_ts": 1701668618
           }
         },
         "5": {
           "1": {
-            "get_star_ts": 1701756612,
-            "star_index": 1066011
+            "star_index": 1066011,
+            "get_star_ts": 1701756612
           },
           "2": {
             "get_star_ts": 1701790236,
@@ -499,12 +498,12 @@ const raw = {
         },
         "6": {
           "1": {
-            "star_index": 1257781,
-            "get_star_ts": 1701839471
+            "get_star_ts": 1701839471,
+            "star_index": 1257781
           },
           "2": {
-            "get_star_ts": 1701840410,
-            "star_index": 1268617
+            "star_index": 1268617,
+            "get_star_ts": 1701840410
           }
         },
         "7": {
@@ -513,28 +512,28 @@ const raw = {
             "star_index": 1479619
           },
           "2": {
-            "get_star_ts": 1701929624,
-            "star_index": 1488236
+            "star_index": 1488236,
+            "get_star_ts": 1701929624
           }
         },
         "8": {
           "1": {
-            "star_index": 1660191,
-            "get_star_ts": 1702012825
+            "get_star_ts": 1702012825,
+            "star_index": 1660191
           },
           "2": {
-            "star_index": 1669286,
-            "get_star_ts": 1702014728
+            "get_star_ts": 1702014728,
+            "star_index": 1669286
           }
         },
         "9": {
           "1": {
-            "star_index": 1835329,
-            "get_star_ts": 1702099254
+            "get_star_ts": 1702099254,
+            "star_index": 1835329
           },
           "2": {
-            "star_index": 1836170,
-            "get_star_ts": 1702099368
+            "get_star_ts": 1702099368,
+            "star_index": 1836170
           }
         },
         "10": {
@@ -553,24 +552,27 @@ const raw = {
             "get_star_ts": 1702273160
           },
           "2": {
-            "get_star_ts": 1702274413,
-            "star_index": 2148846
+            "star_index": 2148846,
+            "get_star_ts": 1702274413
           }
         },
         "12": {
           "1": {
-            "star_index": 2323683,
-            "get_star_ts": 1702387692
+            "get_star_ts": 1702387692,
+            "star_index": 2323683
           }
         }
       },
       "id": 250536,
       "stars": 23,
-      "global_score": 0,
-      "local_score": 2640
+      "name": "Jeremy Lizza",
+      "local_score": 2640,
+      "last_star_ts": 1702387692
     },
     "254702": {
       "id": 254702,
+      "stars": 50,
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
@@ -588,44 +590,44 @@ const raw = {
             "get_star_ts": 1702349259
           },
           "2": {
-            "get_star_ts": 1702349710,
-            "star_index": 2277332
+            "star_index": 2277332,
+            "get_star_ts": 1702349710
           }
         },
         "3": {
           "1": {
-            "get_star_ts": 1702353089,
-            "star_index": 2279589
+            "star_index": 2279589,
+            "get_star_ts": 1702353089
           },
           "2": {
-            "get_star_ts": 1702353512,
-            "star_index": 2279871
+            "star_index": 2279871,
+            "get_star_ts": 1702353512
           }
         },
         "4": {
           "1": {
-            "get_star_ts": 1702354936,
-            "star_index": 2280745
+            "star_index": 2280745,
+            "get_star_ts": 1702354936
           },
           "2": {
-            "get_star_ts": 1702357450,
-            "star_index": 2282309
+            "star_index": 2282309,
+            "get_star_ts": 1702357450
           }
         },
         "5": {
           "1": {
-            "star_index": 2344149,
-            "get_star_ts": 1702402782
+            "get_star_ts": 1702402782,
+            "star_index": 2344149
           },
           "2": {
-            "star_index": 2355569,
-            "get_star_ts": 1702411241
+            "get_star_ts": 1702411241,
+            "star_index": 2355569
           }
         },
         "6": {
           "1": {
-            "star_index": 2357343,
-            "get_star_ts": 1702412430
+            "get_star_ts": 1702412430,
+            "star_index": 2357343
           },
           "2": {
             "star_index": 2357748,
@@ -634,22 +636,22 @@ const raw = {
         },
         "7": {
           "1": {
-            "star_index": 2364691,
-            "get_star_ts": 1702417171
+            "get_star_ts": 1702417171,
+            "star_index": 2364691
           },
           "2": {
-            "star_index": 2365705,
-            "get_star_ts": 1702417870
+            "get_star_ts": 1702417870,
+            "star_index": 2365705
           }
         },
         "8": {
           "1": {
-            "get_star_ts": 1702428741,
-            "star_index": 2376880
+            "star_index": 2376880,
+            "get_star_ts": 1702428741
           },
           "2": {
-            "star_index": 2668363,
-            "get_star_ts": 1702668138
+            "get_star_ts": 1702668138,
+            "star_index": 2668363
           }
         },
         "9": {
@@ -658,18 +660,18 @@ const raw = {
             "get_star_ts": 1702669599
           },
           "2": {
-            "get_star_ts": 1702670174,
-            "star_index": 2670431
+            "star_index": 2670431,
+            "get_star_ts": 1702670174
           }
         },
         "10": {
           "1": {
-            "get_star_ts": 1702673543,
-            "star_index": 2673984
+            "star_index": 2673984,
+            "get_star_ts": 1702673543
           },
           "2": {
-            "get_star_ts": 1702951930,
-            "star_index": 2934477
+            "star_index": 2934477,
+            "get_star_ts": 1702951930
           }
         },
         "11": {
@@ -678,20 +680,24 @@ const raw = {
             "star_index": 2997030
           },
           "2": {
-            "star_index": 2997443,
-            "get_star_ts": 1703019304
+            "get_star_ts": 1703019304,
+            "star_index": 2997443
           }
         },
         "12": {
           "1": {
-            "star_index": 2298977,
-            "get_star_ts": 1702367928
+            "get_star_ts": 1702367928,
+            "star_index": 2298977
+          },
+          "2": {
+            "get_star_ts": 1704891758,
+            "star_index": 3529905
           }
         },
         "13": {
           "1": {
-            "star_index": 3073469,
-            "get_star_ts": 1703123757
+            "get_star_ts": 1703123757,
+            "star_index": 3073469
           },
           "2": {
             "get_star_ts": 1703124085,
@@ -710,12 +716,12 @@ const raw = {
         },
         "15": {
           "1": {
-            "star_index": 3076382,
-            "get_star_ts": 1703131741
+            "get_star_ts": 1703131741,
+            "star_index": 3076382
           },
           "2": {
-            "star_index": 3076796,
-            "get_star_ts": 1703133049
+            "get_star_ts": 1703133049,
+            "star_index": 3076796
           }
         },
         "16": {
@@ -724,8 +730,8 @@ const raw = {
             "get_star_ts": 1703134832
           },
           "2": {
-            "star_index": 3079445,
-            "get_star_ts": 1703135856
+            "get_star_ts": 1703135856,
+            "star_index": 3079445
           }
         },
         "17": {
@@ -740,8 +746,8 @@ const raw = {
         },
         "18": {
           "1": {
-            "get_star_ts": 1703192954,
-            "star_index": 3126001
+            "star_index": 3126001,
+            "get_star_ts": 1703192954
           },
           "2": {
             "get_star_ts": 1703623677,
@@ -750,8 +756,8 @@ const raw = {
         },
         "19": {
           "1": {
-            "star_index": 3342176,
-            "get_star_ts": 1703625764
+            "get_star_ts": 1703625764,
+            "star_index": 3342176
           },
           "2": {
             "get_star_ts": 1703701828,
@@ -760,8 +766,8 @@ const raw = {
         },
         "20": {
           "1": {
-            "star_index": 3363530,
-            "get_star_ts": 1703705637
+            "get_star_ts": 1703705637,
+            "star_index": 3363530
           },
           "2": {
             "get_star_ts": 1703714238,
@@ -772,6 +778,10 @@ const raw = {
           "1": {
             "get_star_ts": 1704689612,
             "star_index": 3512326
+          },
+          "2": {
+            "get_star_ts": 1704854914,
+            "star_index": 3527759
           }
         },
         "22": {
@@ -780,8 +790,8 @@ const raw = {
             "star_index": 3456539
           },
           "2": {
-            "star_index": 3457266,
-            "get_star_ts": 1704216200
+            "get_star_ts": 1704216200,
+            "star_index": 3457266
           }
         },
         "23": {
@@ -808,18 +818,22 @@ const raw = {
           "1": {
             "get_star_ts": 1704680442,
             "star_index": 3511861
+          },
+          "2": {
+            "get_star_ts": 1704891765,
+            "star_index": 3529906
           }
         }
       },
-      "name": "Brian O'Connor",
-      "local_score": 4323,
-      "global_score": 0,
-      "stars": 47,
-      "last_star_ts": 1704689612
+      "last_star_ts": 1704891765,
+      "local_score": 4644,
+      "name": "Brian O'Connor"
     },
     "268714": {
+      "name": "Matt Ranlett",
+      "local_score": 243,
       "last_star_ts": 1701663787,
-      "id": 268714,
+      "global_score": 0,
       "completion_day_level": {
         "2": {
           "1": {
@@ -833,82 +847,79 @@ const raw = {
         },
         "3": {
           "1": {
-            "get_star_ts": 1701663787,
-            "star_index": 768078
+            "star_index": 768078,
+            "get_star_ts": 1701663787
           }
         }
       },
-      "name": "Matt Ranlett",
-      "local_score": 243,
-      "global_score": 0,
+      "id": 268714,
       "stars": 3
     },
     "351893": {
-      "completion_day_level": {},
-      "name": "Hooman Ebrahimi",
-      "id": 351893,
       "stars": 0,
-      "local_score": 0,
+      "id": 351893,
+      "completion_day_level": {},
       "global_score": 0,
-      "last_star_ts": 0
+      "last_star_ts": 0,
+      "local_score": 0,
+      "name": "Hooman Ebrahimi"
     },
     "372160": {
-      "last_star_ts": 1704683622,
-      "name": "Alex Consunji",
+      "global_score": 0,
       "completion_day_level": {
         "2": {
           "1": {
-            "star_index": 3511998,
-            "get_star_ts": 1704682967
+            "get_star_ts": 1704682967,
+            "star_index": 3511998
           },
           "2": {
-            "star_index": 3512028,
-            "get_star_ts": 1704683622
+            "get_star_ts": 1704683622,
+            "star_index": 3512028
           }
         }
       },
       "id": 372160,
       "stars": 2,
-      "global_score": 0,
-      "local_score": 89
+      "local_score": 89,
+      "name": "Alex Consunji",
+      "last_star_ts": 1704683622
     },
     "372360": {
-      "id": 372360,
       "completion_day_level": {
         "1": {
           "1": {
-            "get_star_ts": 1701453831,
-            "star_index": 176987
+            "star_index": 176987,
+            "get_star_ts": 1701453831
           },
           "2": {
-            "get_star_ts": 1701457212,
-            "star_index": 188729
+            "star_index": 188729,
+            "get_star_ts": 1701457212
           }
         },
         "2": {
           "1": {
-            "star_index": 634317,
-            "get_star_ts": 1701611457
+            "get_star_ts": 1701611457,
+            "star_index": 634317
           },
           "2": {
-            "star_index": 635974,
-            "get_star_ts": 1701611957
+            "get_star_ts": 1701611957,
+            "star_index": 635974
           }
         },
         "3": {
           "1": {
-            "get_star_ts": 1701619880,
-            "star_index": 661777
+            "star_index": 661777,
+            "get_star_ts": 1701619880
           },
           "2": {
-            "get_star_ts": 1701647595,
-            "star_index": 747575
+            "star_index": 747575,
+            "get_star_ts": 1701647595
           }
         },
         "4": {
           "1": {
-            "star_index": 916590,
-            "get_star_ts": 1701700619
+            "get_star_ts": 1701700619,
+            "star_index": 916590
           },
           "2": {
             "star_index": 924109,
@@ -937,32 +948,32 @@ const raw = {
         },
         "7": {
           "1": {
-            "get_star_ts": 1701967734,
-            "star_index": 1582490
+            "star_index": 1582490,
+            "get_star_ts": 1701967734
           },
           "2": {
-            "star_index": 1584057,
-            "get_star_ts": 1701968396
+            "get_star_ts": 1701968396,
+            "star_index": 1584057
           }
         },
         "8": {
           "1": {
-            "get_star_ts": 1702046721,
-            "star_index": 1749118
+            "star_index": 1749118,
+            "get_star_ts": 1702046721
           },
           "2": {
-            "star_index": 1751663,
-            "get_star_ts": 1702047751
+            "get_star_ts": 1702047751,
+            "star_index": 1751663
           }
         },
         "9": {
           "1": {
-            "get_star_ts": 1702165906,
-            "star_index": 1983574
+            "star_index": 1983574,
+            "get_star_ts": 1702165906
           },
           "2": {
-            "get_star_ts": 1702166412,
-            "star_index": 1984216
+            "star_index": 1984216,
+            "get_star_ts": 1702166412
           }
         },
         "10": {
@@ -981,24 +992,24 @@ const raw = {
             "star_index": 2209951
           },
           "2": {
-            "get_star_ts": 1702305868,
-            "star_index": 2210552
+            "star_index": 2210552,
+            "get_star_ts": 1702305868
           }
         },
         "12": {
           "1": {
-            "get_star_ts": 1702392017,
-            "star_index": 2329308
+            "star_index": 2329308,
+            "get_star_ts": 1702392017
           },
           "2": {
-            "get_star_ts": 1702483422,
-            "star_index": 2443596
+            "star_index": 2443596,
+            "get_star_ts": 1702483422
           }
         },
         "13": {
           "1": {
-            "get_star_ts": 1702492808,
-            "star_index": 2455262
+            "star_index": 2455262,
+            "get_star_ts": 1702492808
           },
           "2": {
             "star_index": 2460917,
@@ -1007,22 +1018,22 @@ const raw = {
         },
         "14": {
           "1": {
-            "star_index": 2552756,
-            "get_star_ts": 1702574619
+            "get_star_ts": 1702574619,
+            "star_index": 2552756
           },
           "2": {
-            "star_index": 2567655,
-            "get_star_ts": 1702587885
+            "get_star_ts": 1702587885,
+            "star_index": 2567655
           }
         },
         "15": {
           "1": {
-            "star_index": 2650498,
-            "get_star_ts": 1702652772
+            "get_star_ts": 1702652772,
+            "star_index": 2650498
           },
           "2": {
-            "get_star_ts": 1702655168,
-            "star_index": 2653869
+            "star_index": 2653869,
+            "get_star_ts": 1702655168
           }
         },
         "16": {
@@ -1031,8 +1042,8 @@ const raw = {
             "star_index": 2851871
           },
           "2": {
-            "get_star_ts": 1702862706,
-            "star_index": 2852193
+            "star_index": 2852193,
+            "get_star_ts": 1702862706
           }
         },
         "17": {
@@ -1051,14 +1062,14 @@ const raw = {
             "get_star_ts": 1702935204
           },
           "2": {
-            "star_index": 2923636,
-            "get_star_ts": 1702936000
+            "get_star_ts": 1702936000,
+            "star_index": 2923636
           }
         },
         "19": {
           "1": {
-            "star_index": 2993962,
-            "get_star_ts": 1703015846
+            "get_star_ts": 1703015846,
+            "star_index": 2993962
           },
           "2": {
             "get_star_ts": 1703043966,
@@ -1067,8 +1078,8 @@ const raw = {
         },
         "20": {
           "1": {
-            "star_index": 3048749,
-            "get_star_ts": 1703089682
+            "get_star_ts": 1703089682,
+            "star_index": 3048749
           },
           "2": {
             "star_index": 3054730,
@@ -1077,12 +1088,12 @@ const raw = {
         },
         "21": {
           "1": {
-            "star_index": 3108225,
-            "get_star_ts": 1703170241
+            "get_star_ts": 1703170241,
+            "star_index": 3108225
           },
           "2": {
-            "get_star_ts": 1703213638,
-            "star_index": 3136455
+            "star_index": 3136455,
+            "get_star_ts": 1703213638
           }
         },
         "22": {
@@ -1091,28 +1102,28 @@ const raw = {
             "get_star_ts": 1703264379
           },
           "2": {
-            "get_star_ts": 1703264643,
-            "star_index": 3170612
+            "star_index": 3170612,
+            "get_star_ts": 1703264643
           }
         },
         "23": {
           "1": {
-            "star_index": 3214976,
-            "get_star_ts": 1703341248
+            "get_star_ts": 1703341248,
+            "star_index": 3214976
           },
           "2": {
-            "get_star_ts": 1703381903,
-            "star_index": 3239359
+            "star_index": 3239359,
+            "get_star_ts": 1703381903
           }
         },
         "24": {
           "1": {
-            "star_index": 3272049,
-            "get_star_ts": 1703443684
+            "get_star_ts": 1703443684,
+            "star_index": 3272049
           },
           "2": {
-            "star_index": 3274482,
-            "get_star_ts": 1703448914
+            "get_star_ts": 1703448914,
+            "star_index": 3274482
           }
         },
         "25": {
@@ -1121,38 +1132,37 @@ const raw = {
             "star_index": 3291339
           },
           "2": {
-            "star_index": 3291340,
-            "get_star_ts": 1703488769
+            "get_star_ts": 1703488769,
+            "star_index": 3291340
           }
         }
       },
-      "name": "Corey Lamb",
       "global_score": 0,
-      "local_score": 5388,
       "stars": 50,
+      "id": 372360,
+      "name": "Corey Lamb",
+      "local_score": 5388,
       "last_star_ts": 1703488769
     },
     "372419": {
-      "local_score": 1038,
-      "global_score": 0,
-      "stars": 11,
       "id": 372419,
-      "name": "Kevin Campbell",
+      "stars": 11,
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
-            "star_index": 113665,
-            "get_star_ts": 1701437766
+            "get_star_ts": 1701437766,
+            "star_index": 113665
           },
           "2": {
-            "star_index": 258409,
-            "get_star_ts": 1701485463
+            "get_star_ts": 1701485463,
+            "star_index": 258409
           }
         },
         "2": {
           "1": {
-            "get_star_ts": 1701544806,
-            "star_index": 465171
+            "star_index": 465171,
+            "get_star_ts": 1701544806
           },
           "2": {
             "get_star_ts": 1701550202,
@@ -1161,8 +1171,8 @@ const raw = {
         },
         "3": {
           "1": {
-            "get_star_ts": 1701630133,
-            "star_index": 695447
+            "star_index": 695447,
+            "get_star_ts": 1701630133
           },
           "2": {
             "get_star_ts": 1701647368,
@@ -1175,8 +1185,8 @@ const raw = {
             "star_index": 890853
           },
           "2": {
-            "star_index": 1181701,
-            "get_star_ts": 1701801115
+            "get_star_ts": 1701801115,
+            "star_index": 1181701
           }
         },
         "6": {
@@ -1185,8 +1195,8 @@ const raw = {
             "star_index": 1368340
           },
           "2": {
-            "get_star_ts": 1701873293,
-            "star_index": 1374237
+            "star_index": 1374237,
+            "get_star_ts": 1701873293
           }
         },
         "8": {
@@ -1196,38 +1206,39 @@ const raw = {
           }
         }
       },
-      "last_star_ts": 1702083752
+      "last_star_ts": 1702083752,
+      "name": "Kevin Campbell",
+      "local_score": 1038
     },
     "375289": {
-      "last_star_ts": 1703889281,
+      "id": 375289,
       "stars": 30,
       "global_score": 0,
-      "local_score": 2796,
       "completion_day_level": {
         "1": {
           "1": {
-            "get_star_ts": 1701441542,
-            "star_index": 128342
+            "star_index": 128342,
+            "get_star_ts": 1701441542
           },
           "2": {
-            "get_star_ts": 1701447107,
-            "star_index": 151023
+            "star_index": 151023,
+            "get_star_ts": 1701447107
           }
         },
         "2": {
           "1": {
-            "star_index": 424887,
-            "get_star_ts": 1701532966
+            "get_star_ts": 1701532966,
+            "star_index": 424887
           },
           "2": {
-            "get_star_ts": 1701534714,
-            "star_index": 431232
+            "star_index": 431232,
+            "get_star_ts": 1701534714
           }
         },
         "3": {
           "1": {
-            "get_star_ts": 1701723453,
-            "star_index": 999674
+            "star_index": 999674,
+            "get_star_ts": 1701723453
           },
           "2": {
             "star_index": 1006008,
@@ -1236,28 +1247,28 @@ const raw = {
         },
         "4": {
           "1": {
-            "star_index": 1012391,
-            "get_star_ts": 1701727156
+            "get_star_ts": 1701727156,
+            "star_index": 1012391
           },
           "2": {
-            "star_index": 1162833,
-            "get_star_ts": 1701793950
+            "get_star_ts": 1701793950,
+            "star_index": 1162833
           }
         },
         "5": {
           "1": {
-            "star_index": 1198716,
-            "get_star_ts": 1701807358
+            "get_star_ts": 1701807358,
+            "star_index": 1198716
           },
           "2": {
-            "get_star_ts": 1701900624,
-            "star_index": 1444303
+            "star_index": 1444303,
+            "get_star_ts": 1701900624
           }
         },
         "6": {
           "1": {
-            "star_index": 1449343,
-            "get_star_ts": 1701903080
+            "get_star_ts": 1701903080,
+            "star_index": 1449343
           },
           "2": {
             "get_star_ts": 1701904482,
@@ -1266,22 +1277,22 @@ const raw = {
         },
         "7": {
           "1": {
-            "star_index": 1773197,
-            "get_star_ts": 1702057123
+            "get_star_ts": 1702057123,
+            "star_index": 1773197
           },
           "2": {
-            "star_index": 1967019,
-            "get_star_ts": 1702155854
+            "get_star_ts": 1702155854,
+            "star_index": 1967019
           }
         },
         "8": {
           "1": {
-            "star_index": 1970874,
-            "get_star_ts": 1702157908
+            "get_star_ts": 1702157908,
+            "star_index": 1970874
           },
           "2": {
-            "get_star_ts": 1702223200,
-            "star_index": 2066886
+            "star_index": 2066886,
+            "get_star_ts": 1702223200
           }
         },
         "9": {
@@ -1290,8 +1301,8 @@ const raw = {
             "star_index": 2070843
           },
           "2": {
-            "star_index": 2072483,
-            "get_star_ts": 1702225877
+            "get_star_ts": 1702225877,
+            "star_index": 2072483
           }
         },
         "10": {
@@ -1306,8 +1317,8 @@ const raw = {
         },
         "11": {
           "1": {
-            "star_index": 2828614,
-            "get_star_ts": 1702837008
+            "get_star_ts": 1702837008,
+            "star_index": 2828614
           },
           "2": {
             "star_index": 2829664,
@@ -1316,8 +1327,8 @@ const raw = {
         },
         "12": {
           "1": {
-            "star_index": 2902265,
-            "get_star_ts": 1702916094
+            "get_star_ts": 1702916094,
+            "star_index": 2902265
           },
           "2": {
             "get_star_ts": 1702922798,
@@ -1330,14 +1341,14 @@ const raw = {
             "get_star_ts": 1703196017
           },
           "2": {
-            "get_star_ts": 1703264987,
-            "star_index": 3170873
+            "star_index": 3170873,
+            "get_star_ts": 1703264987
           }
         },
         "14": {
           "1": {
-            "star_index": 3177565,
-            "get_star_ts": 1703274929
+            "get_star_ts": 1703274929,
+            "star_index": 3177565
           },
           "2": {
             "get_star_ts": 1703880600,
@@ -1346,8 +1357,8 @@ const raw = {
         },
         "15": {
           "1": {
-            "star_index": 3406580,
-            "get_star_ts": 1703883171
+            "get_star_ts": 1703883171,
+            "star_index": 3406580
           },
           "2": {
             "star_index": 3408361,
@@ -1355,12 +1366,11 @@ const raw = {
           }
         }
       },
+      "last_star_ts": 1703889281,
       "name": "JHahn",
-      "id": 375289
+      "local_score": 2796
     },
     "384082": {
-      "last_star_ts": 1703488978,
-      "name": "Jacob Ambrose",
       "completion_day_level": {
         "1": {
           "1": {
@@ -1374,18 +1384,18 @@ const raw = {
         },
         "2": {
           "1": {
-            "star_index": 277446,
-            "get_star_ts": 1701494632
+            "get_star_ts": 1701494632,
+            "star_index": 277446
           },
           "2": {
-            "star_index": 280485,
-            "get_star_ts": 1701494993
+            "get_star_ts": 1701494993,
+            "star_index": 280485
           }
         },
         "3": {
           "1": {
-            "star_index": 540173,
-            "get_star_ts": 1701581465
+            "get_star_ts": 1701581465,
+            "star_index": 540173
           },
           "2": {
             "star_index": 543701,
@@ -1418,14 +1428,14 @@ const raw = {
             "get_star_ts": 1701839529
           },
           "2": {
-            "star_index": 1259511,
-            "get_star_ts": 1701839594
+            "get_star_ts": 1701839594,
+            "star_index": 1259511
           }
         },
         "7": {
           "1": {
-            "star_index": 1479767,
-            "get_star_ts": 1701927603
+            "get_star_ts": 1701927603,
+            "star_index": 1479767
           },
           "2": {
             "get_star_ts": 1701928014,
@@ -1448,8 +1458,8 @@ const raw = {
             "get_star_ts": 1702099477
           },
           "2": {
-            "star_index": 1838361,
-            "get_star_ts": 1702099688
+            "get_star_ts": 1702099688,
+            "star_index": 1838361
           }
         },
         "10": {
@@ -1468,8 +1478,8 @@ const raw = {
             "get_star_ts": 1702272603
           },
           "2": {
-            "star_index": 2143613,
-            "get_star_ts": 1702273012
+            "get_star_ts": 1702273012,
+            "star_index": 2143613
           }
         },
         "12": {
@@ -1498,8 +1508,8 @@ const raw = {
             "star_index": 2490767
           },
           "2": {
-            "get_star_ts": 1702533143,
-            "star_index": 2497386
+            "star_index": 2497386,
+            "get_star_ts": 1702533143
           }
         },
         "15": {
@@ -1514,8 +1524,8 @@ const raw = {
         },
         "16": {
           "1": {
-            "get_star_ts": 1702705400,
-            "star_index": 2697302
+            "star_index": 2697302,
+            "get_star_ts": 1702705400
           },
           "2": {
             "star_index": 2698700,
@@ -1524,8 +1534,8 @@ const raw = {
         },
         "17": {
           "1": {
-            "star_index": 2817582,
-            "get_star_ts": 1702826549
+            "get_star_ts": 1702826549,
+            "star_index": 2817582
           },
           "2": {
             "star_index": 2819966,
@@ -1534,8 +1544,8 @@ const raw = {
         },
         "18": {
           "1": {
-            "get_star_ts": 1702892704,
-            "star_index": 2878081
+            "star_index": 2878081,
+            "get_star_ts": 1702892704
           },
           "2": {
             "star_index": 2882226,
@@ -1554,18 +1564,18 @@ const raw = {
         },
         "20": {
           "1": {
-            "get_star_ts": 1703085702,
-            "star_index": 3045135
+            "star_index": 3045135,
+            "get_star_ts": 1703085702
           },
           "2": {
-            "star_index": 3045731,
-            "get_star_ts": 1703086341
+            "get_star_ts": 1703086341,
+            "star_index": 3045731
           }
         },
         "21": {
           "1": {
-            "get_star_ts": 1703135847,
-            "star_index": 3079422
+            "star_index": 3079422,
+            "get_star_ts": 1703135847
           },
           "2": {
             "get_star_ts": 1703191031,
@@ -1584,45 +1594,49 @@ const raw = {
         },
         "23": {
           "1": {
-            "star_index": 3193647,
-            "get_star_ts": 1703308879
+            "get_star_ts": 1703308879,
+            "star_index": 3193647
           },
           "2": {
-            "get_star_ts": 1703349981,
-            "star_index": 3221017
+            "star_index": 3221017,
+            "get_star_ts": 1703349981
           }
         },
         "24": {
           "1": {
-            "star_index": 3244256,
-            "get_star_ts": 1703397006
+            "get_star_ts": 1703397006,
+            "star_index": 3244256
           },
           "2": {
-            "get_star_ts": 1703432559,
-            "star_index": 3266301
+            "star_index": 3266301,
+            "get_star_ts": 1703432559
           }
         },
         "25": {
           "1": {
-            "get_star_ts": 1703488949,
-            "star_index": 3291423
+            "star_index": 3291423,
+            "get_star_ts": 1703488949
           },
           "2": {
-            "star_index": 3291442,
-            "get_star_ts": 1703488978
+            "get_star_ts": 1703488978,
+            "star_index": 3291442
           }
         }
       },
-      "id": 384082,
-      "stars": 50,
       "global_score": 0,
-      "local_score": 5865
+      "stars": 50,
+      "id": 384082,
+      "local_score": 5865,
+      "name": "Jacob Ambrose",
+      "last_star_ts": 1703488978
     },
     "456457": {
-      "stars": 29,
-      "global_score": 0,
+      "last_star_ts": 1703266278,
       "local_score": 2641,
       "name": "Matt Collins",
+      "id": 456457,
+      "stars": 29,
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
@@ -1636,22 +1650,22 @@ const raw = {
         },
         "2": {
           "1": {
-            "star_index": 1040991,
-            "get_star_ts": 1701742618
+            "get_star_ts": 1701742618,
+            "star_index": 1040991
           },
           "2": {
-            "get_star_ts": 1701743212,
-            "star_index": 1041701
+            "star_index": 1041701,
+            "get_star_ts": 1701743212
           }
         },
         "3": {
           "1": {
-            "star_index": 1047892,
-            "get_star_ts": 1701748601
+            "get_star_ts": 1701748601,
+            "star_index": 1047892
           },
           "2": {
-            "get_star_ts": 1701749783,
-            "star_index": 1049146
+            "star_index": 1049146,
+            "get_star_ts": 1701749783
           }
         },
         "4": {
@@ -1666,22 +1680,22 @@ const raw = {
         },
         "5": {
           "1": {
-            "get_star_ts": 1701756226,
-            "star_index": 1064646
+            "star_index": 1064646,
+            "get_star_ts": 1701756226
           },
           "2": {
-            "get_star_ts": 1701923700,
-            "star_index": 1471215
+            "star_index": 1471215,
+            "get_star_ts": 1701923700
           }
         },
         "6": {
           "1": {
-            "get_star_ts": 1701906715,
-            "star_index": 1455232
+            "star_index": 1455232,
+            "get_star_ts": 1701906715
           },
           "2": {
-            "star_index": 1455468,
-            "get_star_ts": 1701906896
+            "get_star_ts": 1701906896,
+            "star_index": 1455468
           }
         },
         "7": {
@@ -1716,8 +1730,8 @@ const raw = {
         },
         "10": {
           "1": {
-            "star_index": 2070480,
-            "get_star_ts": 1702224928
+            "get_star_ts": 1702224928,
+            "star_index": 2070480
           },
           "2": {
             "get_star_ts": 1703186689,
@@ -1726,12 +1740,12 @@ const raw = {
         },
         "11": {
           "1": {
-            "star_index": 2380370,
-            "get_star_ts": 1702434769
+            "get_star_ts": 1702434769,
+            "star_index": 2380370
           },
           "2": {
-            "star_index": 2385069,
-            "get_star_ts": 1702443700
+            "get_star_ts": 1702443700,
+            "star_index": 2385069
           }
         },
         "12": {
@@ -1746,20 +1760,20 @@ const raw = {
             "star_index": 2833678
           },
           "2": {
-            "get_star_ts": 1702846055,
-            "star_index": 2838270
+            "star_index": 2838270,
+            "get_star_ts": 1702846055
           }
         },
         "14": {
           "1": {
-            "get_star_ts": 1702859593,
-            "star_index": 2850559
+            "star_index": 2850559,
+            "get_star_ts": 1702859593
           }
         },
         "15": {
           "1": {
-            "star_index": 2855397,
-            "get_star_ts": 1702869924
+            "get_star_ts": 1702869924,
+            "star_index": 2855397
           },
           "2": {
             "get_star_ts": 1703209813,
@@ -1772,65 +1786,58 @@ const raw = {
             "get_star_ts": 1703266278
           }
         }
-      },
-      "id": 456457,
-      "last_star_ts": 1703266278
+      }
     },
     "484824": {
-      "last_star_ts": 1703534973,
-      "global_score": 0,
-      "local_score": 2156,
-      "stars": 24,
-      "id": 484824,
       "completion_day_level": {
         "1": {
           "1": {
-            "get_star_ts": 1701459803,
-            "star_index": 197285
+            "star_index": 197285,
+            "get_star_ts": 1701459803
           },
           "2": {
-            "star_index": 218412,
-            "get_star_ts": 1701466093
+            "get_star_ts": 1701466093,
+            "star_index": 218412
           }
         },
         "2": {
           "1": {
-            "get_star_ts": 1701574873,
-            "star_index": 529238
+            "star_index": 529238,
+            "get_star_ts": 1701574873
           },
           "2": {
-            "get_star_ts": 1701575217,
-            "star_index": 529612
+            "star_index": 529612,
+            "get_star_ts": 1701575217
           }
         },
         "3": {
           "1": {
-            "star_index": 728157,
-            "get_star_ts": 1701639922
+            "get_star_ts": 1701639922,
+            "star_index": 728157
           },
           "2": {
-            "get_star_ts": 1701641735,
-            "star_index": 733620
+            "star_index": 733620,
+            "get_star_ts": 1701641735
           }
         },
         "4": {
           "1": {
-            "get_star_ts": 1701728740,
-            "star_index": 1017273
+            "star_index": 1017273,
+            "get_star_ts": 1701728740
           },
           "2": {
-            "star_index": 1225252,
-            "get_star_ts": 1701816951
+            "get_star_ts": 1701816951,
+            "star_index": 1225252
           }
         },
         "6": {
           "1": {
-            "get_star_ts": 1701984225,
-            "star_index": 1619868
+            "star_index": 1619868,
+            "get_star_ts": 1701984225
           },
           "2": {
-            "star_index": 1625218,
-            "get_star_ts": 1701986569
+            "get_star_ts": 1701986569,
+            "star_index": 1625218
           }
         },
         "7": {
@@ -1849,8 +1856,8 @@ const raw = {
             "get_star_ts": 1702156653
           },
           "2": {
-            "star_index": 2063571,
-            "get_star_ts": 1702221537
+            "get_star_ts": 1702221537,
+            "star_index": 2063571
           }
         },
         "9": {
@@ -1865,8 +1872,8 @@ const raw = {
         },
         "10": {
           "1": {
-            "star_index": 2770254,
-            "get_star_ts": 1702765511
+            "get_star_ts": 1702765511,
+            "star_index": 2770254
           }
         },
         "11": {
@@ -1875,8 +1882,8 @@ const raw = {
             "get_star_ts": 1703198670
           },
           "2": {
-            "get_star_ts": 1703199129,
-            "star_index": 3130538
+            "star_index": 3130538,
+            "get_star_ts": 1703199129
           }
         },
         "13": {
@@ -1893,14 +1900,14 @@ const raw = {
         },
         "15": {
           "1": {
-            "star_index": 3273524,
-            "get_star_ts": 1703446808
+            "get_star_ts": 1703446808,
+            "star_index": 3273524
           }
         },
         "18": {
           "1": {
-            "star_index": 3305916,
-            "get_star_ts": 1703518853
+            "get_star_ts": 1703518853,
+            "star_index": 3305916
           }
         },
         "21": {
@@ -1910,35 +1917,44 @@ const raw = {
           }
         }
       },
-      "name": "Donny Cheng"
+      "global_score": 0,
+      "stars": 24,
+      "id": 484824,
+      "local_score": 2156,
+      "name": "Donny Cheng",
+      "last_star_ts": 1703534973
     },
     "502805": {
+      "last_star_ts": 1703296547,
       "name": "Brenton Bazemore",
+      "local_score": 4683,
+      "stars": 41,
+      "id": 502805,
       "completion_day_level": {
         "1": {
           "1": {
-            "get_star_ts": 1701407018,
-            "star_index": 0
+            "star_index": 0,
+            "get_star_ts": 1701407018
           },
           "2": {
-            "get_star_ts": 1701407627,
-            "star_index": 6254
+            "star_index": 6254,
+            "get_star_ts": 1701407627
           }
         },
         "2": {
           "1": {
-            "get_star_ts": 1701494180,
-            "star_index": 273032
+            "star_index": 273032,
+            "get_star_ts": 1701494180
           },
           "2": {
-            "get_star_ts": 1701494584,
-            "star_index": 277016
+            "star_index": 277016,
+            "get_star_ts": 1701494584
           }
         },
         "3": {
           "1": {
-            "get_star_ts": 1701580962,
-            "star_index": 537616
+            "star_index": 537616,
+            "get_star_ts": 1701580962
           },
           "2": {
             "get_star_ts": 1701581261,
@@ -1957,8 +1973,8 @@ const raw = {
         },
         "5": {
           "1": {
-            "get_star_ts": 1701780127,
-            "star_index": 1126345
+            "star_index": 1126345,
+            "get_star_ts": 1701780127
           },
           "2": {
             "star_index": 1129419,
@@ -1967,8 +1983,8 @@ const raw = {
         },
         "6": {
           "1": {
-            "get_star_ts": 1701839563,
-            "star_index": 1259094
+            "star_index": 1259094,
+            "get_star_ts": 1701839563
           },
           "2": {
             "star_index": 1261428,
@@ -1981,8 +1997,8 @@ const raw = {
             "get_star_ts": 1701954415
           },
           "2": {
-            "star_index": 1561547,
-            "get_star_ts": 1701959073
+            "get_star_ts": 1701959073,
+            "star_index": 1561547
           }
         },
         "8": {
@@ -2007,12 +2023,12 @@ const raw = {
         },
         "10": {
           "1": {
-            "get_star_ts": 1702186814,
-            "star_index": 2001395
+            "star_index": 2001395,
+            "get_star_ts": 1702186814
           },
           "2": {
-            "get_star_ts": 1702202758,
-            "star_index": 2028085
+            "star_index": 2028085,
+            "get_star_ts": 1702202758
           }
         },
         "11": {
@@ -2027,8 +2043,8 @@ const raw = {
         },
         "12": {
           "1": {
-            "get_star_ts": 1702433632,
-            "star_index": 2379760
+            "star_index": 2379760,
+            "get_star_ts": 1702433632
           },
           "2": {
             "get_star_ts": 1702486601,
@@ -2041,8 +2057,8 @@ const raw = {
             "get_star_ts": 1702507806
           },
           "2": {
-            "star_index": 2481677,
-            "get_star_ts": 1702517363
+            "get_star_ts": 1702517363,
+            "star_index": 2481677
           }
         },
         "14": {
@@ -2067,8 +2083,8 @@ const raw = {
         },
         "16": {
           "1": {
-            "get_star_ts": 1702732122,
-            "star_index": 2731316
+            "star_index": 2731316,
+            "get_star_ts": 1702732122
           },
           "2": {
             "get_star_ts": 1702732376,
@@ -2087,8 +2103,8 @@ const raw = {
         },
         "18": {
           "1": {
-            "get_star_ts": 1703038168,
-            "star_index": 3010201
+            "star_index": 3010201,
+            "get_star_ts": 1703038168
           },
           "2": {
             "star_index": 3011323,
@@ -2097,12 +2113,12 @@ const raw = {
         },
         "19": {
           "1": {
-            "star_index": 3072593,
-            "get_star_ts": 1703121493
+            "get_star_ts": 1703121493,
+            "star_index": 3072593
           },
           "2": {
-            "get_star_ts": 1703130630,
-            "star_index": 3076003
+            "star_index": 3076003,
+            "get_star_ts": 1703130630
           }
         },
         "20": {
@@ -2117,28 +2133,23 @@ const raw = {
         },
         "21": {
           "1": {
-            "get_star_ts": 1703296547,
-            "star_index": 3189771
+            "star_index": 3189771,
+            "get_star_ts": 1703296547
           }
         }
       },
-      "id": 502805,
-      "stars": 41,
-      "local_score": 4683,
-      "global_score": 0,
-      "last_star_ts": 1703296547
+      "global_score": 0
     },
     "506833": {
-      "global_score": 0,
       "local_score": 5434,
-      "stars": 50,
-      "id": 506833,
       "name": "Carl Newton",
+      "last_star_ts": 1703774122,
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
-            "star_index": 108300,
-            "get_star_ts": 1701436240
+            "get_star_ts": 1701436240,
+            "star_index": 108300
           },
           "2": {
             "star_index": 218820,
@@ -2151,8 +2162,8 @@ const raw = {
             "star_index": 404979
           },
           "2": {
-            "get_star_ts": 1701531702,
-            "star_index": 420274
+            "star_index": 420274,
+            "get_star_ts": 1701531702
           }
         },
         "3": {
@@ -2167,12 +2178,12 @@ const raw = {
         },
         "4": {
           "1": {
-            "get_star_ts": 1701686999,
-            "star_index": 867637
+            "star_index": 867637,
+            "get_star_ts": 1701686999
           },
           "2": {
-            "get_star_ts": 1701689143,
-            "star_index": 875315
+            "star_index": 875315,
+            "get_star_ts": 1701689143
           }
         },
         "5": {
@@ -2201,14 +2212,14 @@ const raw = {
             "get_star_ts": 1701939487
           },
           "2": {
-            "get_star_ts": 1701941703,
-            "star_index": 1520177
+            "star_index": 1520177,
+            "get_star_ts": 1701941703
           }
         },
         "8": {
           "1": {
-            "get_star_ts": 1702035079,
-            "star_index": 1722390
+            "star_index": 1722390,
+            "get_star_ts": 1702035079
           },
           "2": {
             "get_star_ts": 1702036405,
@@ -2217,18 +2228,18 @@ const raw = {
         },
         "9": {
           "1": {
-            "get_star_ts": 1702198535,
-            "star_index": 2021083
+            "star_index": 2021083,
+            "get_star_ts": 1702198535
           },
           "2": {
-            "star_index": 2024846,
-            "get_star_ts": 1702200867
+            "get_star_ts": 1702200867,
+            "star_index": 2024846
           }
         },
         "10": {
           "1": {
-            "star_index": 2030259,
-            "get_star_ts": 1702203933
+            "get_star_ts": 1702203933,
+            "star_index": 2030259
           },
           "2": {
             "star_index": 2111057,
@@ -2237,12 +2248,12 @@ const raw = {
         },
         "11": {
           "1": {
-            "get_star_ts": 1702306309,
-            "star_index": 2211380
+            "star_index": 2211380,
+            "get_star_ts": 1702306309
           },
           "2": {
-            "get_star_ts": 1702322064,
-            "star_index": 2240316
+            "star_index": 2240316,
+            "get_star_ts": 1702322064
           }
         },
         "12": {
@@ -2257,18 +2268,18 @@ const raw = {
         },
         "13": {
           "1": {
-            "star_index": 2532596,
-            "get_star_ts": 1702558552
+            "get_star_ts": 1702558552,
+            "star_index": 2532596
           },
           "2": {
-            "star_index": 2681301,
-            "get_star_ts": 1702680649
+            "get_star_ts": 1702680649,
+            "star_index": 2681301
           }
         },
         "14": {
           "1": {
-            "star_index": 2681827,
-            "get_star_ts": 1702681268
+            "get_star_ts": 1702681268,
+            "star_index": 2681827
           },
           "2": {
             "get_star_ts": 1702683739,
@@ -2281,8 +2292,8 @@ const raw = {
             "star_index": 2682476
           },
           "2": {
-            "star_index": 2686565,
-            "get_star_ts": 1702688484
+            "get_star_ts": 1702688484,
+            "star_index": 2686565
           }
         },
         "16": {
@@ -2291,8 +2302,8 @@ const raw = {
             "get_star_ts": 1702773644
           },
           "2": {
-            "star_index": 2780336,
-            "get_star_ts": 1702780789
+            "get_star_ts": 1702780789,
+            "star_index": 2780336
           }
         },
         "17": {
@@ -2307,8 +2318,8 @@ const raw = {
         },
         "18": {
           "1": {
-            "star_index": 2928863,
-            "get_star_ts": 1702941459
+            "get_star_ts": 1702941459,
+            "star_index": 2928863
           },
           "2": {
             "get_star_ts": 1702957576,
@@ -2327,18 +2338,18 @@ const raw = {
         },
         "20": {
           "1": {
-            "get_star_ts": 1703678246,
-            "star_index": 3353962
+            "star_index": 3353962,
+            "get_star_ts": 1703678246
           },
           "2": {
-            "star_index": 3370003,
-            "get_star_ts": 1703724940
+            "get_star_ts": 1703724940,
+            "star_index": 3370003
           }
         },
         "21": {
           "1": {
-            "star_index": 3260259,
-            "get_star_ts": 1703422632
+            "get_star_ts": 1703422632,
+            "star_index": 3260259
           },
           "2": {
             "star_index": 3262220,
@@ -2351,8 +2362,8 @@ const raw = {
             "star_index": 3354237
           },
           "2": {
-            "get_star_ts": 1703684365,
-            "star_index": 3355813
+            "star_index": 3355813,
+            "get_star_ts": 1703684365
           }
         },
         "23": {
@@ -2361,8 +2372,8 @@ const raw = {
             "get_star_ts": 1703680110
           },
           "2": {
-            "get_star_ts": 1703719800,
-            "star_index": 3368752
+            "star_index": 3368752,
+            "get_star_ts": 1703719800
           }
         },
         "24": {
@@ -2371,32 +2382,35 @@ const raw = {
             "star_index": 3272277
           },
           "2": {
-            "get_star_ts": 1703678748,
-            "star_index": 3354089
+            "star_index": 3354089,
+            "get_star_ts": 1703678748
           }
         },
         "25": {
           "1": {
-            "star_index": 3379633,
-            "get_star_ts": 1703774117
+            "get_star_ts": 1703774117,
+            "star_index": 3379633
           },
           "2": {
-            "star_index": 3379636,
-            "get_star_ts": 1703774122
+            "get_star_ts": 1703774122,
+            "star_index": 3379636
           }
         }
       },
-      "last_star_ts": 1703774122
+      "id": 506833,
+      "stars": 50
     },
     "619828": {
-      "stars": 8,
+      "last_star_ts": 1702151038,
+      "name": "Raz-SB",
       "local_score": 642,
-      "global_score": 0,
+      "stars": 8,
+      "id": 619828,
       "completion_day_level": {
         "1": {
           "1": {
-            "star_index": 189327,
-            "get_star_ts": 1701457404
+            "get_star_ts": 1701457404,
+            "star_index": 189327
           },
           "2": {
             "star_index": 262105,
@@ -2405,8 +2419,8 @@ const raw = {
         },
         "2": {
           "1": {
-            "star_index": 440082,
-            "get_star_ts": 1701537135
+            "get_star_ts": 1701537135,
+            "star_index": 440082
           },
           "2": {
             "get_star_ts": 1701538964,
@@ -2419,8 +2433,8 @@ const raw = {
             "get_star_ts": 1701742022
           },
           "2": {
-            "get_star_ts": 1701920888,
-            "star_index": 1468973
+            "star_index": 1468973,
+            "get_star_ts": 1701920888
           }
         },
         "4": {
@@ -2429,39 +2443,35 @@ const raw = {
             "star_index": 1471275
           },
           "2": {
-            "get_star_ts": 1702151038,
-            "star_index": 1957624
+            "star_index": 1957624,
+            "get_star_ts": 1702151038
           }
         }
       },
-      "name": "Raz-SB",
-      "id": 619828,
-      "last_star_ts": 1702151038
+      "global_score": 0
     },
     "621633": {
+      "last_star_ts": 0,
       "local_score": 0,
-      "global_score": 0,
+      "name": "Carrie Flaspohler",
       "stars": 0,
       "id": 621633,
-      "name": "Carrie Flaspohler",
       "completion_day_level": {},
-      "last_star_ts": 0
+      "global_score": 0
     },
     "621663": {
-      "last_star_ts": 1702064509,
-      "global_score": 0,
+      "name": "Rachel Lieberman",
       "local_score": 311,
-      "stars": 5,
-      "id": 621663,
+      "last_star_ts": 1702064509,
       "completion_day_level": {
         "1": {
           "1": {
-            "star_index": 954695,
-            "get_star_ts": 1701710865
+            "get_star_ts": 1701710865,
+            "star_index": 954695
           },
           "2": {
-            "star_index": 1200372,
-            "get_star_ts": 1701807940
+            "get_star_ts": 1701807940,
+            "star_index": 1200372
           }
         },
         "2": {
@@ -2481,19 +2491,19 @@ const raw = {
           }
         }
       },
-      "name": "Rachel Lieberman"
+      "global_score": 0,
+      "stars": 5,
+      "id": 621663
     },
     "621765": {
-      "last_star_ts": 1704691245,
-      "global_score": 0,
-      "local_score": 444,
-      "stars": 8,
       "id": 621765,
+      "stars": 9,
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
-            "get_star_ts": 1701963074,
-            "star_index": 1571227
+            "star_index": 1571227,
+            "get_star_ts": 1701963074
           },
           "2": {
             "star_index": 3486431,
@@ -2506,14 +2516,14 @@ const raw = {
             "star_index": 3486641
           },
           "2": {
-            "star_index": 3504016,
-            "get_star_ts": 1704600494
+            "get_star_ts": 1704600494,
+            "star_index": 3504016
           }
         },
         "3": {
           "1": {
-            "get_star_ts": 1704611056,
-            "star_index": 3504584
+            "star_index": 3504584,
+            "get_star_ts": 1704611056
           },
           "2": {
             "get_star_ts": 1704611880,
@@ -2522,46 +2532,52 @@ const raw = {
         },
         "4": {
           "1": {
-            "star_index": 3512010,
-            "get_star_ts": 1704683285
+            "get_star_ts": 1704683285,
+            "star_index": 3512010
           },
           "2": {
             "get_star_ts": 1704691245,
             "star_index": 3512412
           }
+        },
+        "5": {
+          "1": {
+            "star_index": 3518381,
+            "get_star_ts": 1704750751
+          }
         }
       },
-      "name": "brandon-myers-009"
+      "last_star_ts": 1704750751,
+      "name": "brandon-myers-009",
+      "local_score": 521
     },
     "623312": {
-      "last_star_ts": 1701876770,
-      "stars": 3,
       "global_score": 0,
-      "local_score": 260,
       "completion_day_level": {
         "1": {
           "1": {
-            "get_star_ts": 1701443203,
-            "star_index": 135055
+            "star_index": 135055,
+            "get_star_ts": 1701443203
           },
           "2": {
-            "get_star_ts": 1701446873,
-            "star_index": 150063
+            "star_index": 150063,
+            "get_star_ts": 1701446873
           }
         },
         "2": {
           "1": {
-            "get_star_ts": 1701876770,
-            "star_index": 1383892
+            "star_index": 1383892,
+            "get_star_ts": 1701876770
           }
         }
       },
+      "id": 623312,
+      "stars": 3,
       "name": "dickiesanders",
-      "id": 623312
+      "local_score": 260,
+      "last_star_ts": 1701876770
     },
     "807471": {
-      "last_star_ts": 1701541535,
-      "id": 807471,
       "completion_day_level": {
         "1": {
           "1": {
@@ -2570,13 +2586,18 @@ const raw = {
           }
         }
       },
-      "name": "jonesg504",
       "global_score": 0,
+      "stars": 1,
+      "id": 807471,
       "local_score": 62,
-      "stars": 1
+      "name": "jonesg504",
+      "last_star_ts": 1701541535
     },
     "846455": {
       "last_star_ts": 1701739396,
+      "name": "Barrett Whetstone",
+      "local_score": 542,
+      "stars": 7,
       "id": 846455,
       "completion_day_level": {
         "1": {
@@ -2595,18 +2616,18 @@ const raw = {
             "star_index": 798764
           },
           "2": {
-            "get_star_ts": 1701671287,
-            "star_index": 803647
+            "star_index": 803647,
+            "get_star_ts": 1701671287
           }
         },
         "3": {
           "1": {
-            "star_index": 821199,
-            "get_star_ts": 1701675921
+            "get_star_ts": 1701675921,
+            "star_index": 821199
           },
           "2": {
-            "get_star_ts": 1701676780,
-            "star_index": 824727
+            "star_index": 824727,
+            "get_star_ts": 1701676780
           }
         },
         "4": {
@@ -2616,13 +2637,14 @@ const raw = {
           }
         }
       },
-      "name": "Barrett Whetstone",
-      "local_score": 542,
-      "global_score": 0,
-      "stars": 7
+      "global_score": 0
     },
     "953447": {
+      "last_star_ts": 1705065563,
+      "local_score": 3763,
       "name": "Austin Leal",
+      "stars": 34,
+      "id": 953447,
       "completion_day_level": {
         "1": {
           "1": {
@@ -2636,8 +2658,8 @@ const raw = {
         },
         "2": {
           "1": {
-            "get_star_ts": 1701520533,
-            "star_index": 379204
+            "star_index": 379204,
+            "get_star_ts": 1701520533
           },
           "2": {
             "star_index": 383078,
@@ -2650,8 +2672,8 @@ const raw = {
             "star_index": 642204
           },
           "2": {
-            "star_index": 720343,
-            "get_star_ts": 1701637540
+            "get_star_ts": 1701637540,
+            "star_index": 720343
           }
         },
         "4": {
@@ -2660,8 +2682,8 @@ const raw = {
             "star_index": 884381
           },
           "2": {
-            "get_star_ts": 1701693415,
-            "star_index": 890029
+            "star_index": 890029,
+            "get_star_ts": 1701693415
           }
         },
         "5": {
@@ -2680,14 +2702,14 @@ const raw = {
             "star_index": 1351996
           },
           "2": {
-            "get_star_ts": 1701865346,
-            "star_index": 1352334
+            "star_index": 1352334,
+            "get_star_ts": 1701865346
           }
         },
         "7": {
           "1": {
-            "star_index": 1554475,
-            "get_star_ts": 1701956099
+            "get_star_ts": 1701956099,
+            "star_index": 1554475
           },
           "2": {
             "star_index": 1565518,
@@ -2700,24 +2722,24 @@ const raw = {
             "star_index": 1730210
           },
           "2": {
-            "get_star_ts": 1702091637,
-            "star_index": 1823847
+            "star_index": 1823847,
+            "get_star_ts": 1702091637
           }
         },
         "9": {
           "1": {
-            "star_index": 1900784,
-            "get_star_ts": 1702124705
+            "get_star_ts": 1702124705,
+            "star_index": 1900784
           },
           "2": {
-            "star_index": 1901508,
-            "get_star_ts": 1702125026
+            "get_star_ts": 1702125026,
+            "star_index": 1901508
           }
         },
         "10": {
           "1": {
-            "star_index": 2051704,
-            "get_star_ts": 1702215367
+            "get_star_ts": 1702215367,
+            "star_index": 2051704
           },
           "2": {
             "star_index": 2074402,
@@ -2736,8 +2758,8 @@ const raw = {
         },
         "12": {
           "1": {
-            "star_index": 2320319,
-            "get_star_ts": 1702385098
+            "get_star_ts": 1702385098,
+            "star_index": 2320319
           },
           "2": {
             "star_index": 2374071,
@@ -2746,8 +2768,8 @@ const raw = {
         },
         "13": {
           "1": {
-            "star_index": 2427221,
-            "get_star_ts": 1702471209
+            "get_star_ts": 1702471209,
+            "star_index": 2427221
           },
           "2": {
             "get_star_ts": 1702473602,
@@ -2756,12 +2778,12 @@ const raw = {
         },
         "14": {
           "1": {
-            "star_index": 2531320,
-            "get_star_ts": 1702557500
+            "get_star_ts": 1702557500,
+            "star_index": 2531320
           },
           "2": {
-            "star_index": 2569347,
-            "get_star_ts": 1702589248
+            "get_star_ts": 1702589248,
+            "star_index": 2569347
           }
         },
         "15": {
@@ -2770,8 +2792,8 @@ const raw = {
             "star_index": 2636065
           },
           "2": {
-            "get_star_ts": 1702651519,
-            "star_index": 2648549
+            "star_index": 2648549,
+            "get_star_ts": 1702651519
           }
         },
         "16": {
@@ -2780,24 +2802,37 @@ const raw = {
             "star_index": 2730798
           },
           "2": {
-            "get_star_ts": 1702733497,
-            "star_index": 2733054
+            "star_index": 2733054,
+            "get_star_ts": 1702733497
+          }
+        },
+        "19": {
+          "1": {
+            "star_index": 3536375,
+            "get_star_ts": 1704977489
+          }
+        },
+        "21": {
+          "1": {
+            "get_star_ts": 1705065563,
+            "star_index": 3542469
           }
         }
       },
-      "id": 953447,
-      "stars": 32,
-      "local_score": 3561,
-      "global_score": 0,
-      "last_star_ts": 1702733497
+      "global_score": 0
     },
     "953450": {
       "last_star_ts": 1703203636,
+      "local_score": 3597,
+      "name": "Edd Purcell",
+      "id": 953450,
+      "stars": 36,
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
-            "star_index": 179201,
-            "get_star_ts": 1701454466
+            "get_star_ts": 1701454466,
+            "star_index": 179201
           },
           "2": {
             "get_star_ts": 1701458014,
@@ -2820,8 +2855,8 @@ const raw = {
             "get_star_ts": 1701642350
           },
           "2": {
-            "get_star_ts": 1701645690,
-            "star_index": 743660
+            "star_index": 743660,
+            "get_star_ts": 1701645690
           }
         },
         "4": {
@@ -2840,8 +2875,8 @@ const raw = {
             "star_index": 1244511
           },
           "2": {
-            "star_index": 1416765,
-            "get_star_ts": 1701889696
+            "get_star_ts": 1701889696,
+            "star_index": 1416765
           }
         },
         "6": {
@@ -2860,14 +2895,14 @@ const raw = {
             "star_index": 1774082
           },
           "2": {
-            "star_index": 1783718,
-            "get_star_ts": 1702062612
+            "get_star_ts": 1702062612,
+            "star_index": 1783718
           }
         },
         "8": {
           "1": {
-            "star_index": 1786197,
-            "get_star_ts": 1702063920
+            "get_star_ts": 1702063920,
+            "star_index": 1786197
           },
           "2": {
             "star_index": 1788806,
@@ -2880,8 +2915,8 @@ const raw = {
             "get_star_ts": 1702152732
           },
           "2": {
-            "get_star_ts": 1702153063,
-            "star_index": 1961496
+            "star_index": 1961496,
+            "get_star_ts": 1702153063
           }
         },
         "10": {
@@ -2890,8 +2925,8 @@ const raw = {
             "get_star_ts": 1702320745
           },
           "2": {
-            "get_star_ts": 1702492798,
-            "star_index": 2455248
+            "star_index": 2455248,
+            "get_star_ts": 1702492798
           }
         },
         "11": {
@@ -2900,14 +2935,14 @@ const raw = {
             "get_star_ts": 1702351452
           },
           "2": {
-            "get_star_ts": 1702351837,
-            "star_index": 2278754
+            "star_index": 2278754,
+            "get_star_ts": 1702351837
           }
         },
         "12": {
           "1": {
-            "get_star_ts": 1702752031,
-            "star_index": 2755471
+            "star_index": 2755471,
+            "get_star_ts": 1702752031
           },
           "2": {
             "star_index": 2778853,
@@ -2916,18 +2951,18 @@ const raw = {
         },
         "13": {
           "1": {
-            "star_index": 2668835,
-            "get_star_ts": 1702668613
+            "get_star_ts": 1702668613,
+            "star_index": 2668835
           },
           "2": {
-            "star_index": 2678046,
-            "get_star_ts": 1702677314
+            "get_star_ts": 1702677314,
+            "star_index": 2678046
           }
         },
         "14": {
           "1": {
-            "star_index": 2684002,
-            "get_star_ts": 1702684071
+            "get_star_ts": 1702684071,
+            "star_index": 2684002
           },
           "2": {
             "get_star_ts": 1702694998,
@@ -2936,18 +2971,18 @@ const raw = {
         },
         "15": {
           "1": {
-            "star_index": 2655901,
-            "get_star_ts": 1702656754
+            "get_star_ts": 1702656754,
+            "star_index": 2655901
           },
           "2": {
-            "get_star_ts": 1702663037,
-            "star_index": 2663308
+            "star_index": 2663308,
+            "get_star_ts": 1702663037
           }
         },
         "16": {
           "1": {
-            "get_star_ts": 1702923455,
-            "star_index": 2910036
+            "star_index": 2910036,
+            "get_star_ts": 1702923455
           },
           "2": {
             "star_index": 2910782,
@@ -2956,45 +2991,42 @@ const raw = {
         },
         "17": {
           "1": {
-            "star_index": 3047310,
-            "get_star_ts": 1703088077
+            "get_star_ts": 1703088077,
+            "star_index": 3047310
           },
           "2": {
-            "star_index": 3049376,
-            "get_star_ts": 1703090412
+            "get_star_ts": 1703090412,
+            "star_index": 3049376
           }
         },
         "18": {
           "1": {
-            "star_index": 3054205,
-            "get_star_ts": 1703096336
+            "get_star_ts": 1703096336,
+            "star_index": 3054205
           }
         },
         "19": {
           "1": {
-            "star_index": 3133000,
-            "get_star_ts": 1703203636
+            "get_star_ts": 1703203636,
+            "star_index": 3133000
           }
         }
-      },
-      "name": "Edd Purcell",
-      "id": 953450,
-      "stars": 36,
-      "local_score": 3597,
-      "global_score": 0
+      }
     },
     "953508": {
-      "id": 953508,
+      "local_score": 456,
       "name": "Kendra B",
+      "last_star_ts": 1701868532,
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
-            "star_index": 1153272,
-            "get_star_ts": 1701790422
+            "get_star_ts": 1701790422,
+            "star_index": 1153272
           },
           "2": {
-            "star_index": 1163961,
-            "get_star_ts": 1701794368
+            "get_star_ts": 1701794368,
+            "star_index": 1163961
           }
         },
         "2": {
@@ -3009,8 +3041,8 @@ const raw = {
         },
         "6": {
           "1": {
-            "star_index": 1360479,
-            "get_star_ts": 1701868366
+            "get_star_ts": 1701868366,
+            "star_index": 1360479
           },
           "2": {
             "star_index": 1360917,
@@ -3018,17 +3050,10 @@ const raw = {
           }
         }
       },
-      "global_score": 0,
-      "local_score": 456,
-      "stars": 6,
-      "last_star_ts": 1701868532
+      "id": 953508,
+      "stars": 6
     },
     "953987": {
-      "local_score": 2257,
-      "global_score": 0,
-      "stars": 24,
-      "id": 953987,
-      "name": "Alex Dykstra",
       "completion_day_level": {
         "1": {
           "1": {
@@ -3036,14 +3061,14 @@ const raw = {
             "get_star_ts": 1701441668
           },
           "2": {
-            "star_index": 136233,
-            "get_star_ts": 1701443485
+            "get_star_ts": 1701443485,
+            "star_index": 136233
           }
         },
         "2": {
           "1": {
-            "get_star_ts": 1701691742,
-            "star_index": 884141
+            "star_index": 884141,
+            "get_star_ts": 1701691742
           },
           "2": {
             "get_star_ts": 1701707799,
@@ -3052,8 +3077,8 @@ const raw = {
         },
         "3": {
           "1": {
-            "star_index": 1043353,
-            "get_star_ts": 1701744573
+            "get_star_ts": 1701744573,
+            "star_index": 1043353
           },
           "2": {
             "star_index": 1046478,
@@ -3072,8 +3097,8 @@ const raw = {
         },
         "5": {
           "1": {
-            "star_index": 1236046,
-            "get_star_ts": 1701823166
+            "get_star_ts": 1701823166,
+            "star_index": 1236046
           },
           "2": {
             "get_star_ts": 1701865738,
@@ -3082,8 +3107,8 @@ const raw = {
         },
         "6": {
           "1": {
-            "star_index": 1465996,
-            "get_star_ts": 1701917372
+            "get_star_ts": 1701917372,
+            "star_index": 1465996
           },
           "2": {
             "get_star_ts": 1701917550,
@@ -3096,18 +3121,18 @@ const raw = {
             "star_index": 1640999
           },
           "2": {
-            "star_index": 1644083,
-            "get_star_ts": 1702000407
+            "get_star_ts": 1702000407,
+            "star_index": 1644083
           }
         },
         "8": {
           "1": {
-            "get_star_ts": 1702043582,
-            "star_index": 1741413
+            "star_index": 1741413,
+            "get_star_ts": 1702043582
           },
           "2": {
-            "get_star_ts": 1702093699,
-            "star_index": 1825181
+            "star_index": 1825181,
+            "get_star_ts": 1702093699
           }
         },
         "9": {
@@ -3116,14 +3141,14 @@ const raw = {
             "star_index": 1900566
           },
           "2": {
-            "star_index": 1906846,
-            "get_star_ts": 1702127396
+            "get_star_ts": 1702127396,
+            "star_index": 1906846
           }
         },
         "10": {
           "1": {
-            "get_star_ts": 1702295818,
-            "star_index": 2192191
+            "star_index": 2192191,
+            "get_star_ts": 1702295818
           },
           "2": {
             "star_index": 2278973,
@@ -3136,25 +3161,32 @@ const raw = {
             "star_index": 2376175
           },
           "2": {
-            "star_index": 2376370,
-            "get_star_ts": 1702427995
+            "get_star_ts": 1702427995,
+            "star_index": 2376370
           }
         },
         "12": {
           "1": {
-            "star_index": 2461898,
-            "get_star_ts": 1702498164
+            "get_star_ts": 1702498164,
+            "star_index": 2461898
           },
           "2": {
-            "get_star_ts": 1702641027,
-            "star_index": 2634232
+            "star_index": 2634232,
+            "get_star_ts": 1702641027
           }
         }
       },
+      "global_score": 0,
+      "stars": 24,
+      "id": 953987,
+      "name": "Alex Dykstra",
+      "local_score": 2257,
       "last_star_ts": 1702641027
     },
     "985048": {
-      "last_star_ts": 1703695655,
+      "id": 985048,
+      "stars": 10,
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
@@ -3188,8 +3220,8 @@ const raw = {
             "get_star_ts": 1701913277
           },
           "2": {
-            "star_index": 1466405,
-            "get_star_ts": 1701917841
+            "get_star_ts": 1701917841,
+            "star_index": 1466405
           }
         },
         "7": {
@@ -3200,41 +3232,38 @@ const raw = {
         },
         "8": {
           "1": {
-            "star_index": 3359953,
-            "get_star_ts": 1703695655
+            "get_star_ts": 1703695655,
+            "star_index": 3359953
           }
         },
         "15": {
           "1": {
-            "star_index": 3318101,
-            "get_star_ts": 1703543929
+            "get_star_ts": 1703543929,
+            "star_index": 3318101
           }
         }
       },
-      "name": "Benjamin Mokotoff",
-      "id": 985048,
-      "stars": 10,
+      "last_star_ts": 1703695655,
       "local_score": 841,
-      "global_score": 0
+      "name": "Benjamin Mokotoff"
     },
     "1075669": {
-      "last_star_ts": 1702729640,
-      "name": "Cliff Free",
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
-            "get_star_ts": 1701476637,
-            "star_index": 246355
+            "star_index": 246355,
+            "get_star_ts": 1701476637
           },
           "2": {
-            "get_star_ts": 1701476686,
-            "star_index": 246437
+            "star_index": 246437,
+            "get_star_ts": 1701476686
           }
         },
         "2": {
           "1": {
-            "star_index": 727714,
-            "get_star_ts": 1701639787
+            "get_star_ts": 1701639787,
+            "star_index": 727714
           },
           "2": {
             "get_star_ts": 1701639849,
@@ -3253,8 +3282,8 @@ const raw = {
         },
         "4": {
           "1": {
-            "get_star_ts": 1702127888,
-            "star_index": 1907932
+            "star_index": 1907932,
+            "get_star_ts": 1702127888
           },
           "2": {
             "get_star_ts": 1702128158,
@@ -3263,12 +3292,12 @@ const raw = {
         },
         "5": {
           "1": {
-            "star_index": 2375638,
-            "get_star_ts": 1702426943
+            "get_star_ts": 1702426943,
+            "star_index": 2375638
           },
           "2": {
-            "star_index": 2377265,
-            "get_star_ts": 1702429319
+            "get_star_ts": 1702429319,
+            "star_index": 2377265
           }
         },
         "6": {
@@ -3284,11 +3313,12 @@ const raw = {
       },
       "id": 1075669,
       "stars": 12,
+      "name": "Cliff Free",
       "local_score": 910,
-      "global_score": 0
+      "last_star_ts": 1702729640
     },
     "1079762": {
-      "last_star_ts": 1701878737,
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
@@ -3296,8 +3326,8 @@ const raw = {
             "star_index": 155843
           },
           "2": {
-            "star_index": 170552,
-            "get_star_ts": 1701452072
+            "get_star_ts": 1701452072,
+            "star_index": 170552
           }
         },
         "2": {
@@ -3306,8 +3336,8 @@ const raw = {
             "star_index": 385707
           },
           "2": {
-            "get_star_ts": 1701522864,
-            "star_index": 387808
+            "star_index": 387808,
+            "get_star_ts": 1701522864
           }
         },
         "3": {
@@ -3316,42 +3346,40 @@ const raw = {
             "star_index": 947925
           },
           "2": {
-            "star_index": 1383561,
-            "get_star_ts": 1701876644
+            "get_star_ts": 1701876644,
+            "star_index": 1383561
           }
         },
         "4": {
           "1": {
-            "get_star_ts": 1701878737,
-            "star_index": 1389191
+            "star_index": 1389191,
+            "get_star_ts": 1701878737
           }
         }
       },
-      "name": "Barry Ervin",
       "id": 1079762,
       "stars": 7,
       "local_score": 639,
-      "global_score": 0
+      "name": "Barry Ervin",
+      "last_star_ts": 1701878737
     },
     "1128251": {
-      "id": 1128251,
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
-            "star_index": 2278975,
-            "get_star_ts": 1702352138
+            "get_star_ts": 1702352138,
+            "star_index": 2278975
           }
         }
       },
-      "name": "Jelena Fordella",
-      "global_score": 0,
-      "local_score": 39,
+      "id": 1128251,
       "stars": 1,
+      "name": "Jelena Fordella",
+      "local_score": 39,
       "last_star_ts": 1702352138
     },
     "1131015": {
-      "stars": 13,
-      "local_score": 1153,
       "global_score": 0,
       "completion_day_level": {
         "1": {
@@ -3366,8 +3394,8 @@ const raw = {
         },
         "2": {
           "1": {
-            "star_index": 768005,
-            "get_star_ts": 1701663725
+            "get_star_ts": 1701663725,
+            "star_index": 768005
           },
           "2": {
             "get_star_ts": 1701664608,
@@ -3380,8 +3408,8 @@ const raw = {
             "star_index": 941867
           },
           "2": {
-            "star_index": 945734,
-            "get_star_ts": 1701708364
+            "get_star_ts": 1701708364,
+            "star_index": 945734
           }
         },
         "4": {
@@ -3390,18 +3418,18 @@ const raw = {
             "get_star_ts": 1701710486
           },
           "2": {
-            "star_index": 971626,
-            "get_star_ts": 1701715680
+            "get_star_ts": 1701715680,
+            "star_index": 971626
           }
         },
         "5": {
           "1": {
-            "get_star_ts": 1701807600,
-            "star_index": 1199404
+            "star_index": 1199404,
+            "get_star_ts": 1701807600
           },
           "2": {
-            "get_star_ts": 1701809695,
-            "star_index": 1205563
+            "star_index": 1205563,
+            "get_star_ts": 1701809695
           }
         },
         "6": {
@@ -3421,13 +3449,16 @@ const raw = {
           }
         }
       },
-      "name": "ericpass",
       "id": 1131015,
+      "stars": 13,
+      "local_score": 1153,
+      "name": "ericpass",
       "last_star_ts": 1702584592
     },
     "1287384": {
-      "last_star_ts": 1703622541,
       "name": "Mark Hirons",
+      "local_score": 4496,
+      "last_star_ts": 1703622541,
       "completion_day_level": {
         "1": {
           "1": {
@@ -3441,12 +3472,12 @@ const raw = {
         },
         "2": {
           "1": {
-            "get_star_ts": 1701534112,
-            "star_index": 429056
+            "star_index": 429056,
+            "get_star_ts": 1701534112
           },
           "2": {
-            "star_index": 430559,
-            "get_star_ts": 1701534527
+            "get_star_ts": 1701534527,
+            "star_index": 430559
           }
         },
         "3": {
@@ -3455,18 +3486,18 @@ const raw = {
             "star_index": 670192
           },
           "2": {
-            "get_star_ts": 1701622962,
-            "star_index": 672016
+            "star_index": 672016,
+            "get_star_ts": 1701622962
           }
         },
         "4": {
           "1": {
-            "star_index": 904039,
-            "get_star_ts": 1701697332
+            "get_star_ts": 1701697332,
+            "star_index": 904039
           },
           "2": {
-            "star_index": 913645,
-            "get_star_ts": 1701699854
+            "get_star_ts": 1701699854,
+            "star_index": 913645
           }
         },
         "5": {
@@ -3475,18 +3506,18 @@ const raw = {
             "get_star_ts": 1701823670
           },
           "2": {
-            "get_star_ts": 1701877916,
-            "star_index": 1386923
+            "star_index": 1386923,
+            "get_star_ts": 1701877916
           }
         },
         "6": {
           "1": {
-            "star_index": 1391228,
-            "get_star_ts": 1701879504
+            "get_star_ts": 1701879504,
+            "star_index": 1391228
           },
           "2": {
-            "get_star_ts": 1701879825,
-            "star_index": 1392057
+            "star_index": 1392057,
+            "get_star_ts": 1701879825
           }
         },
         "7": {
@@ -3501,18 +3532,18 @@ const raw = {
         },
         "8": {
           "1": {
-            "star_index": 1746760,
-            "get_star_ts": 1702045792
+            "get_star_ts": 1702045792,
+            "star_index": 1746760
           },
           "2": {
-            "get_star_ts": 1702050177,
-            "star_index": 1757577
+            "star_index": 1757577,
+            "get_star_ts": 1702050177
           }
         },
         "9": {
           "1": {
-            "star_index": 1926905,
-            "get_star_ts": 1702136101
+            "get_star_ts": 1702136101,
+            "star_index": 1926905
           },
           "2": {
             "get_star_ts": 1702136622,
@@ -3521,8 +3552,8 @@ const raw = {
         },
         "10": {
           "1": {
-            "star_index": 2067897,
-            "get_star_ts": 1702223678
+            "get_star_ts": 1702223678,
+            "star_index": 2067897
           },
           "2": {
             "get_star_ts": 1702272412,
@@ -3541,8 +3572,8 @@ const raw = {
         },
         "12": {
           "1": {
-            "star_index": 2443470,
-            "get_star_ts": 1702483322
+            "get_star_ts": 1702483322,
+            "star_index": 2443470
           },
           "2": {
             "get_star_ts": 1702824901,
@@ -3551,8 +3582,8 @@ const raw = {
         },
         "13": {
           "1": {
-            "get_star_ts": 1702491685,
-            "star_index": 2453883
+            "star_index": 2453883,
+            "get_star_ts": 1702491685
           },
           "2": {
             "get_star_ts": 1702497049,
@@ -3561,8 +3592,8 @@ const raw = {
         },
         "14": {
           "1": {
-            "star_index": 2570958,
-            "get_star_ts": 1702590574
+            "get_star_ts": 1702590574,
+            "star_index": 2570958
           },
           "2": {
             "star_index": 2585061,
@@ -3571,8 +3602,8 @@ const raw = {
         },
         "15": {
           "1": {
-            "star_index": 2651790,
-            "get_star_ts": 1702653711
+            "get_star_ts": 1702653711,
+            "star_index": 2651790
           },
           "2": {
             "star_index": 2654850,
@@ -3585,18 +3616,18 @@ const raw = {
             "get_star_ts": 1702745325
           },
           "2": {
-            "get_star_ts": 1702746439,
-            "star_index": 2749235
+            "star_index": 2749235,
+            "get_star_ts": 1702746439
           }
         },
         "18": {
           "1": {
-            "star_index": 2919163,
-            "get_star_ts": 1702932067
+            "get_star_ts": 1702932067,
+            "star_index": 2919163
           },
           "2": {
-            "get_star_ts": 1702951290,
-            "star_index": 2934210
+            "star_index": 2934210,
+            "get_star_ts": 1702951290
           }
         },
         "19": {
@@ -3617,8 +3648,8 @@ const raw = {
         },
         "21": {
           "1": {
-            "star_index": 3131239,
-            "get_star_ts": 1703200226
+            "get_star_ts": 1703200226,
+            "star_index": 3131239
           }
         },
         "22": {
@@ -3644,17 +3675,15 @@ const raw = {
           }
         }
       },
-      "id": 1287384,
-      "stars": 42,
       "global_score": 0,
-      "local_score": 4496
+      "stars": 42,
+      "id": 1287384
     },
     "1336133": {
+      "local_score": 141,
+      "name": "Mahdi Albori",
       "last_star_ts": 1701494161,
       "global_score": 0,
-      "local_score": 141,
-      "stars": 2,
-      "id": 1336133,
       "completion_day_level": {
         "1": {
           "1": {
@@ -3662,57 +3691,57 @@ const raw = {
             "get_star_ts": 1701488453
           },
           "2": {
-            "star_index": 272838,
-            "get_star_ts": 1701494161
+            "get_star_ts": 1701494161,
+            "star_index": 272838
           }
         }
       },
-      "name": "Mahdi Albori"
+      "id": 1336133,
+      "stars": 2
     },
     "1491389": {
+      "name": "tomloizzo1",
+      "local_score": 104,
+      "last_star_ts": 1701437158,
       "completion_day_level": {
         "1": {
           "1": {
-            "get_star_ts": 1701437158,
-            "star_index": 111521
+            "star_index": 111521,
+            "get_star_ts": 1701437158
           }
         }
       },
-      "name": "tomloizzo1",
-      "id": 1491389,
-      "stars": 1,
       "global_score": 0,
-      "local_score": 104,
-      "last_star_ts": 1701437158
+      "stars": 1,
+      "id": 1491389
     },
     "1492817": {
-      "last_star_ts": 1703195835,
-      "name": "Kelly Tabler",
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
-            "star_index": 206582,
-            "get_star_ts": 1701462568
+            "get_star_ts": 1701462568,
+            "star_index": 206582
           },
           "2": {
-            "get_star_ts": 1701469082,
-            "star_index": 228045
+            "star_index": 228045,
+            "get_star_ts": 1701469082
           }
         },
         "2": {
           "1": {
-            "get_star_ts": 1701537484,
-            "star_index": 441298
+            "star_index": 441298,
+            "get_star_ts": 1701537484
           },
           "2": {
-            "get_star_ts": 1701537807,
-            "star_index": 442419
+            "star_index": 442419,
+            "get_star_ts": 1701537807
           }
         },
         "3": {
           "1": {
-            "star_index": 720438,
-            "get_star_ts": 1701637569
+            "get_star_ts": 1701637569,
+            "star_index": 720438
           },
           "2": {
             "get_star_ts": 1701640420,
@@ -3721,8 +3750,8 @@ const raw = {
         },
         "4": {
           "1": {
-            "star_index": 1002909,
-            "get_star_ts": 1701724346
+            "get_star_ts": 1701724346,
+            "star_index": 1002909
           },
           "2": {
             "star_index": 1011213,
@@ -3731,8 +3760,8 @@ const raw = {
         },
         "5": {
           "1": {
-            "star_index": 1155484,
-            "get_star_ts": 1701791249
+            "get_star_ts": 1701791249,
+            "star_index": 1155484
           },
           "2": {
             "star_index": 1188013,
@@ -3741,12 +3770,12 @@ const raw = {
         },
         "6": {
           "1": {
-            "star_index": 1458912,
-            "get_star_ts": 1701909894
+            "get_star_ts": 1701909894,
+            "star_index": 1458912
           },
           "2": {
-            "star_index": 1459035,
-            "get_star_ts": 1701910007
+            "get_star_ts": 1701910007,
+            "star_index": 1459035
           }
         },
         "7": {
@@ -3771,8 +3800,8 @@ const raw = {
         },
         "9": {
           "1": {
-            "star_index": 2246995,
-            "get_star_ts": 1702325530
+            "get_star_ts": 1702325530,
+            "star_index": 2246995
           },
           "2": {
             "get_star_ts": 1702325813,
@@ -3781,8 +3810,8 @@ const raw = {
         },
         "10": {
           "1": {
-            "get_star_ts": 1702483695,
-            "star_index": 2443950
+            "star_index": 2443950,
+            "get_star_ts": 1702483695
           },
           "2": {
             "get_star_ts": 1702484313,
@@ -3791,12 +3820,12 @@ const raw = {
         },
         "11": {
           "1": {
-            "get_star_ts": 1703178869,
-            "star_index": 3115215
+            "star_index": 3115215,
+            "get_star_ts": 1703178869
           },
           "2": {
-            "star_index": 3115344,
-            "get_star_ts": 1703179037
+            "get_star_ts": 1703179037,
+            "star_index": 3115344
           }
         },
         "12": {
@@ -3811,8 +3840,8 @@ const raw = {
         },
         "13": {
           "1": {
-            "star_index": 3125591,
-            "get_star_ts": 1703192478
+            "get_star_ts": 1703192478,
+            "star_index": 3125591
           },
           "2": {
             "star_index": 3128201,
@@ -3822,10 +3851,13 @@ const raw = {
       },
       "id": 1492817,
       "stars": 26,
-      "global_score": 0,
-      "local_score": 2427
+      "name": "Kelly Tabler",
+      "local_score": 2427,
+      "last_star_ts": 1703195835
     },
     "1512095": {
+      "name": "Mike Eilbacher",
+      "local_score": 4802,
       "last_star_ts": 1704380758,
       "completion_day_level": {
         "1": {
@@ -3834,8 +3866,8 @@ const raw = {
             "star_index": 98829
           },
           "2": {
-            "star_index": 102806,
-            "get_star_ts": 1701434611
+            "get_star_ts": 1701434611,
+            "star_index": 102806
           }
         },
         "2": {
@@ -3860,52 +3892,52 @@ const raw = {
         },
         "4": {
           "1": {
-            "get_star_ts": 1701692473,
-            "star_index": 886791
+            "star_index": 886791,
+            "get_star_ts": 1701692473
           },
           "2": {
-            "star_index": 890012,
-            "get_star_ts": 1701693409
+            "get_star_ts": 1701693409,
+            "star_index": 890012
           }
         },
         "5": {
           "1": {
-            "get_star_ts": 1701780411,
-            "star_index": 1127011
+            "star_index": 1127011,
+            "get_star_ts": 1701780411
           },
           "2": {
-            "star_index": 1157726,
-            "get_star_ts": 1701792043
+            "get_star_ts": 1701792043,
+            "star_index": 1157726
           }
         },
         "6": {
           "1": {
-            "get_star_ts": 1701865535,
-            "star_index": 1352817
+            "star_index": 1352817,
+            "get_star_ts": 1701865535
           },
           "2": {
-            "star_index": 1354357,
-            "get_star_ts": 1701866118
+            "get_star_ts": 1701866118,
+            "star_index": 1354357
           }
         },
         "7": {
           "1": {
-            "get_star_ts": 1701953903,
-            "star_index": 1549393
+            "star_index": 1549393,
+            "get_star_ts": 1701953903
           },
           "2": {
-            "get_star_ts": 1701961092,
-            "star_index": 1566453
+            "star_index": 1566453,
+            "get_star_ts": 1701961092
           }
         },
         "8": {
           "1": {
-            "get_star_ts": 1702039076,
-            "star_index": 1731033
+            "star_index": 1731033,
+            "get_star_ts": 1702039076
           },
           "2": {
-            "get_star_ts": 1702042106,
-            "star_index": 1737868
+            "star_index": 1737868,
+            "get_star_ts": 1702042106
           }
         },
         "9": {
@@ -3930,8 +3962,8 @@ const raw = {
         },
         "11": {
           "1": {
-            "star_index": 2195587,
-            "get_star_ts": 1702297795
+            "get_star_ts": 1702297795,
+            "star_index": 2195587
           },
           "2": {
             "get_star_ts": 1702298959,
@@ -3940,18 +3972,18 @@ const raw = {
         },
         "12": {
           "1": {
-            "star_index": 2331948,
-            "get_star_ts": 1702393986
+            "get_star_ts": 1702393986,
+            "star_index": 2331948
           }
         },
         "13": {
           "1": {
-            "star_index": 2431817,
-            "get_star_ts": 1702474725
+            "get_star_ts": 1702474725,
+            "star_index": 2431817
           },
           "2": {
-            "get_star_ts": 1702488001,
-            "star_index": 2449428
+            "star_index": 2449428,
+            "get_star_ts": 1702488001
           }
         },
         "14": {
@@ -3960,14 +3992,14 @@ const raw = {
             "star_index": 2493544
           },
           "2": {
-            "get_star_ts": 1702537512,
-            "star_index": 2504769
+            "star_index": 2504769,
+            "get_star_ts": 1702537512
           }
         },
         "15": {
           "1": {
-            "get_star_ts": 1702643153,
-            "star_index": 2636885
+            "star_index": 2636885,
+            "get_star_ts": 1702643153
           },
           "2": {
             "star_index": 2639396,
@@ -3976,12 +4008,12 @@ const raw = {
         },
         "16": {
           "1": {
-            "get_star_ts": 1702847069,
-            "star_index": 2839453
+            "star_index": 2839453,
+            "get_star_ts": 1702847069
           },
           "2": {
-            "get_star_ts": 1702851058,
-            "star_index": 2843841
+            "star_index": 2843841,
+            "get_star_ts": 1702851058
           }
         },
         "18": {
@@ -3990,14 +4022,14 @@ const raw = {
             "get_star_ts": 1702904264
           },
           "2": {
-            "star_index": 2898817,
-            "get_star_ts": 1702912998
+            "get_star_ts": 1702912998,
+            "star_index": 2898817
           }
         },
         "19": {
           "1": {
-            "get_star_ts": 1702992038,
-            "star_index": 2970928
+            "star_index": 2970928,
+            "get_star_ts": 1702992038
           },
           "2": {
             "get_star_ts": 1703016687,
@@ -4006,12 +4038,12 @@ const raw = {
         },
         "20": {
           "1": {
-            "star_index": 3039801,
-            "get_star_ts": 1703079683
+            "get_star_ts": 1703079683,
+            "star_index": 3039801
           },
           "2": {
-            "star_index": 3043584,
-            "get_star_ts": 1703084051
+            "get_star_ts": 1703084051,
+            "star_index": 3043584
           }
         },
         "21": {
@@ -4020,14 +4052,14 @@ const raw = {
             "star_index": 3103450
           },
           "2": {
-            "star_index": 3126251,
-            "get_star_ts": 1703193294
+            "get_star_ts": 1703193294,
+            "star_index": 3126251
           }
         },
         "22": {
           "1": {
-            "get_star_ts": 1703278343,
-            "star_index": 3179960
+            "star_index": 3179960,
+            "get_star_ts": 1703278343
           },
           "2": {
             "get_star_ts": 1704142032,
@@ -4042,20 +4074,19 @@ const raw = {
         },
         "24": {
           "1": {
-            "get_star_ts": 1704380758,
-            "star_index": 3479562
+            "star_index": 3479562,
+            "get_star_ts": 1704380758
           }
         }
       },
-      "name": "Mike Eilbacher",
-      "id": 1512095,
+      "global_score": 0,
       "stars": 43,
-      "local_score": 4802,
-      "global_score": 0
+      "id": 1512095
     },
     "1513819": {
-      "id": 1513819,
       "name": "Patrick Clements",
+      "local_score": 3505,
+      "last_star_ts": 1703476837,
       "completion_day_level": {
         "1": {
           "1": {
@@ -4063,8 +4094,8 @@ const raw = {
             "get_star_ts": 1701467786
           },
           "2": {
-            "get_star_ts": 1701480593,
-            "star_index": 252423
+            "star_index": 252423,
+            "get_star_ts": 1701480593
           }
         },
         "2": {
@@ -4079,8 +4110,8 @@ const raw = {
         },
         "3": {
           "1": {
-            "star_index": 1042570,
-            "get_star_ts": 1701743958
+            "get_star_ts": 1701743958,
+            "star_index": 1042570
           },
           "2": {
             "star_index": 1145731,
@@ -4099,18 +4130,18 @@ const raw = {
         },
         "5": {
           "1": {
-            "star_index": 1427669,
-            "get_star_ts": 1701893942
+            "get_star_ts": 1701893942,
+            "star_index": 1427669
           }
         },
         "6": {
           "1": {
-            "star_index": 1794237,
-            "get_star_ts": 1702068007
+            "get_star_ts": 1702068007,
+            "star_index": 1794237
           },
           "2": {
-            "star_index": 1795136,
-            "get_star_ts": 1702068477
+            "get_star_ts": 1702068477,
+            "star_index": 1795136
           }
         },
         "7": {
@@ -4119,14 +4150,14 @@ const raw = {
             "star_index": 1798929
           },
           "2": {
-            "star_index": 1801205,
-            "get_star_ts": 1702071633
+            "get_star_ts": 1702071633,
+            "star_index": 1801205
           }
         },
         "8": {
           "1": {
-            "star_index": 1790872,
-            "get_star_ts": 1702066294
+            "get_star_ts": 1702066294,
+            "star_index": 1790872
           },
           "2": {
             "star_index": 1792487,
@@ -4135,8 +4166,8 @@ const raw = {
         },
         "9": {
           "1": {
-            "star_index": 1928568,
-            "get_star_ts": 1702136839
+            "get_star_ts": 1702136839,
+            "star_index": 1928568
           },
           "2": {
             "get_star_ts": 1702137101,
@@ -4165,12 +4196,12 @@ const raw = {
         },
         "12": {
           "1": {
-            "get_star_ts": 1702403959,
-            "star_index": 2345642
+            "star_index": 2345642,
+            "get_star_ts": 1702403959
           },
           "2": {
-            "star_index": 2380295,
-            "get_star_ts": 1702434623
+            "get_star_ts": 1702434623,
+            "star_index": 2380295
           }
         },
         "13": {
@@ -4191,8 +4222,8 @@ const raw = {
         },
         "15": {
           "1": {
-            "star_index": 2934146,
-            "get_star_ts": 1702951118
+            "get_star_ts": 1702951118,
+            "star_index": 2934146
           },
           "2": {
             "get_star_ts": 1702952297,
@@ -4211,8 +4242,8 @@ const raw = {
         },
         "18": {
           "1": {
-            "get_star_ts": 1703039712,
-            "star_index": 3010801
+            "star_index": 3010801,
+            "get_star_ts": 1703039712
           },
           "2": {
             "star_index": 3011526,
@@ -4227,8 +4258,8 @@ const raw = {
         },
         "21": {
           "1": {
-            "get_star_ts": 1703385768,
-            "star_index": 3240446
+            "star_index": 3240446,
+            "get_star_ts": 1703385768
           }
         },
         "23": {
@@ -4244,20 +4275,20 @@ const raw = {
           }
         }
       },
-      "local_score": 3505,
       "global_score": 0,
       "stars": 36,
-      "last_star_ts": 1703476837
+      "id": 1513819
     },
     "1543143": {
-      "stars": 8,
-      "local_score": 733,
+      "name": "Dave Barrett",
+      "local_score": 872,
+      "last_star_ts": 1704905203,
       "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
-            "star_index": 209482,
-            "get_star_ts": 1701463432
+            "get_star_ts": 1701463432,
+            "star_index": 209482
           },
           "2": {
             "get_star_ts": 1701466572,
@@ -4276,46 +4307,60 @@ const raw = {
         },
         "3": {
           "1": {
-            "get_star_ts": 1701651572,
-            "star_index": 753735
+            "star_index": 753735,
+            "get_star_ts": 1701651572
           },
           "2": {
-            "star_index": 761820,
-            "get_star_ts": 1701658172
+            "get_star_ts": 1701658172,
+            "star_index": 761820
           }
         },
         "4": {
           "1": {
-            "get_star_ts": 1701705068,
-            "star_index": 933354
+            "star_index": 933354,
+            "get_star_ts": 1701705068
           },
           "2": {
-            "star_index": 1182598,
-            "get_star_ts": 1701801471
+            "get_star_ts": 1701801471,
+            "star_index": 1182598
+          }
+        },
+        "6": {
+          "1": {
+            "star_index": 3531179,
+            "get_star_ts": 1704903102
+          },
+          "2": {
+            "get_star_ts": 1704905203,
+            "star_index": 3531421
           }
         }
       },
-      "name": "Dave Barrett",
       "id": 1543143,
-      "last_star_ts": 1701801471
+      "stars": 10
     },
     "1550722": {
+      "last_star_ts": 1702092017,
+      "local_score": 962,
+      "name": "Anfer",
       "id": 1550722,
+      "stars": 10,
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
-            "star_index": 156001,
-            "get_star_ts": 1701448348
+            "get_star_ts": 1701448348,
+            "star_index": 156001
           },
           "2": {
-            "star_index": 159696,
-            "get_star_ts": 1701449273
+            "get_star_ts": 1701449273,
+            "star_index": 159696
           }
         },
         "2": {
           "1": {
-            "get_star_ts": 1701494808,
-            "star_index": 278969
+            "star_index": 278969,
+            "get_star_ts": 1701494808
           },
           "2": {
             "star_index": 283176,
@@ -4324,54 +4369,47 @@ const raw = {
         },
         "3": {
           "1": {
-            "get_star_ts": 1701655102,
-            "star_index": 758211
+            "star_index": 758211,
+            "get_star_ts": 1701655102
           },
           "2": {
-            "star_index": 1034221,
-            "get_star_ts": 1701737181
+            "get_star_ts": 1701737181,
+            "star_index": 1034221
           }
         },
         "4": {
           "1": {
-            "get_star_ts": 1701704209,
-            "star_index": 930074
+            "star_index": 930074,
+            "get_star_ts": 1701704209
           },
           "2": {
-            "get_star_ts": 1701734485,
-            "star_index": 1030144
+            "star_index": 1030144,
+            "get_star_ts": 1701734485
           }
         },
         "5": {
           "1": {
-            "star_index": 1239939,
-            "get_star_ts": 1701826451
+            "get_star_ts": 1701826451,
+            "star_index": 1239939
           }
         },
         "6": {
           "1": {
-            "star_index": 1824075,
-            "get_star_ts": 1702092017
+            "get_star_ts": 1702092017,
+            "star_index": 1824075
           }
         }
-      },
-      "name": "Anfer",
-      "global_score": 0,
-      "local_score": 962,
-      "stars": 10,
-      "last_star_ts": 1702092017
+      }
     },
     "1551553": {
-      "last_star_ts": 1702675308,
-      "local_score": 2697,
-      "global_score": 0,
-      "stars": 26,
       "id": 1551553,
+      "stars": 26,
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
-            "star_index": 11073,
-            "get_star_ts": 1701408365
+            "get_star_ts": 1701408365,
+            "star_index": 11073
           },
           "2": {
             "star_index": 30041,
@@ -4380,8 +4418,8 @@ const raw = {
         },
         "2": {
           "1": {
-            "get_star_ts": 1701497881,
-            "star_index": 295779
+            "star_index": 295779,
+            "get_star_ts": 1701497881
           },
           "2": {
             "star_index": 299179,
@@ -4390,8 +4428,8 @@ const raw = {
         },
         "3": {
           "1": {
-            "get_star_ts": 1701701421,
-            "star_index": 919627
+            "star_index": 919627,
+            "get_star_ts": 1701701421
           },
           "2": {
             "get_star_ts": 1701721718,
@@ -4400,18 +4438,18 @@ const raw = {
         },
         "4": {
           "1": {
-            "get_star_ts": 1701709461,
-            "star_index": 949795
+            "star_index": 949795,
+            "get_star_ts": 1701709461
           },
           "2": {
-            "get_star_ts": 1701713020,
-            "star_index": 962324
+            "star_index": 962324,
+            "get_star_ts": 1701713020
           }
         },
         "5": {
           "1": {
-            "star_index": 1066005,
-            "get_star_ts": 1701756610
+            "get_star_ts": 1701756610,
+            "star_index": 1066005
           },
           "2": {
             "get_star_ts": 1701807556,
@@ -4430,18 +4468,18 @@ const raw = {
         },
         "7": {
           "1": {
-            "get_star_ts": 1701933225,
-            "star_index": 1498732
+            "star_index": 1498732,
+            "get_star_ts": 1701933225
           },
           "2": {
-            "get_star_ts": 1701935430,
-            "star_index": 1504304
+            "star_index": 1504304,
+            "get_star_ts": 1701935430
           }
         },
         "8": {
           "1": {
-            "star_index": 1790690,
-            "get_star_ts": 1702066216
+            "get_star_ts": 1702066216,
+            "star_index": 1790690
           },
           "2": {
             "star_index": 1937808,
@@ -4454,8 +4492,8 @@ const raw = {
             "star_index": 2239362
           },
           "2": {
-            "get_star_ts": 1702321940,
-            "star_index": 2240096
+            "star_index": 2240096,
+            "get_star_ts": 1702321940
           }
         },
         "11": {
@@ -4474,14 +4512,14 @@ const raw = {
             "get_star_ts": 1702523879
           },
           "2": {
-            "get_star_ts": 1702526713,
-            "star_index": 2486260
+            "star_index": 2486260,
+            "get_star_ts": 1702526713
           }
         },
         "14": {
           "1": {
-            "get_star_ts": 1702566974,
-            "star_index": 2543442
+            "star_index": 2543442,
+            "get_star_ts": 1702566974
           },
           "2": {
             "get_star_ts": 1702657301,
@@ -4499,11 +4537,14 @@ const raw = {
           }
         }
       },
+      "last_star_ts": 1702675308,
+      "local_score": 2697,
       "name": "Drew Teachout"
     },
     "1551779": {
-      "global_score": 0,
+      "last_star_ts": 1702674961,
       "local_score": 584,
+      "name": "Graham Guthrie",
       "stars": 8,
       "id": 1551779,
       "completion_day_level": {
@@ -4519,12 +4560,12 @@ const raw = {
         },
         "2": {
           "1": {
-            "get_star_ts": 1702477470,
-            "star_index": 2435403
+            "star_index": 2435403,
+            "get_star_ts": 1702477470
           },
           "2": {
-            "star_index": 2435951,
-            "get_star_ts": 1702477847
+            "get_star_ts": 1702477847,
+            "star_index": 2435951
           }
         },
         "4": {
@@ -4533,8 +4574,8 @@ const raw = {
             "get_star_ts": 1702479508
           },
           "2": {
-            "get_star_ts": 1702481088,
-            "star_index": 2440370
+            "star_index": 2440370,
+            "get_star_ts": 1702481088
           }
         },
         "6": {
@@ -4548,17 +4589,15 @@ const raw = {
           }
         }
       },
-      "name": "Graham Guthrie",
-      "last_star_ts": 1702674961
+      "global_score": 0
     },
     "1552420": {
-      "last_star_ts": 1703888335,
-      "name": "Dina Zhang",
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
-            "get_star_ts": 1701450718,
-            "star_index": 165413
+            "star_index": 165413,
+            "get_star_ts": 1701450718
           },
           "2": {
             "star_index": 184919,
@@ -4571,18 +4610,18 @@ const raw = {
             "star_index": 281992
           },
           "2": {
-            "star_index": 291874,
-            "get_star_ts": 1701496907
+            "get_star_ts": 1701496907,
+            "star_index": 291874
           }
         },
         "3": {
           "1": {
-            "star_index": 667285,
-            "get_star_ts": 1701621558
+            "get_star_ts": 1701621558,
+            "star_index": 667285
           },
           "2": {
-            "star_index": 678489,
-            "get_star_ts": 1701624882
+            "get_star_ts": 1701624882,
+            "star_index": 678489
           }
         },
         "4": {
@@ -4623,8 +4662,8 @@ const raw = {
         },
         "8": {
           "1": {
-            "get_star_ts": 1703882916,
-            "star_index": 3406495
+            "star_index": 3406495,
+            "get_star_ts": 1703882916
           },
           "2": {
             "star_index": 3406937,
@@ -4633,70 +4672,75 @@ const raw = {
         },
         "9": {
           "1": {
-            "star_index": 3407992,
-            "get_star_ts": 1703888110
+            "get_star_ts": 1703888110,
+            "star_index": 3407992
           },
           "2": {
-            "star_index": 3408061,
-            "get_star_ts": 1703888335
+            "get_star_ts": 1703888335,
+            "star_index": 3408061
           }
         }
       },
       "id": 1552420,
       "stars": 17,
-      "global_score": 0,
-      "local_score": 1562
+      "local_score": 1562,
+      "name": "Dina Zhang",
+      "last_star_ts": 1703888335
     },
     "1552821": {
+      "last_star_ts": 0,
+      "local_score": 0,
+      "name": "Lily Li",
+      "stars": 0,
       "id": 1552821,
       "completion_day_level": {},
-      "name": "Lily Li",
-      "global_score": 0,
-      "local_score": 0,
-      "stars": 0,
-      "last_star_ts": 0
+      "global_score": 0
     },
     "1552913": {
-      "last_star_ts": 0,
       "id": 1552913,
-      "completion_day_level": {},
-      "name": "Jules Scheil",
-      "local_score": 0,
+      "stars": 0,
       "global_score": 0,
-      "stars": 0
+      "completion_day_level": {},
+      "last_star_ts": 0,
+      "name": "Jules Scheil",
+      "local_score": 0
     },
     "1554163": {
-      "last_star_ts": 1701438537,
-      "local_score": 212,
-      "global_score": 0,
-      "stars": 2,
-      "id": 1554163,
       "name": "dtewell19",
+      "local_score": 212,
+      "last_star_ts": 1701438537,
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
-            "get_star_ts": 1701437346,
-            "star_index": 112195
+            "star_index": 112195,
+            "get_star_ts": 1701437346
           },
           "2": {
             "get_star_ts": 1701438537,
             "star_index": 116582
           }
         }
-      }
+      },
+      "id": 1554163,
+      "stars": 2
     },
     "1554509": {
-      "global_score": 0,
-      "local_score": 0,
-      "stars": 0,
-      "id": 1554509,
       "name": "Gunnar Martin",
+      "local_score": 0,
+      "last_star_ts": 0,
+      "global_score": 0,
       "completion_day_level": {},
-      "last_star_ts": 0
+      "id": 1554509,
+      "stars": 0
     },
     "1554651": {
       "last_star_ts": 1702532467,
       "name": "Aidan Murphy",
+      "local_score": 2357,
+      "id": 1554651,
+      "stars": 24,
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
@@ -4704,8 +4748,8 @@ const raw = {
             "get_star_ts": 1701441445
           },
           "2": {
-            "get_star_ts": 1701451931,
-            "star_index": 170037
+            "star_index": 170037,
+            "get_star_ts": 1701451931
           }
         },
         "2": {
@@ -4720,8 +4764,8 @@ const raw = {
         },
         "3": {
           "1": {
-            "get_star_ts": 1701650000,
-            "star_index": 751547
+            "star_index": 751547,
+            "get_star_ts": 1701650000
           },
           "2": {
             "get_star_ts": 1701653106,
@@ -4730,8 +4774,8 @@ const raw = {
         },
         "4": {
           "1": {
-            "star_index": 934622,
-            "get_star_ts": 1701705402
+            "get_star_ts": 1701705402,
+            "star_index": 934622
           },
           "2": {
             "star_index": 946146,
@@ -4744,8 +4788,8 @@ const raw = {
             "star_index": 1252048
           },
           "2": {
-            "star_index": 1458811,
-            "get_star_ts": 1701909799
+            "get_star_ts": 1701909799,
+            "star_index": 1458811
           }
         },
         "6": {
@@ -4754,8 +4798,8 @@ const raw = {
             "get_star_ts": 1701923327
           },
           "2": {
-            "get_star_ts": 1701923411,
-            "star_index": 1470995
+            "star_index": 1470995,
+            "get_star_ts": 1701923411
           }
         },
         "7": {
@@ -4774,8 +4818,8 @@ const raw = {
             "get_star_ts": 1702049936
           },
           "2": {
-            "get_star_ts": 1702067652,
-            "star_index": 1793554
+            "star_index": 1793554,
+            "get_star_ts": 1702067652
           }
         },
         "9": {
@@ -4784,14 +4828,14 @@ const raw = {
             "get_star_ts": 1702140093
           },
           "2": {
-            "get_star_ts": 1702141206,
-            "star_index": 1938419
+            "star_index": 1938419,
+            "get_star_ts": 1702141206
           }
         },
         "10": {
           "1": {
-            "star_index": 2225169,
-            "get_star_ts": 1702313512
+            "get_star_ts": 1702313512,
+            "star_index": 2225169
           },
           "2": {
             "star_index": 2239592,
@@ -4800,34 +4844,34 @@ const raw = {
         },
         "11": {
           "1": {
-            "star_index": 2282636,
-            "get_star_ts": 1702357796
+            "get_star_ts": 1702357796,
+            "star_index": 2282636
           },
           "2": {
-            "get_star_ts": 1702361941,
-            "star_index": 2291062
+            "star_index": 2291062,
+            "get_star_ts": 1702361941
           }
         },
         "12": {
           "1": {
-            "star_index": 2394780,
-            "get_star_ts": 1702447634
+            "get_star_ts": 1702447634,
+            "star_index": 2394780
           }
         },
         "13": {
           "1": {
-            "get_star_ts": 1702532467,
-            "star_index": 2495716
+            "star_index": 2495716,
+            "get_star_ts": 1702532467
           }
         }
-      },
-      "id": 1554651,
-      "stars": 24,
-      "local_score": 2357,
-      "global_score": 0
+      }
     },
     "1561945": {
       "last_star_ts": 1703214706,
+      "local_score": 995,
+      "name": "llbarnet",
+      "stars": 12,
+      "id": 1561945,
       "completion_day_level": {
         "1": {
           "1": {
@@ -4835,8 +4879,8 @@ const raw = {
             "star_index": 191156
           },
           "2": {
-            "star_index": 206424,
-            "get_star_ts": 1701462521
+            "get_star_ts": 1701462521,
+            "star_index": 206424
           }
         },
         "2": {
@@ -4861,52 +4905,47 @@ const raw = {
         },
         "4": {
           "1": {
-            "get_star_ts": 1701822938,
-            "star_index": 1235755
+            "star_index": 1235755,
+            "get_star_ts": 1701822938
           },
           "2": {
-            "get_star_ts": 1701829456,
-            "star_index": 1243077
+            "star_index": 1243077,
+            "get_star_ts": 1701829456
           }
         },
         "6": {
           "1": {
-            "get_star_ts": 1701918136,
-            "star_index": 1466674
+            "star_index": 1466674,
+            "get_star_ts": 1701918136
           },
           "2": {
-            "star_index": 1466737,
-            "get_star_ts": 1701918208
+            "get_star_ts": 1701918208,
+            "star_index": 1466737
           }
         },
         "7": {
           "1": {
-            "get_star_ts": 1703209133,
-            "star_index": 3135064
+            "star_index": 3135064,
+            "get_star_ts": 1703209133
           },
           "2": {
-            "get_star_ts": 1703214706,
-            "star_index": 3136769
+            "star_index": 3136769,
+            "get_star_ts": 1703214706
           }
         }
       },
-      "name": "llbarnet",
-      "id": 1561945,
-      "stars": 12,
-      "local_score": 995,
       "global_score": 0
     },
     "1562745": {
-      "last_star_ts": 1702077961,
-      "stars": 8,
-      "global_score": 0,
       "local_score": 685,
       "name": "Stephen Ilhardt",
+      "last_star_ts": 1702077961,
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
-            "get_star_ts": 1701469948,
-            "star_index": 230613
+            "star_index": 230613,
+            "get_star_ts": 1701469948
           },
           "2": {
             "star_index": 248429,
@@ -4919,20 +4958,20 @@ const raw = {
             "get_star_ts": 1701544815
           },
           "2": {
-            "star_index": 493929,
-            "get_star_ts": 1701554191
+            "get_star_ts": 1701554191,
+            "star_index": 493929
           }
         },
         "3": {
           "1": {
-            "get_star_ts": 1701644393,
-            "star_index": 740742
+            "star_index": 740742,
+            "get_star_ts": 1701644393
           }
         },
         "4": {
           "1": {
-            "get_star_ts": 1701729448,
-            "star_index": 1019286
+            "star_index": 1019286,
+            "get_star_ts": 1701729448
           },
           "2": {
             "get_star_ts": 1701741052,
@@ -4941,40 +4980,40 @@ const raw = {
         },
         "8": {
           "1": {
-            "star_index": 1811666,
-            "get_star_ts": 1702077961
+            "get_star_ts": 1702077961,
+            "star_index": 1811666
           }
         }
       },
-      "id": 1562745
+      "id": 1562745,
+      "stars": 8
     },
     "1563197": {
-      "last_star_ts": 1701798432,
-      "local_score": 108,
-      "global_score": 0,
-      "stars": 2,
-      "id": 1563197,
       "name": "Steven French",
+      "local_score": 108,
+      "last_star_ts": 1701798432,
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
-            "star_index": 1002566,
-            "get_star_ts": 1701724257
+            "get_star_ts": 1701724257,
+            "star_index": 1002566
           },
           "2": {
             "star_index": 1174617,
             "get_star_ts": 1701798432
           }
         }
-      }
+      },
+      "id": 1563197,
+      "stars": 2
     },
     "1636057": {
-      "last_star_ts": 1703802467,
       "completion_day_level": {
         "1": {
           "1": {
-            "get_star_ts": 1701720636,
-            "star_index": 989292
+            "star_index": 989292,
+            "get_star_ts": 1701720636
           },
           "2": {
             "star_index": 1026594,
@@ -4983,12 +5022,12 @@ const raw = {
         },
         "2": {
           "1": {
-            "star_index": 1030645,
-            "get_star_ts": 1701734780
+            "get_star_ts": 1701734780,
+            "star_index": 1030645
           },
           "2": {
-            "star_index": 1032456,
-            "get_star_ts": 1701735938
+            "get_star_ts": 1701735938,
+            "star_index": 1032456
           }
         },
         "3": {
@@ -4997,8 +5036,8 @@ const raw = {
             "get_star_ts": 1701799221
           },
           "2": {
-            "star_index": 1439213,
-            "get_star_ts": 1701898471
+            "get_star_ts": 1701898471,
+            "star_index": 1439213
           }
         },
         "4": {
@@ -5013,12 +5052,12 @@ const raw = {
         },
         "5": {
           "1": {
-            "star_index": 1599173,
-            "get_star_ts": 1701975291
+            "get_star_ts": 1701975291,
+            "star_index": 1599173
           },
           "2": {
-            "star_index": 1641977,
-            "get_star_ts": 1701997837
+            "get_star_ts": 1701997837,
+            "star_index": 1641977
           }
         },
         "6": {
@@ -5057,14 +5096,14 @@ const raw = {
             "star_index": 1946732
           },
           "2": {
-            "get_star_ts": 1702145582,
-            "star_index": 1947392
+            "star_index": 1947392,
+            "get_star_ts": 1702145582
           }
         },
         "10": {
           "1": {
-            "star_index": 2117634,
-            "get_star_ts": 1702249583
+            "get_star_ts": 1702249583,
+            "star_index": 2117634
           },
           "2": {
             "get_star_ts": 1702410450,
@@ -5073,8 +5112,8 @@ const raw = {
         },
         "11": {
           "1": {
-            "star_index": 2372996,
-            "get_star_ts": 1702423826
+            "get_star_ts": 1702423826,
+            "star_index": 2372996
           },
           "2": {
             "get_star_ts": 1702426287,
@@ -5083,8 +5122,8 @@ const raw = {
         },
         "12": {
           "1": {
-            "star_index": 2546869,
-            "get_star_ts": 1702569622
+            "get_star_ts": 1702569622,
+            "star_index": 2546869
           },
           "2": {
             "get_star_ts": 1702752791,
@@ -5113,28 +5152,28 @@ const raw = {
         },
         "15": {
           "1": {
-            "get_star_ts": 1702926789,
-            "star_index": 2913450
+            "star_index": 2913450,
+            "get_star_ts": 1702926789
           },
           "2": {
-            "star_index": 2916966,
-            "get_star_ts": 1702930091
+            "get_star_ts": 1702930091,
+            "star_index": 2916966
           }
         },
         "16": {
           "1": {
-            "star_index": 2925397,
-            "get_star_ts": 1702937644
+            "get_star_ts": 1702937644,
+            "star_index": 2925397
           },
           "2": {
-            "star_index": 2926041,
-            "get_star_ts": 1702938283
+            "get_star_ts": 1702938283,
+            "star_index": 2926041
           }
         },
         "17": {
           "1": {
-            "get_star_ts": 1703387406,
-            "star_index": 3240906
+            "star_index": 3240906,
+            "get_star_ts": 1703387406
           },
           "2": {
             "star_index": 3242197,
@@ -5143,18 +5182,18 @@ const raw = {
         },
         "18": {
           "1": {
-            "star_index": 3262868,
-            "get_star_ts": 1703426896
+            "get_star_ts": 1703426896,
+            "star_index": 3262868
           },
           "2": {
-            "get_star_ts": 1703427419,
-            "star_index": 3263182
+            "star_index": 3263182,
+            "get_star_ts": 1703427419
           }
         },
         "19": {
           "1": {
-            "get_star_ts": 1703432192,
-            "star_index": 3266075
+            "star_index": 3266075,
+            "get_star_ts": 1703432192
           },
           "2": {
             "get_star_ts": 1703608080,
@@ -5167,14 +5206,14 @@ const raw = {
             "star_index": 3347727
           },
           "2": {
-            "get_star_ts": 1703686215,
-            "star_index": 3356413
+            "star_index": 3356413,
+            "get_star_ts": 1703686215
           }
         },
         "21": {
           "1": {
-            "star_index": 3358241,
-            "get_star_ts": 1703691106
+            "get_star_ts": 1703691106,
+            "star_index": 3358241
           },
           "2": {
             "star_index": 3364783,
@@ -5188,18 +5227,15 @@ const raw = {
           }
         }
       },
-      "name": "Jordan Leahey",
-      "id": 1636057,
-      "stars": 43,
       "global_score": 0,
-      "local_score": 4073
+      "stars": 43,
+      "id": 1636057,
+      "name": "Jordan Leahey",
+      "local_score": 4073,
+      "last_star_ts": 1703802467
     },
     "1695980": {
-      "last_star_ts": 1704409842,
       "global_score": 0,
-      "local_score": 299,
-      "stars": 6,
-      "id": 1695980,
       "completion_day_level": {
         "1": {
           "1": {
@@ -5217,8 +5253,8 @@ const raw = {
             "star_index": 3483419
           },
           "2": {
-            "get_star_ts": 1704407194,
-            "star_index": 3483751
+            "star_index": 3483751,
+            "get_star_ts": 1704407194
           }
         },
         "4": {
@@ -5232,26 +5268,29 @@ const raw = {
           }
         }
       },
-      "name": "Miriam L"
+      "id": 1695980,
+      "stars": 6,
+      "name": "Miriam L",
+      "local_score": 299,
+      "last_star_ts": 1704409842
     },
     "1946955": {
-      "last_star_ts": 1702401532,
-      "id": 1946955,
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
-            "star_index": 99149,
-            "get_star_ts": 1701433501
+            "get_star_ts": 1701433501,
+            "star_index": 99149
           },
           "2": {
-            "star_index": 125615,
-            "get_star_ts": 1701440875
+            "get_star_ts": 1701440875,
+            "star_index": 125615
           }
         },
         "2": {
           "1": {
-            "star_index": 384551,
-            "get_star_ts": 1701521969
+            "get_star_ts": 1701521969,
+            "star_index": 384551
           },
           "2": {
             "get_star_ts": 1701522745,
@@ -5260,8 +5299,8 @@ const raw = {
         },
         "3": {
           "1": {
-            "get_star_ts": 1701611863,
-            "star_index": 635669
+            "star_index": 635669,
+            "get_star_ts": 1701611863
           },
           "2": {
             "star_index": 893486,
@@ -5284,8 +5323,8 @@ const raw = {
             "get_star_ts": 1701783940
           },
           "2": {
-            "star_index": 1179460,
-            "get_star_ts": 1701800273
+            "get_star_ts": 1701800273,
+            "star_index": 1179460
           }
         },
         "6": {
@@ -5304,8 +5343,8 @@ const raw = {
             "get_star_ts": 1701959598
           },
           "2": {
-            "star_index": 1611189,
-            "get_star_ts": 1701980577
+            "get_star_ts": 1701980577,
+            "star_index": 1611189
           }
         },
         "8": {
@@ -5314,14 +5353,14 @@ const raw = {
             "star_index": 1745116
           },
           "2": {
-            "star_index": 1751155,
-            "get_star_ts": 1702047540
+            "get_star_ts": 1702047540,
+            "star_index": 1751155
           }
         },
         "9": {
           "1": {
-            "get_star_ts": 1702127443,
-            "star_index": 1906944
+            "star_index": 1906944,
+            "get_star_ts": 1702127443
           },
           "2": {
             "get_star_ts": 1702128140,
@@ -5334,8 +5373,8 @@ const raw = {
             "get_star_ts": 1702240754
           },
           "2": {
-            "get_star_ts": 1702401532,
-            "star_index": 2342559
+            "star_index": 2342559,
+            "get_star_ts": 1702401532
           }
         },
         "11": {
@@ -5344,32 +5383,37 @@ const raw = {
             "star_index": 2224885
           },
           "2": {
-            "star_index": 2228839,
-            "get_star_ts": 1702315568
+            "get_star_ts": 1702315568,
+            "star_index": 2228839
           }
         }
       },
-      "name": "Foster Gorman",
-      "global_score": 0,
+      "id": 1946955,
+      "stars": 22,
       "local_score": 2321,
-      "stars": 22
+      "name": "Foster Gorman",
+      "last_star_ts": 1702401532
     },
     "1957456": {
+      "name": "cbalusekslalom",
+      "local_score": 2216,
+      "last_star_ts": 1704615865,
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
-            "get_star_ts": 1701447374,
-            "star_index": 152080
+            "star_index": 152080,
+            "get_star_ts": 1701447374
           },
           "2": {
-            "get_star_ts": 1701466874,
-            "star_index": 220924
+            "star_index": 220924,
+            "get_star_ts": 1701466874
           }
         },
         "2": {
           "1": {
-            "get_star_ts": 1701548282,
-            "star_index": 476156
+            "star_index": 476156,
+            "get_star_ts": 1701548282
           },
           "2": {
             "star_index": 476990,
@@ -5388,18 +5432,18 @@ const raw = {
         },
         "5": {
           "1": {
-            "star_index": 1272582,
-            "get_star_ts": 1701840961
+            "get_star_ts": 1701840961,
+            "star_index": 1272582
           },
           "2": {
-            "star_index": 1397040,
-            "get_star_ts": 1701881697
+            "get_star_ts": 1701881697,
+            "star_index": 1397040
           }
         },
         "6": {
           "1": {
-            "star_index": 1282003,
-            "get_star_ts": 1701843213
+            "get_star_ts": 1701843213,
+            "star_index": 1282003
           },
           "2": {
             "get_star_ts": 1701843294,
@@ -5408,8 +5452,8 @@ const raw = {
         },
         "7": {
           "1": {
-            "star_index": 1490561,
-            "get_star_ts": 1701930301
+            "get_star_ts": 1701930301,
+            "star_index": 1490561
           },
           "2": {
             "get_star_ts": 1702104498,
@@ -5418,8 +5462,8 @@ const raw = {
         },
         "8": {
           "1": {
-            "get_star_ts": 1702013193,
-            "star_index": 1662409
+            "star_index": 1662409,
+            "get_star_ts": 1702013193
           },
           "2": {
             "get_star_ts": 1702103511,
@@ -5442,8 +5486,8 @@ const raw = {
             "get_star_ts": 1704566227
           },
           "2": {
-            "star_index": 3500721,
-            "get_star_ts": 1704568524
+            "get_star_ts": 1704568524,
+            "star_index": 3500721
           }
         },
         "13": {
@@ -5454,12 +5498,12 @@ const raw = {
         },
         "14": {
           "1": {
-            "star_index": 3504395,
-            "get_star_ts": 1704607626
+            "get_star_ts": 1704607626,
+            "star_index": 3504395
           },
           "2": {
-            "get_star_ts": 1704613365,
-            "star_index": 3504706
+            "star_index": 3504706,
+            "get_star_ts": 1704613365
           }
         },
         "15": {
@@ -5473,19 +5517,16 @@ const raw = {
           }
         }
       },
-      "name": "cbalusekslalom",
       "id": 1957456,
-      "stars": 23,
-      "global_score": 0,
-      "local_score": 2216,
-      "last_star_ts": 1704615865
+      "stars": 23
     },
     "2039943": {
-      "global_score": 0,
+      "last_star_ts": 1702134602,
       "local_score": 494,
-      "stars": 6,
-      "id": 2039943,
       "name": "Jordan Holland",
+      "id": 2039943,
+      "stars": 6,
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
@@ -5499,33 +5540,27 @@ const raw = {
         },
         "2": {
           "1": {
-            "get_star_ts": 1701630294,
-            "star_index": 695957
+            "star_index": 695957,
+            "get_star_ts": 1701630294
           },
           "2": {
-            "star_index": 696636,
-            "get_star_ts": 1701630506
+            "get_star_ts": 1701630506,
+            "star_index": 696636
           }
         },
         "4": {
           "1": {
-            "get_star_ts": 1702070735,
-            "star_index": 1799483
+            "star_index": 1799483,
+            "get_star_ts": 1702070735
           },
           "2": {
-            "star_index": 1923453,
-            "get_star_ts": 1702134602
+            "get_star_ts": 1702134602,
+            "star_index": 1923453
           }
         }
-      },
-      "last_star_ts": 1702134602
+      }
     },
     "2251856": {
-      "last_star_ts": 1701810934,
-      "local_score": 101,
-      "global_score": 0,
-      "stars": 2,
-      "id": 2251856,
       "completion_day_level": {
         "1": {
           "1": {
@@ -5533,16 +5568,22 @@ const raw = {
             "star_index": 1203536
           },
           "2": {
-            "star_index": 1209224,
-            "get_star_ts": 1701810934
+            "get_star_ts": 1701810934,
+            "star_index": 1209224
           }
         }
       },
-      "name": "Christine Saw"
+      "global_score": 0,
+      "stars": 2,
+      "id": 2251856,
+      "local_score": 101,
+      "name": "Christine Saw",
+      "last_star_ts": 1701810934
     },
     "2251871": {
       "id": 2251871,
-      "name": "sahasmehta",
+      "stars": 36,
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
@@ -5550,18 +5591,18 @@ const raw = {
             "get_star_ts": 1701700438
           },
           "2": {
-            "star_index": 926282,
-            "get_star_ts": 1701703212
+            "get_star_ts": 1701703212,
+            "star_index": 926282
           }
         },
         "2": {
           "1": {
-            "get_star_ts": 1701707149,
-            "star_index": 941298
+            "star_index": 941298,
+            "get_star_ts": 1701707149
           },
           "2": {
-            "star_index": 942930,
-            "get_star_ts": 1701707592
+            "get_star_ts": 1701707592,
+            "star_index": 942930
           }
         },
         "3": {
@@ -5570,18 +5611,18 @@ const raw = {
             "get_star_ts": 1701709128
           },
           "2": {
-            "star_index": 949789,
-            "get_star_ts": 1701709459
+            "get_star_ts": 1701709459,
+            "star_index": 949789
           }
         },
         "4": {
           "1": {
-            "star_index": 954871,
-            "get_star_ts": 1701710914
+            "get_star_ts": 1701710914,
+            "star_index": 954871
           },
           "2": {
-            "get_star_ts": 1701711835,
-            "star_index": 958150
+            "star_index": 958150,
+            "get_star_ts": 1701711835
           }
         },
         "5": {
@@ -5606,8 +5647,8 @@ const raw = {
         },
         "7": {
           "1": {
-            "star_index": 1566100,
-            "get_star_ts": 1701960958
+            "get_star_ts": 1701960958,
+            "star_index": 1566100
           },
           "2": {
             "get_star_ts": 1701961815,
@@ -5620,8 +5661,8 @@ const raw = {
             "star_index": 1757234
           },
           "2": {
-            "star_index": 1769913,
-            "get_star_ts": 1702055564
+            "get_star_ts": 1702055564,
+            "star_index": 1769913
           }
         },
         "9": {
@@ -5656,12 +5697,12 @@ const raw = {
         },
         "12": {
           "1": {
-            "get_star_ts": 1702481053,
-            "star_index": 2440327
+            "star_index": 2440327,
+            "get_star_ts": 1702481053
           },
           "2": {
-            "get_star_ts": 1702481916,
-            "star_index": 2441485
+            "star_index": 2441485,
+            "get_star_ts": 1702481916
           }
         },
         "13": {
@@ -5680,8 +5721,8 @@ const raw = {
             "star_index": 2553199
           },
           "2": {
-            "get_star_ts": 1702583627,
-            "star_index": 2562675
+            "star_index": 2562675,
+            "get_star_ts": 1702583627
           }
         },
         "15": {
@@ -5708,35 +5749,35 @@ const raw = {
         },
         "21": {
           "1": {
-            "get_star_ts": 1703701309,
-            "star_index": 3362027
+            "star_index": 3362027,
+            "get_star_ts": 1703701309
           }
         },
         "23": {
           "1": {
-            "get_star_ts": 1704298341,
-            "star_index": 3468843
+            "star_index": 3468843,
+            "get_star_ts": 1704298341
           },
           "2": {
-            "get_star_ts": 1704298746,
-            "star_index": 3468932
+            "star_index": 3468932,
+            "get_star_ts": 1704298746
           }
         },
         "24": {
           "1": {
-            "star_index": 3360281,
-            "get_star_ts": 1703696484
+            "get_star_ts": 1703696484,
+            "star_index": 3360281
           }
         }
       },
-      "global_score": 0,
+      "last_star_ts": 1704299607,
       "local_score": 3550,
-      "stars": 36,
-      "last_star_ts": 1704299607
+      "name": "sahasmehta"
     },
     "2251910": {
-      "last_star_ts": 1702671910,
       "name": "Sean",
+      "local_score": 1298,
+      "last_star_ts": 1702671910,
       "completion_day_level": {
         "1": {
           "1": {
@@ -5744,14 +5785,14 @@ const raw = {
             "star_index": 386443
           },
           "2": {
-            "get_star_ts": 1701526687,
-            "star_index": 401946
+            "star_index": 401946,
+            "get_star_ts": 1701526687
           }
         },
         "2": {
           "1": {
-            "star_index": 432543,
-            "get_star_ts": 1701535054
+            "get_star_ts": 1701535054,
+            "star_index": 432543
           },
           "2": {
             "get_star_ts": 1701535415,
@@ -5760,18 +5801,18 @@ const raw = {
         },
         "3": {
           "1": {
-            "get_star_ts": 1701647486,
-            "star_index": 747358
+            "star_index": 747358,
+            "get_star_ts": 1701647486
           },
           "2": {
-            "get_star_ts": 1701654850,
-            "star_index": 757895
+            "star_index": 757895,
+            "get_star_ts": 1701654850
           }
         },
         "4": {
           "1": {
-            "star_index": 1039597,
-            "get_star_ts": 1701741495
+            "get_star_ts": 1701741495,
+            "star_index": 1039597
           },
           "2": {
             "get_star_ts": 1702086797,
@@ -5780,8 +5821,8 @@ const raw = {
         },
         "5": {
           "1": {
-            "get_star_ts": 1702146876,
-            "star_index": 1949958
+            "star_index": 1949958,
+            "get_star_ts": 1702146876
           }
         },
         "6": {
@@ -5796,53 +5837,50 @@ const raw = {
         },
         "7": {
           "1": {
-            "get_star_ts": 1702165303,
-            "star_index": 1982789
+            "star_index": 1982789,
+            "get_star_ts": 1702165303
           },
           "2": {
-            "get_star_ts": 1702169652,
-            "star_index": 1987621
+            "star_index": 1987621,
+            "get_star_ts": 1702169652
           }
         },
         "10": {
           "1": {
-            "star_index": 2122977,
-            "get_star_ts": 1702254058
+            "get_star_ts": 1702254058,
+            "star_index": 2122977
           }
         },
         "15": {
           "1": {
-            "star_index": 2672237,
-            "get_star_ts": 1702671910
+            "get_star_ts": 1702671910,
+            "star_index": 2672237
           }
         }
       },
-      "id": 2251910,
-      "stars": 15,
       "global_score": 0,
-      "local_score": 1298
+      "stars": 15,
+      "id": 2251910
     },
     "2252096": {
-      "local_score": 2226,
-      "global_score": 0,
-      "stars": 22,
       "id": 2252096,
-      "name": "Crystal Meyers",
+      "stars": 22,
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
-            "star_index": 167787,
-            "get_star_ts": 1701451334
+            "get_star_ts": 1701451334,
+            "star_index": 167787
           },
           "2": {
-            "star_index": 243455,
-            "get_star_ts": 1701475090
+            "get_star_ts": 1701475090,
+            "star_index": 243455
           }
         },
         "2": {
           "1": {
-            "star_index": 403373,
-            "get_star_ts": 1701527070
+            "get_star_ts": 1701527070,
+            "star_index": 403373
           },
           "2": {
             "star_index": 405941,
@@ -5851,28 +5889,28 @@ const raw = {
         },
         "3": {
           "1": {
-            "get_star_ts": 1701650849,
-            "star_index": 752797
+            "star_index": 752797,
+            "get_star_ts": 1701650849
           },
           "2": {
-            "star_index": 761365,
-            "get_star_ts": 1701657816
+            "get_star_ts": 1701657816,
+            "star_index": 761365
           }
         },
         "4": {
           "1": {
-            "star_index": 793243,
-            "get_star_ts": 1701668875
+            "get_star_ts": 1701668875,
+            "star_index": 793243
           },
           "2": {
-            "star_index": 1021299,
-            "get_star_ts": 1701730225
+            "get_star_ts": 1701730225,
+            "star_index": 1021299
           }
         },
         "5": {
           "1": {
-            "star_index": 1155894,
-            "get_star_ts": 1701791403
+            "get_star_ts": 1701791403,
+            "star_index": 1155894
           },
           "2": {
             "star_index": 1578486,
@@ -5881,8 +5919,8 @@ const raw = {
         },
         "6": {
           "1": {
-            "star_index": 1272941,
-            "get_star_ts": 1701841022
+            "get_star_ts": 1701841022,
+            "star_index": 1272941
           },
           "2": {
             "star_index": 1280087,
@@ -5891,22 +5929,22 @@ const raw = {
         },
         "7": {
           "1": {
-            "get_star_ts": 1701974381,
-            "star_index": 1597183
+            "star_index": 1597183,
+            "get_star_ts": 1701974381
           },
           "2": {
-            "star_index": 1648555,
-            "get_star_ts": 1702005866
+            "get_star_ts": 1702005866,
+            "star_index": 1648555
           }
         },
         "8": {
           "1": {
-            "get_star_ts": 1702042121,
-            "star_index": 1737897
+            "star_index": 1737897,
+            "get_star_ts": 1702042121
           },
           "2": {
-            "star_index": 1756926,
-            "get_star_ts": 1702049898
+            "get_star_ts": 1702049898,
+            "star_index": 1756926
           }
         },
         "9": {
@@ -5915,8 +5953,8 @@ const raw = {
             "get_star_ts": 1702135353
           },
           "2": {
-            "get_star_ts": 1702137441,
-            "star_index": 1929960
+            "star_index": 1929960,
+            "get_star_ts": 1702137441
           }
         },
         "10": {
@@ -5942,14 +5980,14 @@ const raw = {
           }
         }
       },
-      "last_star_ts": 1704377909
+      "last_star_ts": 1704377909,
+      "name": "Crystal Meyers",
+      "local_score": 2226
     },
     "2253216": {
-      "last_star_ts": 1703511380,
-      "local_score": 5466,
-      "global_score": 0,
-      "stars": 50,
       "id": 2253216,
+      "stars": 50,
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
@@ -5957,38 +5995,38 @@ const raw = {
             "get_star_ts": 1701445265
           },
           "2": {
-            "get_star_ts": 1701445836,
-            "star_index": 145806
+            "star_index": 145806,
+            "get_star_ts": 1701445836
           }
         },
         "2": {
           "1": {
-            "star_index": 468710,
-            "get_star_ts": 1701545932
+            "get_star_ts": 1701545932,
+            "star_index": 468710
           },
           "2": {
-            "get_star_ts": 1701546587,
-            "star_index": 470822
+            "star_index": 470822,
+            "get_star_ts": 1701546587
           }
         },
         "3": {
           "1": {
-            "star_index": 662655,
-            "get_star_ts": 1701620149
+            "get_star_ts": 1701620149,
+            "star_index": 662655
           },
           "2": {
-            "star_index": 666308,
-            "get_star_ts": 1701621266
+            "get_star_ts": 1701621266,
+            "star_index": 666308
           }
         },
         "4": {
           "1": {
-            "star_index": 940003,
-            "get_star_ts": 1701706821
+            "get_star_ts": 1701706821,
+            "star_index": 940003
           },
           "2": {
-            "get_star_ts": 1701707446,
-            "star_index": 942431
+            "star_index": 942431,
+            "get_star_ts": 1701707446
           }
         },
         "5": {
@@ -6013,8 +6051,8 @@ const raw = {
         },
         "7": {
           "1": {
-            "star_index": 1587116,
-            "get_star_ts": 1701969761
+            "get_star_ts": 1701969761,
+            "star_index": 1587116
           },
           "2": {
             "get_star_ts": 1701973046,
@@ -6033,8 +6071,8 @@ const raw = {
         },
         "9": {
           "1": {
-            "get_star_ts": 1702130735,
-            "star_index": 1914422
+            "star_index": 1914422,
+            "get_star_ts": 1702130735
           },
           "2": {
             "get_star_ts": 1702130994,
@@ -6043,12 +6081,12 @@ const raw = {
         },
         "10": {
           "1": {
-            "get_star_ts": 1702224201,
-            "star_index": 2068968
+            "star_index": 2068968,
+            "get_star_ts": 1702224201
           },
           "2": {
-            "star_index": 2084062,
-            "get_star_ts": 1702231745
+            "get_star_ts": 1702231745,
+            "star_index": 2084062
           }
         },
         "11": {
@@ -6063,12 +6101,12 @@ const raw = {
         },
         "12": {
           "1": {
-            "get_star_ts": 1702395945,
-            "star_index": 2334795
+            "star_index": 2334795,
+            "get_star_ts": 1702395945
           },
           "2": {
-            "get_star_ts": 1702398409,
-            "star_index": 2338228
+            "star_index": 2338228,
+            "get_star_ts": 1702398409
           }
         },
         "13": {
@@ -6077,14 +6115,14 @@ const raw = {
             "star_index": 2450659
           },
           "2": {
-            "get_star_ts": 1702489449,
-            "star_index": 2451203
+            "star_index": 2451203,
+            "get_star_ts": 1702489449
           }
         },
         "14": {
           "1": {
-            "get_star_ts": 1702566905,
-            "star_index": 2543372
+            "star_index": 2543372,
+            "get_star_ts": 1702566905
           },
           "2": {
             "star_index": 2546285,
@@ -6103,22 +6141,22 @@ const raw = {
         },
         "16": {
           "1": {
-            "get_star_ts": 1702740727,
-            "star_index": 2742066
+            "star_index": 2742066,
+            "get_star_ts": 1702740727
           },
           "2": {
-            "star_index": 2742620,
-            "get_star_ts": 1702741169
+            "get_star_ts": 1702741169,
+            "star_index": 2742620
           }
         },
         "17": {
           "1": {
-            "star_index": 2821754,
-            "get_star_ts": 1702830368
+            "get_star_ts": 1702830368,
+            "star_index": 2821754
           },
           "2": {
-            "star_index": 2822437,
-            "get_star_ts": 1702831036
+            "get_star_ts": 1702831036,
+            "star_index": 2822437
           }
         },
         "18": {
@@ -6127,14 +6165,14 @@ const raw = {
             "star_index": 2902400
           },
           "2": {
-            "star_index": 2904918,
-            "get_star_ts": 1702918485
+            "get_star_ts": 1702918485,
+            "star_index": 2904918
           }
         },
         "19": {
           "1": {
-            "star_index": 2982674,
-            "get_star_ts": 1703003559
+            "get_star_ts": 1703003559,
+            "star_index": 2982674
           },
           "2": {
             "star_index": 3007588,
@@ -6147,8 +6185,8 @@ const raw = {
             "star_index": 3051513
           },
           "2": {
-            "star_index": 3052502,
-            "get_star_ts": 1703094220
+            "get_star_ts": 1703094220,
+            "star_index": 3052502
           }
         },
         "21": {
@@ -6157,8 +6195,8 @@ const raw = {
             "get_star_ts": 1703179389
           },
           "2": {
-            "star_index": 3136418,
-            "get_star_ts": 1703213485
+            "get_star_ts": 1703213485,
+            "star_index": 3136418
           }
         },
         "22": {
@@ -6167,8 +6205,8 @@ const raw = {
             "get_star_ts": 1703265363
           },
           "2": {
-            "get_star_ts": 1703265816,
-            "star_index": 3171507
+            "star_index": 3171507,
+            "get_star_ts": 1703265816
           }
         },
         "23": {
@@ -6177,50 +6215,55 @@ const raw = {
             "star_index": 3218146
           },
           "2": {
-            "star_index": 3220633,
-            "get_star_ts": 1703349418
+            "get_star_ts": 1703349418,
+            "star_index": 3220633
           }
         },
         "24": {
           "1": {
-            "get_star_ts": 1703435982,
-            "star_index": 3268262
+            "star_index": 3268262,
+            "get_star_ts": 1703435982
           },
           "2": {
-            "get_star_ts": 1703437183,
-            "star_index": 3268904
+            "star_index": 3268904,
+            "get_star_ts": 1703437183
           }
         },
         "25": {
           "1": {
-            "get_star_ts": 1703511374,
-            "star_index": 3302539
+            "star_index": 3302539,
+            "get_star_ts": 1703511374
           },
           "2": {
-            "get_star_ts": 1703511380,
-            "star_index": 3302545
+            "star_index": 3302545,
+            "get_star_ts": 1703511380
           }
         }
       },
-      "name": "Jackie Wang"
+      "last_star_ts": 1703511380,
+      "name": "Jackie Wang",
+      "local_score": 5466
     },
     "2253630": {
       "name": "dewhite",
+      "local_score": 4593,
+      "last_star_ts": 1703543651,
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
-            "get_star_ts": 1702349274,
-            "star_index": 2277014
+            "star_index": 2277014,
+            "get_star_ts": 1702349274
           },
           "2": {
-            "star_index": 2279254,
-            "get_star_ts": 1702352560
+            "get_star_ts": 1702352560,
+            "star_index": 2279254
           }
         },
         "2": {
           "1": {
-            "star_index": 2452571,
-            "get_star_ts": 1702490598
+            "get_star_ts": 1702490598,
+            "star_index": 2452571
           },
           "2": {
             "get_star_ts": 1702492856,
@@ -6233,14 +6276,14 @@ const raw = {
             "get_star_ts": 1702510211
           },
           "2": {
-            "star_index": 2539468,
-            "get_star_ts": 1702563955
+            "get_star_ts": 1702563955,
+            "star_index": 2539468
           }
         },
         "4": {
           "1": {
-            "star_index": 2542444,
-            "get_star_ts": 1702566185
+            "get_star_ts": 1702566185,
+            "star_index": 2542444
           },
           "2": {
             "star_index": 2543220,
@@ -6259,22 +6302,22 @@ const raw = {
         },
         "6": {
           "1": {
-            "star_index": 2926904,
-            "get_star_ts": 1702939159
+            "get_star_ts": 1702939159,
+            "star_index": 2926904
           },
           "2": {
-            "star_index": 2927072,
-            "get_star_ts": 1702939358
+            "get_star_ts": 1702939358,
+            "star_index": 2927072
           }
         },
         "7": {
           "1": {
-            "get_star_ts": 1702948624,
-            "star_index": 2933058
+            "star_index": 2933058,
+            "get_star_ts": 1702948624
           },
           "2": {
-            "star_index": 2933708,
-            "get_star_ts": 1702950126
+            "get_star_ts": 1702950126,
+            "star_index": 2933708
           }
         },
         "8": {
@@ -6289,28 +6332,28 @@ const raw = {
         },
         "9": {
           "1": {
-            "star_index": 2984763,
-            "get_star_ts": 1703005736
+            "get_star_ts": 1703005736,
+            "star_index": 2984763
           },
           "2": {
-            "get_star_ts": 1703012484,
-            "star_index": 2990837
+            "star_index": 2990837,
+            "get_star_ts": 1703012484
           }
         },
         "10": {
           "1": {
-            "get_star_ts": 1703364011,
-            "star_index": 3229903
+            "star_index": 3229903,
+            "get_star_ts": 1703364011
           },
           "2": {
-            "get_star_ts": 1703364784,
-            "star_index": 3230408
+            "star_index": 3230408,
+            "get_star_ts": 1703364784
           }
         },
         "11": {
           "1": {
-            "star_index": 3231972,
-            "get_star_ts": 1703367141
+            "get_star_ts": 1703367141,
+            "star_index": 3231972
           },
           "2": {
             "get_star_ts": 1703367332,
@@ -6343,14 +6386,14 @@ const raw = {
             "get_star_ts": 1703376951
           },
           "2": {
-            "star_index": 3238234,
-            "get_star_ts": 1703378404
+            "get_star_ts": 1703378404,
+            "star_index": 3238234
           }
         },
         "15": {
           "1": {
-            "star_index": 3238388,
-            "get_star_ts": 1703378864
+            "get_star_ts": 1703378864,
+            "star_index": 3238388
           },
           "2": {
             "star_index": 3238918,
@@ -6369,42 +6412,42 @@ const raw = {
         },
         "17": {
           "1": {
-            "star_index": 3241279,
-            "get_star_ts": 1703389179
+            "get_star_ts": 1703389179,
+            "star_index": 3241279
           },
           "2": {
-            "get_star_ts": 1703390572,
-            "star_index": 3241638
+            "star_index": 3241638,
+            "get_star_ts": 1703390572
           }
         },
         "18": {
           "1": {
-            "star_index": 3242459,
-            "get_star_ts": 1703394054
+            "get_star_ts": 1703394054,
+            "star_index": 3242459
           },
           "2": {
-            "star_index": 3242533,
-            "get_star_ts": 1703394438
+            "get_star_ts": 1703394438,
+            "star_index": 3242533
           }
         },
         "19": {
           "1": {
-            "star_index": 3244451,
-            "get_star_ts": 1703397243
+            "get_star_ts": 1703397243,
+            "star_index": 3244451
           },
           "2": {
-            "get_star_ts": 1703400360,
-            "star_index": 3247060
+            "star_index": 3247060,
+            "get_star_ts": 1703400360
           }
         },
         "20": {
           "1": {
-            "star_index": 3267451,
-            "get_star_ts": 1703434566
+            "get_star_ts": 1703434566,
+            "star_index": 3267451
           },
           "2": {
-            "star_index": 3268463,
-            "get_star_ts": 1703436377
+            "get_star_ts": 1703436377,
+            "star_index": 3268463
           }
         },
         "21": {
@@ -6413,18 +6456,18 @@ const raw = {
             "star_index": 3269221
           },
           "2": {
-            "star_index": 3270388,
-            "get_star_ts": 1703440112
+            "get_star_ts": 1703440112,
+            "star_index": 3270388
           }
         },
         "22": {
           "1": {
-            "star_index": 3276506,
-            "get_star_ts": 1703453290
+            "get_star_ts": 1703453290,
+            "star_index": 3276506
           },
           "2": {
-            "get_star_ts": 1703486756,
-            "star_index": 3290205
+            "star_index": 3290205,
+            "get_star_ts": 1703486756
           }
         },
         "23": {
@@ -6433,14 +6476,14 @@ const raw = {
             "star_index": 3271175
           },
           "2": {
-            "get_star_ts": 1703442638,
-            "star_index": 3271592
+            "star_index": 3271592,
+            "get_star_ts": 1703442638
           }
         },
         "24": {
           "1": {
-            "get_star_ts": 1703444763,
-            "star_index": 3272565
+            "star_index": 3272565,
+            "get_star_ts": 1703444763
           },
           "2": {
             "get_star_ts": 1703451991,
@@ -6459,68 +6502,66 @@ const raw = {
         }
       },
       "id": 2253630,
-      "stars": 50,
-      "global_score": 0,
-      "local_score": 4593,
-      "last_star_ts": 1703543651
+      "stars": 50
     },
     "2253755": {
-      "id": 2253755,
+      "last_star_ts": 0,
       "name": "fretzslalom",
-      "completion_day_level": {},
-      "global_score": 0,
       "local_score": 0,
+      "id": 2253755,
       "stars": 0,
-      "last_star_ts": 0
+      "global_score": 0,
+      "completion_day_level": {}
     },
     "2255597": {
       "stars": 0,
-      "local_score": 0,
-      "global_score": 0,
-      "completion_day_level": {},
-      "name": "Chris Cobb",
       "id": 2255597,
-      "last_star_ts": 0
+      "completion_day_level": {},
+      "global_score": 0,
+      "last_star_ts": 0,
+      "local_score": 0,
+      "name": "Chris Cobb"
     },
     "2255935": {
+      "stars": 3,
+      "id": 2255935,
       "completion_day_level": {
         "1": {
           "1": {
-            "star_index": 911600,
-            "get_star_ts": 1701699308
+            "get_star_ts": 1701699308,
+            "star_index": 911600
           },
           "2": {
-            "get_star_ts": 1701806108,
-            "star_index": 1195217
+            "star_index": 1195217,
+            "get_star_ts": 1701806108
           }
         },
         "2": {
           "1": {
-            "get_star_ts": 1701867028,
-            "star_index": 1356789
+            "star_index": 1356789,
+            "get_star_ts": 1701867028
           }
         }
       },
-      "name": "Chazz Hall",
-      "id": 2255935,
-      "stars": 3,
-      "local_score": 176,
       "global_score": 0,
-      "last_star_ts": 1701867028
+      "last_star_ts": 1701867028,
+      "name": "Chazz Hall",
+      "local_score": 176
     },
     "2256609": {
       "last_star_ts": 0,
-      "id": 2256609,
-      "completion_day_level": {},
-      "name": "Bishal Niroula",
-      "global_score": 0,
       "local_score": 0,
-      "stars": 0
+      "name": "Bishal Niroula",
+      "id": 2256609,
+      "stars": 0,
+      "global_score": 0,
+      "completion_day_level": {}
     },
     "2261385": {
-      "stars": 4,
-      "global_score": 0,
+      "name": "Thomas Petrick",
       "local_score": 366,
+      "last_star_ts": 1701529944,
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
@@ -6528,27 +6569,25 @@ const raw = {
             "get_star_ts": 1701464117
           },
           "2": {
-            "star_index": 219295,
-            "get_star_ts": 1701466361
+            "get_star_ts": 1701466361,
+            "star_index": 219295
           }
         },
         "2": {
           "1": {
-            "star_index": 413044,
-            "get_star_ts": 1701529695
+            "get_star_ts": 1701529695,
+            "star_index": 413044
           },
           "2": {
-            "get_star_ts": 1701529944,
-            "star_index": 413932
+            "star_index": 413932,
+            "get_star_ts": 1701529944
           }
         }
       },
-      "name": "Thomas Petrick",
       "id": 2261385,
-      "last_star_ts": 1701529944
+      "stars": 4
     },
     "2262456": {
-      "name": "JoshPDavis",
       "completion_day_level": {
         "1": {
           "1": {
@@ -6562,8 +6601,8 @@ const raw = {
         },
         "2": {
           "1": {
-            "star_index": 1992142,
-            "get_star_ts": 1702175385
+            "get_star_ts": 1702175385,
+            "star_index": 1992142
           },
           "2": {
             "star_index": 1992486,
@@ -6571,23 +6610,22 @@ const raw = {
           }
         }
       },
-      "id": 2262456,
-      "stars": 4,
-      "local_score": 216,
       "global_score": 0,
+      "stars": 4,
+      "id": 2262456,
+      "local_score": 216,
+      "name": "JoshPDavis",
       "last_star_ts": 1702175864
     },
     "2339631": {
-      "last_star_ts": 1704652744,
+      "id": 2339631,
       "stars": 50,
       "global_score": 0,
-      "local_score": 5520,
-      "name": "Jackson Reeves",
       "completion_day_level": {
         "1": {
           "1": {
-            "get_star_ts": 1701409750,
-            "star_index": 17127
+            "star_index": 17127,
+            "get_star_ts": 1701409750
           },
           "2": {
             "get_star_ts": 1701414630,
@@ -6596,22 +6634,22 @@ const raw = {
         },
         "2": {
           "1": {
-            "get_star_ts": 1701497013,
-            "star_index": 292352
+            "star_index": 292352,
+            "get_star_ts": 1701497013
           },
           "2": {
-            "get_star_ts": 1701498380,
-            "star_index": 297543
+            "star_index": 297543,
+            "get_star_ts": 1701498380
           }
         },
         "3": {
           "1": {
-            "get_star_ts": 1701595075,
-            "star_index": 580354
+            "star_index": 580354,
+            "get_star_ts": 1701595075
           },
           "2": {
-            "star_index": 688329,
-            "get_star_ts": 1701627898
+            "get_star_ts": 1701627898,
+            "star_index": 688329
           }
         },
         "4": {
@@ -6626,12 +6664,12 @@ const raw = {
         },
         "5": {
           "1": {
-            "get_star_ts": 1701758473,
-            "star_index": 1071514
+            "star_index": 1071514,
+            "get_star_ts": 1701758473
           },
           "2": {
-            "get_star_ts": 1701939251,
-            "star_index": 1513822
+            "star_index": 1513822,
+            "get_star_ts": 1701939251
           }
         },
         "6": {
@@ -6646,8 +6684,8 @@ const raw = {
         },
         "7": {
           "1": {
-            "star_index": 1491284,
-            "get_star_ts": 1701930527
+            "get_star_ts": 1701930527,
+            "star_index": 1491284
           },
           "2": {
             "star_index": 1505462,
@@ -6656,8 +6694,8 @@ const raw = {
         },
         "8": {
           "1": {
-            "star_index": 1664115,
-            "get_star_ts": 1702013520
+            "get_star_ts": 1702013520,
+            "star_index": 1664115
           },
           "2": {
             "star_index": 1684589,
@@ -6676,8 +6714,8 @@ const raw = {
         },
         "10": {
           "1": {
-            "star_index": 2006562,
-            "get_star_ts": 1702189091
+            "get_star_ts": 1702189091,
+            "star_index": 2006562
           },
           "2": {
             "star_index": 2125289,
@@ -6686,8 +6724,8 @@ const raw = {
         },
         "11": {
           "1": {
-            "get_star_ts": 1702279524,
-            "star_index": 2159978
+            "star_index": 2159978,
+            "get_star_ts": 1702279524
           },
           "2": {
             "get_star_ts": 1702310106,
@@ -6696,8 +6734,8 @@ const raw = {
         },
         "12": {
           "1": {
-            "get_star_ts": 1702780256,
-            "star_index": 2780104
+            "star_index": 2780104,
+            "get_star_ts": 1702780256
           },
           "2": {
             "star_index": 3508179,
@@ -6716,12 +6754,12 @@ const raw = {
         },
         "14": {
           "1": {
-            "get_star_ts": 1702538221,
-            "star_index": 2505834
+            "star_index": 2505834,
+            "get_star_ts": 1702538221
           },
           "2": {
-            "get_star_ts": 1702698692,
-            "star_index": 2690720
+            "star_index": 2690720,
+            "get_star_ts": 1702698692
           }
         },
         "15": {
@@ -6730,8 +6768,8 @@ const raw = {
             "star_index": 2593405
           },
           "2": {
-            "star_index": 2603781,
-            "get_star_ts": 1702621679
+            "get_star_ts": 1702621679,
+            "star_index": 2603781
           }
         },
         "16": {
@@ -6740,8 +6778,8 @@ const raw = {
             "get_star_ts": 1702707887
           },
           "2": {
-            "star_index": 2704687,
-            "get_star_ts": 1702709694
+            "get_star_ts": 1702709694,
+            "star_index": 2704687
           }
         },
         "17": {
@@ -6760,8 +6798,8 @@ const raw = {
             "star_index": 3235621
           },
           "2": {
-            "get_star_ts": 1703373697,
-            "star_index": 3236074
+            "star_index": 3236074,
+            "get_star_ts": 1703373697
           }
         },
         "19": {
@@ -6780,8 +6818,8 @@ const raw = {
             "get_star_ts": 1703915291
           },
           "2": {
-            "star_index": 3438543,
-            "get_star_ts": 1704082177
+            "get_star_ts": 1704082177,
+            "star_index": 3438543
           }
         },
         "21": {
@@ -6790,24 +6828,24 @@ const raw = {
             "star_index": 3438886
           },
           "2": {
-            "star_index": 3450885,
-            "get_star_ts": 1704174394
+            "get_star_ts": 1704174394,
+            "star_index": 3450885
           }
         },
         "22": {
           "1": {
-            "get_star_ts": 1704583861,
-            "star_index": 3502856
+            "star_index": 3502856,
+            "get_star_ts": 1704583861
           },
           "2": {
-            "get_star_ts": 1704587158,
-            "star_index": 3503170
+            "star_index": 3503170,
+            "get_star_ts": 1704587158
           }
         },
         "23": {
           "1": {
-            "star_index": 3238974,
-            "get_star_ts": 1703380660
+            "get_star_ts": 1703380660,
+            "star_index": 3238974
           },
           "2": {
             "star_index": 3323024,
@@ -6816,46 +6854,48 @@ const raw = {
         },
         "24": {
           "1": {
-            "star_index": 3324397,
-            "get_star_ts": 1703567188
+            "get_star_ts": 1703567188,
+            "star_index": 3324397
           },
           "2": {
-            "star_index": 3373247,
-            "get_star_ts": 1703746880
+            "get_star_ts": 1703746880,
+            "star_index": 3373247
           }
         },
         "25": {
           "1": {
-            "get_star_ts": 1704601149,
-            "star_index": 3504052
+            "star_index": 3504052,
+            "get_star_ts": 1704601149
           },
           "2": {
-            "get_star_ts": 1704652744,
-            "star_index": 3508714
+            "star_index": 3508714,
+            "get_star_ts": 1704652744
           }
         }
       },
-      "id": 2339631
+      "last_star_ts": 1704652744,
+      "name": "Jackson Reeves",
+      "local_score": 5520
     },
     "2340007": {
-      "last_star_ts": 1704603551,
-      "id": 2340007,
+      "local_score": 242,
       "name": "Evan Schaeffer",
+      "last_star_ts": 1704603551,
       "completion_day_level": {
         "1": {
           "1": {
-            "star_index": 231648,
-            "get_star_ts": 1701470294
+            "get_star_ts": 1701470294,
+            "star_index": 231648
           },
           "2": {
-            "get_star_ts": 1701472534,
-            "star_index": 237710
+            "star_index": 237710,
+            "get_star_ts": 1701472534
           }
         },
         "2": {
           "1": {
-            "star_index": 3504094,
-            "get_star_ts": 1704601978
+            "get_star_ts": 1704601978,
+            "star_index": 3504094
           },
           "2": {
             "star_index": 3504177,
@@ -6864,22 +6904,19 @@ const raw = {
         }
       },
       "global_score": 0,
-      "local_score": 242,
-      "stars": 4
+      "stars": 4,
+      "id": 2340007
     },
     "2346547": {
-      "last_star_ts": 0,
       "id": 2346547,
-      "name": "realsethtruax",
-      "completion_day_level": {},
-      "local_score": 0,
+      "stars": 0,
       "global_score": 0,
-      "stars": 0
+      "completion_day_level": {},
+      "last_star_ts": 0,
+      "local_score": 0,
+      "name": "realsethtruax"
     },
     "2430506": {
-      "stars": 26,
-      "global_score": 0,
-      "local_score": 2051,
       "completion_day_level": {
         "1": {
           "1": {
@@ -6893,12 +6930,12 @@ const raw = {
         },
         "2": {
           "1": {
-            "get_star_ts": 1702336037,
-            "star_index": 2265971
+            "star_index": 2265971,
+            "get_star_ts": 1702336037
           },
           "2": {
-            "get_star_ts": 1702336891,
-            "star_index": 2267060
+            "star_index": 2267060,
+            "get_star_ts": 1702336891
           }
         },
         "3": {
@@ -6917,20 +6954,20 @@ const raw = {
             "get_star_ts": 1702481275
           },
           "2": {
-            "get_star_ts": 1702483682,
-            "star_index": 2443928
+            "star_index": 2443928,
+            "get_star_ts": 1702483682
           }
         },
         "5": {
           "1": {
-            "star_index": 2457211,
-            "get_star_ts": 1702494431
+            "get_star_ts": 1702494431,
+            "star_index": 2457211
           }
         },
         "6": {
           "1": {
-            "star_index": 2582162,
-            "get_star_ts": 1702606006
+            "get_star_ts": 1702606006,
+            "star_index": 2582162
           },
           "2": {
             "star_index": 2646310,
@@ -6943,8 +6980,8 @@ const raw = {
             "star_index": 2662485
           },
           "2": {
-            "get_star_ts": 1702665948,
-            "star_index": 2666235
+            "star_index": 2666235,
+            "get_star_ts": 1702665948
           }
         },
         "8": {
@@ -6963,8 +7000,8 @@ const raw = {
             "get_star_ts": 1702671282
           },
           "2": {
-            "star_index": 2674770,
-            "get_star_ts": 1702674295
+            "get_star_ts": 1702674295,
+            "star_index": 2674770
           }
         },
         "10": {
@@ -7011,21 +7048,24 @@ const raw = {
         },
         "16": {
           "1": {
-            "get_star_ts": 1704722416,
-            "star_index": 3514807
+            "star_index": 3514807,
+            "get_star_ts": 1704722416
           }
         }
       },
-      "name": "aluaders",
+      "global_score": 0,
+      "stars": 26,
       "id": 2430506,
+      "name": "aluaders",
+      "local_score": 2051,
       "last_star_ts": 1704722416
     },
     "2435747": {
-      "global_score": 0,
+      "last_star_ts": 1702570690,
       "local_score": 37,
+      "name": "whatleymd",
       "stars": 1,
       "id": 2435747,
-      "name": "whatleymd",
       "completion_day_level": {
         "1": {
           "1": {
@@ -7034,76 +7074,76 @@ const raw = {
           }
         }
       },
-      "last_star_ts": 1702570690
+      "global_score": 0
     },
     "2441211": {
-      "stars": 3,
-      "global_score": 0,
       "local_score": 171,
       "name": "Austin King",
+      "last_star_ts": 1701804478,
       "completion_day_level": {
         "1": {
           "1": {
-            "star_index": 1169011,
-            "get_star_ts": 1701796235
+            "get_star_ts": 1701796235,
+            "star_index": 1169011
           },
           "2": {
-            "get_star_ts": 1701802870,
-            "star_index": 1186331
+            "star_index": 1186331,
+            "get_star_ts": 1701802870
           }
         },
         "2": {
           "1": {
-            "get_star_ts": 1701804478,
-            "star_index": 1190646
+            "star_index": 1190646,
+            "get_star_ts": 1701804478
           }
         }
       },
-      "id": 2441211,
-      "last_star_ts": 1701804478
+      "global_score": 0,
+      "stars": 3,
+      "id": 2441211
     },
     "2447689": {
-      "last_star_ts": 1702008017,
-      "global_score": 0,
       "local_score": 251,
-      "stars": 4,
-      "id": 2447689,
       "name": "Destiny Wilson",
+      "last_star_ts": 1702008017,
       "completion_day_level": {
         "1": {
           "1": {
-            "star_index": 233569,
-            "get_star_ts": 1701470966
+            "get_star_ts": 1701470966,
+            "star_index": 233569
           },
           "2": {
-            "get_star_ts": 1701743777,
-            "star_index": 1042344
+            "star_index": 1042344,
+            "get_star_ts": 1701743777
           }
         },
         "2": {
           "1": {
-            "get_star_ts": 1702006906,
-            "star_index": 1649343
+            "star_index": 1649343,
+            "get_star_ts": 1702006906
           },
           "2": {
             "star_index": 1650272,
             "get_star_ts": 1702008017
           }
         }
-      }
+      },
+      "global_score": 0,
+      "stars": 4,
+      "id": 2447689
     },
     "2974254": {
-      "last_star_ts": 1704405518,
+      "stars": 9,
       "id": 2974254,
       "completion_day_level": {
         "1": {
           "1": {
-            "star_index": 2983079,
-            "get_star_ts": 1703003947
+            "get_star_ts": 1703003947,
+            "star_index": 2983079
           },
           "2": {
-            "get_star_ts": 1703005119,
-            "star_index": 2984198
+            "star_index": 2984198,
+            "get_star_ts": 1703005119
           }
         },
         "2": {
@@ -7112,8 +7152,8 @@ const raw = {
             "star_index": 2988226
           },
           "2": {
-            "star_index": 2990385,
-            "get_star_ts": 1703012003
+            "get_star_ts": 1703012003,
+            "star_index": 2990385
           }
         },
         "3": {
@@ -7124,8 +7164,8 @@ const raw = {
         },
         "4": {
           "1": {
-            "get_star_ts": 1703104191,
-            "star_index": 3060627
+            "star_index": 3060627,
+            "get_star_ts": 1703104191
           },
           "2": {
             "star_index": 3471400,
@@ -7134,8 +7174,8 @@ const raw = {
         },
         "6": {
           "1": {
-            "star_index": 3471754,
-            "get_star_ts": 1704313906
+            "get_star_ts": 1704313906,
+            "star_index": 3471754
           },
           "2": {
             "star_index": 3472339,
@@ -7143,23 +7183,23 @@ const raw = {
           }
         }
       },
-      "name": "Anna McIntosh",
-      "local_score": 520,
       "global_score": 0,
-      "stars": 9
+      "last_star_ts": 1704405518,
+      "local_score": 520,
+      "name": "Anna McIntosh"
     },
     "3215483": {
-      "stars": 0,
-      "local_score": 0,
       "global_score": 0,
-      "name": "Lara Reedick",
       "completion_day_level": {},
       "id": 3215483,
+      "stars": 0,
+      "name": "Lara Reedick",
+      "local_score": 0,
       "last_star_ts": 0
     },
     "3215665": {
-      "last_star_ts": 1702506441,
-      "name": "Emily Fuller",
+      "stars": 9,
+      "id": 3215665,
       "completion_day_level": {
         "1": {
           "1": {
@@ -7177,14 +7217,14 @@ const raw = {
             "star_index": 1440619
           },
           "2": {
-            "get_star_ts": 1701900446,
-            "star_index": 1443931
+            "star_index": 1443931,
+            "get_star_ts": 1701900446
           }
         },
         "4": {
           "1": {
-            "get_star_ts": 1702321994,
-            "star_index": 2240187
+            "star_index": 2240187,
+            "get_star_ts": 1702321994
           }
         },
         "5": {
@@ -7195,47 +7235,49 @@ const raw = {
         },
         "6": {
           "1": {
-            "get_star_ts": 1702479604,
-            "star_index": 2438360
+            "star_index": 2438360,
+            "get_star_ts": 1702479604
           },
           "2": {
-            "star_index": 2452811,
-            "get_star_ts": 1702490805
+            "get_star_ts": 1702490805,
+            "star_index": 2452811
           }
         },
         "7": {
           "1": {
-            "star_index": 1607014,
-            "get_star_ts": 1701978817
+            "get_star_ts": 1701978817,
+            "star_index": 1607014
           }
         }
       },
-      "id": 3215665,
-      "stars": 9,
       "global_score": 0,
-      "local_score": 707
+      "last_star_ts": 1702506441,
+      "local_score": 707,
+      "name": "Emily Fuller"
     },
     "3215700": {
-      "id": 3215700,
-      "completion_day_level": {},
-      "name": "Chrissy Flicker",
       "global_score": 0,
-      "local_score": 0,
+      "completion_day_level": {},
+      "id": 3215700,
       "stars": 0,
+      "local_score": 0,
+      "name": "Chrissy Flicker",
       "last_star_ts": 0
     },
     "3215978": {
-      "last_star_ts": 0,
-      "completion_day_level": {},
-      "name": "Joseph Blake",
-      "id": 3215978,
       "stars": 0,
-      "local_score": 0,
-      "global_score": 0
+      "id": 3215978,
+      "completion_day_level": {},
+      "global_score": 0,
+      "last_star_ts": 0,
+      "name": "Joseph Blake",
+      "local_score": 0
     },
     "3217657": {
-      "id": 3217657,
       "name": "Anna Mola",
+      "local_score": 3238,
+      "last_star_ts": 1705034819,
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
@@ -7243,18 +7285,18 @@ const raw = {
             "get_star_ts": 1701719347
           },
           "2": {
-            "star_index": 984683,
-            "get_star_ts": 1701719382
+            "get_star_ts": 1701719382,
+            "star_index": 984683
           }
         },
         "2": {
           "1": {
-            "get_star_ts": 1701721167,
-            "star_index": 991251
+            "star_index": 991251,
+            "get_star_ts": 1701721167
           },
           "2": {
-            "get_star_ts": 1701722305,
-            "star_index": 995439
+            "star_index": 995439,
+            "get_star_ts": 1701722305
           }
         },
         "3": {
@@ -7263,24 +7305,24 @@ const raw = {
             "star_index": 1023095
           },
           "2": {
-            "get_star_ts": 1701731581,
-            "star_index": 1024532
+            "star_index": 1024532,
+            "get_star_ts": 1701731581
           }
         },
         "4": {
           "1": {
-            "get_star_ts": 1701733009,
-            "star_index": 1027490
+            "star_index": 1027490,
+            "get_star_ts": 1701733009
           },
           "2": {
-            "get_star_ts": 1701745086,
-            "star_index": 1043941
+            "star_index": 1043941,
+            "get_star_ts": 1701745086
           }
         },
         "5": {
           "1": {
-            "get_star_ts": 1701794725,
-            "star_index": 1164958
+            "star_index": 1164958,
+            "get_star_ts": 1701794725
           },
           "2": {
             "star_index": 2131773,
@@ -7293,18 +7335,18 @@ const raw = {
             "get_star_ts": 1701904252
           },
           "2": {
-            "star_index": 1451666,
-            "get_star_ts": 1701904343
+            "get_star_ts": 1701904343,
+            "star_index": 1451666
           }
         },
         "7": {
           "1": {
-            "star_index": 1491804,
-            "get_star_ts": 1701930679
+            "get_star_ts": 1701930679,
+            "star_index": 1491804
           },
           "2": {
-            "get_star_ts": 1701963462,
-            "star_index": 1572178
+            "star_index": 1572178,
+            "get_star_ts": 1701963462
           }
         },
         "8": {
@@ -7313,14 +7355,14 @@ const raw = {
             "star_index": 1685436
           },
           "2": {
-            "star_index": 1761414,
-            "get_star_ts": 1702051780
+            "get_star_ts": 1702051780,
+            "star_index": 1761414
           }
         },
         "9": {
           "1": {
-            "get_star_ts": 1702167891,
-            "star_index": 1985857
+            "star_index": 1985857,
+            "get_star_ts": 1702167891
           },
           "2": {
             "get_star_ts": 1702168381,
@@ -7329,18 +7371,18 @@ const raw = {
         },
         "10": {
           "1": {
-            "star_index": 2012168,
-            "get_star_ts": 1702192284
+            "get_star_ts": 1702192284,
+            "star_index": 2012168
           },
           "2": {
-            "star_index": 2120164,
-            "get_star_ts": 1702251513
+            "get_star_ts": 1702251513,
+            "star_index": 2120164
           }
         },
         "11": {
           "1": {
-            "get_star_ts": 1702277507,
-            "star_index": 2156001
+            "star_index": 2156001,
+            "get_star_ts": 1702277507
           },
           "2": {
             "get_star_ts": 1702312945,
@@ -7355,12 +7397,12 @@ const raw = {
         },
         "13": {
           "1": {
-            "star_index": 2559318,
-            "get_star_ts": 1702580713
+            "get_star_ts": 1702580713,
+            "star_index": 2559318
           },
           "2": {
-            "star_index": 2584813,
-            "get_star_ts": 1702612114
+            "get_star_ts": 1702612114,
+            "star_index": 2584813
           }
         },
         "14": {
@@ -7379,8 +7421,8 @@ const raw = {
             "star_index": 2671307
           },
           "2": {
-            "get_star_ts": 1702700687,
-            "star_index": 2691407
+            "star_index": 2691407,
+            "get_star_ts": 1702700687
           }
         },
         "16": {
@@ -7389,17 +7431,28 @@ const raw = {
             "star_index": 2704289
           },
           "2": {
-            "star_index": 2706467,
-            "get_star_ts": 1702711268
+            "get_star_ts": 1702711268,
+            "star_index": 2706467
+          }
+        },
+        "17": {
+          "1": {
+            "get_star_ts": 1705034435,
+            "star_index": 3540746
+          },
+          "2": {
+            "get_star_ts": 1705034819,
+            "star_index": 3540757
           }
         }
       },
-      "local_score": 3024,
-      "global_score": 0,
-      "stars": 31,
-      "last_star_ts": 1702711268
+      "id": 3217657,
+      "stars": 33
     },
     "3218422": {
+      "id": 3218422,
+      "stars": 4,
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
@@ -7413,8 +7466,8 @@ const raw = {
         },
         "2": {
           "1": {
-            "get_star_ts": 1702269698,
-            "star_index": 2134215
+            "star_index": 2134215,
+            "get_star_ts": 1702269698
           },
           "2": {
             "star_index": 2137870,
@@ -7422,45 +7475,43 @@ const raw = {
           }
         }
       },
-      "name": "Hafees Ali",
-      "id": 3218422,
-      "stars": 4,
-      "global_score": 0,
+      "last_star_ts": 1702271887,
       "local_score": 233,
-      "last_star_ts": 1702271887
+      "name": "Hafees Ali"
     },
     "3223426": {
+      "id": 3223426,
       "stars": 0,
       "global_score": 0,
-      "local_score": 0,
       "completion_day_level": {},
-      "name": "Siso Ntuli",
-      "id": 3223426,
-      "last_star_ts": 0
+      "last_star_ts": 0,
+      "local_score": 0,
+      "name": "Siso Ntuli"
     },
     "3224590": {
-      "stars": 1,
+      "last_star_ts": 1701714289,
       "local_score": 55,
-      "global_score": 0,
+      "name": "Adriana Gutierrez-Sureza",
+      "stars": 1,
+      "id": 3224590,
       "completion_day_level": {
         "1": {
           "1": {
-            "get_star_ts": 1701714289,
-            "star_index": 966717
+            "star_index": 966717,
+            "get_star_ts": 1701714289
           }
         }
       },
-      "name": "Adriana Gutierrez-Sureza",
-      "id": 3224590,
-      "last_star_ts": 1701714289
+      "global_score": 0
     },
     "3224633": {
-      "last_star_ts": 1701821745,
+      "stars": 3,
+      "id": 3224633,
       "completion_day_level": {
         "2": {
           "1": {
-            "star_index": 1193469,
-            "get_star_ts": 1701805513
+            "get_star_ts": 1701805513,
+            "star_index": 1193469
           },
           "2": {
             "get_star_ts": 1701805879,
@@ -7474,14 +7525,15 @@ const raw = {
           }
         }
       },
-      "name": "TheMashcraft",
-      "id": 3224633,
-      "stars": 3,
+      "global_score": 0,
+      "last_star_ts": 1701821745,
       "local_score": 206,
-      "global_score": 0
+      "name": "TheMashcraft"
     },
     "3226745": {
       "id": 3226745,
+      "stars": 2,
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
@@ -7496,23 +7548,22 @@ const raw = {
           }
         }
       },
-      "name": "Eugene Kim",
-      "global_score": 0,
+      "last_star_ts": 1701717900,
       "local_score": 184,
-      "stars": 2,
-      "last_star_ts": 1701717900
+      "name": "Eugene Kim"
     },
     "3250483": {
-      "last_star_ts": 1704725521,
-      "stars": 33,
-      "local_score": 3349,
-      "global_score": 0,
+      "last_star_ts": 1704749052,
+      "local_score": 3460,
       "name": "SamGrayson",
+      "id": 3250483,
+      "stars": 34,
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
-            "get_star_ts": 1701409868,
-            "star_index": 17588
+            "star_index": 17588,
+            "get_star_ts": 1701409868
           },
           "2": {
             "get_star_ts": 1701412848,
@@ -7531,32 +7582,32 @@ const raw = {
         },
         "3": {
           "1": {
-            "get_star_ts": 1701607590,
-            "star_index": 621651
+            "star_index": 621651,
+            "get_star_ts": 1701607590
           },
           "2": {
-            "get_star_ts": 1701612679,
-            "star_index": 638264
+            "star_index": 638264,
+            "get_star_ts": 1701612679
           }
         },
         "4": {
           "1": {
-            "get_star_ts": 1701669197,
-            "star_index": 794932
+            "star_index": 794932,
+            "get_star_ts": 1701669197
           },
           "2": {
-            "star_index": 948399,
-            "get_star_ts": 1701709077
+            "get_star_ts": 1701709077,
+            "star_index": 948399
           }
         },
         "5": {
           "1": {
-            "star_index": 1141976,
-            "get_star_ts": 1701786258
+            "get_star_ts": 1701786258,
+            "star_index": 1141976
           },
           "2": {
-            "get_star_ts": 1701832619,
-            "star_index": 1246409
+            "star_index": 1246409,
+            "get_star_ts": 1701832619
           }
         },
         "6": {
@@ -7565,18 +7616,18 @@ const raw = {
             "get_star_ts": 1701875497
           },
           "2": {
-            "star_index": 1382775,
-            "get_star_ts": 1701876376
+            "get_star_ts": 1701876376,
+            "star_index": 1382775
           }
         },
         "7": {
           "1": {
-            "star_index": 1603523,
-            "get_star_ts": 1701977290
+            "get_star_ts": 1701977290,
+            "star_index": 1603523
           },
           "2": {
-            "get_star_ts": 1702043209,
-            "star_index": 1740492
+            "star_index": 1740492,
+            "get_star_ts": 1702043209
           }
         },
         "8": {
@@ -7591,8 +7642,8 @@ const raw = {
         },
         "9": {
           "1": {
-            "star_index": 1990045,
-            "get_star_ts": 1702172533
+            "get_star_ts": 1702172533,
+            "star_index": 1990045
           },
           "2": {
             "star_index": 1990276,
@@ -7601,12 +7652,12 @@ const raw = {
         },
         "10": {
           "1": {
-            "star_index": 2132901,
-            "get_star_ts": 1702267542
+            "get_star_ts": 1702267542,
+            "star_index": 2132901
           },
           "2": {
-            "get_star_ts": 1702386950,
-            "star_index": 2322693
+            "star_index": 2322693,
+            "get_star_ts": 1702386950
           }
         },
         "11": {
@@ -7615,8 +7666,8 @@ const raw = {
             "get_star_ts": 1702417986
           },
           "2": {
-            "get_star_ts": 1702428863,
-            "star_index": 2376969
+            "star_index": 2376969,
+            "get_star_ts": 1702428863
           }
         },
         "12": {
@@ -7647,8 +7698,8 @@ const raw = {
         },
         "15": {
           "1": {
-            "get_star_ts": 1703340607,
-            "star_index": 3214567
+            "star_index": 3214567,
+            "get_star_ts": 1703340607
           },
           "2": {
             "get_star_ts": 1703438898,
@@ -7673,17 +7724,19 @@ const raw = {
         },
         "19": {
           "1": {
-            "get_star_ts": 1704725521,
-            "star_index": 3515172
+            "star_index": 3515172,
+            "get_star_ts": 1704725521
+          }
+        },
+        "25": {
+          "1": {
+            "get_star_ts": 1704749052,
+            "star_index": 3518158
           }
         }
-      },
-      "id": 3250483
+      }
     },
     "3250754": {
-      "last_star_ts": 1703165986,
-      "global_score": 0,
-      "local_score": 4085,
       "stars": 37,
       "id": 3250754,
       "completion_day_level": {
@@ -7699,12 +7752,12 @@ const raw = {
         },
         "2": {
           "1": {
-            "get_star_ts": 1701526711,
-            "star_index": 402043
+            "star_index": 402043,
+            "get_star_ts": 1701526711
           },
           "2": {
-            "get_star_ts": 1701527033,
-            "star_index": 403226
+            "star_index": 403226,
+            "get_star_ts": 1701527033
           }
         },
         "3": {
@@ -7723,14 +7776,14 @@ const raw = {
             "star_index": 897930
           },
           "2": {
-            "get_star_ts": 1701696842,
-            "star_index": 902191
+            "star_index": 902191,
+            "get_star_ts": 1701696842
           }
         },
         "5": {
           "1": {
-            "get_star_ts": 1701781473,
-            "star_index": 1129735
+            "star_index": 1129735,
+            "get_star_ts": 1701781473
           },
           "2": {
             "star_index": 1152819,
@@ -7739,12 +7792,12 @@ const raw = {
         },
         "6": {
           "1": {
-            "star_index": 1367317,
-            "get_star_ts": 1701870838
+            "get_star_ts": 1701870838,
+            "star_index": 1367317
           },
           "2": {
-            "star_index": 1368033,
-            "get_star_ts": 1701871090
+            "get_star_ts": 1701871090,
+            "star_index": 1368033
           }
         },
         "7": {
@@ -7759,12 +7812,12 @@ const raw = {
         },
         "8": {
           "1": {
-            "star_index": 1731419,
-            "get_star_ts": 1702039256
+            "get_star_ts": 1702039256,
+            "star_index": 1731419
           },
           "2": {
-            "get_star_ts": 1702048923,
-            "star_index": 1754461
+            "star_index": 1754461,
+            "get_star_ts": 1702048923
           }
         },
         "9": {
@@ -7773,8 +7826,8 @@ const raw = {
             "star_index": 1907380
           },
           "2": {
-            "star_index": 1907808,
-            "get_star_ts": 1702127837
+            "get_star_ts": 1702127837,
+            "star_index": 1907808
           }
         },
         "10": {
@@ -7783,14 +7836,14 @@ const raw = {
             "star_index": 2060488
           },
           "2": {
-            "get_star_ts": 1702237927,
-            "star_index": 2096059
+            "star_index": 2096059,
+            "get_star_ts": 1702237927
           }
         },
         "11": {
           "1": {
-            "get_star_ts": 1702299025,
-            "star_index": 2197716
+            "star_index": 2197716,
+            "get_star_ts": 1702299025
           },
           "2": {
             "get_star_ts": 1702305441,
@@ -7799,22 +7852,22 @@ const raw = {
         },
         "12": {
           "1": {
-            "get_star_ts": 1702423221,
-            "star_index": 2372387
+            "star_index": 2372387,
+            "get_star_ts": 1702423221
           },
           "2": {
-            "get_star_ts": 1702500621,
-            "star_index": 2465371
+            "star_index": 2465371,
+            "get_star_ts": 1702500621
           }
         },
         "13": {
           "1": {
-            "star_index": 2431727,
-            "get_star_ts": 1702474660
+            "get_star_ts": 1702474660,
+            "star_index": 2431727
           },
           "2": {
-            "star_index": 2432170,
-            "get_star_ts": 1702474992
+            "get_star_ts": 1702474992,
+            "star_index": 2432170
           }
         },
         "14": {
@@ -7829,12 +7882,12 @@ const raw = {
         },
         "15": {
           "1": {
-            "get_star_ts": 1702641378,
-            "star_index": 2634702
+            "star_index": 2634702,
+            "get_star_ts": 1702641378
           },
           "2": {
-            "get_star_ts": 1702646693,
-            "star_index": 2641759
+            "star_index": 2641759,
+            "get_star_ts": 1702646693
           }
         },
         "16": {
@@ -7843,8 +7896,8 @@ const raw = {
             "star_index": 2737448
           },
           "2": {
-            "star_index": 2739419,
-            "get_star_ts": 1702738587
+            "get_star_ts": 1702738587,
+            "star_index": 2739419
           }
         },
         "18": {
@@ -7853,18 +7906,18 @@ const raw = {
             "star_index": 2904383
           },
           "2": {
-            "get_star_ts": 1702935267,
-            "star_index": 2922803
+            "star_index": 2922803,
+            "get_star_ts": 1702935267
           }
         },
         "19": {
           "1": {
-            "star_index": 2973200,
-            "get_star_ts": 1702994377
+            "get_star_ts": 1702994377,
+            "star_index": 2973200
           },
           "2": {
-            "get_star_ts": 1703018543,
-            "star_index": 2996637
+            "star_index": 2996637,
+            "get_star_ts": 1703018543
           }
         },
         "21": {
@@ -7874,12 +7927,17 @@ const raw = {
           }
         }
       },
+      "global_score": 0,
+      "last_star_ts": 1703165986,
+      "local_score": 4085,
       "name": "Hamilton Evans"
     },
     "3251154": {
-      "stars": 1,
+      "last_star_ts": 1701454627,
+      "name": "Allie Moberg",
       "local_score": 83,
-      "global_score": 0,
+      "stars": 1,
+      "id": 3251154,
       "completion_day_level": {
         "1": {
           "1": {
@@ -7888,45 +7946,40 @@ const raw = {
           }
         }
       },
-      "name": "Allie Moberg",
-      "id": 3251154,
-      "last_star_ts": 1701454627
+      "global_score": 0
     },
     "3251410": {
-      "last_star_ts": 1703788531,
+      "id": 3251410,
       "stars": 4,
-      "local_score": 174,
       "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
-            "star_index": 3359768,
-            "get_star_ts": 1703695177
+            "get_star_ts": 1703695177,
+            "star_index": 3359768
           },
           "2": {
-            "star_index": 3381595,
-            "get_star_ts": 1703779939
+            "get_star_ts": 1703779939,
+            "star_index": 3381595
           }
         },
         "2": {
           "1": {
-            "star_index": 3384537,
-            "get_star_ts": 1703788508
+            "get_star_ts": 1703788508,
+            "star_index": 3384537
           },
           "2": {
-            "get_star_ts": 1703788531,
-            "star_index": 3384543
+            "star_index": 3384543,
+            "get_star_ts": 1703788531
           }
         }
       },
-      "name": "Tj Crawfo",
-      "id": 3251410
+      "last_star_ts": 1703788531,
+      "local_score": 174,
+      "name": "Tj Crawfo"
     },
     "3251618": {
-      "stars": 2,
       "global_score": 0,
-      "local_score": 118,
-      "name": "kalslo",
       "completion_day_level": {
         "1": {
           "1": {
@@ -7934,24 +7987,26 @@ const raw = {
             "star_index": 984239
           },
           "2": {
-            "star_index": 994810,
-            "get_star_ts": 1701722137
+            "get_star_ts": 1701722137,
+            "star_index": 994810
           }
         }
       },
       "id": 3251618,
+      "stars": 2,
+      "local_score": 118,
+      "name": "kalslo",
       "last_star_ts": 1701722137
     },
     "3251826": {
-      "stars": 6,
-      "global_score": 0,
-      "local_score": 417,
+      "local_score": 475,
       "name": "chrismaltusch",
+      "last_star_ts": 1704837292,
       "completion_day_level": {
         "1": {
           "1": {
-            "star_index": 212243,
-            "get_star_ts": 1701464261
+            "get_star_ts": 1701464261,
+            "star_index": 212243
           },
           "2": {
             "get_star_ts": 1703623433,
@@ -7970,25 +8025,34 @@ const raw = {
         },
         "3": {
           "1": {
-            "star_index": 3346400,
-            "get_star_ts": 1703637884
+            "get_star_ts": 1703637884,
+            "star_index": 3346400
           },
           "2": {
             "star_index": 3384784,
             "get_star_ts": 1703789364
           }
+        },
+        "4": {
+          "1": {
+            "star_index": 3526508,
+            "get_star_ts": 1704837292
+          }
         }
       },
-      "id": 3251826,
-      "last_star_ts": 1703789364
+      "global_score": 0,
+      "stars": 7,
+      "id": 3251826
     },
     "3252014": {
       "id": 3252014,
+      "stars": 12,
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
-            "get_star_ts": 1701721664,
-            "star_index": 993053
+            "star_index": 993053,
+            "get_star_ts": 1701721664
           },
           "2": {
             "star_index": 1001652,
@@ -7997,22 +8061,22 @@ const raw = {
         },
         "2": {
           "1": {
-            "get_star_ts": 1701809230,
-            "star_index": 1204197
+            "star_index": 1204197,
+            "get_star_ts": 1701809230
           },
           "2": {
-            "star_index": 1207299,
-            "get_star_ts": 1701810281
+            "get_star_ts": 1701810281,
+            "star_index": 1207299
           }
         },
         "3": {
           "1": {
-            "get_star_ts": 1701881302,
-            "star_index": 1395938
+            "star_index": 1395938,
+            "get_star_ts": 1701881302
           },
           "2": {
-            "get_star_ts": 1701881484,
-            "star_index": 1396419
+            "star_index": 1396419,
+            "get_star_ts": 1701881484
           }
         },
         "4": {
@@ -8021,58 +8085,59 @@ const raw = {
             "get_star_ts": 1701885270
           },
           "2": {
-            "get_star_ts": 1701969451,
-            "star_index": 1586416
+            "star_index": 1586416,
+            "get_star_ts": 1701969451
           }
         },
         "5": {
           "1": {
-            "star_index": 1588267,
-            "get_star_ts": 1701970262
+            "get_star_ts": 1701970262,
+            "star_index": 1588267
           },
           "2": {
-            "star_index": 1595876,
-            "get_star_ts": 1701973799
+            "get_star_ts": 1701973799,
+            "star_index": 1595876
           }
         },
         "6": {
           "1": {
-            "star_index": 1622297,
-            "get_star_ts": 1701985267
+            "get_star_ts": 1701985267,
+            "star_index": 1622297
           },
           "2": {
-            "star_index": 1625939,
-            "get_star_ts": 1701986911
+            "get_star_ts": 1701986911,
+            "star_index": 1625939
           }
         }
       },
-      "name": "moleary992",
+      "last_star_ts": 1701986911,
       "local_score": 890,
-      "global_score": 0,
-      "stars": 12,
-      "last_star_ts": 1701986911
+      "name": "moleary992"
     },
     "3252043": {
+      "last_star_ts": 0,
       "local_score": 0,
-      "global_score": 0,
+      "name": "jackiew-slalom",
       "stars": 0,
       "id": 3252043,
       "completion_day_level": {},
-      "name": "jackiew-slalom",
-      "last_star_ts": 0
+      "global_score": 0
     },
     "3255428": {
-      "id": 3255428,
+      "last_star_ts": 1701925468,
+      "local_score": 651,
       "name": "Douglas Yoon",
+      "stars": 8,
+      "id": 3255428,
       "completion_day_level": {
         "1": {
           "1": {
-            "get_star_ts": 1701534581,
-            "star_index": 430767
+            "star_index": 430767,
+            "get_star_ts": 1701534581
           },
           "2": {
-            "get_star_ts": 1701537437,
-            "star_index": 441130
+            "star_index": 441130,
+            "get_star_ts": 1701537437
           }
         },
         "2": {
@@ -8081,8 +8146,8 @@ const raw = {
             "get_star_ts": 1701539945
           },
           "2": {
-            "get_star_ts": 1701540499,
-            "star_index": 451518
+            "star_index": 451518,
+            "get_star_ts": 1701540499
           }
         },
         "3": {
@@ -8097,8 +8162,8 @@ const raw = {
         },
         "4": {
           "1": {
-            "get_star_ts": 1701923482,
-            "star_index": 1471044
+            "star_index": 1471044,
+            "get_star_ts": 1701923482
           },
           "2": {
             "star_index": 1472644,
@@ -8106,14 +8171,9 @@ const raw = {
           }
         }
       },
-      "local_score": 651,
-      "global_score": 0,
-      "stars": 8,
-      "last_star_ts": 1701925468
+      "global_score": 0
     },
     "3296685": {
-      "last_star_ts": 1702263368,
-      "id": 3296685,
       "completion_day_level": {
         "1": {
           "1": {
@@ -8121,8 +8181,8 @@ const raw = {
             "get_star_ts": 1702191885
           },
           "2": {
-            "star_index": 2066304,
-            "get_star_ts": 1702222922
+            "get_star_ts": 1702222922,
+            "star_index": 2066304
           }
         },
         "2": {
@@ -8131,20 +8191,19 @@ const raw = {
             "get_star_ts": 1702263094
           },
           "2": {
-            "get_star_ts": 1702263368,
-            "star_index": 2130172
+            "star_index": 2130172,
+            "get_star_ts": 1702263368
           }
         }
       },
-      "name": "Alex Sieland",
-      "local_score": 212,
       "global_score": 0,
-      "stars": 4
+      "stars": 4,
+      "id": 3296685,
+      "local_score": 212,
+      "name": "Alex Sieland",
+      "last_star_ts": 1702263368
     },
     "3301258": {
-      "last_star_ts": 1702396196,
-      "stars": 21,
-      "local_score": 1956,
       "global_score": 0,
       "completion_day_level": {
         "1": {
@@ -8153,14 +8212,14 @@ const raw = {
             "get_star_ts": 1701457120
           },
           "2": {
-            "get_star_ts": 1701460486,
-            "star_index": 199620
+            "star_index": 199620,
+            "get_star_ts": 1701460486
           }
         },
         "2": {
           "1": {
-            "get_star_ts": 1701529794,
-            "star_index": 413392
+            "star_index": 413392,
+            "get_star_ts": 1701529794
           },
           "2": {
             "get_star_ts": 1701561678,
@@ -8169,8 +8228,8 @@ const raw = {
         },
         "3": {
           "1": {
-            "get_star_ts": 1701709099,
-            "star_index": 948489
+            "star_index": 948489,
+            "get_star_ts": 1701709099
           },
           "2": {
             "star_index": 997544,
@@ -8179,12 +8238,12 @@ const raw = {
         },
         "4": {
           "1": {
-            "get_star_ts": 1701727575,
-            "star_index": 1013712
+            "star_index": 1013712,
+            "get_star_ts": 1701727575
           },
           "2": {
-            "get_star_ts": 1701872482,
-            "star_index": 1371891
+            "star_index": 1371891,
+            "get_star_ts": 1701872482
           }
         },
         "5": {
@@ -8209,8 +8268,8 @@ const raw = {
         },
         "7": {
           "1": {
-            "star_index": 1512641,
-            "get_star_ts": 1701938788
+            "get_star_ts": 1701938788,
+            "star_index": 1512641
           },
           "2": {
             "star_index": 1520667,
@@ -8219,12 +8278,12 @@ const raw = {
         },
         "8": {
           "1": {
-            "star_index": 1936794,
-            "get_star_ts": 1702140441
+            "get_star_ts": 1702140441,
+            "star_index": 1936794
           },
           "2": {
-            "star_index": 1981024,
-            "get_star_ts": 1702164002
+            "get_star_ts": 1702164002,
+            "star_index": 1981024
           }
         },
         "9": {
@@ -8233,14 +8292,14 @@ const raw = {
             "star_index": 2069495
           },
           "2": {
-            "star_index": 2069966,
-            "get_star_ts": 1702224671
+            "get_star_ts": 1702224671,
+            "star_index": 2069966
           }
         },
         "10": {
           "1": {
-            "get_star_ts": 1702396196,
-            "star_index": 2335132
+            "star_index": 2335132,
+            "get_star_ts": 1702396196
           }
         },
         "11": {
@@ -8254,24 +8313,28 @@ const raw = {
           }
         }
       },
+      "id": 3301258,
+      "stars": 21,
+      "local_score": 1956,
       "name": "Alfredo Bird",
-      "id": 3301258
+      "last_star_ts": 1702396196
     },
     "3326353": {
       "last_star_ts": 1703343849,
-      "stars": 41,
-      "local_score": 4508,
-      "global_score": 0,
       "name": "Scott Hankinson",
+      "local_score": 4508,
+      "id": 3326353,
+      "stars": 41,
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
-            "get_star_ts": 1701409237,
-            "star_index": 15077
+            "star_index": 15077,
+            "get_star_ts": 1701409237
           },
           "2": {
-            "get_star_ts": 1701409916,
-            "star_index": 17740
+            "star_index": 17740,
+            "get_star_ts": 1701409916
           }
         },
         "2": {
@@ -8280,14 +8343,14 @@ const raw = {
             "get_star_ts": 1701496199
           },
           "2": {
-            "get_star_ts": 1701496498,
-            "star_index": 289971
+            "star_index": 289971,
+            "get_star_ts": 1701496498
           }
         },
         "3": {
           "1": {
-            "get_star_ts": 1701589056,
-            "star_index": 565135
+            "star_index": 565135,
+            "get_star_ts": 1701589056
           },
           "2": {
             "get_star_ts": 1701589888,
@@ -8300,8 +8363,8 @@ const raw = {
             "get_star_ts": 1701699922
           },
           "2": {
-            "star_index": 915809,
-            "get_star_ts": 1701700414
+            "get_star_ts": 1701700414,
+            "star_index": 915809
           }
         },
         "5": {
@@ -8326,12 +8389,12 @@ const raw = {
         },
         "7": {
           "1": {
-            "star_index": 1481244,
-            "get_star_ts": 1701927917
+            "get_star_ts": 1701927917,
+            "star_index": 1481244
           },
           "2": {
-            "star_index": 1486703,
-            "get_star_ts": 1701929200
+            "get_star_ts": 1701929200,
+            "star_index": 1486703
           }
         },
         "8": {
@@ -8350,8 +8413,8 @@ const raw = {
             "star_index": 2278771
           },
           "2": {
-            "star_index": 2278982,
-            "get_star_ts": 1702352146
+            "get_star_ts": 1702352146,
+            "star_index": 2278982
           }
         },
         "10": {
@@ -8366,12 +8429,12 @@ const raw = {
         },
         "11": {
           "1": {
-            "star_index": 2343586,
-            "get_star_ts": 1702402327
+            "get_star_ts": 1702402327,
+            "star_index": 2343586
           },
           "2": {
-            "star_index": 2347134,
-            "get_star_ts": 1702405133
+            "get_star_ts": 1702405133,
+            "star_index": 2347134
           }
         },
         "12": {
@@ -8392,22 +8455,22 @@ const raw = {
         },
         "14": {
           "1": {
-            "get_star_ts": 1702530784,
-            "star_index": 2489993
+            "star_index": 2489993,
+            "get_star_ts": 1702530784
           },
           "2": {
-            "get_star_ts": 1702563269,
-            "star_index": 2538558
+            "star_index": 2538558,
+            "get_star_ts": 1702563269
           }
         },
         "15": {
           "1": {
-            "star_index": 2648424,
-            "get_star_ts": 1702651430
+            "get_star_ts": 1702651430,
+            "star_index": 2648424
           },
           "2": {
-            "get_star_ts": 1702653196,
-            "star_index": 2651059
+            "star_index": 2651059,
+            "get_star_ts": 1702653196
           }
         },
         "16": {
@@ -8426,24 +8489,24 @@ const raw = {
             "get_star_ts": 1702939049
           },
           "2": {
-            "star_index": 3043914,
-            "get_star_ts": 1703084404
+            "get_star_ts": 1703084404,
+            "star_index": 3043914
           }
         },
         "18": {
           "1": {
-            "star_index": 2862578,
-            "get_star_ts": 1702878731
+            "get_star_ts": 1702878731,
+            "star_index": 2862578
           },
           "2": {
-            "star_index": 2916339,
-            "get_star_ts": 1702929544
+            "get_star_ts": 1702929544,
+            "star_index": 2916339
           }
         },
         "19": {
           "1": {
-            "get_star_ts": 1703086656,
-            "star_index": 3046020
+            "star_index": 3046020,
+            "get_star_ts": 1703086656
           },
           "2": {
             "star_index": 3075944,
@@ -8452,18 +8515,18 @@ const raw = {
         },
         "20": {
           "1": {
-            "get_star_ts": 1703134658,
-            "star_index": 3077313
+            "star_index": 3077313,
+            "get_star_ts": 1703134658
           },
           "2": {
-            "star_index": 3104385,
-            "get_star_ts": 1703165509
+            "get_star_ts": 1703165509,
+            "star_index": 3104385
           }
         },
         "21": {
           "1": {
-            "get_star_ts": 1703137516,
-            "star_index": 3081862
+            "star_index": 3081862,
+            "get_star_ts": 1703137516
           }
         },
         "23": {
@@ -8472,26 +8535,28 @@ const raw = {
             "get_star_ts": 1703343849
           }
         }
-      },
-      "id": 3326353
+      }
     },
     "3331157": {
       "last_star_ts": 0,
       "local_score": 0,
-      "global_score": 0,
-      "stars": 0,
+      "name": "uxr96",
       "id": 3331157,
-      "completion_day_level": {},
-      "name": "uxr96"
+      "stars": 0,
+      "global_score": 0,
+      "completion_day_level": {}
     },
     "3400431": {
-      "id": 3400431,
+      "last_star_ts": 1703023416,
       "name": "Amy Flom",
+      "local_score": 559,
+      "stars": 7,
+      "id": 3400431,
       "completion_day_level": {
         "1": {
           "1": {
-            "get_star_ts": 1701465470,
-            "star_index": 216309
+            "star_index": 216309,
+            "get_star_ts": 1701465470
           },
           "2": {
             "star_index": 235033,
@@ -8510,14 +8575,14 @@ const raw = {
         },
         "4": {
           "1": {
-            "star_index": 1466123,
-            "get_star_ts": 1701917513
+            "get_star_ts": 1701917513,
+            "star_index": 1466123
           }
         },
         "6": {
           "1": {
-            "star_index": 2999329,
-            "get_star_ts": 1703021186
+            "get_star_ts": 1703021186,
+            "star_index": 2999329
           },
           "2": {
             "get_star_ts": 1703023416,
@@ -8525,53 +8590,49 @@ const raw = {
           }
         }
       },
-      "local_score": 559,
-      "global_score": 0,
-      "stars": 7,
-      "last_star_ts": 1703023416
+      "global_score": 0
     },
     "3410422": {
-      "global_score": 0,
-      "local_score": 0,
-      "stars": 0,
       "id": 3410422,
+      "stars": 0,
+      "global_score": 0,
       "completion_day_level": {},
+      "last_star_ts": 0,
       "name": "raneem rizvi",
-      "last_star_ts": 0
+      "local_score": 0
     },
     "3429378": {
-      "stars": 0,
-      "global_score": 0,
-      "local_score": 0,
-      "completion_day_level": {},
+      "last_star_ts": 0,
       "name": "Barry Ervin",
+      "local_score": 0,
+      "stars": 0,
       "id": 3429378,
-      "last_star_ts": 0
+      "completion_day_level": {},
+      "global_score": 0
     },
     "3429559": {
+      "id": 3429559,
       "stars": 0,
       "global_score": 0,
-      "local_score": 0,
       "completion_day_level": {},
-      "name": "adiraina",
-      "id": 3429559,
-      "last_star_ts": 0
+      "last_star_ts": 0,
+      "local_score": 0,
+      "name": "adiraina"
     },
     "3432123": {
-      "stars": 0,
-      "local_score": 0,
-      "global_score": 0,
+      "last_star_ts": 0,
       "name": "Stanley Sequeira",
-      "completion_day_level": {},
+      "local_score": 0,
+      "stars": 0,
       "id": 3432123,
-      "last_star_ts": 0
+      "completion_day_level": {},
+      "global_score": 0
     },
     "3432318": {
-      "last_star_ts": 1702515893,
       "local_score": 441,
+      "name": "Hunter Maloof",
+      "last_star_ts": 1702515893,
       "global_score": 0,
-      "stars": 6,
-      "id": 3432318,
       "completion_day_level": {
         "1": {
           "1": {
@@ -8585,8 +8646,8 @@ const raw = {
         },
         "2": {
           "1": {
-            "get_star_ts": 1702322294,
-            "star_index": 2240701
+            "star_index": 2240701,
+            "get_star_ts": 1702322294
           },
           "2": {
             "star_index": 2241966,
@@ -8604,37 +8665,39 @@ const raw = {
           }
         }
       },
-      "name": "Hunter Maloof"
+      "id": 3432318,
+      "stars": 6
     },
     "3650421": {
-      "id": 3650421,
-      "completion_day_level": {},
+      "last_star_ts": 0,
       "name": "Tony Kablan",
       "local_score": 0,
-      "global_score": 0,
+      "id": 3650421,
       "stars": 0,
-      "last_star_ts": 0
+      "global_score": 0,
+      "completion_day_level": {}
     },
     "3653777": {
-      "last_star_ts": 0,
-      "name": "Ariel Morgan",
-      "completion_day_level": {},
       "id": 3653777,
       "stars": 0,
+      "global_score": 0,
+      "completion_day_level": {},
+      "last_star_ts": 0,
       "local_score": 0,
-      "global_score": 0
+      "name": "Ariel Morgan"
     },
     "3660137": {
-      "last_star_ts": 0,
-      "global_score": 0,
-      "local_score": 0,
-      "stars": 0,
       "id": 3660137,
+      "stars": 0,
+      "global_score": 0,
       "completion_day_level": {},
-      "name": "stevenstewart1998"
+      "last_star_ts": 0,
+      "name": "stevenstewart1998",
+      "local_score": 0
     },
     "3705049": {
-      "name": "Yebin Choi",
+      "stars": 4,
+      "id": 3705049,
       "completion_day_level": {
         "1": {
           "1": {
@@ -8652,49 +8715,44 @@ const raw = {
             "get_star_ts": 1702652396
           },
           "2": {
-            "star_index": 3113089,
-            "get_star_ts": 1703176258
+            "get_star_ts": 1703176258,
+            "star_index": 3113089
           }
         }
       },
-      "id": 3705049,
-      "stars": 4,
-      "local_score": 192,
       "global_score": 0,
-      "last_star_ts": 1703176258
+      "last_star_ts": 1703176258,
+      "local_score": 192,
+      "name": "Yebin Choi"
     },
     "3707833": {
-      "last_star_ts": 0,
+      "global_score": 0,
       "completion_day_level": {},
-      "name": null,
       "id": 3707833,
       "stars": 0,
       "local_score": 0,
-      "global_score": 0
+      "name": null,
+      "last_star_ts": 0
     },
     "3707861": {
-      "last_star_ts": 0,
-      "completion_day_level": {},
       "name": "rgwilcocks",
-      "id": 3707861,
-      "stars": 0,
+      "local_score": 0,
+      "last_star_ts": 0,
       "global_score": 0,
-      "local_score": 0
+      "completion_day_level": {},
+      "id": 3707861,
+      "stars": 0
     },
     "3707944": {
-      "last_star_ts": 0,
       "local_score": 0,
-      "global_score": 0,
-      "stars": 0,
-      "id": 3707944,
       "name": "jordansharpe",
-      "completion_day_level": {}
+      "last_star_ts": 0,
+      "global_score": 0,
+      "completion_day_level": {},
+      "id": 3707944,
+      "stars": 0
     },
     "3763602": {
-      "last_star_ts": 1702482457,
-      "stars": 1,
-      "global_score": 0,
-      "local_score": 38,
       "completion_day_level": {
         "1": {
           "1": {
@@ -8703,26 +8761,31 @@ const raw = {
           }
         }
       },
+      "global_score": 0,
+      "stars": 1,
+      "id": 3763602,
       "name": "Jordan Remer",
-      "id": 3763602
+      "local_score": 38,
+      "last_star_ts": 1702482457
     },
     "3765815": {
-      "last_star_ts": 0,
-      "id": 3765815,
-      "completion_day_level": {},
-      "name": "Chris Armelagos",
-      "global_score": 0,
       "local_score": 0,
+      "name": "Chris Armelagos",
+      "last_star_ts": 0,
+      "global_score": 0,
+      "completion_day_level": {},
+      "id": 3765815,
       "stars": 0
     },
     "3879863": {
-      "last_star_ts": 1702589198,
-      "name": "tedh-slalom",
+      "id": 3879863,
+      "stars": 4,
+      "global_score": 0,
       "completion_day_level": {
         "1": {
           "1": {
-            "star_index": 2562558,
-            "get_star_ts": 1702583517
+            "get_star_ts": 1702583517,
+            "star_index": 2562558
           },
           "2": {
             "star_index": 2564087,
@@ -8740,10 +8803,9 @@ const raw = {
           }
         }
       },
-      "id": 3879863,
-      "stars": 4,
+      "last_star_ts": 1702589198,
       "local_score": 185,
-      "global_score": 0
+      "name": "tedh-slalom"
     }
   },
   "event": "2023",
