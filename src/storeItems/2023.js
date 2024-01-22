@@ -563,6 +563,12 @@ const storeItems =  [
             upcharge: [ 10, 10, 0, 0]
         }],
     },
+    {
+        name: 'Lego Bonsai Tree',
+        url: 'https://www.amazon.com/dp/B08HVXZW8X',
+        dollar: 50,
+        img: 'https://m.media-amazon.com/images/I/71pVP0qS4wL._AC_SL1500_.jpg'
+    }
 ];
 
 export default storeItems;
