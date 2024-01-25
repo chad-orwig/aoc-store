@@ -3,15 +3,20 @@ import {object, array} from 'prop-types';
 import InvalidSelectionCard from './InvalidSelectionCard';
 import {Table, Accordion} from 'react-bootstrap';
 import { sumByRequiredCost } from './ControlPanel';
+import { subscribeToAllBonusStars } from './database';
 
 
-function isValid({selection, stars}){
-    return stars >= sumByRequiredCost(selection.selections);
+function isValid(person, bonusStars){
+    const {selection, stars} = person;
+    const personsClaims = bonusStars?.[person?.selection?.uid]
+    const hasBonus = personsClaims?.newbie || personsClaims?.challange;
+    const bonus = hasBonus ? 5 : 0;
+    return stars + bonus >= sumByRequiredCost(selection.selections);
 }
 
-function afterCombined(combined, setInvalid, setValid) {
-    setInvalid(combined.filter(c => !isValid(c)));
-    setValid(combined.filter(c => isValid(c)));
+function afterCombined(combined, setInvalid, setValid, bonusStars) {
+    setInvalid(combined.filter(c => !isValid(c, bonusStars)));
+    setValid(combined.filter(c => isValid(c, bonusStars)));
 }
 
 function buildCombined({members}, results, selections, setCombined) {
@@ -44,9 +49,11 @@ export default function Checker({dbResults, aocResults, selections, items}) {
     const [invalid, setInvalid] = useState([]);
     const [valid, setValid] = useState([]);
     const [stuff, setStuff] = useState([]);
-    useEffect(() => afterCombined(combined, setInvalid, setValid), [combined]);
+    const [bonusStars, setBonusStars] = useState({});
+    useEffect(() => afterCombined(combined, setInvalid, setValid, bonusStars), [combined, bonusStars]);
     useEffect(() => buildCombined(dbResults, aocResults, selections, setCombined), [dbResults, aocResults, selections]);
     useEffect(() => buildStuff(valid, items, setStuff), [valid, items]);
+    useEffect(() => subscribeToAllBonusStars(setBonusStars), []);
 
     const invalidCards = invalid.map((data, index) => <InvalidSelectionCard data={data} key={index} collapseKey={index} />)
     const stuffKeys = Object.keys(stuff);

@@ -1,5 +1,5 @@
 import app from './firebaseConfig';
-import {getFirestore, collection, doc, getDoc, setDoc, getDocs, onSnapshot} from 'firebase/firestore';
+import {getFirestore, collection, doc, getDoc, setDoc, getDocs, onSnapshot, query} from 'firebase/firestore';
 
 const db = getFirestore(app);
 
@@ -16,3 +16,8 @@ export const getResults = () => getDoc(doc(results, year)).then(snapshot => snap
 export const setResults = (newResults) => setDoc(doc(results, year), newResults);
 export const subscribeToBonusStars = (uid) => (callback) => onSnapshot(doc(bonusStars, uid), (snap) => callback(snap.get(year), snap));
 export const saveBonusStars = (uid) => (val) => setDoc(doc(bonusStars, uid), { [year]: val }, { merge: true });
+export const subscribeToAllBonusStars = (callback) => onSnapshot(query(bonusStars), (snap) => {
+  const bonusStarsForYear = Object.fromEntries(snap.docs
+    .map(doc => [doc.id, doc.get(year)]));
+  callback(bonusStarsForYear);
+});
