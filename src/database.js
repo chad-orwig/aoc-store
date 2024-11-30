@@ -7,7 +7,7 @@ const selections = collection(db, 'selections');
 const results = collection(db, 'results');
 const bonusStars = collection(db, 'bonus-stars');
 
-export const year = '2023'
+export const year = '2024'
 
 export const getSelectionsForUser = (uid) => getDoc(doc(selections, uid));
 export const setSelectionsForUser = (uid, userSelections) => setDoc(doc(selections, uid), userSelections, { merge: true });
