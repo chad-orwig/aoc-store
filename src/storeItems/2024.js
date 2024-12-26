@@ -4,6 +4,12 @@ import slalomItems from './slalomItems';
 const storeItems =  [
     ...slalomItems,
     {
+        name: 'LEGO Marvel Guardians of The Galaxy: The Milano',
+        img: 'https://m.media-amazon.com/images/I/81EvY4DDIrL._AC_SL1500_.jpg',
+        dollar: 180,
+        url: 'https://www.amazon.com/LEGO-Marvel-Guardians-Galaxy-Minifigures/dp/B0CV2PTWZY'
+    },
+    {
         name : 'Donation to Charity',
         img : 'https://img.freepik.com/free-vector/people-carrying-donation-charity-related-icons_53876-43091.jpg',
         dollar : 20,
